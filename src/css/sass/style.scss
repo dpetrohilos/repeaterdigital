@@ -1,15 +1,13 @@
-/**
- * styles.scss
- * ---
- * Main `sass` file. Import here `sass` files
- */
-
-// Modules
+/*
+Theme Name: Repeater Digital  
+Theme URI: 
+Author: Dylan Petrohilos 
+Author URI: repeater.design
+Description: Repeater Digital Theme Based On HTML5 blank, FlexBox Grid    
+*/
 @import "modules/variables";
 @import "modules/mixins";
 @import "modules/fonts";
-
-// Partials
 @import "partials/reset";
 @import "partials/wordpress";
 @import "partials/utils";
@@ -19,3 +17,4 @@
 @import "partials/sidebar";
 @import "partials/footer";
 @import "partials/print";
+@import "main";
