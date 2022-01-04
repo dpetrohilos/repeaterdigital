@@ -1,9 +1,0 @@
-{
-  "dependencies": {
-    "del": "^6.0.0",
-    "gulp": "^4.0.2"
-  },
-  "devDependencies": {
-    "gulp-load-plugins": "^2.0.7"
-  }
-}
