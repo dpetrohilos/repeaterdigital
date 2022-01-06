@@ -27,10 +27,10 @@
 	<body <?php body_class(); ?>>
 
 		<!-- wrapper -->
-		<div class="wrapper">
+		<div class="wrapper-full">
 
 			<!-- header -->
-			<header class="header clear" role="banner">
+			<header class="header row" role="banner">
 
 					<!-- logo -->
 					<div class="logo">
@@ -49,3 +49,4 @@
 
 			</header>
 			<!-- /header -->
+        </div>
