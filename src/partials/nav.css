@@ -3,3 +3,6 @@
  * ---
  * Menus
  */
+/* line 10, ../css/sass/partials/nav.scss */
+.nav li {
+  list-style: none; }
