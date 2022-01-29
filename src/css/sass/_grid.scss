@@ -61,14 +61,14 @@
     flex-grow: 1;
     flex-basis: 0;
     max-width: 100%;
-    padding: $gutter;
+    padding: 0 $gutter;
   }
   @for $i from 1 through $grid-columns {
     .col-#{$thisPrefix}-#{$i} {
       box-sizing: border-box;
       flex-basis: 100% / $grid-columns * $i;
       max-width: 100% / $grid-columns * $i;
-      padding: $gutter;
+      padding: 0 $gutter;
     }
     .col-#{$thisPrefix}-offset-#{$i} {
       margin-left: 100% / $grid-columns * $i;
