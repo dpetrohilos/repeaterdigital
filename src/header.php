@@ -44,7 +44,7 @@
 
 					<!-- nav -->
 					<nav class="nav row end" role="navigation">
-                        <div class="col-lg-10 col-sm-12 col-md-8 start">
+                        <div class="col-lg-10 col-md-4 col-sm-4 col-xs-4 start">
                         
                             <p><a class="social-links" href="https://www.twitter.com/RepeaterDigital" title="Twitter Link"><img height="24" width="24"  src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/twitter.svg" alt="Twitter logo" /></a><a href="https://www.instagram.com/RepeaterDigital" title="Instagram Link"><img height="24" width="24"  src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/instagram.svg" alt="Instagram logo"/></a> @RepeaterDigital</p>
                         
