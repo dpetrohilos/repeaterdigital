@@ -18,7 +18,7 @@ require_once 'modules/is-debug.php';
 \*------------------------------------*/
 
 if ( ! isset( $content_width ) ) {
-    $content_width = 1200;
+    $content_width = 1240;
 }
 
 if ( function_exists( 'add_theme_support' ) ) {
@@ -72,7 +72,7 @@ function html5blank_nav() {
         'container'       => 'div',
         'container_class' => 'menu-{menu slug}-container',
         'container_id'    => '',
-        'menu_class'      => 'menu',
+        'menu_class'      => 'menu col',
         'menu_id'         => '',
         'echo'            => true,
         'fallback_cb'     => 'wp_page_menu',
