@@ -30,9 +30,9 @@
 		<div class="wrapper-full">
 
 			<!-- header -->
-			<header class="header row center" role="banner">
+			<header class="header row" role="banner">
 					<!-- logo -->
-					<div class="logo col-12 center text-center">
+					<div class="logo center">
 						<a href="<?php echo esc_url( home_url() ); ?>">
 							<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
 							<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo.svg" alt="Logo" class="logo-img" width="72">
