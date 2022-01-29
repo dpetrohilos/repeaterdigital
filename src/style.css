@@ -178,11 +178,6 @@ input[type="search"] {
  * partials/header
  * ---
  */
-/* line 8, css/sass/partials/header.scss */
-.header {
-  height: 6rem;
-  padding: .6rem 0; }
-
 /**
  * partials/nav
  * ---
