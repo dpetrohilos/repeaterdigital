@@ -40,6 +40,7 @@
 						</a>
 					</div>
 					<!-- /logo -->
+			</header>
 
 					<!-- nav -->
 					<nav class="nav" role="navigation">
@@ -47,6 +48,5 @@
 					</nav>
 					<!-- /nav -->
 
-			</header>
 			<!-- /header -->
         </div>
