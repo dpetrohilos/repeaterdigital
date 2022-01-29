@@ -1666,3 +1666,7 @@ body {
   max-height: 124rem;
   min-width: 10rem;
   margin: 0 auto; }
+
+/* line 14, css/sass/design.scss */
+.text-center {
+  text-align: center; }
