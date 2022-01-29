@@ -32,7 +32,7 @@
 			<!-- header -->
 			<header class="header row" role="banner">
 					<!-- logo -->
-					<div class="logo center">
+					<div class="center">
 						<a href="<?php echo esc_url( home_url() ); ?>">
 							<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
 							<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo.svg" alt="Logo" class="logo-img" width="72">
