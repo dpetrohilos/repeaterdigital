@@ -26,7 +26,8 @@ body {
   line-height: $line-height-base;
   color: $text-color;
   background-color: $body-bg;
-}
+    padding: 0; 
+    margin: 0;}
 
 img {
   // Don't allow <IMG> to be larger then its container

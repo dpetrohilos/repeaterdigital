@@ -62,28 +62,30 @@ body {
   font-size: 140%;
   line-height: 1.5;
   color: #444;
-  background-color: #fff; }
+  background-color: #fff;
+  padding: 0;
+  margin: 0; }
 
-/* line 31, css/sass/partials/reset.scss */
+/* line 32, css/sass/partials/reset.scss */
 img {
   max-width: 100%;
   vertical-align: middle; }
 
-/* line 38, css/sass/partials/reset.scss */
+/* line 39, css/sass/partials/reset.scss */
 a {
   color: #444;
   text-decoration: none; }
-  /* line 42, css/sass/partials/reset.scss */
+  /* line 43, css/sass/partials/reset.scss */
   a:focus, a:hover {
     text-decoration: underline; }
 
-/* line 50, css/sass/partials/reset.scss */
+/* line 51, css/sass/partials/reset.scss */
 input[type="text"],
 input[type="search"] {
   font-size: inherit;
   line-height: inherit; }
 
-/* line 57, css/sass/partials/reset.scss */
+/* line 58, css/sass/partials/reset.scss */
 ::selection {
   background-color: #04A4CC;
   color: #fff;
