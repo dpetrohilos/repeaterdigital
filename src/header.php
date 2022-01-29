@@ -46,7 +46,7 @@
 					<nav class="nav row" role="navigation">
                         <div class="col">
                         
-                            <p><a class="social-links" href="https://www.twitter.com/RepeaterDigital" title="Twitter Link"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/twitter.svg" alt="Twitter logo" /></a><a href="https://www.instagram.com/RepeaterDigital" title="Instagram Link"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/instagram.svg" alt="Instagram logo"/>@RepeaterDigital</p>
+                            <p><a class="social-links" href="https://www.twitter.com/RepeaterDigital" title="Twitter Link"><img height="24" width="24"  src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/twitter.svg" alt="Twitter logo" /></a><a href="https://www.instagram.com/RepeaterDigital" title="Instagram Link"><img height="24" width="24"  src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/instagram.svg" alt="Instagram logo"/>@RepeaterDigital</p>
                         
                         </div>
                         
