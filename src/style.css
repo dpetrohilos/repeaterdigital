@@ -49,7 +49,8 @@ Description: Repeater Digital Theme Based On HTML5 blank, FlexBox Grid
 *,
 *:after,
 *:before {
-  box-sizing: border-box; }
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
 
 /* line 16, css/sass/partials/reset.scss */
 html {
@@ -86,6 +87,10 @@ input[type="search"] {
   line-height: inherit; }
 
 /* line 58, css/sass/partials/reset.scss */
+::-moz-selection {
+  background-color: #04A4CC;
+  color: #fff;
+  text-shadow: none; }
 ::selection {
   background-color: #04A4CC;
   color: #fff;
@@ -190,8 +195,9 @@ input[type="search"] {
 /* line 8, css/sass/partials/nav.scss */
 .nav {
   height: 3.6rem;
-  padding: .6rem 0; }
-  /* line 13, css/sass/partials/nav.scss */
+  padding: .6rem 0;
+  border-bottom: 1px solid #ccc; }
+  /* line 15, css/sass/partials/nav.scss */
   .nav li {
     list-style: none; }
 
@@ -217,7 +223,8 @@ input[type="search"] {
     background: transparent !important;
     color: #000 !important;
     /* Black prints faster: h5bp.com/s */
-    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
     text-shadow: none !important; }
 
   /* line 19, css/sass/partials/print.scss */
@@ -275,80 +282,117 @@ input[type="search"] {
     page-break-after: avoid; } }
 /* line 5, css/sass/_grid.scss */
 .row {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0 auto;
   width: 100%;
-  display: -webkit-flex;
   display: -ms-flexbox;
+  display: -webkit-box;
   display: flex;
-  flex: 0 1 auto;
-  flex-direction: row;
-  flex-wrap: wrap; }
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 auto;
+          flex: 0 1 auto;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
 
 /* line 9, css/sass/_grid.scss */
 .row.reverse {
-  flex-direction: row-reverse; }
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse; }
 
 /* line 13, css/sass/_grid.scss */
 .row.natural-height {
-  align-items: flex-start; }
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start; }
 
 /* line 17, css/sass/_grid.scss */
 .row.flex-column {
-  flex-direction: column; }
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
 
 /* line 21, css/sass/_grid.scss */
 .col {
-  box-sizing: border-box;
-  flex-grow: 1;
-  flex-basis: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-preferred-size: 0;
+      flex-basis: 0;
   max-width: 100%;
   padding: 1rem; }
 
 /* line 25, css/sass/_grid.scss */
 .col.reverse {
-  flex-direction: column-reverse; }
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse; }
 
 /* line 29, css/sass/_grid.scss */
 .first {
-  order: -1; }
+  -webkit-box-ordinal-group: 0;
+      -ms-flex-order: -1;
+          order: -1; }
 
 /* line 33, css/sass/_grid.scss */
 .last {
-  order: 1; }
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1; }
 
 /* line 37, css/sass/_grid.scss */
 .align-start {
-  align-self: flex-start; }
+  -ms-flex-item-align: start;
+      align-self: flex-start; }
 
 /* line 41, css/sass/_grid.scss */
 .align-end {
-  align-self: flex-end; }
+  -ms-flex-item-align: end;
+      align-self: flex-end; }
 
 /* line 45, css/sass/_grid.scss */
 .align-center {
-  align-self: center; }
+  -ms-flex-item-align: center;
+      align-self: center; }
 
 /* line 49, css/sass/_grid.scss */
 .align-baseline {
-  align-self: baseline; }
+  -ms-flex-item-align: baseline;
+      align-self: baseline; }
 
 /* line 53, css/sass/_grid.scss */
 .align-stretch {
-  align-self: stretch; }
+  -ms-flex-item-align: stretch;
+      align-self: stretch; }
 
 /* line 59, css/sass/_grid.scss */
 .col-xs {
-  box-sizing: border-box;
-  flex-grow: 1;
-  flex-basis: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-preferred-size: 0;
+      flex-basis: 0;
   max-width: 100%;
   padding: 1rem; }
 
 /* line 67, css/sass/_grid.scss */
 .col-xs-1 {
-  box-sizing: border-box;
-  flex-basis: 8.33333%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -ms-flex-preferred-size: 8.33333%;
+      flex-basis: 8.33333%;
   max-width: 8.33333%;
   padding: 1rem; }
 
@@ -358,8 +402,10 @@ input[type="search"] {
 
 /* line 67, css/sass/_grid.scss */
 .col-xs-2 {
-  box-sizing: border-box;
-  flex-basis: 16.66667%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -ms-flex-preferred-size: 16.66667%;
+      flex-basis: 16.66667%;
   max-width: 16.66667%;
   padding: 1rem; }
 
@@ -369,8 +415,10 @@ input[type="search"] {
 
 /* line 67, css/sass/_grid.scss */
 .col-xs-3 {
-  box-sizing: border-box;
-  flex-basis: 25%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
   max-width: 25%;
   padding: 1rem; }
 
@@ -380,8 +428,10 @@ input[type="search"] {
 
 /* line 67, css/sass/_grid.scss */
 .col-xs-4 {
-  box-sizing: border-box;
-  flex-basis: 33.33333%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -ms-flex-preferred-size: 33.33333%;
+      flex-basis: 33.33333%;
   max-width: 33.33333%;
   padding: 1rem; }
 
@@ -391,8 +441,10 @@ input[type="search"] {
 
 /* line 67, css/sass/_grid.scss */
 .col-xs-5 {
-  box-sizing: border-box;
-  flex-basis: 41.66667%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -ms-flex-preferred-size: 41.66667%;
+      flex-basis: 41.66667%;
   max-width: 41.66667%;
   padding: 1rem; }
 
@@ -402,8 +454,10 @@ input[type="search"] {
 
 /* line 67, css/sass/_grid.scss */
 .col-xs-6 {
-  box-sizing: border-box;
-  flex-basis: 50%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
   max-width: 50%;
   padding: 1rem; }
 
@@ -413,8 +467,10 @@ input[type="search"] {
 
 /* line 67, css/sass/_grid.scss */
 .col-xs-7 {
-  box-sizing: border-box;
-  flex-basis: 58.33333%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -ms-flex-preferred-size: 58.33333%;
+      flex-basis: 58.33333%;
   max-width: 58.33333%;
   padding: 1rem; }
 
@@ -424,8 +480,10 @@ input[type="search"] {
 
 /* line 67, css/sass/_grid.scss */
 .col-xs-8 {
-  box-sizing: border-box;
-  flex-basis: 66.66667%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -ms-flex-preferred-size: 66.66667%;
+      flex-basis: 66.66667%;
   max-width: 66.66667%;
   padding: 1rem; }
 
@@ -435,8 +493,10 @@ input[type="search"] {
 
 /* line 67, css/sass/_grid.scss */
 .col-xs-9 {
-  box-sizing: border-box;
-  flex-basis: 75%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -ms-flex-preferred-size: 75%;
+      flex-basis: 75%;
   max-width: 75%;
   padding: 1rem; }
 
@@ -446,8 +506,10 @@ input[type="search"] {
 
 /* line 67, css/sass/_grid.scss */
 .col-xs-10 {
-  box-sizing: border-box;
-  flex-basis: 83.33333%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -ms-flex-preferred-size: 83.33333%;
+      flex-basis: 83.33333%;
   max-width: 83.33333%;
   padding: 1rem; }
 
@@ -457,8 +519,10 @@ input[type="search"] {
 
 /* line 67, css/sass/_grid.scss */
 .col-xs-11 {
-  box-sizing: border-box;
-  flex-basis: 91.66667%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -ms-flex-preferred-size: 91.66667%;
+      flex-basis: 91.66667%;
   max-width: 91.66667%;
   padding: 1rem; }
 
@@ -468,8 +532,10 @@ input[type="search"] {
 
 /* line 67, css/sass/_grid.scss */
 .col-xs-12 {
-  box-sizing: border-box;
-  flex-basis: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
   max-width: 100%;
   padding: 1rem; }
 
@@ -479,57 +545,82 @@ input[type="search"] {
 
 /* line 77, css/sass/_grid.scss */
 .row.start-xs {
-  justify-content: flex-start; }
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start; }
 
 /* line 80, css/sass/_grid.scss */
 .row.center-xs {
-  justify-content: center; }
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
 
 /* line 83, css/sass/_grid.scss */
 .row.end-xs {
-  justify-content: flex-end; }
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end; }
 
 /* line 86, css/sass/_grid.scss */
 .row.top-xs {
-  align-items: flex-start; }
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start; }
 
 /* line 89, css/sass/_grid.scss */
 .row.middle-xs {
-  align-items: center; }
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
 
 /* line 92, css/sass/_grid.scss */
 .row.bottom-xs {
-  align-items: flex-end; }
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end; }
 
 /* line 95, css/sass/_grid.scss */
 .row.around-xs {
-  justify-content: space-around; }
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
 
 /* line 98, css/sass/_grid.scss */
 .row.between-xs {
-  justify-content: space-between; }
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
 
 /* line 101, css/sass/_grid.scss */
 .first-xs {
-  order: -1; }
+  -webkit-box-ordinal-group: 0;
+      -ms-flex-order: -1;
+          order: -1; }
 
 /* line 104, css/sass/_grid.scss */
 .last-xs {
-  order: 1; }
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1; }
 
 @media only screen and (min-width: 41rem) {
   /* line 59, css/sass/_grid.scss */
   .col-sm {
-    box-sizing: border-box;
-    flex-grow: 1;
-    flex-basis: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    -ms-flex-preferred-size: 0;
+        flex-basis: 0;
     max-width: 100%;
     padding: 1rem; }
 
   /* line 67, css/sass/_grid.scss */
   .col-sm-1 {
-    box-sizing: border-box;
-    flex-basis: 8.33333%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -ms-flex-preferred-size: 8.33333%;
+        flex-basis: 8.33333%;
     max-width: 8.33333%;
     padding: 1rem; }
 
@@ -539,8 +630,10 @@ input[type="search"] {
 
   /* line 67, css/sass/_grid.scss */
   .col-sm-2 {
-    box-sizing: border-box;
-    flex-basis: 16.66667%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -ms-flex-preferred-size: 16.66667%;
+        flex-basis: 16.66667%;
     max-width: 16.66667%;
     padding: 1rem; }
 
@@ -550,8 +643,10 @@ input[type="search"] {
 
   /* line 67, css/sass/_grid.scss */
   .col-sm-3 {
-    box-sizing: border-box;
-    flex-basis: 25%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -ms-flex-preferred-size: 25%;
+        flex-basis: 25%;
     max-width: 25%;
     padding: 1rem; }
 
@@ -561,8 +656,10 @@ input[type="search"] {
 
   /* line 67, css/sass/_grid.scss */
   .col-sm-4 {
-    box-sizing: border-box;
-    flex-basis: 33.33333%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -ms-flex-preferred-size: 33.33333%;
+        flex-basis: 33.33333%;
     max-width: 33.33333%;
     padding: 1rem; }
 
@@ -572,8 +669,10 @@ input[type="search"] {
 
   /* line 67, css/sass/_grid.scss */
   .col-sm-5 {
-    box-sizing: border-box;
-    flex-basis: 41.66667%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -ms-flex-preferred-size: 41.66667%;
+        flex-basis: 41.66667%;
     max-width: 41.66667%;
     padding: 1rem; }
 
@@ -583,8 +682,10 @@ input[type="search"] {
 
   /* line 67, css/sass/_grid.scss */
   .col-sm-6 {
-    box-sizing: border-box;
-    flex-basis: 50%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
     max-width: 50%;
     padding: 1rem; }
 
@@ -594,8 +695,10 @@ input[type="search"] {
 
   /* line 67, css/sass/_grid.scss */
   .col-sm-7 {
-    box-sizing: border-box;
-    flex-basis: 58.33333%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -ms-flex-preferred-size: 58.33333%;
+        flex-basis: 58.33333%;
     max-width: 58.33333%;
     padding: 1rem; }
 
@@ -605,8 +708,10 @@ input[type="search"] {
 
   /* line 67, css/sass/_grid.scss */
   .col-sm-8 {
-    box-sizing: border-box;
-    flex-basis: 66.66667%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -ms-flex-preferred-size: 66.66667%;
+        flex-basis: 66.66667%;
     max-width: 66.66667%;
     padding: 1rem; }
 
@@ -616,8 +721,10 @@ input[type="search"] {
 
   /* line 67, css/sass/_grid.scss */
   .col-sm-9 {
-    box-sizing: border-box;
-    flex-basis: 75%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -ms-flex-preferred-size: 75%;
+        flex-basis: 75%;
     max-width: 75%;
     padding: 1rem; }
 
@@ -627,8 +734,10 @@ input[type="search"] {
 
   /* line 67, css/sass/_grid.scss */
   .col-sm-10 {
-    box-sizing: border-box;
-    flex-basis: 83.33333%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -ms-flex-preferred-size: 83.33333%;
+        flex-basis: 83.33333%;
     max-width: 83.33333%;
     padding: 1rem; }
 
@@ -638,8 +747,10 @@ input[type="search"] {
 
   /* line 67, css/sass/_grid.scss */
   .col-sm-11 {
-    box-sizing: border-box;
-    flex-basis: 91.66667%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -ms-flex-preferred-size: 91.66667%;
+        flex-basis: 91.66667%;
     max-width: 91.66667%;
     padding: 1rem; }
 
@@ -649,8 +760,10 @@ input[type="search"] {
 
   /* line 67, css/sass/_grid.scss */
   .col-sm-12 {
-    box-sizing: border-box;
-    flex-basis: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
     max-width: 100%;
     padding: 1rem; }
 
@@ -660,56 +773,81 @@ input[type="search"] {
 
   /* line 77, css/sass/_grid.scss */
   .row.start-sm {
-    justify-content: flex-start; }
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start; }
 
   /* line 80, css/sass/_grid.scss */
   .row.center-sm {
-    justify-content: center; }
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
 
   /* line 83, css/sass/_grid.scss */
   .row.end-sm {
-    justify-content: flex-end; }
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end; }
 
   /* line 86, css/sass/_grid.scss */
   .row.top-sm {
-    align-items: flex-start; }
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start; }
 
   /* line 89, css/sass/_grid.scss */
   .row.middle-sm {
-    align-items: center; }
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
 
   /* line 92, css/sass/_grid.scss */
   .row.bottom-sm {
-    align-items: flex-end; }
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end; }
 
   /* line 95, css/sass/_grid.scss */
   .row.around-sm {
-    justify-content: space-around; }
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
 
   /* line 98, css/sass/_grid.scss */
   .row.between-sm {
-    justify-content: space-between; }
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
 
   /* line 101, css/sass/_grid.scss */
   .first-sm {
-    order: -1; }
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1; }
 
   /* line 104, css/sass/_grid.scss */
   .last-sm {
-    order: 1; } }
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1; } }
 @media only screen and (min-width: 65rem) {
   /* line 59, css/sass/_grid.scss */
   .col-md {
-    box-sizing: border-box;
-    flex-grow: 1;
-    flex-basis: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    -ms-flex-preferred-size: 0;
+        flex-basis: 0;
     max-width: 100%;
     padding: 1rem; }
 
   /* line 67, css/sass/_grid.scss */
   .col-md-1 {
-    box-sizing: border-box;
-    flex-basis: 8.33333%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -ms-flex-preferred-size: 8.33333%;
+        flex-basis: 8.33333%;
     max-width: 8.33333%;
     padding: 1rem; }
 
@@ -719,8 +857,10 @@ input[type="search"] {
 
   /* line 67, css/sass/_grid.scss */
   .col-md-2 {
-    box-sizing: border-box;
-    flex-basis: 16.66667%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -ms-flex-preferred-size: 16.66667%;
+        flex-basis: 16.66667%;
     max-width: 16.66667%;
     padding: 1rem; }
 
@@ -730,8 +870,10 @@ input[type="search"] {
 
   /* line 67, css/sass/_grid.scss */
   .col-md-3 {
-    box-sizing: border-box;
-    flex-basis: 25%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -ms-flex-preferred-size: 25%;
+        flex-basis: 25%;
     max-width: 25%;
     padding: 1rem; }
 
@@ -741,8 +883,10 @@ input[type="search"] {
 
   /* line 67, css/sass/_grid.scss */
   .col-md-4 {
-    box-sizing: border-box;
-    flex-basis: 33.33333%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -ms-flex-preferred-size: 33.33333%;
+        flex-basis: 33.33333%;
     max-width: 33.33333%;
     padding: 1rem; }
 
@@ -752,8 +896,10 @@ input[type="search"] {
 
   /* line 67, css/sass/_grid.scss */
   .col-md-5 {
-    box-sizing: border-box;
-    flex-basis: 41.66667%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -ms-flex-preferred-size: 41.66667%;
+        flex-basis: 41.66667%;
     max-width: 41.66667%;
     padding: 1rem; }
 
@@ -763,8 +909,10 @@ input[type="search"] {
 
   /* line 67, css/sass/_grid.scss */
   .col-md-6 {
-    box-sizing: border-box;
-    flex-basis: 50%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
     max-width: 50%;
     padding: 1rem; }
 
@@ -774,8 +922,10 @@ input[type="search"] {
 
   /* line 67, css/sass/_grid.scss */
   .col-md-7 {
-    box-sizing: border-box;
-    flex-basis: 58.33333%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -ms-flex-preferred-size: 58.33333%;
+        flex-basis: 58.33333%;
     max-width: 58.33333%;
     padding: 1rem; }
 
@@ -785,8 +935,10 @@ input[type="search"] {
 
   /* line 67, css/sass/_grid.scss */
   .col-md-8 {
-    box-sizing: border-box;
-    flex-basis: 66.66667%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -ms-flex-preferred-size: 66.66667%;
+        flex-basis: 66.66667%;
     max-width: 66.66667%;
     padding: 1rem; }
 
@@ -796,8 +948,10 @@ input[type="search"] {
 
   /* line 67, css/sass/_grid.scss */
   .col-md-9 {
-    box-sizing: border-box;
-    flex-basis: 75%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -ms-flex-preferred-size: 75%;
+        flex-basis: 75%;
     max-width: 75%;
     padding: 1rem; }
 
@@ -807,8 +961,10 @@ input[type="search"] {
 
   /* line 67, css/sass/_grid.scss */
   .col-md-10 {
-    box-sizing: border-box;
-    flex-basis: 83.33333%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -ms-flex-preferred-size: 83.33333%;
+        flex-basis: 83.33333%;
     max-width: 83.33333%;
     padding: 1rem; }
 
@@ -818,8 +974,10 @@ input[type="search"] {
 
   /* line 67, css/sass/_grid.scss */
   .col-md-11 {
-    box-sizing: border-box;
-    flex-basis: 91.66667%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -ms-flex-preferred-size: 91.66667%;
+        flex-basis: 91.66667%;
     max-width: 91.66667%;
     padding: 1rem; }
 
@@ -829,8 +987,10 @@ input[type="search"] {
 
   /* line 67, css/sass/_grid.scss */
   .col-md-12 {
-    box-sizing: border-box;
-    flex-basis: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
     max-width: 100%;
     padding: 1rem; }
 
@@ -840,56 +1000,81 @@ input[type="search"] {
 
   /* line 77, css/sass/_grid.scss */
   .row.start-md {
-    justify-content: flex-start; }
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start; }
 
   /* line 80, css/sass/_grid.scss */
   .row.center-md {
-    justify-content: center; }
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
 
   /* line 83, css/sass/_grid.scss */
   .row.end-md {
-    justify-content: flex-end; }
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end; }
 
   /* line 86, css/sass/_grid.scss */
   .row.top-md {
-    align-items: flex-start; }
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start; }
 
   /* line 89, css/sass/_grid.scss */
   .row.middle-md {
-    align-items: center; }
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
 
   /* line 92, css/sass/_grid.scss */
   .row.bottom-md {
-    align-items: flex-end; }
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end; }
 
   /* line 95, css/sass/_grid.scss */
   .row.around-md {
-    justify-content: space-around; }
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
 
   /* line 98, css/sass/_grid.scss */
   .row.between-md {
-    justify-content: space-between; }
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
 
   /* line 101, css/sass/_grid.scss */
   .first-md {
-    order: -1; }
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1; }
 
   /* line 104, css/sass/_grid.scss */
   .last-md {
-    order: 1; } }
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1; } }
 @media only screen and (min-width: 91rem) {
   /* line 59, css/sass/_grid.scss */
   .col-lg {
-    box-sizing: border-box;
-    flex-grow: 1;
-    flex-basis: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    -ms-flex-preferred-size: 0;
+        flex-basis: 0;
     max-width: 100%;
     padding: 1rem; }
 
   /* line 67, css/sass/_grid.scss */
   .col-lg-1 {
-    box-sizing: border-box;
-    flex-basis: 8.33333%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -ms-flex-preferred-size: 8.33333%;
+        flex-basis: 8.33333%;
     max-width: 8.33333%;
     padding: 1rem; }
 
@@ -899,8 +1084,10 @@ input[type="search"] {
 
   /* line 67, css/sass/_grid.scss */
   .col-lg-2 {
-    box-sizing: border-box;
-    flex-basis: 16.66667%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -ms-flex-preferred-size: 16.66667%;
+        flex-basis: 16.66667%;
     max-width: 16.66667%;
     padding: 1rem; }
 
@@ -910,8 +1097,10 @@ input[type="search"] {
 
   /* line 67, css/sass/_grid.scss */
   .col-lg-3 {
-    box-sizing: border-box;
-    flex-basis: 25%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -ms-flex-preferred-size: 25%;
+        flex-basis: 25%;
     max-width: 25%;
     padding: 1rem; }
 
@@ -921,8 +1110,10 @@ input[type="search"] {
 
   /* line 67, css/sass/_grid.scss */
   .col-lg-4 {
-    box-sizing: border-box;
-    flex-basis: 33.33333%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -ms-flex-preferred-size: 33.33333%;
+        flex-basis: 33.33333%;
     max-width: 33.33333%;
     padding: 1rem; }
 
@@ -932,8 +1123,10 @@ input[type="search"] {
 
   /* line 67, css/sass/_grid.scss */
   .col-lg-5 {
-    box-sizing: border-box;
-    flex-basis: 41.66667%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -ms-flex-preferred-size: 41.66667%;
+        flex-basis: 41.66667%;
     max-width: 41.66667%;
     padding: 1rem; }
 
@@ -943,8 +1136,10 @@ input[type="search"] {
 
   /* line 67, css/sass/_grid.scss */
   .col-lg-6 {
-    box-sizing: border-box;
-    flex-basis: 50%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
     max-width: 50%;
     padding: 1rem; }
 
@@ -954,8 +1149,10 @@ input[type="search"] {
 
   /* line 67, css/sass/_grid.scss */
   .col-lg-7 {
-    box-sizing: border-box;
-    flex-basis: 58.33333%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -ms-flex-preferred-size: 58.33333%;
+        flex-basis: 58.33333%;
     max-width: 58.33333%;
     padding: 1rem; }
 
@@ -965,8 +1162,10 @@ input[type="search"] {
 
   /* line 67, css/sass/_grid.scss */
   .col-lg-8 {
-    box-sizing: border-box;
-    flex-basis: 66.66667%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -ms-flex-preferred-size: 66.66667%;
+        flex-basis: 66.66667%;
     max-width: 66.66667%;
     padding: 1rem; }
 
@@ -976,8 +1175,10 @@ input[type="search"] {
 
   /* line 67, css/sass/_grid.scss */
   .col-lg-9 {
-    box-sizing: border-box;
-    flex-basis: 75%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -ms-flex-preferred-size: 75%;
+        flex-basis: 75%;
     max-width: 75%;
     padding: 1rem; }
 
@@ -987,8 +1188,10 @@ input[type="search"] {
 
   /* line 67, css/sass/_grid.scss */
   .col-lg-10 {
-    box-sizing: border-box;
-    flex-basis: 83.33333%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -ms-flex-preferred-size: 83.33333%;
+        flex-basis: 83.33333%;
     max-width: 83.33333%;
     padding: 1rem; }
 
@@ -998,8 +1201,10 @@ input[type="search"] {
 
   /* line 67, css/sass/_grid.scss */
   .col-lg-11 {
-    box-sizing: border-box;
-    flex-basis: 91.66667%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -ms-flex-preferred-size: 91.66667%;
+        flex-basis: 91.66667%;
     max-width: 91.66667%;
     padding: 1rem; }
 
@@ -1009,8 +1214,10 @@ input[type="search"] {
 
   /* line 67, css/sass/_grid.scss */
   .col-lg-12 {
-    box-sizing: border-box;
-    flex-basis: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
     max-width: 100%;
     padding: 1rem; }
 
@@ -1020,56 +1227,81 @@ input[type="search"] {
 
   /* line 77, css/sass/_grid.scss */
   .row.start-lg {
-    justify-content: flex-start; }
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start; }
 
   /* line 80, css/sass/_grid.scss */
   .row.center-lg {
-    justify-content: center; }
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
 
   /* line 83, css/sass/_grid.scss */
   .row.end-lg {
-    justify-content: flex-end; }
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end; }
 
   /* line 86, css/sass/_grid.scss */
   .row.top-lg {
-    align-items: flex-start; }
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start; }
 
   /* line 89, css/sass/_grid.scss */
   .row.middle-lg {
-    align-items: center; }
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
 
   /* line 92, css/sass/_grid.scss */
   .row.bottom-lg {
-    align-items: flex-end; }
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end; }
 
   /* line 95, css/sass/_grid.scss */
   .row.around-lg {
-    justify-content: space-around; }
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
 
   /* line 98, css/sass/_grid.scss */
   .row.between-lg {
-    justify-content: space-between; }
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
 
   /* line 101, css/sass/_grid.scss */
   .first-lg {
-    order: -1; }
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1; }
 
   /* line 104, css/sass/_grid.scss */
   .last-lg {
-    order: 1; } }
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1; } }
 @media only screen and (min-width: 121rem) {
   /* line 59, css/sass/_grid.scss */
   .col-xl {
-    box-sizing: border-box;
-    flex-grow: 1;
-    flex-basis: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    -ms-flex-preferred-size: 0;
+        flex-basis: 0;
     max-width: 100%;
     padding: 1rem; }
 
   /* line 67, css/sass/_grid.scss */
   .col-xl-1 {
-    box-sizing: border-box;
-    flex-basis: 8.33333%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -ms-flex-preferred-size: 8.33333%;
+        flex-basis: 8.33333%;
     max-width: 8.33333%;
     padding: 1rem; }
 
@@ -1079,8 +1311,10 @@ input[type="search"] {
 
   /* line 67, css/sass/_grid.scss */
   .col-xl-2 {
-    box-sizing: border-box;
-    flex-basis: 16.66667%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -ms-flex-preferred-size: 16.66667%;
+        flex-basis: 16.66667%;
     max-width: 16.66667%;
     padding: 1rem; }
 
@@ -1090,8 +1324,10 @@ input[type="search"] {
 
   /* line 67, css/sass/_grid.scss */
   .col-xl-3 {
-    box-sizing: border-box;
-    flex-basis: 25%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -ms-flex-preferred-size: 25%;
+        flex-basis: 25%;
     max-width: 25%;
     padding: 1rem; }
 
@@ -1101,8 +1337,10 @@ input[type="search"] {
 
   /* line 67, css/sass/_grid.scss */
   .col-xl-4 {
-    box-sizing: border-box;
-    flex-basis: 33.33333%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -ms-flex-preferred-size: 33.33333%;
+        flex-basis: 33.33333%;
     max-width: 33.33333%;
     padding: 1rem; }
 
@@ -1112,8 +1350,10 @@ input[type="search"] {
 
   /* line 67, css/sass/_grid.scss */
   .col-xl-5 {
-    box-sizing: border-box;
-    flex-basis: 41.66667%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -ms-flex-preferred-size: 41.66667%;
+        flex-basis: 41.66667%;
     max-width: 41.66667%;
     padding: 1rem; }
 
@@ -1123,8 +1363,10 @@ input[type="search"] {
 
   /* line 67, css/sass/_grid.scss */
   .col-xl-6 {
-    box-sizing: border-box;
-    flex-basis: 50%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
     max-width: 50%;
     padding: 1rem; }
 
@@ -1134,8 +1376,10 @@ input[type="search"] {
 
   /* line 67, css/sass/_grid.scss */
   .col-xl-7 {
-    box-sizing: border-box;
-    flex-basis: 58.33333%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -ms-flex-preferred-size: 58.33333%;
+        flex-basis: 58.33333%;
     max-width: 58.33333%;
     padding: 1rem; }
 
@@ -1145,8 +1389,10 @@ input[type="search"] {
 
   /* line 67, css/sass/_grid.scss */
   .col-xl-8 {
-    box-sizing: border-box;
-    flex-basis: 66.66667%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -ms-flex-preferred-size: 66.66667%;
+        flex-basis: 66.66667%;
     max-width: 66.66667%;
     padding: 1rem; }
 
@@ -1156,8 +1402,10 @@ input[type="search"] {
 
   /* line 67, css/sass/_grid.scss */
   .col-xl-9 {
-    box-sizing: border-box;
-    flex-basis: 75%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -ms-flex-preferred-size: 75%;
+        flex-basis: 75%;
     max-width: 75%;
     padding: 1rem; }
 
@@ -1167,8 +1415,10 @@ input[type="search"] {
 
   /* line 67, css/sass/_grid.scss */
   .col-xl-10 {
-    box-sizing: border-box;
-    flex-basis: 83.33333%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -ms-flex-preferred-size: 83.33333%;
+        flex-basis: 83.33333%;
     max-width: 83.33333%;
     padding: 1rem; }
 
@@ -1178,8 +1428,10 @@ input[type="search"] {
 
   /* line 67, css/sass/_grid.scss */
   .col-xl-11 {
-    box-sizing: border-box;
-    flex-basis: 91.66667%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -ms-flex-preferred-size: 91.66667%;
+        flex-basis: 91.66667%;
     max-width: 91.66667%;
     padding: 1rem; }
 
@@ -1189,8 +1441,10 @@ input[type="search"] {
 
   /* line 67, css/sass/_grid.scss */
   .col-xl-12 {
-    box-sizing: border-box;
-    flex-basis: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
     max-width: 100%;
     padding: 1rem; }
 
@@ -1200,43 +1454,62 @@ input[type="search"] {
 
   /* line 77, css/sass/_grid.scss */
   .row.start-xl {
-    justify-content: flex-start; }
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start; }
 
   /* line 80, css/sass/_grid.scss */
   .row.center-xl {
-    justify-content: center; }
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
 
   /* line 83, css/sass/_grid.scss */
   .row.end-xl {
-    justify-content: flex-end; }
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end; }
 
   /* line 86, css/sass/_grid.scss */
   .row.top-xl {
-    align-items: flex-start; }
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start; }
 
   /* line 89, css/sass/_grid.scss */
   .row.middle-xl {
-    align-items: center; }
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
 
   /* line 92, css/sass/_grid.scss */
   .row.bottom-xl {
-    align-items: flex-end; }
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end; }
 
   /* line 95, css/sass/_grid.scss */
   .row.around-xl {
-    justify-content: space-around; }
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
 
   /* line 98, css/sass/_grid.scss */
   .row.between-xl {
-    justify-content: space-between; }
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
 
   /* line 101, css/sass/_grid.scss */
   .first-xl {
-    order: -1; }
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1; }
 
   /* line 104, css/sass/_grid.scss */
   .last-xl {
-    order: 1; } }
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1; } }
 /* line 132, css/sass/_grid.scss */
 .col-gutter-lr {
   padding: 0 1rem; }
@@ -1251,8 +1524,8 @@ input[type="search"] {
 
 /* line 6, css/sass/_visibility.scss */
 .row.show {
-  display: -webkit-flex !important;
   display: -ms-flexbox !important;
+  display: -webkit-box !important;
   display: flex !important; }
 
 /* line 12, css/sass/_visibility.scss */
@@ -1265,8 +1538,8 @@ input[type="search"] {
 
 /* line 21, css/sass/_visibility.scss */
 .row.show-xs {
-  display: -webkit-flex !important;
   display: -ms-flexbox !important;
+  display: -webkit-box !important;
   display: flex !important; }
 
 /* line 26, css/sass/_visibility.scss */
@@ -1280,8 +1553,8 @@ input[type="search"] {
 
   /* line 21, css/sass/_visibility.scss */
   .row.show-xs-only {
-    display: -webkit-flex !important;
     display: -ms-flexbox !important;
+    display: -webkit-box !important;
     display: flex !important; }
 
   /* line 26, css/sass/_visibility.scss */
@@ -1294,8 +1567,8 @@ input[type="search"] {
 
   /* line 21, css/sass/_visibility.scss */
   .row.show-sm {
-    display: -webkit-flex !important;
     display: -ms-flexbox !important;
+    display: -webkit-box !important;
     display: flex !important; }
 
   /* line 26, css/sass/_visibility.scss */
@@ -1308,8 +1581,8 @@ input[type="search"] {
 
   /* line 21, css/sass/_visibility.scss */
   .row.show-sm-only {
-    display: -webkit-flex !important;
     display: -ms-flexbox !important;
+    display: -webkit-box !important;
     display: flex !important; }
 
   /* line 26, css/sass/_visibility.scss */
@@ -1322,8 +1595,8 @@ input[type="search"] {
 
   /* line 21, css/sass/_visibility.scss */
   .row.show-md {
-    display: -webkit-flex !important;
     display: -ms-flexbox !important;
+    display: -webkit-box !important;
     display: flex !important; }
 
   /* line 26, css/sass/_visibility.scss */
@@ -1336,8 +1609,8 @@ input[type="search"] {
 
   /* line 21, css/sass/_visibility.scss */
   .row.show-md-only {
-    display: -webkit-flex !important;
     display: -ms-flexbox !important;
+    display: -webkit-box !important;
     display: flex !important; }
 
   /* line 26, css/sass/_visibility.scss */
@@ -1350,8 +1623,8 @@ input[type="search"] {
 
   /* line 21, css/sass/_visibility.scss */
   .row.show-lg {
-    display: -webkit-flex !important;
     display: -ms-flexbox !important;
+    display: -webkit-box !important;
     display: flex !important; }
 
   /* line 26, css/sass/_visibility.scss */
@@ -1364,8 +1637,8 @@ input[type="search"] {
 
   /* line 21, css/sass/_visibility.scss */
   .row.show-lg-only {
-    display: -webkit-flex !important;
     display: -ms-flexbox !important;
+    display: -webkit-box !important;
     display: flex !important; }
 
   /* line 26, css/sass/_visibility.scss */
@@ -1378,8 +1651,8 @@ input[type="search"] {
 
   /* line 21, css/sass/_visibility.scss */
   .row.show-xl {
-    display: -webkit-flex !important;
     display: -ms-flexbox !important;
+    display: -webkit-box !important;
     display: flex !important; }
 
   /* line 26, css/sass/_visibility.scss */
