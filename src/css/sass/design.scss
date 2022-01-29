@@ -1,6 +1,11 @@
+body {
+    background: url(img/bg.jpg) repeat; 
+}
+
 .wrapper-full {
     
     width: 100vw;
     max-height: 124rem; 
     min-width: 10rem; 
+    margin: 0 auto; 
 }
