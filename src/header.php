@@ -38,7 +38,7 @@
 							<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo.svg" alt="Logo" class="logo-img" width="72">
 						</a>
 					</div>
-					<!-- /logo -->
+                <!-- /logo -->
 			</header>
 
 					<!-- nav -->
