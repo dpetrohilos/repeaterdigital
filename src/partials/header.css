@@ -2,3 +2,6 @@
  * partials/header
  * ---
  */
+/* line 8, ../css/sass/partials/header.scss */
+.header {
+  border-bottom: 1px solid #ccc; }
