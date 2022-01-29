@@ -31,7 +31,6 @@
 
 			<!-- header -->
 			<header class="header row center" role="banner">
-
 					<!-- logo -->
 					<div class="logo col-12 center text-center">
 						<a href="<?php echo esc_url( home_url() ); ?>">
