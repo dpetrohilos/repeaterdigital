@@ -30,7 +30,7 @@
 		<div class="wrapper-full">
 
 			<!-- header -->
-			<header class="header row" role="banner">
+			<header class="header row center" role="banner">
 
 					<!-- logo -->
 					<div class="logo col-lg-1 col-sm-12 col-md-2 mr-auto ml-auto">
@@ -43,7 +43,7 @@
 			</header>
 
 					<!-- nav -->
-					<nav class="nav" role="navigation">
+					<nav class="nav row" role="navigation">
 						<?php html5blank_nav(); ?>
 					</nav>
 					<!-- /nav -->
