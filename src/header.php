@@ -33,7 +33,7 @@
 			<header class="header row center" role="banner">
 
 					<!-- logo -->
-					<div class="logo col center">
+					<div class="logo col-12 center text-center">
 						<a href="<?php echo esc_url( home_url() ); ?>">
 							<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
 							<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo.svg" alt="Logo" class="logo-img" width="72">
@@ -44,7 +44,7 @@
 
 					<!-- nav -->
 					<nav class="nav row end" role="navigation">
-                        <div class="coll-lg-10 start">
+                        <div class="col-lg-10 col-sm-12 col-md-8 start">
                         
                             <p><a class="social-links" href="https://www.twitter.com/RepeaterDigital" title="Twitter Link"><img height="24" width="24"  src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/twitter.svg" alt="Twitter logo" /></a><a href="https://www.instagram.com/RepeaterDigital" title="Instagram Link"><img height="24" width="24"  src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/instagram.svg" alt="Instagram logo"/>@RepeaterDigital</p>
                         
