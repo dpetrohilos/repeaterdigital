@@ -1670,3 +1670,7 @@ body {
 /* line 14, css/sass/design.scss */
 .text-center {
   text-align: center; }
+
+/* line 18, css/sass/design.scss */
+p {
+  font-size: 1.8rem; }
