@@ -1672,5 +1672,5 @@ body {
   text-align: center; }
 
 /* line 18, css/sass/design.scss */
-p {
+p, li, span, div {
   font-size: 1.8rem; }
