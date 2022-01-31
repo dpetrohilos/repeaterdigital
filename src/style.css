@@ -55,36 +55,40 @@ Description: Repeater Digital Theme Based On HTML5 blank, FlexBox Grid
 /* line 16, css/sass/partials/reset.scss */
 html {
   font-size: 62.5%;
-  -webkit-tap-highlight-color: transparent; }
+  -webkit-tap-highlight-color: transparent;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
 
-/* line 23, css/sass/partials/reset.scss */
+/* line 27, css/sass/partials/reset.scss */
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, "Open Sans", sans-serif;
   font-size: 140%;
   line-height: 1.5;
   color: #444;
-  background-color: #fff; }
+  background-color: #fff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
 
-/* line 33, css/sass/partials/reset.scss */
+/* line 37, css/sass/partials/reset.scss */
 img {
   max-width: 100%;
   vertical-align: middle; }
 
-/* line 40, css/sass/partials/reset.scss */
+/* line 44, css/sass/partials/reset.scss */
 a {
   color: #444;
   text-decoration: none; }
-  /* line 44, css/sass/partials/reset.scss */
+  /* line 48, css/sass/partials/reset.scss */
   a:focus, a:hover {
     text-decoration: underline; }
 
-/* line 52, css/sass/partials/reset.scss */
+/* line 56, css/sass/partials/reset.scss */
 input[type="text"],
 input[type="search"] {
   font-size: inherit;
   line-height: inherit; }
 
-/* line 59, css/sass/partials/reset.scss */
+/* line 63, css/sass/partials/reset.scss */
 ::-moz-selection {
   background-color: #04A4CC;
   color: #fff;
