@@ -41,12 +41,14 @@ p, li, span {
         
     grid-row: 1 / 1;
     grid-column: 2 / span 2;
+    padding: 0 0 1rem 0; 
         
     }
 
     div:nth-child(2) {
     grid-row: 1 / span 1;
     grid-column: 3 / span 3;
+    padding: 0 0 0 1rem; 
         
     }
     

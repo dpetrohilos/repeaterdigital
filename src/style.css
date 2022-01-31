@@ -1691,24 +1691,26 @@ p, li, span {
   /* line 40, css/sass/design.scss */
   .grid-container div:nth-child(1) {
     grid-row: 1 / 1;
-    grid-column: 2 / span 2; }
-  /* line 47, css/sass/design.scss */
+    grid-column: 2 / span 2;
+    padding: 0 0 1rem 0; }
+  /* line 48, css/sass/design.scss */
   .grid-container div:nth-child(2) {
     grid-row: 1 / span 1;
-    grid-column: 3 / span 3; }
-  /* line 53, css/sass/design.scss */
+    grid-column: 3 / span 3;
+    padding: 0 0 0 1rem; }
+  /* line 55, css/sass/design.scss */
   .grid-container div:nth-child(3) {
     grid-row: 2 / span 3;
     grid-column: 1 / span 1; }
-  /* line 58, css/sass/design.scss */
+  /* line 60, css/sass/design.scss */
   .grid-container div:nth-child(4) {
     grid-row: 3 / span 5;
     grid-column: 3 / span 4; }
-  /* line 64, css/sass/design.scss */
+  /* line 66, css/sass/design.scss */
   .grid-container div:nth-child(5) {
     grid-row: 4 / span 6;
     grid-column: 6 / span 7; }
-  /* line 70, css/sass/design.scss */
+  /* line 72, css/sass/design.scss */
   .grid-container div:nth-child(6) {
     grid-row: 6 / span 7;
     grid-column: 8 / span 9; }
