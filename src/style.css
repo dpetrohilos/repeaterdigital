@@ -1681,7 +1681,7 @@ p, li, span {
 .multiply {
   mix-blend-mode: multiply; }
 
-/* line 34, css/sass/design.scss */
+/* line 32, css/sass/design.scss */
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 2fr;
