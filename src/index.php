@@ -30,6 +30,28 @@
     </section>
     </div>
 
+<div class="wrapper-full hero-front">
+    <section class="row">
+        
+<div class="col-lg-3">
+     <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_3.jpg" alt="Graphic Image" width="565"/>   
+            
+</div>
+        
+        
+<div class="col-lg-9 right-bg">
+
+    <h1>We Change Narratives</h1>
+    <p>We are a worker owned, self-managed communications consulting firm that specializes in strategic digital and visual communication.</p><p>
+
+Repeater Digital strives to isolate the signal from the noise. We use the power of storytelling to transmit and amplify the voices of our partners across the shared global digital community. 
+</p><p>
+Together, we will shift company culture and create a strong future for your brand.
+</p>
+</div>    
+    </section>
+    </div>
+
 
 	<main role="main" aria-label="Content">
 		<!-- section -->
