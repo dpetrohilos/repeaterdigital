@@ -17,9 +17,7 @@
     </section>
     </div>
     
-    <div class="hero"> 
-    
-    
+    <div class="hero">    
     
     </div>    
 	<main role="main" aria-label="Content">
