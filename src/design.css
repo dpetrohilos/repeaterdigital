@@ -39,20 +39,23 @@ p, li, span {
   /* line 49, css/sass/design.scss */
   .grid-container div:nth-child(2) {
     grid-column: 7 / span 6;
-    grid-row: 3 / span 4; }
-  /* line 54, css/sass/design.scss */
+    grid-row: 3 / span 4;
+    padding: 0 1rem 0 0; }
+  /* line 55, css/sass/design.scss */
   .grid-container div:nth-child(3) {
     grid-column: 13 / span 6;
-    grid-row: 3 / span 4; }
-  /* line 60, css/sass/design.scss */
+    grid-row: 3 / span 4;
+    padding: 0 0 1rem 0; }
+  /* line 62, css/sass/design.scss */
   .grid-container div:nth-child(4) {
     grid-column: 19 / span 1;
-    grid-row: 6 / span 1; }
-  /* line 65, css/sass/design.scss */
+    grid-row: 6 / span 1;
+    margin: 1rem; }
+  /* line 68, css/sass/design.scss */
   .grid-container div:nth-child(5) {
     grid-column: 23 / span 2;
     grid-row: 1 / span 4;
     text-align: right; }
-    /* line 70, css/sass/design.scss */
+    /* line 73, css/sass/design.scss */
     .grid-container div:nth-child(5) p {
       padding: 0; }
