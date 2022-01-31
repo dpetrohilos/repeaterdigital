@@ -1,8 +1,7 @@
 <?php get_header(); ?>
 <div class="grid-container cover">
 <div>
-    
-     <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_1.jpg" alt="Graphic Poster" class="multiply" width="400"/>   
+<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_1.jpg" alt="Graphic Poster" class="multiply" width="400"/>   
     <b class="border"></b> 
 </div>      
 <div>
@@ -12,17 +11,18 @@
 <div>
      <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_2.jpg" alt="Logo" class="logo-red" width="400"  />   
             
-</div>
-    
+</div>  
 <div>
      <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_3.jpg" alt="Logo" class="logo-red" width="400"  />   
             
 </div>    
-
+<div>
+     <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_4.jpg" alt="Logo" class="logo-red" width="400"  />   
+            
+</div>  
     
 
     </div>
-
 
 	<main role="main" aria-label="Content">
 		<!-- section -->
