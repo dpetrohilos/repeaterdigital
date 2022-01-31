@@ -2,7 +2,7 @@
 <div class="cover">
 <div class="wrapper-full">
     <section class="row">
-    
+        
 <div class="col-lg-3 col-lg-offset-3">
      <img class="responsive" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_1.jpg" alt="Graphic Poster" class="multiply" width="469" height="476" />   
             
