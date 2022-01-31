@@ -19,9 +19,17 @@
 <div>
      <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_4.jpg" alt="design element" class="logo-red" width="800"  />   
             
-</div>  
+</div>
     
+<div>
+    <h1>  We change <span>narratives</span></h1>
+    </div>
+<article>    
 
+    <p>
+    Repeater Digital is a full stack creative collaborative, democratically managed by grassroots activists in the DC metro area. We design effective messaging campaigns by asking the right questions of our clients, as well as target audiences. 
+    </p>    
+</article>
     </div>
 
 	<main role="main" aria-label="Content">
