@@ -10,7 +10,7 @@
         
         
 <div class="col-lg-3 bg-red">
-     <img class="responsive" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo-red.svg" alt="Logo" class="logo-red" width="469" height="468">   
+     <img class="responsive" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo-red.svg" alt="Logo" class="logo-red" width="469" >   
             
 </div>    
     
