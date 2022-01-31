@@ -13,16 +13,20 @@
             
 </div>
 <div>
-    <h2>Repeater</h2>            
+
 </div>
 <div>
-    <h2>Digital</h2>
 
 </div>   
 <div>
-<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Triangle.svg" alt="Logo" class="logo-red" width="150"  />   
+<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Triangle.svg" alt="Logo" class="logo-red" width="40"  />   
             
 </div>
+    
+<div><p>
+<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/RD_Art_Element.svg" alt="Logo" class="logo-red" width="40"  />   
+    </p>     
+</div>    
 </div>
 
 	<main role="main" aria-label="Content">
