@@ -1679,7 +1679,7 @@ p, li, span {
 
 /* line 22, css/sass/design.scss */
 .multiply {
-  background-blend-mode: multiply; }
+  mix-blend-mode: multiply; }
 
 /* line 33, css/sass/design.scss */
 .cover {
