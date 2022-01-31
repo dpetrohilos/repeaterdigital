@@ -25,39 +25,40 @@ p, li, span {
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 8.4rem;
   max-width: 160rem;
   width: 100%;
   margin: 0 auto; }
-  /* line 40, css/sass/design.scss */
+  /* line 41, css/sass/design.scss */
   .grid-container div:nth-child(1) {
     grid-row: 1 / 1;
     grid-column: 2 / span 2;
     padding: 0 0 1rem 0; }
-  /* line 48, css/sass/design.scss */
+  /* line 49, css/sass/design.scss */
   .grid-container div:nth-child(2) {
     grid-row: 1 / span 1;
     grid-column: 3 / span 3;
     padding: 0 0 0 1rem; }
-  /* line 55, css/sass/design.scss */
+  /* line 56, css/sass/design.scss */
   .grid-container div:nth-child(3) {
     grid-row: 2 / span 3;
     grid-column: 1 / span 1; }
-  /* line 60, css/sass/design.scss */
+  /* line 61, css/sass/design.scss */
   .grid-container div:nth-child(4) {
     grid-row: 2 / span 4;
     grid-column: 2 / span 3;
     padding: 0 1rem 0 0; }
-  /* line 68, css/sass/design.scss */
+  /* line 69, css/sass/design.scss */
   .grid-container div:nth-child(5) {
     grid-row: 2 / span 3;
     grid-column: 3 / span 4; }
-  /* line 74, css/sass/design.scss */
+  /* line 75, css/sass/design.scss */
   .grid-container div:nth-child(6) {
     grid-row: 2 / span 3;
     grid-column: 3 / span 4;
     z-index: 2; }
-  /* line 82, css/sass/design.scss */
+  /* line 83, css/sass/design.scss */
   .grid-container article:nth-child(7) {
-    grid-row: 2 / span 3;
-    grid-column: 3 / span 4;
+    grid-row: 3 / span 3;
+    grid-column: 3 / span 1;
     z-index: 3; }

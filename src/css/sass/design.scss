@@ -33,6 +33,7 @@ p, li, span {
     
     display: grid; 
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 8.4rem; 
     max-width: 160rem;
     width: 100%; 
     margin: 0 auto; 
@@ -80,10 +81,9 @@ p, li, span {
     
     
      article:nth-child(7) {
-        grid-row: 2 / span 3;
-        grid-column: 3 / span 4;
-                 z-index: 3; 
-
+    grid-row: 3 / span 3;
+    grid-column: 3 / span 1;
+    z-index: 3;
 
     }
  
