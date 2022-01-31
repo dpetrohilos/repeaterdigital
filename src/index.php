@@ -13,16 +13,9 @@
             
 </div>
 <div>
-
-</div>
-<div>
-
-</div>   
-<div>
 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Triangle.svg" alt="Logo" class="logo-red" width="40"  />   
             
-</div>
-    
+</div>   
 <div><p>
 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/RD_Art_Element.svg" alt="Logo" class="logo-red" width="40"  />   
     </p>     
