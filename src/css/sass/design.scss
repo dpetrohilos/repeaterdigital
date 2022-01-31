@@ -40,26 +40,26 @@ p, li, span {
 
     div:nth-child(1) {
         
-    grid-row: 1 / 1;
+    grid-row: 2 / 8;
     grid-column: 2 / span 2;
     padding: 0 0 1rem 0; 
         
     }
 
     div:nth-child(2) {
-    grid-row: 1 / span 1;
+    grid-row: 2 / span 8;
     grid-column: 3 / span 3;
     padding: 0 0 0 1rem; 
         
     }
     
     div:nth-child(3) {
-    grid-row: 2 / span 3;
+    grid-row: 8 / span 16;
     grid-column: 1 / span 1;    
     }
     
     div:nth-child(4) {
-        grid-row: 2 / span 4;
+        grid-row: 8 / span 32;
     grid-column: 2 / span 3;
         
     padding: 0 1rem 0 0; 
@@ -67,13 +67,13 @@ p, li, span {
     }
     
     div:nth-child(5) {
-        grid-row: 2 / span 3;
+        grid-row: 8 / span 16;
         grid-column: 3 / span 4;        
         
     }
     
     div:nth-child(6) { 
-            grid-row: 2 / span 3;
+            grid-row: 8 / span 16;
         grid-column: 3 / span 4;
         z-index: 2; 
 
@@ -81,7 +81,7 @@ p, li, span {
     
     
      article:nth-child(7) {
-    grid-row: 3 / span 3;
+    grid-row: 32 / span 64;
     grid-column: 3 / span 1;
     z-index: 3;
 
