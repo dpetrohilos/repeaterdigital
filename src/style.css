@@ -1702,26 +1702,3 @@ p, li, span {
   .grid-container div:nth-child(3) {
     grid-row: 8 / span 16;
     grid-column: 3 / span 7; }
-
-/* line 64, css/sass/design.scss */
-div:nth-child(4) {
-  grid-row: 8 / span 32;
-  grid-column: 2 / span 3;
-  padding: 0 1rem 0 0; }
-
-/* line 72, css/sass/design.scss */
-div:nth-child(5) {
-  grid-row: 8 / span 16;
-  grid-column: 3 / span 4; }
-
-/* line 78, css/sass/design.scss */
-div:nth-child(6) {
-  grid-row: 8 / span 16;
-  grid-column: 2 / span 4;
-  z-index: 2; }
-
-/* line 86, css/sass/design.scss */
-article:nth-child(7) {
-  grid-row: 28 auto;
-  grid-column: 3 / span 1;
-  z-index: 3; }

@@ -11,9 +11,27 @@
     <b class="border"></b> 
 </div>      
 <div>
-     <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Logo_Red.svg" alt="Logo" class="logo-red" width="400"  />   
+<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Logo_Red.svg" alt="Logo" class="logo-red" width="400"  />   
             
 </div>
+    </div>
+
+<div>
+    <h2>Repeater</h2>            
+</div>
+<div>
+    <h2>Digital</h2>
+
+</div>
+    
+<div>
+<div>
+<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/triangle.svg" alt="Logo" class="logo-red" width="150"  />   
+            
+</div>
+    </div>
+    </div>
+
     </div>
 
 	<main role="main" aria-label="Content">
