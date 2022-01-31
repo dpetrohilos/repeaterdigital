@@ -1699,5 +1699,5 @@ p, li, span {
     grid-column: 6 / span 6; }
   /* line 53, css/sass/design.scss */
   .grid-container div:nth-child(3) {
-    grid-row: 4 / span 5;
-    grid-column: 6 / span 6; }
+    grid-row: 3 / span 4;
+    grid-column: 12 / span 6; }

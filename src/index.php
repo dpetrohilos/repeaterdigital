@@ -20,7 +20,7 @@
 
 </div>   
 <div>
-<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/triangle.svg" alt="Logo" class="logo-red" width="150"  />   
+<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Triangle.svg" alt="Logo" class="logo-red" width="150"  />   
             
 </div>
 </div>
