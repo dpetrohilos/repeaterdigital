@@ -53,13 +53,13 @@ p, li, span {
     }
     
     div:nth-child(3) {
-    grid-row: 2 / span 2;
+    grid-row: 2 / span 3;
     grid-column: 1 / span 1;    
     }
     
     div:nth-child(4) {
-        grid-row: 3 / span 5;
-    grid-column: 3 / span 4;
+        grid-row: 2 / span 4;
+    grid-column: 3 / span 3;
         
     }
     
