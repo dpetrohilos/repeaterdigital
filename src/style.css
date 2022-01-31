@@ -1737,11 +1737,19 @@ p, li, span {
     grid-row: 8 / span 4; }
     /* line 102, css/sass/design.scss */
     .grid-container div:nth-child(9) h1 {
-      color: #fffafa; }
-      /* line 104, css/sass/design.scss */
+      color: #fffafa;
+      font-size: 14rem !important;
+      padding: 0 !important;
+      margin: 0 !important;
+      letter-spacing: -0.5rem; }
+      /* line 109, css/sass/design.scss */
       .grid-container div:nth-child(9) h1 span {
-        color: #e52227; }
-  /* line 111, css/sass/design.scss */
+        color: #e52227;
+        font-size: 14rem !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        letter-spacing: -0.5rem; }
+  /* line 121, css/sass/design.scss */
   .grid-container div:nth-child(10) {
     grid-column: 15 / span 5;
     grid-row: 14 / span 2; }

@@ -99,10 +99,20 @@ div:nth-child(9) {
 grid-column: 8 / span 12;
     grid-row: 8 / span 4;
     
-    h1 {color: $white; 
+    h1 {color: $white;
+    font-size: 14rem !important;
+    padding: 0 !important;
+    margin:  0 !important;
+    letter-spacing: -0.5rem;
+    
     
     span {
         color: $red; 
+    font-size: 14rem !important;
+    padding: 0 !important;
+    margin:  0 !important;
+    letter-spacing: -0.5rem;
+    
     }
     
     }  
