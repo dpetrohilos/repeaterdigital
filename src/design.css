@@ -24,18 +24,18 @@ p, li, span {
 /* line 32, css/sass/design.scss */
 .grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   max-width: 124rem;
   width: 100%;
   margin: 0 auto; }
   /* line 40, css/sass/design.scss */
   .grid-container div:nth-child(1) {
     grid-row: 1 / 1;
-    grid-column: 2 / span 3; }
+    grid-column: 2 / span 2; }
   /* line 47, css/sass/design.scss */
   .grid-container div:nth-child(2) {
     grid-row: 1 / span 1;
-    grid-column: 3 / span 4; }
+    grid-column: 3 / span 3; }
   /* line 53, css/sass/design.scss */
   .grid-container div:nth-child(3) {
     grid-row: 2 / span 3;

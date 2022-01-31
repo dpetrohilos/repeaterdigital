@@ -32,7 +32,7 @@ p, li, span {
 .grid-container {
     
     display: grid; 
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     max-width: 124rem;
     width: 100%; 
     margin: 0 auto; 
@@ -40,13 +40,13 @@ p, li, span {
     div:nth-child(1) {
         
     grid-row: 1 / 1;
-    grid-column: 2 / span 3;
+    grid-column: 2 / span 2;
         
     }
 
     div:nth-child(2) {
     grid-row: 1 / span 1;
-    grid-column: 3 / span 4;
+    grid-column: 3 / span 3;
         
     }
     
