@@ -20,3 +20,9 @@ p, li, span, div {
 /* line 22, css/sass/design.scss */
 .multiply {
   background-blend-mode: multiply; }
+
+/* line 33, css/sass/design.scss */
+.cover {
+  background-image: url(img/circle.svg);
+  background-repeat: no-repeat;
+  background-position: 5.8rem 4.8rem; }

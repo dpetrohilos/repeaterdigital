@@ -9,8 +9,8 @@
 </div>
         
         
-<div class="col-lg-3 col-lg-offset-3 bg-red">
-     <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo-red.svg" alt="Logo" class="logo-red" width="290" height="280">   
+<div class="col-lg-3 bg-red">
+     <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo-red.svg" alt="Logo" class="logo-red" width="280" height="280">   
             
 </div>    
     
