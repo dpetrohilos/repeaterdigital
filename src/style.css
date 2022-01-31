@@ -1685,7 +1685,7 @@ p, li, span {
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  max-width: 124rem;
+  max-width: 160rem;
   width: 100%;
   margin: 0 auto; }
   /* line 40, css/sass/design.scss */
