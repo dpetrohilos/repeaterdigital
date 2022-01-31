@@ -73,12 +73,12 @@ p, li, span {
     grid-row: 7 / span 4; }
   /* line 98, css/sass/design.scss */
   .grid-container div:nth-child(9) {
-    grid-column: 8 / span 12;
+    grid-column: 8 / span 16;
     grid-row: 8 / span 4; }
     /* line 102, css/sass/design.scss */
     .grid-container div:nth-child(9) h1 {
       color: #fffafa;
-      font-size: 14rem !important;
+      font-size: 13.6rem !important;
       padding: 0 !important;
       margin: 0 !important;
       letter-spacing: -0.5rem; }
