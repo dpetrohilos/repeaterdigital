@@ -1695,10 +1695,9 @@ p, li, span {
     grid-column: 2 / span 6; }
   /* line 48, css/sass/design.scss */
   .grid-container div:nth-child(2) {
-    grid-row: 6 / span 12;
-    grid-column: 3 / span 7;
-    padding: 0 0 0 1rem; }
-  /* line 55, css/sass/design.scss */
+    grid-row: 3 / span 4;
+    grid-column: 6 / span 6; }
+  /* line 53, css/sass/design.scss */
   .grid-container div:nth-child(3) {
-    grid-row: 8 / span 16;
-    grid-column: 3 / span 7; }
+    grid-row: 4 / span 5;
+    grid-column: 6 / span 6; }
