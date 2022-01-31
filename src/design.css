@@ -21,6 +21,7 @@ p, li, span {
 .multiply {
   mix-blend-mode: multiply; }
 
+/* Top Grid Front Page*/
 /* line 32, css/sass/design.scss */
 .grid-container {
   display: grid;
@@ -28,16 +29,30 @@ p, li, span {
   grid-template-rows: 8.4rem;
   max-width: 160rem;
   width: 100%;
-  margin: 0 auto; }
-  /* line 41, css/sass/design.scss */
+  margin: 0 auto;
+  /* Start First Row*/
+  /* End First Row*/ }
+  /* line 43, css/sass/design.scss */
   .grid-container div:nth-child(1) {
-    grid-column: 3 / span 6;
+    grid-column: 2 / span 6;
     grid-row: 2 / 6; }
-  /* line 47, css/sass/design.scss */
+  /* line 49, css/sass/design.scss */
   .grid-container div:nth-child(2) {
     grid-column: 7 / span 6;
     grid-row: 3 / span 4; }
-  /* line 52, css/sass/design.scss */
+  /* line 54, css/sass/design.scss */
   .grid-container div:nth-child(3) {
+    grid-column: 13 / span 6;
+    grid-row: 3 / span 4; }
+  /* line 60, css/sass/design.scss */
+  .grid-container div:nth-child(4) {
+    grid-column: 13 / span 6;
+    grid-row: 3 / span 4; }
+  /* line 66, css/sass/design.scss */
+  .grid-container div:nth-child(5) {
+    grid-column: 13 / span 6;
+    grid-row: 3 / span 4; }
+  /* line 72, css/sass/design.scss */
+  .grid-container div:nth-child(6) {
     grid-column: 13 / span 6;
     grid-row: 3 / span 4; }
