@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<div class="grid-container cover">
+<div class="grid-container cover front">
 <div>
 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/circle.svg" alt="Graphic Poster" class="multiply" width="400"/>   
     <b class="border"></b> 
