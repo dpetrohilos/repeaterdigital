@@ -25,8 +25,8 @@ p, li, span {
 .cover {
   background-image: url(img/circle.svg);
   background-repeat: no-repeat;
-  background-position: 4.8rem 4.8rem;
-  background-size: 38.4rem 38.4rem;
+  background-position: 20% 20%;
+  background-size: 44rem;
   margin: 0;
   border: 0;
   width: 100%;
