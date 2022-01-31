@@ -31,7 +31,8 @@ p, li, span {
   width: 100%;
   margin: 0 auto;
   /* Start First Row*/
-  /* End First Row*/ }
+  /* End First Row*/
+  /*Start Second Content Row*/ }
   /* line 43, css/sass/design.scss */
   .grid-container div:nth-child(1) {
     grid-column: 2 / span 6;
@@ -58,15 +59,23 @@ p, li, span {
     /* line 72, css/sass/design.scss */
     .grid-container div:nth-child(5) p {
       padding: 0; }
-  /* line 80, css/sass/design.scss */
+  /* line 82, css/sass/design.scss */
   .grid-container div:nth-child(6) {
-    grid-column: 1 / span 4;
-    grid-row: 7 / span 4; }
-  /* line 85, css/sass/design.scss */
+    grid-column: 1 / span 6;
+    grid-row: 7 / span 6; }
+  /* line 86, css/sass/design.scss */
   .grid-container div:nth-child(7) {
-    grid-column: 5 / span 4;
-    grid-row: 7 / span 8; }
+    grid-column: 7 / span 6;
+    grid-row: 7 / span 2; }
   /* line 90, css/sass/design.scss */
   .grid-container div:nth-child(8) {
-    grid-column: 9 / span 8;
-    grid-row: 7 / span 4; }
+    grid-column: 13 / span 12;
+    grid-row: 7 / span 2; }
+  /* line 95, css/sass/design.scss */
+  .grid-container div:nth-child(9) {
+    grid-column: 13 / span 12;
+    grid-row: 7 / span 2; }
+  /* line 101, css/sass/design.scss */
+  .grid-container div:nth-child(10) {
+    grid-column: 13 / span 12;
+    grid-row: 7 / span 2; }
