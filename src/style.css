@@ -1694,9 +1694,3 @@ p, li, span {
   /* line 44, css/sass/design.scss */
   .cover .row {
     padding-top: 9.6rem; }
-
-/* line 49, css/sass/design.scss */
-.responsive {
-  width: 100%;
-  max-width: 100%;
-  height: auto; }
