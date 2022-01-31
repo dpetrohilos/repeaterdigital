@@ -20,7 +20,7 @@
     <section class="row">
         
 <div class="col-lg-3">
-     <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_3.jpg" alt="Graphic Image" width="565"/>   
+     <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_2.jpg" alt="Graphic Image" width="565"/>   
             
 </div>
         
