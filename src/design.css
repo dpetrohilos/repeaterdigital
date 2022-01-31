@@ -31,13 +31,13 @@ p, li, span {
   margin: 0 auto; }
   /* line 41, css/sass/design.scss */
   .grid-container div:nth-child(1) {
-    grid-row: 2 / 6;
-    grid-column: 2 / span 6; }
-  /* line 48, css/sass/design.scss */
+    grid-column: 3 / span 6;
+    grid-row: 2 / 6; }
+  /* line 47, css/sass/design.scss */
   .grid-container div:nth-child(2) {
-    grid-row: 3 / span 4;
-    grid-column: 6 / span 6; }
-  /* line 53, css/sass/design.scss */
+    grid-column: 7 / span 6;
+    grid-row: 3 / span 4; }
+  /* line 52, css/sass/design.scss */
   .grid-container div:nth-child(3) {
-    grid-row: 3 / span 4;
-    grid-column: 12 / span 6; }
+    grid-column: 13 / span 6;
+    grid-row: 3 / span 4; }
