@@ -23,9 +23,6 @@
             
 </div>
     
-<div>
-    <h1>We Change <span>Narratives</span></h1>            
-</div>
 
     </div>
 
