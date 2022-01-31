@@ -6,7 +6,7 @@
     <b class="border"></b> 
 </div>      
 <div>
-     <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo-red.svg" alt="Logo" class="logo-red" width="565"  />   
+     <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Logo_Red.svg" alt="Logo" class="logo-red" width="565"  />   
             
 </div>    
 
