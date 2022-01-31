@@ -40,6 +40,10 @@ p, li, span, div {
     border: 0; 
     width: 100%; 
     max-width: 100vw;
+    
+    .row {
+        padding-top: 9.6rem; 
+    }
 }
 
 .responsive {
