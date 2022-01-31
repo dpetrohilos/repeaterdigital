@@ -12,7 +12,7 @@ Error: Undefined variable: "$font-family-base".
 26:   line-height: $line-height-base;
 27:   color: $text-color;
 28:   background-color: $body-bg;
-29:     padding: 0; 
+29: 
 
 Backtrace:
 /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/partials/reset.scss:24
@@ -68,4 +68,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$font-family-base\".\A         on line 24 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/partials/reset.scss\A \A 19:   // Cancel hightlight color when tapping in iOS\A 20:   -webkit-tap-highlight-color: rgba(0,0,0,0);\A 21: }\A 22: \A 23: body {\A 24:   font-family: $font-family-base;\A 25:   font-size: $font-size-base;\A 26:   line-height: $line-height-base;\A 27:   color: $text-color;\A 28:   background-color: $body-bg;\A 29:     padding: 0; "; }
+  content: "Error: Undefined variable: \"$font-family-base\".\A         on line 24 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/partials/reset.scss\A \A 19:   // Cancel hightlight color when tapping in iOS\A 20:   -webkit-tap-highlight-color: rgba(0,0,0,0);\A 21: }\A 22: \A 23: body {\A 24:   font-family: $font-family-base;\A 25:   font-size: $font-size-base;\A 26:   line-height: $line-height-base;\A 27:   color: $text-color;\A 28:   background-color: $body-bg;\A 29: "; }

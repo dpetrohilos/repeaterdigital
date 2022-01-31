@@ -63,30 +63,28 @@ body {
   font-size: 140%;
   line-height: 1.5;
   color: #444;
-  background-color: #fff;
-  padding: 0;
-  margin: 0; }
+  background-color: #fff; }
 
-/* line 32, css/sass/partials/reset.scss */
+/* line 33, css/sass/partials/reset.scss */
 img {
   max-width: 100%;
   vertical-align: middle; }
 
-/* line 39, css/sass/partials/reset.scss */
+/* line 40, css/sass/partials/reset.scss */
 a {
   color: #444;
   text-decoration: none; }
-  /* line 43, css/sass/partials/reset.scss */
+  /* line 44, css/sass/partials/reset.scss */
   a:focus, a:hover {
     text-decoration: underline; }
 
-/* line 51, css/sass/partials/reset.scss */
+/* line 52, css/sass/partials/reset.scss */
 input[type="text"],
 input[type="search"] {
   font-size: inherit;
   line-height: inherit; }
 
-/* line 58, css/sass/partials/reset.scss */
+/* line 59, css/sass/partials/reset.scss */
 ::-moz-selection {
   background-color: #04A4CC;
   color: #fff;
