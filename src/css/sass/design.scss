@@ -96,7 +96,7 @@ div:nth-child(8) {
     }   
  
 div:nth-child(9) {
-grid-column: 8 / span 16;
+grid-column: 10 / span 14;
     grid-row: 8 / span 4;
     
     h1 {color: $white;
@@ -110,8 +110,9 @@ grid-column: 8 / span 16;
         color: $red; 
     font-size: 14rem !important;
     padding: 0 !important;
-    margin:  0 !important;
+    margin:  0 0 0 2rem !important;
     letter-spacing: -0.5rem;
+    
     
     }
     
