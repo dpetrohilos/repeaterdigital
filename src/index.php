@@ -19,9 +19,13 @@
             
 </div>    
 <div>
-     <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_4.jpg" alt="Logo" class="logo-red" width="400"  />   
+     <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_4.jpg" alt="Logo" class="logo-red" width="800"  />   
             
-</div>   
+</div>
+    
+<div>
+    <h1>We Change <span>Narratives</span></h1>            
+</div>
 
     </div>
 
