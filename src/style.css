@@ -1711,3 +1711,7 @@ p, li, span {
   .grid-container div:nth-child(5) {
     grid-row: 4 / span 6;
     grid-column: 6 / span 7; }
+  /* line 74, css/sass/design.scss */
+  .grid-container div:nth-child(6) {
+    grid-row: 4 / span 4;
+    grid-column: 6 / span 7; }
