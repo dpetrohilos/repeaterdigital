@@ -1,54 +1,27 @@
 <?php get_header(); ?>
 <div class="grid-container cover">
-    
-<div class="one">
-    <b></b>
-</div>
-
-<div class="two">
+<div>
     
      <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_1.jpg" alt="Graphic Poster" class="multiply" width="565"/>   
     <b class="border"></b> 
-</div>
-        
-        
-<div class="three">
+</div>      
+<div>
      <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo-red.svg" alt="Logo" class="logo-red" width="565"  />   
             
 </div>    
-
-<div class="four">
-    <b></b>    
-</div>
-
-<div class="six">
+<div>
      <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_2.jpg" alt="Graphic Image" width="565"/>   
             
-</div>
-    
-        
-<div class="seven">
+</div>      
+<div>
      <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_3.jpg" alt="Graphic Image" width="565"/>   
             
-</div>
-    
-        
-<div class="eight">
+</div>     
+<div>
      <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_4.jpg" alt="Graphic Image" width="565"/>   
             
-</div>
-    
-        
-<div class="nine">
-    <b></b>
-</div>
-        
-        
-<div class="ten">
-    <b></b>            
-</div>    
-        
-<div class="eleven">
+</div>       
+<div>
     <h1>We Change Narratives</h1>
 
     <p>We are a worker owned, self-managed communications consulting firm that specializes in strategic digital and visual communication.</p><p>
@@ -65,10 +38,6 @@ Together, we will shift company culture and create a strong future for your bran
     Case Study
     </a>
 </div>   
- 
-<div class="twelve">
-    <b></b>            
-</div>    
     
     </div>
 
