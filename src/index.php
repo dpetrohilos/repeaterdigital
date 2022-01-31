@@ -17,7 +17,7 @@
             
 </div>    
 <div>
-     <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_4.jpg" alt="Logo" class="logo-red" width="800"  />   
+     <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_4.jpg" alt="design element" class="logo-red" width="800"  />   
             
 </div>  
     
