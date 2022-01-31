@@ -1719,3 +1719,15 @@ p, li, span {
     /* line 73, css/sass/design.scss */
     .grid-container div:nth-child(5) p {
       padding: 0; }
+  /* line 81, css/sass/design.scss */
+  .grid-container div:nth-child(6) {
+    grid-column: 1 / span 4;
+    grid-row: 7 / span 4; }
+  /* line 86, css/sass/design.scss */
+  .grid-container div:nth-child(7) {
+    grid-column: 5 / span 4;
+    grid-row: 7 / span 8; }
+  /* line 91, css/sass/design.scss */
+  .grid-container div:nth-child(8) {
+    grid-column: 9 / span 8;
+    grid-row: 7 / span 4; }

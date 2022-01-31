@@ -77,6 +77,21 @@ p, li, span {
     }
     
     /* End First Row*/
+    
+div:nth-child(6) {
+    grid-column: 1 / span 4;
+    grid-row: 7 / span 4;
+    }    
+    
+div:nth-child(7) {
+    grid-column: 5 / span 4;
+    grid-row: 7 / span 8;
+    }   
+    
+div:nth-child(8) {
+    grid-column: 9 / span 8;
+    grid-row: 7 / span 4;
+    }   
  
 } 
 

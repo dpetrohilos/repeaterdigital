@@ -19,7 +19,18 @@
 <div><p>
 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/RD_Art_Element.svg" alt="Logo" class="logo-red" width="80"  />   
     </p>     
+</div>
+    
+<div>
+<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_2.jpg" alt="Graphic Poster"  width="400"/>   
+</div>  
+<div>
+<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_3.jpg" alt="Graphic Poster" width="400"/>   
 </div>    
+<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_3.jpg" alt="Graphic Poster"  width="800"/>   
+</div>       
+    
+    
 </div>
 
 	<main role="main" aria-label="Content">
