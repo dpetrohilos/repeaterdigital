@@ -27,3 +27,9 @@ p, li, span, div {
   background-repeat: no-repeat;
   background-position: 8.4rem 9.6rem;
   padding-top: 16rem; }
+
+/* line 41, css/sass/design.scss */
+.responsive {
+  width: 100%;
+  max-width: 100%;
+  height: auto; }
