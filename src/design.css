@@ -16,3 +16,7 @@ body {
 /* line 18, css/sass/design.scss */
 p, li, span, div {
   font-size: 1.8rem; }
+
+/* line 22, css/sass/design.scss */
+.multiply {
+  background-blend-mode: multiply; }
