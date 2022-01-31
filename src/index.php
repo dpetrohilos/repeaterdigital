@@ -14,21 +14,7 @@
 </div>    
     </section>
     </div>
-<div class="wrapper-full cover">
-    <section class="row">
-        
-<div class="col-lg-3">
-     <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_2.jpg" alt="Graphic Poster" class="multiply" width="565"/>   
-            
-</div>
-        
-        
-<div class="col-lg-9 bg-red">
-     <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo-red.svg" alt="Logo" class="logo-red" width="565"  />   
-            
-</div>    
-    </section>
-    </div>
+
 
 <div class="wrapper-full hero-front">
     <section class="row">
