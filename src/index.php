@@ -2,7 +2,7 @@
 <div class="grid-container cover">
 
 <div>
-<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Circle.svg" alt="Graphic Poster" class="multiply" width="400"/>   
+<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/circle.svg" alt="Graphic Poster" class="multiply" width="400"/>   
     <b class="border"></b> 
 </div>
 
