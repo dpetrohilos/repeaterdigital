@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<div class="wrapper-full">
+<div class="wrapper-full cover">
     <section class="row">
         
 <div class="col-lg-3 col-lg-offset-3">
