@@ -17,7 +17,7 @@
             
 </div>   
 <div><p>
-<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/RD_Art_Element.svg" alt="Logo" class="logo-red" width="40"  />   
+<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/RD_Art_Element.svg" alt="Logo" class="logo-red" width="80"  />   
     </p>     
 </div>    
 </div>
