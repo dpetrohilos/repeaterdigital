@@ -1807,98 +1807,99 @@ p, li, span {
 .multiply {
   mix-blend-mode: multiply; }
 
-/* Top Grid Front Page*/
-/* line 32, css/sass/design.scss */
-.grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 8.4rem;
-  max-width: 100vw;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0;
-  /* Start First Row*/
-  /* End First Row*/
-  /*Start Second Content Row*/ }
-  /* line 44, css/sass/design.scss */
-  .grid-container div:nth-child(1) {
-    grid-column: 2 / span 6;
-    grid-row: 2 / 6; }
-  /* line 50, css/sass/design.scss */
-  .grid-container div:nth-child(2) {
-    grid-column: 7 / span 6;
-    grid-row: 3 / span 4;
-    padding: 0 1rem 0 0; }
-  /* line 56, css/sass/design.scss */
-  .grid-container div:nth-child(3) {
-    grid-column: 13 / span 6;
-    grid-row: 3 / span 4; }
-  /* line 62, css/sass/design.scss */
-  .grid-container div:nth-child(4) {
-    grid-column: 19 / span 1;
-    grid-row: 6 / span 1;
-    margin: 1rem 0 1rem 1rem; }
-  /* line 68, css/sass/design.scss */
-  .grid-container div:nth-child(5) {
-    grid-column: 23 / span 2;
-    grid-row: 1 / span 4;
-    text-align: right; }
-    /* line 73, css/sass/design.scss */
-    .grid-container div:nth-child(5) p {
-      padding: 0; }
-  /* line 83, css/sass/design.scss */
-  .grid-container div:nth-child(6) {
-    grid-column: 1 / span 6;
-    grid-row: 7 / span 7; }
-  /* line 87, css/sass/design.scss */
-  .grid-container div:nth-child(7) {
-    grid-column: 7 / span 6;
-    grid-row: 7 / span 12; }
-  /* line 91, css/sass/design.scss */
-  .grid-container div:nth-child(8) {
-    grid-column: 13 / span 12;
-    grid-row: 7 / span 4; }
-  /* line 96, css/sass/design.scss */
-  .grid-container div:nth-child(9) {
-    grid-column: 9 / span 16;
-    grid-row: 8 / span 4; }
-    /* line 100, css/sass/design.scss */
-    .grid-container div:nth-child(9) h1 {
-      color: #fffafa;
-      font-size: 14.4rem;
-      padding: 0 0 0 1.2rem;
-      margin: 0;
-      letter-spacing: -0.25rem;
-      font-weight: 900;
-      line-height: 1.44; }
-      /* line 108, css/sass/design.scss */
-      .grid-container div:nth-child(9) h1 span {
-        color: #e52227;
+/* Top Grid Front Page Min Width 1400px*/
+@media screen and (min-width: 1400px) {
+  /* line 35, css/sass/design.scss */
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 8.4rem;
+    max-width: 100vw;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    /* Start First Row*/
+    /* End First Row*/
+    /*Start Second Content Row*/ }
+    /* line 47, css/sass/design.scss */
+    .grid-container div:nth-child(1) {
+      grid-column: 2 / span 6;
+      grid-row: 2 / 6; }
+    /* line 53, css/sass/design.scss */
+    .grid-container div:nth-child(2) {
+      grid-column: 7 / span 6;
+      grid-row: 3 / span 4;
+      padding: 0 1rem 0 0; }
+    /* line 59, css/sass/design.scss */
+    .grid-container div:nth-child(3) {
+      grid-column: 13 / span 6;
+      grid-row: 3 / span 4; }
+    /* line 65, css/sass/design.scss */
+    .grid-container div:nth-child(4) {
+      grid-column: 19 / span 1;
+      grid-row: 6 / span 1;
+      margin: 1rem 0 1rem 1rem; }
+    /* line 71, css/sass/design.scss */
+    .grid-container div:nth-child(5) {
+      grid-column: 23 / span 2;
+      grid-row: 1 / span 4;
+      text-align: right; }
+      /* line 76, css/sass/design.scss */
+      .grid-container div:nth-child(5) p {
+        padding: 0; }
+    /* line 86, css/sass/design.scss */
+    .grid-container div:nth-child(6) {
+      grid-column: 1 / span 6;
+      grid-row: 7 / span 7; }
+    /* line 90, css/sass/design.scss */
+    .grid-container div:nth-child(7) {
+      grid-column: 7 / span 6;
+      grid-row: 7 / span 12; }
+    /* line 94, css/sass/design.scss */
+    .grid-container div:nth-child(8) {
+      grid-column: 13 / span 12;
+      grid-row: 7 / span 4; }
+    /* line 99, css/sass/design.scss */
+    .grid-container div:nth-child(9) {
+      grid-column: 9 / span 16;
+      grid-row: 8 / span 4; }
+      /* line 103, css/sass/design.scss */
+      .grid-container div:nth-child(9) h1 {
+        color: #fffafa;
         font-size: 14.4rem;
-        padding: 0 !important;
-        margin: 0 0 0 26.2rem;
-        letter-spacing: -.75rem; }
-  /* line 120, css/sass/design.scss */
-  .grid-container div:nth-child(10) {
-    grid-column: 13 / span 7;
-    grid-row: 12 / span 2;
-    padding-left: 1.2rem; }
+        padding: 0 0 0 1.2rem;
+        margin: 0;
+        letter-spacing: -0.25rem;
+        font-weight: 900;
+        line-height: 1.44; }
+        /* line 111, css/sass/design.scss */
+        .grid-container div:nth-child(9) h1 span {
+          color: #e52227;
+          font-size: 14.4rem;
+          padding: 0 !important;
+          margin: 0 0 0 26.2rem;
+          letter-spacing: -.75rem; }
+    /* line 123, css/sass/design.scss */
+    .grid-container div:nth-child(10) {
+      grid-column: 13 / span 7;
+      grid-row: 12 / span 2;
+      padding-left: 1.2rem; }
 
-/* line 128, css/sass/design.scss */
-.content {
-  font-size: 1.8rem; }
   /* line 131, css/sass/design.scss */
-  .content a.btn {
-    text-decoration: none;
-    color: #181b1c;
-    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
-    background-repeat: no-repeat;
-    background-position: 0 88%;
-    -webkit-transition: background-size 0.25s ease-in;
-    transition: background-size 0.25s ease-in;
-    background-size: 100% 0.2rem; }
-    /* line 142, css/sass/design.scss */
-    .content a.btn:hover {
-      background-position: 100% 88%;
-      color: #fffafa;
-      background-size: 100% 0.6rem; }
+  .content {
+    font-size: 1.8rem; }
+    /* line 134, css/sass/design.scss */
+    .content a.btn {
+      text-decoration: none;
+      color: #181b1c;
+      background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+      background-repeat: no-repeat;
+      background-position: 0 88%;
+      -webkit-transition: background-size 0.25s ease-in;
+      transition: background-size 0.25s ease-in;
+      background-size: 100% 0.2rem; }
+      /* line 145, css/sass/design.scss */
+      .content a.btn:hover {
+        background-position: 100% 88%;
+        color: #fffafa;
+        background-size: 100% 0.6rem; } }
