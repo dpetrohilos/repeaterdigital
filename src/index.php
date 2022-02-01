@@ -19,9 +19,11 @@
     
 </div>
     
+  
 <div>
-<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_2.jpg" alt="Graphic Poster"  width="400"/>   
-</div>
+<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_2.jpg" alt="Logo" width="400"  />   
+    
+</div>   
     
 <div>
 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_3.jpg" alt="Graphic Poster" width="400"/>   
