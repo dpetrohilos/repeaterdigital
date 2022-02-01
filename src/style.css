@@ -1837,7 +1837,7 @@ p, li, span {
   .grid-container div:nth-child(4) {
     grid-column: 19 / span 1;
     grid-row: 6 / span 1;
-    margin: 1rem; }
+    margin: 1rem 0 1rem 1rem; }
   /* line 67, css/sass/design.scss */
   .grid-container div:nth-child(5) {
     grid-column: 23 / span 2;
