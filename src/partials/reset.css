@@ -1,21 +1,21 @@
 /*
-Error: Undefined variable: "$font-size-base".
-        on line 29 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/partials/reset.scss
+Error: Undefined variable: "$font-family-base".
+        on line 28 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/partials/reset.scss
 
+23:    
 24:     
 25: }
 26: 
 27: body {
-28: font-family: 'Poppins', sans-serif;  
-29:     font-size: $font-size-base;
+28:   font-family: $font-family-base;
+29:   font-size: $font-size-base;
 30:   line-height: $line-height-base;
 31:   color: $text-color;
 32:   background-color: $body-bg;
 33:   box-sizing: border-box;
-34: 
 
 Backtrace:
-/Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/partials/reset.scss:29
+/Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/partials/reset.scss:28
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/script/tree/node.rb:58:in `perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:398:in `visit_prop'
@@ -68,4 +68,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$font-size-base\".\A         on line 29 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/partials/reset.scss\A \A 24:     \A 25: }\A 26: \A 27: body {\A 28: font-family: 'Poppins', sans-serif;  \A 29:     font-size: $font-size-base;\A 30:   line-height: $line-height-base;\A 31:   color: $text-color;\A 32:   background-color: $body-bg;\A 33:   box-sizing: border-box;\A 34: "; }
+  content: "Error: Undefined variable: \"$font-family-base\".\A         on line 28 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/partials/reset.scss\A \A 23:    \A 24:     \A 25: }\A 26: \A 27: body {\A 28:   font-family: $font-family-base;\A 29:   font-size: $font-size-base;\A 30:   line-height: $line-height-base;\A 31:   color: $text-color;\A 32:   background-color: $body-bg;\A 33:   box-sizing: border-box;"; }
