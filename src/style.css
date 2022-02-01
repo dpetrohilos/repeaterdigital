@@ -1898,4 +1898,5 @@ p, li, span {
     transition: background-size 0.25s ease-in; }
     /* line 140, css/sass/design.scss */
     .content a.btn:hover {
-      background-position: 100% 88%; }
+      background-position: 100% 88%;
+      color: #fffafa; }
