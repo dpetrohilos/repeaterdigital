@@ -81,15 +81,16 @@ p, li, span {
       font-size: 13.6rem !important;
       padding: 0 !important;
       margin: 0 !important;
-      letter-spacing: -0.5rem; }
-      /* line 109, css/sass/design.scss */
+      letter-spacing: -0.5rem;
+      font-weight: 900; }
+      /* line 111, css/sass/design.scss */
       .grid-container div:nth-child(9) h1 span {
         color: #e52227;
         font-size: 14rem !important;
         padding: 0 !important;
         margin: 0 0 0 23rem !important;
         letter-spacing: -0.5rem; }
-  /* line 122, css/sass/design.scss */
+  /* line 124, css/sass/design.scss */
   .grid-container div:nth-child(10) {
     grid-column: 15 / span 5;
     grid-row: 14 / span 2; }
