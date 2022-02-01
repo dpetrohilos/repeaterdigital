@@ -324,7 +324,10 @@ input[type="search"] {
 /* line 8, css/sass/partials/nav.scss */
 .nav {
   border-bottom: 1px solid #ccc; }
-  /* line 13, css/sass/partials/nav.scss */
+  /* line 12, css/sass/partials/nav.scss */
+  .nav ul {
+    padding-top: .2rem; }
+  /* line 17, css/sass/partials/nav.scss */
   .nav li {
     list-style: none; }
 

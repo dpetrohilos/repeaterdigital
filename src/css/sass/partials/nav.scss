@@ -8,7 +8,11 @@
 .nav {
     
     border-bottom: 1px solid #ccc;     
-
+    
+    ul {
+        
+        padding-top: .2rem; 
+    }
     
     li {
         list-style: none;
