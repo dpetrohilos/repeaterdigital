@@ -36,9 +36,8 @@
     <h1>We Change <span>Narratives</span></h1>
 </div>
 <div>
-    <p><strong>Repeater Digital</strong> is a full stack creative collaborative, democratically managed by grassroots activists in the DC metro area. We design effective messaging campaigns by asking the right questions of our clients, as well as target audiences. </p></div>    
-    <a class="btn" href="#" title="Contact Us">Lets Talk</a> <a href="#" Title="Our Work" Class="link">Case Study</a>
-</div>
+    <p><strong>Repeater Digital</strong> is a full stack creative collaborative, democratically managed by grassroots activists in the DC metro area. We design effective messaging campaigns by asking the right questions of our clients, as well as target audiences. </p>   
+    <a class="btn" href="#" title="Contact Us">Lets Talk</a> <a href="#" Title="Our Work" Class="link">Case Study</a></div> 
 <div>
 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Triangle.svg" alt="Logo" class="logo-red" width="40"  />   
             
