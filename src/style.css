@@ -1866,14 +1866,14 @@ p, li, span {
       margin: 0;
       letter-spacing: -0.5rem;
       font-weight: 900; }
-      /* line 107, css/sass/design.scss */
+      /* line 105, css/sass/design.scss */
       .grid-container div:nth-child(9) h1 span {
         color: #e52227;
         font-size: 14.4rem;
         padding: 0 !important;
         margin: 0 0 0 27.5rem;
         letter-spacing: -.75rem; }
-  /* line 119, css/sass/design.scss */
+  /* line 117, css/sass/design.scss */
   .grid-container div:nth-child(10) {
     grid-column: 13 / span 7;
     grid-row: 12 / span 2;
