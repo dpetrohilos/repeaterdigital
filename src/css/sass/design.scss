@@ -1,5 +1,6 @@
 $red: #e52227; 
 $white: #fffafa; 
+$secondary-red: #e52227;
 
 .wrapper-full {
     
@@ -126,6 +127,12 @@ div:nth-child(9) {
 
 .content {
     font-size: 1.8rem; 
+    
+    .btn {
+        
+        border-bottom: $secondary-red .8rem solid; 
+        
+    }
 }
 
 
