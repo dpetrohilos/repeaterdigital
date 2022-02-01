@@ -135,16 +135,16 @@ div:nth-child(9) {
 120deg
 , #84fab0 0%, #8fd3f4 100%);
     background-repeat: no-repeat;
-    background-size: 100% 0.2em;
     background-position: 0 88%;
-    -webkit-transition: background-size 0.25s ease-in;
-    transition: background-size 0.25s ease-in;    
+    transition: background-size 0.25s ease-in;   
+    background-size: 100% 0.2rem;}    
     
-&:hover { background-position: 100% 88%; color: $white; }
+&:hover { background-position: 100% 88%; color: $white; 
+    background-size: 100% 0.6rem;}
 
         }
     
-    }
+    
     
     
 
