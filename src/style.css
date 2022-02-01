@@ -22,23 +22,7 @@ Description: Repeater Digital Theme Based On HTML5 blank, FlexBox Grid
  * modules/mixins
  * ---
  */
-/**
- * modules/fonts
- * ---
- * Declare fonts here
- */
-/*
-@font-face {
-  font-family: "Font-Name";
-  src: url("fonts/font-name.eot");
-  src: url("fonts/font-name.eot?#iefix") format("embedded-opentype"),
-    url("fonts/font-name.woff") format("woff"),
-    url("fonts/font-name.ttf") format("truetype"),
-    url("fonts/font-name.svg#font-name") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,700;0,900;1,200;1,700;1,900&display=swap");
 /**
  * partials/reset
  * ---
@@ -61,11 +45,11 @@ html {
 
 /* line 27, css/sass/partials/reset.scss */
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 140%;
   line-height: 1.5;
   color: #444;
-  background-color: #fff;
+  background-color: #fffafa;
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
 
@@ -90,12 +74,12 @@ input[type="search"] {
 
 /* line 63, css/sass/partials/reset.scss */
 ::-moz-selection {
-  background-color: #04A4CC;
-  color: #fff;
+  background-color: #e52227;
+  color: #fffafa;
   text-shadow: none; }
 ::selection {
-  background-color: #04A4CC;
-  color: #fff;
+  background-color: #e52227;
+  color: #fffafa;
   text-shadow: none; }
 
 /**
@@ -108,32 +92,32 @@ input[type="search"] {
  */
 /* line 16, css/sass/partials/wordpress.scss */
 .alignnone {
-  margin: 5px 15px 15px 0; }
+  margin: 0.4rem 0.4rem 0.4rem 0; }
 
 /* line 20, css/sass/partials/wordpress.scss */
 .aligncenter {
   display: block;
-  margin: 5px auto; }
+  margin: 0.4rem auto; }
 
 /* line 25, css/sass/partials/wordpress.scss */
 .alignright {
   float: right;
-  margin: 5px 0 15px 15px; }
+  margin: 0.4rem 0 0.4rem 0.4rem; }
 
 /* line 30, css/sass/partials/wordpress.scss */
 .alignleft {
   float: left;
-  margin: 5px 15px 15px 0; }
+  margin: 0.4rem 0.4rem 0.4rem 0; }
 
 /**
  * Gallery & images
  */
 /* line 40, css/sass/partials/wordpress.scss */
 .wp-caption {
-  background: #fff;
+  background: #fffafa;
   border: thin solid #F0F0F0;
   max-width: 95%;
-  padding: 5px 5px;
+  padding: 0.4rem 0.4rem;
   text-align: center; }
   /* line 47, css/sass/partials/wordpress.scss */
   .wp-caption img {
@@ -148,7 +132,7 @@ input[type="search"] {
 .wp-caption .wp-caption-text,
 .gallery-caption {
   margin: 0;
-  padding: 0 5px 5px;
+  padding: 0 0.4rem 0.4rem;
   font-size: 140%;
   line-height: 1.5; }
 
@@ -176,8 +160,8 @@ input[type="search"] {
  */
 /* line 7, css/sass/partials/wrapper.scss */
 .wrapper {
-  max-width: 1280px;
-  padding: 0 15px;
+  max-width: 128rem;
+  padding: 0 0.4rem;
   margin: 0 auto;
   position: relative; }
 

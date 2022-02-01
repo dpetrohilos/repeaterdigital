@@ -8,7 +8,7 @@
  * Typography
  */
 
-$font-family-base: "Helvetica Neue", Helvetica, Arial, "Open Sans", sans-serif;
+$font-family-base: 'Poppins', sans-serif;
 $font-size-base: 140%;
 $line-height-base: 1.5;
 
@@ -18,20 +18,20 @@ $line-height-base: 1.5;
  */
 
 $text-color: #444;
-$body-bg: #fff;
-$selection-bg: #04A4CC;
+$body-bg: #fffafa;
+$selection-bg: #e52227;
 
 
 /**
  * Grid
  */
 
-$wrapper-width: 1280px;
+$wrapper-width: 128rem;
 
 
-$padding-horizontal-base: 5px;
-$padding-vertical-base: 5px;
-$margin-horizontal-base: 5px;
-$margin-vertical-base: 5px;
-$margin-horizontal-large: 15px;
-$margin-vertical-large: 15px;
+$padding-horizontal-base: .4rem;
+$padding-vertical-base: .4rem;
+$margin-horizontal-base: .4rem;
+$margin-vertical-base: .4rem;
+$margin-horizontal-large: .4rem;
+$margin-vertical-large: .4rem;
