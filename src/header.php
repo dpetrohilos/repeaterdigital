@@ -3,8 +3,11 @@
 	<head>
 		<meta charset="<?php bloginfo( 'charset' ); ?>">
 		<title><?php wp_title( '' ); ?><?php if ( wp_title( '', false ) ) { echo ' : '; } ?><?php bloginfo( 'name' ); ?></title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,700;0,900;1,200;1,700;1,900&display=swap');
+        </style>
 
-		<link href="//www.google-analytics.com" rel="dns-prefetch">
+        <link href="//www.google-analytics.com" rel="dns-prefetch">
 		<link href="<?php echo esc_url( get_template_directory_uri() ); ?>/img/icons/favicon.ico" rel="shortcut icon">
 		<link href="<?php echo esc_url( get_template_directory_uri() ); ?>/img/icons/touch.png" rel="apple-touch-icon-precomposed">
 		<link rel="alternate" type="application/rss+xml" title="<?php bloginfo( 'name' ); ?>" href="<?php bloginfo( 'rss2_url' ); ?>" />
