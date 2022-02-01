@@ -99,8 +99,9 @@ div:nth-child(9) {
     font-size: 14.4rem;
     padding: 0 0 0 1.2rem;
     margin:  0;
-    letter-spacing: -0.5rem;
+    letter-spacing: -0.25rem;
     font-weight: 900;
+    line-height: 1.44; 
     
     span {
     color: $red; 
