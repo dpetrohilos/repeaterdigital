@@ -129,17 +129,18 @@ div:nth-child(9) {
     font-size: 1.8rem; 
     
     a.btn {
-        text-decoration: none !important; 
-        background-image: linear-gradient(120deg, $secondary-red 0%, $red 100%);
+    text-decoration: none;
+    color: #181b1c;
+    background-image: linear-gradient(
+120deg
+, #84fab0 0%, #8fd3f4 100%);
     background-repeat: no-repeat;
     background-size: 100% 0.2em;
     background-position: 0 88%;
-    transition: background-size 0.25s ease-in;
+    -webkit-transition: background-size 0.25s ease-in;
+    transition: background-size 0.25s ease-in;    
     
-        
-        &:hover {
-            background-position: 100% 88%;
-            color: $white; 
+    &:hover { background-position: 100% 88%; color: $white; 
             
         }
     }
