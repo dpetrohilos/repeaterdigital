@@ -1,10 +1,10 @@
 <?php get_header(); ?>
 <div class="grid-container cover front">
-<div>
+<div class="animate__backInDown">
 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/circle.svg" alt="Graphic Poster" class="multiply" width="600"/>   
 </div>
 <div>
-<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_1.jpg" alt="Graphic Poster" class="multiply" width="600"/>   
+<img class="animate__backInDown" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_1.jpg" alt="Graphic Poster" class="multiply" width="600"/>   
 </div>      
 <div>
 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Logo_Red.svg" alt="Logo" class="logo-red" width="600"  />         

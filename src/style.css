@@ -23,6 +23,7 @@ Description: Repeater Digital Theme Based On HTML5 blank, FlexBox Grid
  * ---
  */
 /* devanagari */
+@import url(css/animate/animate.min.css);
 @font-face {
   font-family: 'Poppins';
   font-style: italic;
