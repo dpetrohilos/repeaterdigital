@@ -140,10 +140,13 @@ div:nth-child(9) {
     -webkit-transition: background-size 0.25s ease-in;
     transition: background-size 0.25s ease-in;    
     
-    &:hover { background-position: 100% 88%; color: $white; 
-            
+&:hover { background-position: 100% 88%; color: $white; }
+
         }
+    
     }
-}
+    
+    
+
 
 
