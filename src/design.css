@@ -98,5 +98,14 @@ p, li, span {
 .content {
   font-size: 1.8rem; }
   /* line 131, css/sass/design.scss */
-  .content .btn {
-    border-bottom: #e52227 0.8rem solid; }
+  .content a.btn {
+    text-decoration: none !important;
+    background-image: linear-gradient(120deg, #e52227 0%, #e52227 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: 0 88%;
+    -webkit-transition: background-size 0.25s ease-in;
+    transition: background-size 0.25s ease-in; }
+    /* line 140, css/sass/design.scss */
+    .content a.btn:hover {
+      background-position: 100% 88%; }
