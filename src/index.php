@@ -55,5 +55,5 @@
 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Image_8.jpg" alt="Graphic Poster"  width="800"/>   
 </div>
 
-	
+</div>
 <?php get_footer(); ?>
