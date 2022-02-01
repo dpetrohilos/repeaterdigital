@@ -1,13 +1,13 @@
 <?php get_header(); ?>
 <div class="grid-container cover front">
-<div class="animate__backInDown">
+<div class="animate__animated animate__zoomInDown">
 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/circle.svg" alt="Graphic Poster" class="multiply" width="600"/>   
 </div>
 <div>
-<img class="animate__backInDown" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_1.jpg" alt="Graphic Poster" class="multiply" width="600"/>   
+<img class="animate__animated animate__zoomInDown" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_1.jpg" alt="Graphic Poster" class="multiply" width="600"/>   
 </div>      
-<div>
-<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Logo_Red.svg" alt="Logo" class="logo-red" width="600"  />         
+<div><p class="animate__animated animate__zoomInDown">
+    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Logo_Red.svg" alt="Logo" class="logo-red" width="600"  />   </p>      
 </div>
     
 <div>
