@@ -118,17 +118,50 @@ grid-column: 7 / span 6;
 
 // END second row 
     
- div:nth-child(11) {}     
- div:nth-child(12) {}    
- div:nth-child(13) {}    
- div:nth-child(14) {}    
- div:nth-child(15) {}    
- div:nth-child(16) {}    
- div:nth-child(17) {}
- div:nth-child(18) {}    
- div:nth-child(19) {}    
- div:nth-child(20) {}    
- div:nth-child(21) {}    
+ div:nth-child(11) {    grid-column: 13 / span 6;
+    grid-row: 11 / span 2;
+    padding-left: 1.2rem;
+}     
+ div:nth-child(12) {    grid-column: 13 / span 6;
+    grid-row: 11 / span 2;
+    padding-left: 1.2rem;
+}    
+ div:nth-child(13) {    grid-column: 13 / span 6;
+    grid-row: 11 / span 2;
+    padding-left: 1.2rem;
+}    
+ div:nth-child(14) {    grid-column: 13 / span 6;
+    grid-row: 11 / span 2;
+    padding-left: 1.2rem;
+}    
+ div:nth-child(15) {    grid-column: 13 / span 6;
+    grid-row: 11 / span 2;
+    padding-left: 1.2rem;
+}    
+ div:nth-child(16) {    grid-column: 13 / span 6;
+    grid-row: 11 / span 2;
+    padding-left: 1.2rem;
+}    
+ div:nth-child(17) {    grid-column: 13 / span 6;
+    grid-row: 11 / span 2;
+    padding-left: 1.2rem;
+}
+ div:nth-child(18) {    grid-column: 13 / span 6;
+    grid-row: 11 / span 2;
+    padding-left: 1.2rem;
+}    
+ div:nth-child(19) {    grid-column: 13 / span 6;
+    grid-row: 11 / span 2;
+    padding-left: 1.2rem;
+}    
+ div:nth-child(20) {    grid-column: 13 / span 6;
+    grid-row: 11 / span 2;
+    padding-left: 1.2rem;
+}    
+ div:nth-child(21) {    grid-column: 13 / span 6;
+    grid-row: 11 / span 2;
+    padding-left: 1.2rem;
+}    
 
 
 

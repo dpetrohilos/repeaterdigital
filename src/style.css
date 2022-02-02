@@ -1881,11 +1881,77 @@ p, li, span {
     .grid-container div:nth-child(10) {
       grid-column: 13 / span 6;
       grid-row: 11 / span 2;
-      padding-left: 1.2rem; } }
-/* line 159, css/sass/design.scss */
+      padding-left: 1.2rem; }
+
+  /* line 121, css/sass/design.scss */
+  div:nth-child(11) {
+    grid-column: 13 / span 6;
+    grid-row: 11 / span 2;
+    padding-left: 1.2rem; }
+
+  /* line 125, css/sass/design.scss */
+  div:nth-child(12) {
+    grid-column: 13 / span 6;
+    grid-row: 11 / span 2;
+    padding-left: 1.2rem; }
+
+  /* line 129, css/sass/design.scss */
+  div:nth-child(13) {
+    grid-column: 13 / span 6;
+    grid-row: 11 / span 2;
+    padding-left: 1.2rem; }
+
+  /* line 133, css/sass/design.scss */
+  div:nth-child(14) {
+    grid-column: 13 / span 6;
+    grid-row: 11 / span 2;
+    padding-left: 1.2rem; }
+
+  /* line 137, css/sass/design.scss */
+  div:nth-child(15) {
+    grid-column: 13 / span 6;
+    grid-row: 11 / span 2;
+    padding-left: 1.2rem; }
+
+  /* line 141, css/sass/design.scss */
+  div:nth-child(16) {
+    grid-column: 13 / span 6;
+    grid-row: 11 / span 2;
+    padding-left: 1.2rem; }
+
+  /* line 145, css/sass/design.scss */
+  div:nth-child(17) {
+    grid-column: 13 / span 6;
+    grid-row: 11 / span 2;
+    padding-left: 1.2rem; }
+
+  /* line 149, css/sass/design.scss */
+  div:nth-child(18) {
+    grid-column: 13 / span 6;
+    grid-row: 11 / span 2;
+    padding-left: 1.2rem; }
+
+  /* line 153, css/sass/design.scss */
+  div:nth-child(19) {
+    grid-column: 13 / span 6;
+    grid-row: 11 / span 2;
+    padding-left: 1.2rem; }
+
+  /* line 157, css/sass/design.scss */
+  div:nth-child(20) {
+    grid-column: 13 / span 6;
+    grid-row: 11 / span 2;
+    padding-left: 1.2rem; }
+
+  /* line 161, css/sass/design.scss */
+  div:nth-child(21) {
+    grid-column: 13 / span 6;
+    grid-row: 11 / span 2;
+    padding-left: 1.2rem; } }
+/* line 192, css/sass/design.scss */
 .content {
   font-size: 1.8rem; }
-  /* line 162, css/sass/design.scss */
+  /* line 195, css/sass/design.scss */
   .content a.btn {
     text-decoration: none;
     color: #181b1c;
@@ -1895,7 +1961,7 @@ p, li, span {
     -webkit-transition: background-size 0.25s ease-in;
     transition: background-size 0.25s ease-in;
     background-size: 100% 0.2rem; }
-    /* line 173, css/sass/design.scss */
+    /* line 206, css/sass/design.scss */
     .content a.btn:hover {
       background-position: 100% 88%;
       color: #fffafa;
