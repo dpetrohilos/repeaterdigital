@@ -17,9 +17,13 @@ p, li, span {
 .multiply {
   mix-blend-mode: multiply; }
 
+/* line 29, css/sass/design.scss */
+.gap {
+  grid-gap: 1.2rem; }
+
 /* Top Grid Front Page Min Width 1400px*/
 @media screen and (min-width: 1400px) {
-  /* line 35, css/sass/design.scss */
+  /* line 39, css/sass/design.scss */
   .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -31,49 +35,43 @@ p, li, span {
     /* Start First Row*/
     /* End First Row*/
     /*Start Second Content Row*/ }
-    /* line 46, css/sass/design.scss */
+    /* line 50, css/sass/design.scss */
     .grid-container div:nth-child(1) {
       grid-column: 2 / span 6;
       grid-row: 2 / 6; }
-    /* line 51, css/sass/design.scss */
+    /* line 55, css/sass/design.scss */
     .grid-container div:nth-child(2) {
       grid-column: 7 / span 6;
-      grid-row: 3 / span 4;
-      padding: 0 1rem 0 0; }
-    /* line 56, css/sass/design.scss */
+      grid-row: 3 / span 4; }
+    /* line 59, css/sass/design.scss */
     .grid-container div:nth-child(3) {
       grid-column: 13 / span 6;
       grid-row: 3 / span 4; }
-    /* line 61, css/sass/design.scss */
+    /* line 64, css/sass/design.scss */
     .grid-container div:nth-child(4) {
       grid-column: 19 / span 1;
-      grid-row: 6 / span 1;
-      margin: 1rem 0 1rem 1rem; }
-    /* line 66, css/sass/design.scss */
+      grid-row: 6 / span 1; }
+    /* line 68, css/sass/design.scss */
     .grid-container div:nth-child(5) {
       grid-column: 23 / span 2;
-      grid-row: 1 / span 4;
-      text-align: right; }
-      /* line 71, css/sass/design.scss */
-      .grid-container div:nth-child(5) p {
-        padding: 0; }
-    /* line 79, css/sass/design.scss */
+      grid-row: 1 / span 4; }
+    /* line 77, css/sass/design.scss */
     .grid-container div:nth-child(6) {
       grid-column: 1 / span 6;
       grid-row: 7 / span 7; }
-    /* line 83, css/sass/design.scss */
+    /* line 80, css/sass/design.scss */
     .grid-container div:nth-child(7) {
       grid-column: 7 / span 6;
       grid-row: 7 / span 12; }
-    /* line 87, css/sass/design.scss */
+    /* line 83, css/sass/design.scss */
     .grid-container div:nth-child(8) {
       grid-column: 13 / span 12;
       grid-row: 7 / span 4; }
-    /* line 92, css/sass/design.scss */
+    /* line 87, css/sass/design.scss */
     .grid-container div:nth-child(9) {
       grid-column: 9 / span 16;
       grid-row: 7 / span 4; }
-      /* line 96, css/sass/design.scss */
+      /* line 91, css/sass/design.scss */
       .grid-container div:nth-child(9) h1 {
         color: #fffafa;
         font-size: 14.4rem;
@@ -82,115 +80,103 @@ p, li, span {
         letter-spacing: -0.25rem;
         font-weight: 900;
         line-height: 1.44; }
-        /* line 104, css/sass/design.scss */
+        /* line 99, css/sass/design.scss */
         .grid-container div:nth-child(9) h1 span {
           font-size: 14.4rem;
           letter-spacing: -.25rem; }
-    /* line 113, css/sass/design.scss */
+    /* line 108, css/sass/design.scss */
     .grid-container div:nth-child(10) {
       grid-column: 13 / span 6;
-      grid-row: 11 / span 2;
-      padding-left: 1.2rem; }
+      grid-row: 11 / span 2; }
 
-  /* line 121, css/sass/design.scss */
+  /* line 112, css/sass/design.scss */
   div:nth-child(11) {
-    grid-column: 13 / span 6;
-    grid-row: 11 / span 2;
-    padding-left: 1.2rem; }
+    grid-column: 13 / span 1;
+    grid-row: 17 / span 1;
+    margin: 1rem; }
 
-  /* line 125, css/sass/design.scss */
+  /* line 117, css/sass/design.scss */
   div:nth-child(12) {
     grid-column: 13 / span 6;
-    grid-row: 11 / span 2;
-    padding-left: 1.2rem; }
+    grid-column: 12 / span 6;
+    grid-row: 18 / span 2;
+    z-index: -2; }
 
-  /* line 129, css/sass/design.scss */
+  /* line 121, css/sass/design.scss */
   div:nth-child(13) {
     grid-column: 13 / span 6;
-    grid-row: 11 / span 2;
-    padding-left: 1.2rem; }
+    grid-column: 4 / span 6;
+    grid-row: 12 / span 6; }
 
-  /* line 133, css/sass/design.scss */
+  /* line 125, css/sass/design.scss */
   div:nth-child(14) {
     grid-column: 13 / span 6;
-    grid-row: 11 / span 2;
-    padding-left: 1.2rem; }
+    grid-column: 13 / span 6;
+    grid-row: 18 / span 2; }
 
-  /* line 137, css/sass/design.scss */
+  /* line 129, css/sass/design.scss */
   div:nth-child(15) {
     grid-column: 13 / span 6;
-    grid-row: 11 / span 2;
-    padding-left: 1.2rem; }
+    grid-row: 11 / span 2; }
 
-  /* line 141, css/sass/design.scss */
+  /* line 132, css/sass/design.scss */
   div:nth-child(16) {
     grid-column: 13 / span 6;
-    grid-row: 11 / span 2;
-    padding-left: 1.2rem; }
+    grid-row: 11 / span 2; }
 
-  /* line 145, css/sass/design.scss */
+  /* line 135, css/sass/design.scss */
   div:nth-child(17) {
     grid-column: 13 / span 6;
-    grid-row: 11 / span 2;
-    padding-left: 1.2rem; }
+    grid-row: 11 / span 2; }
 
-  /* line 149, css/sass/design.scss */
+  /* line 138, css/sass/design.scss */
   div:nth-child(18) {
     grid-column: 13 / span 6;
-    grid-row: 11 / span 2;
-    padding-left: 1.2rem; }
+    grid-row: 11 / span 2; }
 
-  /* line 153, css/sass/design.scss */
+  /* line 141, css/sass/design.scss */
   div:nth-child(19) {
     grid-column: 13 / span 6;
-    grid-row: 11 / span 2;
-    padding-left: 1.2rem; }
+    grid-row: 11 / span 2; }
 
-  /* line 157, css/sass/design.scss */
+  /* line 144, css/sass/design.scss */
   div:nth-child(20) {
     grid-column: 13 / span 6;
-    grid-row: 11 / span 2;
-    padding-left: 1.2rem; }
+    grid-row: 11 / span 2; }
 
-  /* line 161, css/sass/design.scss */
+  /* line 147, css/sass/design.scss */
   div:nth-child(21) {
     grid-column: 13 / span 6;
-    grid-row: 11 / span 2;
-    padding-left: 1.2rem; }
+    grid-row: 11 / span 2; }
 
-  /* line 165, css/sass/design.scss */
+  /* line 150, css/sass/design.scss */
   div:nth-child(22) {
     grid-column: 13 / span 6;
-    grid-row: 11 / span 2;
-    padding-left: 1.2rem; }
+    grid-row: 11 / span 2; }
 
-  /* line 169, css/sass/design.scss */
+  /* line 153, css/sass/design.scss */
   div:nth-child(23) {
     grid-column: 13 / span 6;
-    grid-row: 11 / span 2;
-    padding-left: 1.2rem; }
+    grid-row: 11 / span 2; }
 
-  /* line 173, css/sass/design.scss */
+  /* line 156, css/sass/design.scss */
   div:nth-child(24) {
     grid-column: 13 / span 6;
-    grid-row: 11 / span 2;
-    padding-left: 1.2rem; }
+    grid-row: 11 / span 2; }
 
-  /* line 178, css/sass/design.scss */
+  /* line 159, css/sass/design.scss */
   div:nth-child(25) {
     grid-column: 13 / span 6;
-    grid-row: 11 / span 2;
-    padding-left: 1.2rem; }
+    grid-row: 11 / span 2; }
 
-  /* line 183, css/sass/design.scss */
+  /* line 162, css/sass/design.scss */
   div:nth-child(26) {
     grid-column: 13 / span 6;
-    grid-row: 11 / span 2;
-    padding-left: 1.2rem; } }
-/* line 214, css/sass/design.scss */
+    grid-row: 11 / span 2; } }
+/* line 192, css/sass/design.scss */
 .content {
   font-size: 1.8rem; }
-  /* line 217, css/sass/design.scss */
+  /* line 195, css/sass/design.scss */
   .content a.btn {
     text-decoration: none;
     color: #181b1c;
@@ -200,7 +186,7 @@ p, li, span {
     -webkit-transition: background-size 0.25s ease-in;
     transition: background-size 0.25s ease-in;
     background-size: 100% 0.2rem; }
-    /* line 228, css/sass/design.scss */
+    /* line 206, css/sass/design.scss */
     .content a.btn:hover {
       background-position: 100% 88%;
       color: #fffafa;
