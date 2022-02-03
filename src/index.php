@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<div class="grid-container cover front gap">
+<div class="grid-container">
 <div class="animate__animated animate__zoomInDown multiply">
 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/circle.svg" alt="Graphic Poster" class="multiply" width="600"/>   
 </div>
