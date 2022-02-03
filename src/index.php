@@ -37,13 +37,11 @@
             
 </div>   
 <div>
-<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Image_5.svg" alt="Graphic Poster"  width="800"/>   
 </div>
 <div>
-<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Image_6.svg" alt="Graphic Poster"  width="800"/>   
 </div>
 <div>
-<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Image_7.jpg" alt="Graphic Poster"  width="800"/>   
+<img class="multiply" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Image_7.jpg" alt="Graphic Poster"  width="800"/>   
 </div>
 <div>
 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Image_8.jpg" alt="Graphic Poster"  width="800"/>   
