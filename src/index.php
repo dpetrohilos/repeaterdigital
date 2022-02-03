@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<div class="grid-container first">
+<div class="grid-container">
 <div class="animate__animated animate__zoomInDown multiply">
 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/circle.svg" alt="Graphic Poster" class="multiply" width="600"/>   
 </div>
@@ -16,10 +16,10 @@
 <div>
 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/RD_Art_Element.svg" alt="Logo" class="logo-red" width="160"  />   
     
-</div> 
 </div>
-
-<div class="grid-container second">
+   
+    <!----! this area doesn't cause problems!---> 
+    
 <div>
 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_2.jpg" alt="Logo" width="600"  />      
 </div>       
@@ -41,10 +41,6 @@
 </div>   
 <div>
 </div>
-    
-</div>
-
-<div class="third">
 <div>
 </div>
 <div>
