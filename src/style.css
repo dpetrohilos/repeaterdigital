@@ -1823,9 +1823,7 @@ p, li, span {
     width: 100%;
     margin: 0 auto;
     padding: 0;
-    /* Start First Row*/
-    /* End First Row*/
-    /*Start Second Content Row*/ }
+    /* Start First Row*/ }
     /* line 43, css/sass/design.scss */
     .grid-container img {
       border-radius: 1rem; }
@@ -1849,121 +1847,11 @@ p, li, span {
         /* line 70, css/sass/design.scss */
         .grid-container div:nth-child(2) h1 span {
           font-size: 14.4rem;
-          letter-spacing: -.25rem; }
-    /* line 79, css/sass/design.scss */
-    .grid-container div:nth-child(3) {
-      grid-column: 19 / span 1;
-      grid-row: 6 / span 1; }
-    /* line 83, css/sass/design.scss */
-    .grid-container div:nth-child(4) {
-      grid-column: 23 / span 1;
-      grid-row: 1 / span 4; }
-    /* line 92, css/sass/design.scss */
-    .grid-container div:nth-child(5) {
-      grid-column: 1 / span 6;
-      grid-row: 7 / span 7; }
-    /* line 95, css/sass/design.scss */
-    .grid-container div:nth-child(6) {
-      grid-column: 7 / span 12;
-      grid-row: 7 / span 12; }
-    /* line 98, css/sass/design.scss */
-    .grid-container div:nth-child(7) {
-      grid-column: 13 / span 11;
-      grid-row: 7 / span 4; }
-    /* line 102, css/sass/design.scss */
-    .grid-container div:nth-child(8) {
-      grid-column: 9 / span 16;
-      grid-row: 7 / span 4; }
-    /* line 108, css/sass/design.scss */
-    .grid-container div:nth-child(9) {
-      grid-column: 13 / span 6;
-      grid-row: 11 / span 2; }
-
-  /* line 112, css/sass/design.scss */
-  div:nth-child(10) {
-    grid-column: 13 / span 1;
-    grid-row: 17 / span 1;
-    margin: 1rem; }
-
-  /* line 117, css/sass/design.scss */
-  div:nth-child(12) {
-    grid-column: 12 / span 6;
-    grid-row: 18 / span 2; }
-
-  /* line 120, css/sass/design.scss */
-  div:nth-child(13) {
-    grid-column: 6 / span 6;
-    grid-row: 11 / span 6;
-    z-index: -1; }
-
-  /* line 126, css/sass/design.scss */
-  div:nth-child(14) {
-    grid-column: 13 / span 6;
-    grid-row: 18 / span 2; }
-
-  /* line 130, css/sass/design.scss */
-  div:nth-child(15) {
-    grid-column: 13 / span 6;
-    grid-row: 20 / span 2; }
-
-  /* line 134, css/sass/design.scss */
-  div:nth-child(16) {
-    grid-column: 13 / span 6;
-    grid-row: 25 / span 2; }
-
-  /* line 138, css/sass/design.scss */
-  div:nth-child(17) {
-    grid-column: 13 / span 6;
-    grid-row: 30 / span 2; }
-
-  /* line 142, css/sass/design.scss */
-  div:nth-child(18) {
-    grid-column: 13 / span 6;
-    grid-row: 35 / span 2; }
-
-  /* line 145, css/sass/design.scss */
-  div:nth-child(19) {
-    grid-column: 13 / span 6;
-    grid-row: 40 / span 2; }
-
-  /* line 148, css/sass/design.scss */
-  div:nth-child(20) {
-    grid-column: 13 / span 6;
-    grid-row: 45 / span 2; }
-
-  /* line 151, css/sass/design.scss */
-  div:nth-child(21) {
-    grid-column: 13 / span 6;
-    grid-row: 50 / span 2; }
-
-  /* line 154, css/sass/design.scss */
-  div:nth-child(22) {
-    grid-column: 13 / span 6;
-    grid-row: 55 / span 2; }
-
-  /* line 157, css/sass/design.scss */
-  div:nth-child(23) {
-    grid-column: 13 / span 6;
-    grid-row: 60 / span 2; }
-
-  /* line 160, css/sass/design.scss */
-  div:nth-child(24) {
-    grid-column: 13 / span 6;
-    grid-row: 65 / span 2; }
-
-  /* line 163, css/sass/design.scss */
-  div:nth-child(25) {
-    grid-column: 13 / span 6;
-    grid-row: 70 / span 2; }
-
-  /* line 166, css/sass/design.scss */
-  div:nth-child(26) {
-    grid-column: 13 / span 6;
-    grid-row: 75 / span 2; } }
-/* line 195, css/sass/design.scss */
+          letter-spacing: -.25rem; } }
+/* line 90, css/sass/design.scss */
 .content {
   font-size: 1.8rem; }
-  /* line 198, css/sass/design.scss */
+  /* line 93, css/sass/design.scss */
   .content a.btn {
     text-decoration: none;
     color: #181b1c;
@@ -1973,7 +1861,7 @@ p, li, span {
     -webkit-transition: background-size 0.25s ease-in;
     transition: background-size 0.25s ease-in;
     background-size: 100% 0.2rem; }
-    /* line 209, css/sass/design.scss */
+    /* line 104, css/sass/design.scss */
     .content a.btn:hover {
       background-position: 100% 88%;
       color: #fffafa;
