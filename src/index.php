@@ -2,13 +2,13 @@
 <div class="grid-container">
 <div></div>
 <div>
-<img class="animate__animated animate__zoomInDown" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_1.jpg" alt="Graphic Poster" class="multiply" width="600"/>   
+<img class="animate__animated animate__zoomInDown" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_1.jpg" alt="" class="multiply" width="600"/>   
 </div>
 <div>
     <h1>We Change <span>Narratives</span></h1>
 </div>
 <div class="content">
-    <p><strong>Repeater Digital</strong> is a full stack creative collaborative, democratically managed by grassroots activists in the DC metro area. We design effective messaging campaigns by asking the right questions of our clients, as well as target audiences. </p>   
+    <p><strong>Repeater.Digital</strong> is a full stack creative collaborative, democratically managed by grassroots activists in the DC metro area. We design effective messaging campaigns by asking the right questions of our clients, as well as target audiences. </p>   
     <a class="btn" href="#" title="Contact Us">Lets Talk</a> <a href="#" Title="Our Work" Class="link">Case Study</a></div>     
    
 <div>
