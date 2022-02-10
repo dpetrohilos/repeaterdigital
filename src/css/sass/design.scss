@@ -51,16 +51,12 @@ p, li, span {
     padding: 0; 
 
     /* Start First Row*/
+   
     div:nth-child(1) {
-    grid-column: 2 / span 6;
-    grid-row: 2 / 6;
-        
-    }
-    div:nth-child(2) {
     grid-column: 7 / span 6;        
     grid-row: 3 / span 4;
     }
-    div:nth-child(3) {
+    div:nth-child(2) {
     grid-column: 13 / span 6;    
     grid-row: 3 / span 4;
        h1 {color: $red;
@@ -80,11 +76,11 @@ p, li, span {
     }  
     
     }
-    div:nth-child(4) {
+    div:nth-child(3) {
     grid-column: 19 / span 1;
     grid-row: 6 / span 1;
     }
-    div:nth-child(5) {
+    div:nth-child(4) {
     grid-column: 23 / span 1;    
     grid-row: 1 / span 4;
         
@@ -93,27 +89,27 @@ p, li, span {
 /* End First Row*/
 /*Start Second Content Row*/
     
- div:nth-child(6) {
+ div:nth-child(5) {
     grid-column: 1 / span 6;
     grid-row: 7 / span 7;    }        
- div:nth-child(7) {
+ div:nth-child(6) {
 grid-column: 7 / span 12;
     grid-row: 7 / span 12;    }    
- div:nth-child(8) {
+ div:nth-child(7) {
     grid-column: 13 / span 11;
     grid-row: 7 / span 4;    
     }   
- div:nth-child(9) {
+ div:nth-child(8) {
     grid-column: 9 / span 16;
     grid-row: 7 / span 4;
     
  
     }
- div:nth-child(10) {
+ div:nth-child(9) {
     grid-column: 13 / span 6;
     grid-row: 11 / span 2;
 }    }          
- div:nth-child(11) {    
+ div:nth-child(10) {    
     grid-column: 13 / span 1;
     grid-row: 17 / span 1;
     margin: 1rem;
