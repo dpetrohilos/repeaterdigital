@@ -1,8 +1,6 @@
 <?php get_header(); ?>
 <div class="grid-container">
-<div class="animate__animated animate__zoomInDown multiply">
-<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/circle.svg" alt="Graphic Poster" class="multiply" width="600"/>   
-</div>
+<div></div>
 <div>
 <img class="animate__animated animate__zoomInDown" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_1.jpg" alt="Graphic Poster" class="multiply" width="600"/>   
 </div>
