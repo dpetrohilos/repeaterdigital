@@ -1881,7 +1881,7 @@ p, li, span {
       grid-row: 23 / span 9; }
     /* line 112, css/sass/design.scss */
     .grid-container div:nth-child(10) {
-      grid-column: 7 / span 6;
+      grid-column: 4 / span 6;
       grid-row: 24 / span 4; }
     /* line 116, css/sass/design.scss */
     .grid-container div:nth-child(11) {
