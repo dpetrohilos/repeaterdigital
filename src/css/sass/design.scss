@@ -1,6 +1,11 @@
 $red: #e52227; 
 $white: #fffafa; 
 $secondary-red: #e52227;
+$xs-max: 40rem !default; // Set xs breakpoint's max width
+$sm-max: 64rem !default; // Set sm breakpoint's max width
+$md-max: 90rem !default; // Set md breakpoint's max width
+$lg-max: 120rem !default; // Set lg breakpoint's max width
+
 
 .wrapper-full {
     
@@ -25,16 +30,10 @@ p, li, span {
     mix-blend-mode: multiply;
 
 }
+/* Top Grid Front Page Min Width 1200px*/
 
-.gap {
-    
-    grid-gap: 1.2rem; 
-}
-
-/* Top Grid Front Page Min Width 1400px*/
-
-
-@media screen and (min-width:1400px){
+// front page 
+@media screen and (min-width:$lg-max){
 
     // note change SVG to path // 
     
@@ -188,21 +187,33 @@ div:nth-child(15) {
     }  
 
     }
-
-} // END Grid 
-} // END QUEERIE  
-
-
-
-
-// Grid Layout Media QUEERies 
     
-// @media screen and (min-width:1240px){}      
-// @media screen and (min-width:960px){}      
-// @media screen and (min-width:720px){}      
-// @media screen and (min-width:640px){}      
-// @media screen and (min-width:320px){}
-// @media screen and (min-width:200px){}      
+// end thrid row content 
+    
+    div:nth-child(16) {
+        grid-row: 58 / span 1; 
+        grid-column: 8 / span 7; 
+        
+    }    
+    
+   div:nth-child(17) {
+       grid-row: 59 / span 6; 
+       grid-column: 1 / span 24; 
+        
+    } 
+
+       div:nth-child(18) {
+        grid-row: 65 / span 6; 
+       grid-column: 1 / span 24; 
+
+    } 
+
+    
+// end fourth row 
+    
+    
+} // End Grid 
+} // End large   
 
     
     
