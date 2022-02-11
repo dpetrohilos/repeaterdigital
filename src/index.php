@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <div class="grid-container">
 <div>
-<img class="animate__animated animate__zoomInDown" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_1.jpg" alt="" class="multiply" width="600"/>   
+<img class="animate__animated animate__zoomInDown" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_1.jpg" alt="" class="multiply" width="900"/>   
 </div>
 <div class="content">
     <h1>We Change <span>Narratives</span></h1>
