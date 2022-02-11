@@ -67,7 +67,7 @@
 <p>&amp; so much more.</p>
     </div>
     </div>
-<div class="subgrid">
+<div>
     
     
 <div class="content"><h3>Our past clients</h3>

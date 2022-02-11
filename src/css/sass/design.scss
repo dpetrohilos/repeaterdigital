@@ -151,19 +151,13 @@ display: grid;
   
     div:nth-child(14) {
         
-            
+    display: grid;
     grid-row: 48 / span 8;
     grid-column: 6 / span 12;
         
-    div:nth-child(1) {
-        grid-column: 6 / span 4;
-        grid-row: 1 / span 8;
-
-        }
+    div:nth-child(1) {}
          
-         div:nth-child(2) {
-        grid-column: 12 / span 4;
-        grid-row: 1 / span 8;
+    div:nth-child(2) {
 
              li {list-style: none;}       
              
