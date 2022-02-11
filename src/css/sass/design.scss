@@ -123,7 +123,7 @@ p, li, span {
     }
     
 // end second row     
-    div:nth-child(13) {
+div:nth-child(13) {
     grid-column: 1 / span 24;
     grid-row: 38 / span 12;
         display: grid;
@@ -148,22 +148,22 @@ p, li, span {
     
     
     }  
-  
-    div:nth-child(14) {
+div:nth-child(14) {
         
     grid-row: 50 / span 8;
     grid-column: 6 / span 6;        
    
         
     }
-            
-
-    
-     div:nth-child(15) {
+div:nth-child(15) {
     grid-row: 50 / span 6;
     grid-column: 18 / span 6;
-
-             li {list-style: none;}       
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+         
+     
+         
              
         }
 

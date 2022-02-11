@@ -74,10 +74,13 @@
         <p>Our work been showcased in the New York Times, Sports Illustrated, and other publications. </p>
         <p>We’ve worked with organizations such as the Center For American Progress, Google, the Democracy Collaborative, UCLA, National Geographic, Brightest Young Things, Think Progress, and People For The American Way.</p>
         </div></div> 
-    <div><ul class="grid"><li><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/client_1.jpg" alt="clients"  width="1200"/></li>
-      <li><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/client_2.jpg" alt="clients"  width="1200"/>  </li>
-       <li><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/client_3.jpg" alt="clients"  width="1200"/>  </li>
-        <li><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/client_4.jpg" alt="clients"  width="1200"/> </li></ul></div>
+    <div><div>
+        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/client_1.jpg" alt="clients"  width="1200"/>
+        </div><div><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/client_2.jpg" alt="clients"  width="1200"/>  
+    </div><div><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/client_3.jpg" alt="clients"  width="1200"/>  
+        </div><div><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/client_4.jpg" alt="clients"  width="1200"/> </div>
+        
+        </div>
     
    
 

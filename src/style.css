@@ -1910,17 +1910,17 @@ p, li, span {
         grid-column: 17 / span 7;
         grid-row: auto;
         grid-row: 2 / span 12; }
-    /* line 152, css/sass/design.scss */
+    /* line 151, css/sass/design.scss */
     .grid-container div:nth-child(14) {
       grid-row: 50 / span 8;
       grid-column: 6 / span 6; }
-    /* line 162, css/sass/design.scss */
+    /* line 158, css/sass/design.scss */
     .grid-container div:nth-child(15) {
       grid-row: 50 / span 6;
-      grid-column: 18 / span 6; }
-      /* line 166, css/sass/design.scss */
-      .grid-container div:nth-child(15) li {
-        list-style: none; } }
+      grid-column: 18 / span 6;
+      display: grid;
+      grid-template-rows: repeat(2, 1fr);
+      grid-template-columns: repeat(2, 1fr); } }
 /* line 192, css/sass/design.scss */
 .content {
   font-size: 1.8rem; }
