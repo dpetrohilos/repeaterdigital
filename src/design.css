@@ -85,7 +85,7 @@ p, li, span {
     /* line 108, css/sass/design.scss */
     .grid-container div:nth-child(8) {
       grid-column: 13 / span 6;
-      grid-row: 16 / span 8; }
+      grid-row: 16 / span 6; }
     /* line 113, css/sass/design.scss */
     .grid-container div:nth-child(9) {
       grid-column: 15 / span 10;
