@@ -41,6 +41,7 @@ p, li, span {
 .grid-container {
     
     img {border-radius: 1rem; }
+    
     display: grid;
     grid-template-rows: 7.2rem;
     grid-template-columns: repeat(24, 1fr);
