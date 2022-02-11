@@ -1858,42 +1858,42 @@ p, li, span {
     .grid-container div:nth-child(4) {
       grid-column: 13 / span 1;
       grid-row: 7 / span 1; }
-    /* line 94, css/sass/design.scss */
+    /* line 96, css/sass/design.scss */
     .grid-container div:nth-child(5) {
       grid-column: 24 / span 1;
       grid-row: 1 / span 1; }
-    /* line 98, css/sass/design.scss */
+    /* line 100, css/sass/design.scss */
     .grid-container div:nth-child(6) {
       grid-column: 1 / span 6;
       grid-row: 9 / span 12; }
-    /* line 102, css/sass/design.scss */
+    /* line 104, css/sass/design.scss */
     .grid-container div:nth-child(7) {
       grid-column: 7 / span 6;
       grid-row: 9 / span 12; }
-    /* line 106, css/sass/design.scss */
+    /* line 108, css/sass/design.scss */
     .grid-container div:nth-child(8) {
       grid-column: 13 / span 12;
       grid-row: 9 / span 9; }
-    /* line 109, css/sass/design.scss */
+    /* line 111, css/sass/design.scss */
     .grid-container div:nth-child(9) {
-      grid-column: 7 / span 6;
-      grid-row: 3 / span 12; }
-    /* line 113, css/sass/design.scss */
+      grid-column: 13 / span 1;
+      grid-row: 7 / span 1; }
+    /* line 117, css/sass/design.scss */
     .grid-container div:nth-child(10) {
       grid-column: 1 / span 6;
       grid-row: 9 / span 12; }
-    /* line 116, css/sass/design.scss */
+    /* line 120, css/sass/design.scss */
     .grid-container div:nth-child(11) {
       grid-column: 13 / span 6;
       grid-row: 18 / span 12; }
-    /* line 119, css/sass/design.scss */
+    /* line 123, css/sass/design.scss */
     .grid-container div:nth-child(12) {
       grid-column: 7 / span 5;
       grid-row: 24 / span 12; } }
-/* line 151, css/sass/design.scss */
+/* line 155, css/sass/design.scss */
 .content {
   font-size: 1.8rem; }
-  /* line 154, css/sass/design.scss */
+  /* line 158, css/sass/design.scss */
   .content a.btn {
     text-decoration: none;
     color: #181b1c;
@@ -1903,7 +1903,7 @@ p, li, span {
     -webkit-transition: background-size 0.25s ease-in;
     transition: background-size 0.25s ease-in;
     background-size: 100% 0.2rem; }
-    /* line 165, css/sass/design.scss */
+    /* line 169, css/sass/design.scss */
     .content a.btn:hover {
       background-position: 100% 88%;
       color: #fffafa;

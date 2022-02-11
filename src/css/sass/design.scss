@@ -90,7 +90,9 @@ display: grid;
     grid-column: 13 / span 1;
     grid-row: 7 / span 1;        
     
-    }  
+    }
+    
+// triangle     
     div:nth-child(5) {
     grid-column: 24 / span 1;
     grid-row: 1 / span 1;    
@@ -107,9 +109,11 @@ display: grid;
     grid-column: 13 / span 12;
     grid-row: 9 / span 9;    } 
     div:nth-child(9) {
-    grid-column: 7 / span 6;
-    grid-row: 3 / span 12;    
-    } 
+    grid-column: 13 / span 1;
+    grid-row: 7 / span 1;        
+    }
+    
+// triangle     
     div:nth-child(10) {
     grid-column: 1 / span 6;
     grid-row: 9 / span 12;    } 
