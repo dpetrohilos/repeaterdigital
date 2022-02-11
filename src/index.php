@@ -50,10 +50,7 @@
     
     
 </div>      
-<div class="subgrid">    
-    <div class="bg_red"><b></b></div>
-<div><img class="multiply" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Image_12.jpg" alt="Graphic Poster"  width="1200"/>   
-</div>
+<div class="subgrid">
 <div class="content">
     <h3>We offer</h3>
     <p>Brand identity,</p>
@@ -66,6 +63,10 @@
 <p>SEO,</p> 
 <p>&amp; so much more.</p>
     </div>
+    
+    <div class="bg_red"><b></b></div>
+<div><img class="multiply" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Image_12.jpg" alt="Graphic Poster"  width="1200"/>   
+</div>
     
     
 </div>
