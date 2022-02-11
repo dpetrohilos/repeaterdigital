@@ -41,7 +41,7 @@ p, li, span {
     /* line 57, css/sass/design.scss */
     .grid-container div:nth-child(1) {
       grid-column: 12 / span 13;
-      grid-row: 1 / span 6; }
+      grid-row: 1 / span 7; }
       /* line 60, css/sass/design.scss */
       .grid-container div:nth-child(1) h1 {
         color: #e52227;
