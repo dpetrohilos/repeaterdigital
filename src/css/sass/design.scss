@@ -206,9 +206,15 @@ div:nth-child(15) {
         grid-row: 65 / span 6; 
        grid-column: 1 / span 24; 
 
-    } 
+    }
+    
+    div:nth-child(19) {
+        grid-row: 72 / span 6; 
+       grid-column: 1 / span 24; 
 
-.card-wrapper {
+    }
+
+.card-wrapper, .clients_wrapper {
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: auto;
     grid-auto-flow: row;
