@@ -125,8 +125,8 @@ p, li, span {
 // end second row     
     div:nth-child(13) {
     grid-column: 1 / span 24;
-    grid-row: 38 / span 6;
-display: grid;
+    grid-row: 38 / span 12;
+        display: grid;
         div:nth-child(1) {
         grid-column: 1 / span 12;
         grid-row: 1 / span 12;
@@ -152,22 +152,22 @@ display: grid;
     div:nth-child(14) {
         
     display: grid;
-    grid-row: 48 / span 8;
+    grid-row: 50 / span 6;
     grid-column: 6 / span 12;
         
-    div:nth-child(1) {}
-         
-    div:nth-child(2) {
-
-             li {list-style: none;}       
-             
-        }
+   
         
     }
             
 
     
-    
+     div:nth-child(15) {
+    grid-row: 50 / span 6;
+    grid-column: 18 / span 6;
+
+             li {list-style: none;}       
+             
+        }
 
 } // END Grid 
 } // END QUEERIE  

@@ -1894,7 +1894,7 @@ p, li, span {
     /* line 126, css/sass/design.scss */
     .grid-container div:nth-child(13) {
       grid-column: 1 / span 24;
-      grid-row: 38 / span 6;
+      grid-row: 38 / span 12;
       display: grid; }
       /* line 130, css/sass/design.scss */
       .grid-container div:nth-child(13) div:nth-child(1) {
@@ -1913,10 +1913,14 @@ p, li, span {
     /* line 152, css/sass/design.scss */
     .grid-container div:nth-child(14) {
       display: grid;
-      grid-row: 48 / span 8;
+      grid-row: 50 / span 6;
       grid-column: 6 / span 12; }
-      /* line 162, css/sass/design.scss */
-      .grid-container div:nth-child(14) div:nth-child(2) li {
+    /* line 164, css/sass/design.scss */
+    .grid-container div:nth-child(15) {
+      grid-row: 50 / span 6;
+      grid-column: 18 / span 6; }
+      /* line 168, css/sass/design.scss */
+      .grid-container div:nth-child(15) li {
         list-style: none; } }
 /* line 194, css/sass/design.scss */
 .content {
