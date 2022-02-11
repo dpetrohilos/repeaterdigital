@@ -167,17 +167,18 @@ display: grid;
             grid-template-columns: repeat(2, 1fr);
             grid-template-rows: repeat(2, 1fr);
 
-            img {
+            div {
+                grid-area: 50%;
+                grid-row: 50%; 
                 background: pink; 
                 display: block; 
-                width: 100%; 
-                height: 100%;
             }
-        }
             
-
+        }
         
     }
+            
+
     
     
 
