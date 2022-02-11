@@ -1858,34 +1858,34 @@ p, li, span {
     .grid-container div:nth-child(4) {
       grid-column: 12 / span 1;
       grid-row: 9 / span 1; }
-    /* line 88, css/sass/design.scss */
+    /* line 90, css/sass/design.scss */
     .grid-container div:nth-child(5) {
       grid-column: 1 / span 6;
-      grid-row: 9/ span 6; }
-    /* line 91, css/sass/design.scss */
+      grid-row: 10/ span 6; }
+    /* line 93, css/sass/design.scss */
     .grid-container div:nth-child(6) {
       grid-column: 7 / span 6;
-      grid-row: 9 / span 12; }
-    /* line 95, css/sass/design.scss */
+      grid-row: 10 / span 12; }
+    /* line 97, css/sass/design.scss */
     .grid-container div:nth-child(7) {
       grid-column: 13 / span 12;
-      grid-row: 9 / span 6; }
-    /* line 99, css/sass/design.scss */
+      grid-row: 10 / span 6; }
+    /* line 101, css/sass/design.scss */
     .grid-container div:nth-child(8) {
-      grid-column: 13 / span 1;
+      grid-column: 13 / span 6;
       grid-row: 7 / span 6; }
-    /* line 103, css/sass/design.scss */
+    /* line 105, css/sass/design.scss */
     .grid-container div:nth-child(9) {
-      grid-column: 13 / span 1;
+      grid-column: 13 / span 6;
       grid-row: 18 / span 6; }
-    /* line 106, css/sass/design.scss */
+    /* line 108, css/sass/design.scss */
     .grid-container div:nth-child(10) {
       grid-column: 7 / span 6;
       grid-row: 24 / span 6; } }
-/* line 138, css/sass/design.scss */
+/* line 140, css/sass/design.scss */
 .content {
   font-size: 1.8rem; }
-  /* line 141, css/sass/design.scss */
+  /* line 143, css/sass/design.scss */
   .content a.btn {
     text-decoration: none;
     color: #181b1c;
@@ -1895,7 +1895,7 @@ p, li, span {
     -webkit-transition: background-size 0.25s ease-in;
     transition: background-size 0.25s ease-in;
     background-size: 100% 0.2rem; }
-    /* line 152, css/sass/design.scss */
+    /* line 154, css/sass/design.scss */
     .content a.btn:hover {
       background-position: 100% 88%;
       color: #fffafa;
