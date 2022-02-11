@@ -342,7 +342,11 @@ input[type="search"] {
  */
 /* line 7, css/sass/partials/footer.scss */
 .footer {
-  background: black; }
+  background: black;
+  color: #fff; }
+  /* line 10, css/sass/partials/footer.scss */
+  .footer p, .footer ul, .footer li, .footer span {
+    color: #fff; }
 
 /**
  * partials/print
