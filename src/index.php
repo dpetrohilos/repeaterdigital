@@ -32,7 +32,7 @@
 <img class="multiply" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Image_7.jpg" alt="Graphic Poster"  width="800"/>   
 </div>
 <div>
-<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Image_8.jpg" alt="Graphic Poster"  width="800"/>   
+<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Image_8.jpg" alt="Graphic Poster"  width="1600"/>   
 </div>
 <div class="content">
     <h2>Vision</h2>

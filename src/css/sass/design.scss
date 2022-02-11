@@ -92,23 +92,20 @@ p, li, span {
     grid-row: 10/ span 6;    } 
     div:nth-child(6) {
     grid-column: 7 / span 6;
-    grid-row: 10 / span 12;
-        
+    grid-row: 10 / span 13;        
         img {
             height: 100%; 
         }    
     } 
     div:nth-child(7) {
     grid-column: 13 / span 12;
-    grid-row: 10 / span 6;
-        
+    grid-row: 10 / span 7;        
         
         
     } 
     div:nth-child(8) {
     grid-column: 13 / span 6;
-    grid-row: 16 / span 6;
-    
+    grid-row: 16 / span 7;    
     }
     div:nth-child(9) {
     grid-column: 14 / span 11;

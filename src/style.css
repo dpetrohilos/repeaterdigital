@@ -1865,38 +1865,38 @@ p, li, span {
     /* line 93, css/sass/design.scss */
     .grid-container div:nth-child(6) {
       grid-column: 7 / span 6;
-      grid-row: 10 / span 12; }
-      /* line 97, css/sass/design.scss */
+      grid-row: 10 / span 13; }
+      /* line 96, css/sass/design.scss */
       .grid-container div:nth-child(6) img {
         height: 100%; }
-    /* line 101, css/sass/design.scss */
+    /* line 100, css/sass/design.scss */
     .grid-container div:nth-child(7) {
       grid-column: 13 / span 12;
-      grid-row: 10 / span 6; }
-    /* line 108, css/sass/design.scss */
+      grid-row: 10 / span 7; }
+    /* line 106, css/sass/design.scss */
     .grid-container div:nth-child(8) {
       grid-column: 13 / span 6;
-      grid-row: 16 / span 6; }
-    /* line 113, css/sass/design.scss */
+      grid-row: 16 / span 7; }
+    /* line 110, css/sass/design.scss */
     .grid-container div:nth-child(9) {
       grid-column: 14 / span 11;
       grid-row: 23 / span 9; }
-    /* line 116, css/sass/design.scss */
+    /* line 113, css/sass/design.scss */
     .grid-container div:nth-child(10) {
       grid-column: 7 / span 6;
       grid-row: 24 / span 4; }
-    /* line 119, css/sass/design.scss */
+    /* line 116, css/sass/design.scss */
     .grid-container div:nth-child(11) {
       grid-column: 1 / span 14;
       grid-row: 30 / span 8; }
-    /* line 122, css/sass/design.scss */
+    /* line 119, css/sass/design.scss */
     .grid-container div:nth-child(12) {
       grid-column: 17 / span 6;
       grid-row: 33 / span 4; } }
-/* line 152, css/sass/design.scss */
+/* line 149, css/sass/design.scss */
 .content {
   font-size: 1.8rem; }
-  /* line 155, css/sass/design.scss */
+  /* line 152, css/sass/design.scss */
   .content a.btn {
     text-decoration: none;
     color: #181b1c;
@@ -1906,7 +1906,7 @@ p, li, span {
     -webkit-transition: background-size 0.25s ease-in;
     transition: background-size 0.25s ease-in;
     background-size: 100% 0.2rem; }
-    /* line 166, css/sass/design.scss */
+    /* line 163, css/sass/design.scss */
     .content a.btn:hover {
       background-position: 100% 88%;
       color: #fffafa;
