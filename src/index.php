@@ -43,6 +43,20 @@
     
     
 </div>    
+
+<div>
+<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Image_9.jpg" alt="Graphic Poster"  width="800"/>   
+</div>
+
+<div class="content">
+    <h2>We move people to action</h2>
+    <p>By choosing Repeater.Digital, you gain access to our knowledge, industry connections, media connections, skills, and experience. We have worked together for over a decade, and are happy to share previous and current work.</p>
+
+    
+    
+    
+</div>    
+    
     
 </div>
 

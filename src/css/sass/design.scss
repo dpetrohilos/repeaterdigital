@@ -116,9 +116,13 @@ p, li, span {
     grid-column: 7 / span 6;
     grid-row: 24 / span 6;}    
     
+     div:nth-child(11) {
+    grid-column: 0 / span 12;
+    grid-row: 30 / span 6;} 
     
-    
-    
+     div:nth-child(12) {
+    grid-column: 15 / span 6;
+    grid-row: 30 / span 6;} 
      
     
     
