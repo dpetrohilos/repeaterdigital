@@ -1889,36 +1889,28 @@ p, li, span {
       grid-row: 30 / span 8; }
     /* line 120, css/sass/design.scss */
     .grid-container div:nth-child(12) {
-      grid-column: 1 / span 12;
+      grid-column: 15 / span 6;
       grid-row: 32 / span 12; }
-    /* line 128, css/sass/design.scss */
+    /* line 126, css/sass/design.scss */
     .grid-container div:nth-child(13) {
-      grid-column: 15 / span 6;
+      grid-column: 1 / span 24;
       grid-row: 38 / span 6; }
-    /* line 132, css/sass/design.scss */
-    .grid-container div:nth-child(14) {
-      grid-column: 15 / span 6;
-      grid-row: 38 / span 6; }
-    /* line 136, css/sass/design.scss */
-    .grid-container div:nth-child(15) {
-      grid-column: 15 / span 6;
-      grid-row: 38 / span 6; }
-    /* line 142, css/sass/design.scss */
+    /* line 133, css/sass/design.scss */
     .grid-container div:nth-child(16) {
       grid-column: 15 / span 6;
       grid-row: 44 / span 6; }
-    /* line 146, css/sass/design.scss */
+    /* line 137, css/sass/design.scss */
     .grid-container div:nth-child(17) {
       grid-column: 15 / span 6;
       grid-row: 44 / span 6; }
-    /* line 150, css/sass/design.scss */
+    /* line 141, css/sass/design.scss */
     .grid-container div:nth-child(18) {
       grid-column: 15 / span 6;
       grid-row: 44 / span 6; } }
-/* line 184, css/sass/design.scss */
+/* line 175, css/sass/design.scss */
 .content {
   font-size: 1.8rem; }
-  /* line 187, css/sass/design.scss */
+  /* line 178, css/sass/design.scss */
   .content a.btn {
     text-decoration: none;
     color: #181b1c;
@@ -1928,12 +1920,12 @@ p, li, span {
     -webkit-transition: background-size 0.25s ease-in;
     transition: background-size 0.25s ease-in;
     background-size: 100% 0.2rem; }
-    /* line 198, css/sass/design.scss */
+    /* line 189, css/sass/design.scss */
     .content a.btn:hover {
       background-position: 100% 88%;
       color: #fffafa;
       background-size: 100% 0.6rem; }
 
-/* line 205, css/sass/design.scss */
+/* line 196, css/sass/design.scss */
 .bg_red {
   background: #e52227; }

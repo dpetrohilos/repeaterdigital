@@ -118,25 +118,16 @@ p, li, span {
     grid-row: 30 / span 8;    } 
     
     div:nth-child(12) {
-    grid-column: 1 / span 12;
-    grid-row: 32 / span 12; 
-        
-        
+    grid-column: 15 / span 6;
+    grid-row: 32 / span 12;    
     }
     
 // end second row     
     div:nth-child(13) {
-    grid-column: 15 / span 6;
+    grid-column: 1 / span 24;
     grid-row: 38 / span 6;    
     }  
-    div:nth-child(14) {
-    grid-column: 15 / span 6;
-    grid-row: 38 / span 6;    
-    }  
-    div:nth-child(15) {
-    grid-column: 15 / span 6;
-    grid-row: 38 / span 6;    
-    }  
+  //  div:nth-child(14) { grid-column: 15 / span 6; grid-row: 38 / span 6;    }   div:nth-child(15) { grid-column: 15 / span 6; grid-row: 38 / span 6;    }  
     
 // PQ quote     
     div:nth-child(16) {
