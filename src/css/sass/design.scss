@@ -129,16 +129,18 @@ p, li, span {
     display: grid; 
     
     div:nth-child(1) {
-    grid-column: 1 / span 8;
-            
+    grid-column: 1 / span 12;
+    grid-row: auto;         
         }
     div:nth-child(2) {
-            grid-column: 9 / span 8;
+    grid-column: 9 / span 8;
+    grid-row: auto;         
 
             
         }
     div:nth-child(3) {
-            grid-column: 17 / span 8;
+            grid-column: 18 / span 8;
+            grid-row: auto;         
 
             
         }
