@@ -130,15 +130,15 @@ p, li, span {
         grid-row: 1 / span 8; }
       /* line 165, css/sass/design.scss */
       .grid-container div:nth-child(14) div:nth-child(2) {
-        display: grid; }
+        grid-column: 6 / span 4;
+        grid-row: 1 / span 8; }
         /* line 169, css/sass/design.scss */
         .grid-container div:nth-child(14) div:nth-child(2) li {
-          width: 50%;
-          height: 50%; } }
-/* line 200, css/sass/design.scss */
+          list-style: none; } }
+/* line 201, css/sass/design.scss */
 .content {
   font-size: 1.8rem; }
-  /* line 203, css/sass/design.scss */
+  /* line 204, css/sass/design.scss */
   .content a.btn {
     text-decoration: none;
     color: #181b1c;
@@ -148,12 +148,12 @@ p, li, span {
     -webkit-transition: background-size 0.25s ease-in;
     transition: background-size 0.25s ease-in;
     background-size: 100% 0.2rem; }
-    /* line 214, css/sass/design.scss */
+    /* line 215, css/sass/design.scss */
     .content a.btn:hover {
       background-position: 100% 88%;
       color: #fffafa;
       background-size: 100% 0.6rem; }
 
-/* line 221, css/sass/design.scss */
+/* line 222, css/sass/design.scss */
 .bg_red {
   background: #e52227; }
