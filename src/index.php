@@ -5,14 +5,15 @@
 </div>
     
 <div class="content">
-    <p><strong>Repeater.Digital</strong> is a full stack creative collaborative, democratically managed by grassroots activists in the DC metro area. We design effective messaging campaigns by asking the right questions of our clients, as well as target audiences. </p>   
-    <a class="btn" href="#" title="Contact Us">Lets Talk</a> <a href="#" Title="Our Work" Class="link">Case Study</a>
+    <p><strong>Repeater.Digital</strong> is a full stack  creative collaborative. Democratically owned and managed, we believe in the positive impact of design, development, and story telling.</p>   
+    
+    <p><a class="btn" href="#" title="Contact Us">Lets Talk</a> </p>
 
     
 </div>    
     
 <div>
-<img class="animate__animated animate__zoomInDown" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_1.jpg" alt="" class="multiply" width="1200"/>   
+<img class="animate__animated animate__zoomInDown" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_1.jpg" alt="" width="1200"/>   
 </div>
 
      
@@ -72,8 +73,10 @@
 <p>&amp; so much more.</p>
     
 </div>
-    <div class="content"><blockquote></blockquote></div>    
-    <div class="content"><blockquote></blockquote></div>    
+    <div class="content"><blockquote>Design is thinking 
+made visible</blockquote><cite>Saul Bass</cite></div>    
+    <div class="content"><blockquote>Life is too short to 
+remain unnoticed</blockquote><cite>Salvador Dali</cite></div>    
 
 </div>
 <div class="content">
