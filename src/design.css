@@ -32,7 +32,9 @@ p, li, span {
     width: 100%;
     margin: 0 auto;
     padding: 0;
-    /* Start First Row*/ }
+    /* Start First Row*/
+    /* End First Row*/
+    /*Start Second Content Row*/ }
     /* line 43, css/sass/design.scss */
     .grid-container img {
       border-radius: 1rem; }
@@ -56,11 +58,23 @@ p, li, span {
         /* line 70, css/sass/design.scss */
         .grid-container div:nth-child(2) h1 span {
           font-size: 14.4rem;
-          letter-spacing: -.25rem; } }
-/* line 90, css/sass/design.scss */
+          letter-spacing: -.25rem; }
+    /* line 79, css/sass/design.scss */
+    .grid-container div:nth-child(3) {
+      grid-column: 19 / span 1;
+      grid-row: 6 / span 1; }
+    /* line 83, css/sass/design.scss */
+    .grid-container div:nth-child(4) {
+      grid-column: 23 / span 1;
+      grid-row: 1 / span 4; }
+    /* line 92, css/sass/design.scss */
+    .grid-container div:nth-child(5) {
+      grid-column: 1 / span 6;
+      grid-row: 7 / span 7; } }
+/* line 120, css/sass/design.scss */
 .content {
   font-size: 1.8rem; }
-  /* line 93, css/sass/design.scss */
+  /* line 123, css/sass/design.scss */
   .content a.btn {
     text-decoration: none;
     color: #181b1c;
@@ -70,7 +84,7 @@ p, li, span {
     -webkit-transition: background-size 0.25s ease-in;
     transition: background-size 0.25s ease-in;
     background-size: 100% 0.2rem; }
-    /* line 104, css/sass/design.scss */
+    /* line 134, css/sass/design.scss */
     .content a.btn:hover {
       background-position: 100% 88%;
       color: #fffafa;
