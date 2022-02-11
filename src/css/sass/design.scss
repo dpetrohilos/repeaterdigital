@@ -208,8 +208,51 @@ div:nth-child(15) {
 
     } 
 
+.card-wrapper {
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: auto;
+    grid-auto-flow: row;
+    grid-gap: .8rem;
+    padding: 1.6rem; 
+    
+    .card {
+        border: 1px solid #ccc;
+        padding: 1.6rem; 
+        border-radius: 1rem; 
+        q {font-size: 2.2rem; 
+        line-height: 1.2rem; 
+        }
+        cite {
+            font-size: 1.2rem; 
+            
+        }
+        cite::before {
+            content: "—"
+        }
+    }
+
+    div:nth-child(1) {
+        grid-column: 1 / span 1; 
+    }
+    
+    div:nth-child(2) {
+                grid-column: 1 / span 1; 
+
+    }
+    
+    div:nth-child(3) {
+                grid-column: 1 / span 1; 
+
+    }
+    
+    
+    }
+
     
 // end fourth row 
+    
+    
+    
     
     
 } // End Grid 
