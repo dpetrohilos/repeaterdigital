@@ -12,7 +12,7 @@
 </div>    
     
 <div>
-<img class="animate__animated animate__zoomInDown" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_1.jpg" alt="" class="multiply" width="900"/>   
+<img class="animate__animated animate__zoomInDown" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_1.jpg" alt="" class="multiply" width="1200"/>   
 </div>
 
      
@@ -32,7 +32,7 @@
 <img class="multiply" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Image_7.jpg" alt="Graphic Poster"  width="800"/>   
 </div>
 <div>
-<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Image_8.jpg" alt="Graphic Poster"  width="1600"/>   
+<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Image_8.jpg" alt="Graphic Poster"  width="1200"/>   
 </div>
 <div class="content">
     <h2>Vision</h2>
@@ -49,13 +49,17 @@
 
 <div class="content">
     <h2>We move people to action</h2>
-    <p>By choosing Repeater.Digital, you gain access to our knowledge, industry connections, media connections, skills, and experience. We have worked together for over a decade, and are happy to share previous and current work.</p>
+    <p>By choosing <strong>Repeater.Digital,</strong> you gain access to our knowledge, industry connections, media connections, skills, and experience. We have worked together for over a decade, and are happy to share previous and current work.</p>
 
     
     
     
 </div>    
     
+<div class="bg_red"></div>
+<div><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Image_12.jpg" alt="Graphic Poster"  width="1200"/>   
+</div>    
+<div class="content"></div>  
     
 </div>
 
