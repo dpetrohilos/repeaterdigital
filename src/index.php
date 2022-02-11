@@ -45,7 +45,7 @@
 </div>    
 
 <div>
-<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Image_9.jpg" alt="Graphic Poster"  width="800"/>   
+<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Image_9.jpg" alt="Graphic Poster"  width="1200"/>   
 </div>
 
 <div class="content">
