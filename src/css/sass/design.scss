@@ -126,7 +126,7 @@ p, li, span {
     div:nth-child(13) {
     grid-column: 1 / span 24;
     grid-row: 38 / span 6;
-    display: grid; 
+    display: subgrid; 
     
         div:nth-child(1) {
         grid-column: 1 / span 12;
@@ -154,7 +154,8 @@ p, li, span {
         
             
     grid-row: 44 / span 8;
-    grid-column: 1 / span 25;    
+    grid-column: 1 / span 25;
+        display: subgrid; 
         
         div:nth-child(1) {
         grid-column: 6 / span 4;
