@@ -31,7 +31,7 @@
 <div>
 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Image_8.jpg" alt="Graphic Poster"  width="1200"/>   
 </div>
-<div class="content">
+<div id="vision" class="content">
     <h2>Vision</h2>
     <p>We are a worker owned, self-managed communications consulting firm that specializes in strategic digital and visual communication. </p>
 
@@ -70,7 +70,7 @@
 <div>
     
     
-<div class="content"><h3>Our past clients</h3>
+<div id="past" class="content"><h3>Our past clients</h3>
         <p>Our work been showcased in the New York Times, Sports Illustrated, and other publications. </p>
         <p>We’ve worked with organizations such as the Center For American Progress, Google, the Democracy Collaborative, UCLA, National Geographic, Brightest Young Things, Think Progress, and People For The American Way.</p>
         </div></div> 
@@ -86,7 +86,7 @@
 <div class="testimonial">
     <h4>Testimonial</h4>
     </div>
-<div class="content card-wrapper">
+<div id="clients" class="content card_wrapper">
     <div class="card">
     <blockquote>“For years the individuals that make up Repeater Digital have lived and breathed progressive communications—from building grassroots communities to transforming popular opinion—their work has had resounding global reach and impact. From graphic design to media relations and everything in between, Repeater has what it takes to educate, amplify, and inspire.”</blockquote>
     
@@ -104,7 +104,7 @@
     </div>
 
 </div>
-<div class="content clients_wrapper">
+<div id="projects" class="content clients_wrapper">
     <div class="card">
     <a href="#client"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Work1.jpg" alt="Graphic Poster"  width="1200"/></a></div>   
     <div class="card"><a href="#client"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Work2.jpg" alt="Graphic Poster"  width="1200"/></a></div>   
