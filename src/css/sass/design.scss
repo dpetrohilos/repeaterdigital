@@ -125,27 +125,11 @@ p, li, span {
 // end second row     
     div:nth-child(13) {
     grid-column: 1 / span 24;
-    grid-row: 38 / span 6;    
+    grid-row: 38 / span 6;
+    display: grid; 
+        grid-auto-columns: 1fr 1fr 1fr
     }  
-  //  div:nth-child(14) { grid-column: 15 / span 6; grid-row: 38 / span 6;    }   div:nth-child(15) { grid-column: 15 / span 6; grid-row: 38 / span 6;    }  
-    
-// PQ quote     
-    div:nth-child(16) {
-    grid-column: 15 / span 6;
-    grid-row: 44 / span 6;    
-    }
-    div:nth-child(17) {
-    grid-column: 15 / span 6;
-    grid-row: 44 / span 6;    
-    }  
-    div:nth-child(18) {
-    grid-column: 15 / span 6;
-    grid-row: 44 / span 6;    
-    }
-    
-    // Clients area 
-    
-    // Testimonial area 
+  
     
     
     
