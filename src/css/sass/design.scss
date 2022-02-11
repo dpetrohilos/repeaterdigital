@@ -82,9 +82,8 @@ p, li, span {
     grid-row: 6 / span 1;    
     }
     div:nth-child(4) {
-    grid-column: 12 / span 1;
-    grid-row: 9 / span 1;    
-    }   
+    grid-column: 24 / span 1;
+    grid-row: 1 / span 1;    }   
     // end first row 
     
     div:nth-child(5) {
@@ -100,11 +99,13 @@ p, li, span {
     } 
     div:nth-child(8) {
     grid-column: 13 / span 6;
-    grid-row: 7 / span 6;        
+    grid-row: 16 / span 6;
+    
     }
     div:nth-child(9) {
-    grid-column: 13 / span 6;
-    grid-row: 18 / span 6;    } 
+    grid-column: 15 / span 10;
+    grid-row: 23 / span 8;    
+    } 
     div:nth-child(10) {
     grid-column: 7 / span 6;
     grid-row: 24 / span 6;}    
