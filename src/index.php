@@ -57,6 +57,7 @@
     
 </div>    
     
+<div class="subgrid">    
 <div class="bg_red"></div>
 <div><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Image_12.jpg" alt="Graphic Poster"  width="1200"/>   
 </div>    
@@ -71,9 +72,13 @@
 <p>Video editing,</p>
 <p>SEO,</p> 
 <p>&amp; so much more.</p>
+    </div>
+    
     
 </div>
-    <div class="content"><blockquote>Design is thinking 
+    
+    
+<div class="content"><blockquote>Design is thinking 
 made visible</blockquote><cite>Saul Bass</cite></div>    
     <div class="content"><blockquote>Life is too short to 
 remain unnoticed</blockquote><cite>Salvador Dali</cite></div>    
