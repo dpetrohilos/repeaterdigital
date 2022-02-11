@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <div class="grid-container">
 <div class="content">
-    <h1>We Change <span>Narratives</span></h1>
+    <h1>We change <span>narratives</span></h1>
 </div>
 <div class="content">
     <p><strong>Repeater.Digital</strong> is a full stack  creative collaborative. Democratically owned and managed, we believe in the positive impact of design, development, and story telling.</p>   
@@ -67,19 +67,21 @@
 <p>&amp; so much more.</p>
     </div>
     </div>
-    
 <div class="subgrid">
+    
+    
 <div class="content"><h3>Our past clients</h3>
         <p>Our work been showcased in the New York Times, Sports Illustrated, and other publications. </p>
         <p>We’ve worked with organizations such as the Center For American Progress, Google, the Democracy Collaborative, UCLA, National Geographic, Brightest Young Things, Think Progress, and People For The American Way.</p>
         </div>
-<div>
-            <div><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/client_1.jpg" alt="clients"  width="1200"/>  </div>
-        <div><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/client_2.jpg" alt="clients"  width="1200"/>  </div>
-        <div><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/client_3.jpg" alt="clients"  width="1200"/>  </div>
-        <div><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/client_3.jpg" alt="clients"  width="1200"/>  </div>
+    <div><ul class="grid"><li><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/client_1.jpg" alt="clients"  width="1200"/></li>
+      <li><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/client_2.jpg" alt="clients"  width="1200"/>  </li>
+       <li><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/client_3.jpg" alt="clients"  width="1200"/>  </li>
+        <li><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/client_3.jpg" alt="clients"  width="1200"/> </li></ul></div>
     
-        </div>
+</div>    
+
+
 </div>
-</div>
+
 <?php get_footer(); ?>

@@ -163,17 +163,10 @@ display: grid;
         }
          
         div:nth-child(2) {
-            grid-column: 12 / span 12;
-            grid-template-columns: repeat(2, 1fr);
-            grid-template-rows: repeat(2, 1fr);
 
-            div {
-                grid-area: 50%;
-                grid-row: 50%; 
-                background: pink; 
-                display: block; 
-            }
+            display: grid; 
             
+            li {width: 50%; height: 50%;}  
         }
         
     }
