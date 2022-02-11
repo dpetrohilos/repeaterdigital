@@ -87,8 +87,6 @@
     <h4>Testimonial</h4>
     </div>
 <div class="content slide">
-
-    
     <div class="card">
     <q>“For years the individuals that make up Repeater Digital have lived and breathed progressive communications—from building grassroots communities to transforming popular opinion—their work has had resounding global reach and impact. From graphic design to media relations and everything in between, Repeater has what it takes to educate, amplify, and inspire.”</q>
     
