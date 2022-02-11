@@ -9,7 +9,6 @@
 <div class="content">
     <p><strong>Repeater.Digital</strong> is a full stack creative collaborative, democratically managed by grassroots activists in the DC metro area. We design effective messaging campaigns by asking the right questions of our clients, as well as target audiences. </p>   
     <a class="btn" href="#" title="Contact Us">Lets Talk</a> <a href="#" Title="Our Work" Class="link">Case Study</a>
-    <p><span style="display:block; width: 60px; margin: 1rem;"><svg class="triangle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33 31.68"><polygon points="0 0 0 31.68 33 31.68 0 0" style="fill:#e52227"/></svg></span></p>            
 
     
     </div>     
@@ -36,10 +35,6 @@
     <p>We are a worker owned, self-managed communications consulting firm that specializes in strategic digital and visual communication. </p>
 
 <p>Repeater Digital strives to isolate the signal from the noise. We use the power of storytelling to transmit and amplify the voices of our partners across the shared global digital community. </p>
-    <p>
-    <span style="display:block; width: 60px; margin: 1rem;">
-        <svg class="triangle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33 31.68"><polygon points="0 0 0 31.68 33 31.68 0 0" style="fill:#e52227"/></svg></span>            
-</p>
     
     
 </div>    
