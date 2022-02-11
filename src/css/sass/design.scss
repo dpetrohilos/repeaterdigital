@@ -111,20 +111,17 @@ p, li, span {
     
     }
     div:nth-child(9) {
-    grid-column: 15 / span 10;
-    grid-row: 23 / span 8;    
-    } 
+    grid-column: 14 / span 11;
+    grid-row: 23 / span 9;    } 
     div:nth-child(10) {
     grid-column: 7 / span 6;
-    grid-row: 24 / span 6;}    
+    grid-row: 24 / span 4;    }    
     div:nth-child(11) {
-    grid-column: 1 / span 12;
-    grid-row: 30 / span 6;
-    } 
+    grid-column: 1 / span 14;
+    grid-row: 30 / span 8;    } 
     div:nth-child(12) {
-    grid-column: 15 / span 6;
-    grid-row: 32 / span 2;     
-    
+    grid-column: 17 / span 6;
+    grid-row: 33 / span 4;    
     }
     
     
