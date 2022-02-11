@@ -1817,7 +1817,7 @@ p, li, span {
   /* line 41, css/sass/design.scss */
   .grid-container {
     display: grid;
-    grid-template-rows: 7.2;
+    grid-template-rows: 7.2rem;
     grid-template-columns: repeat(24, 1fr);
     max-width: 100vw;
     width: 100%;
