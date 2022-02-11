@@ -59,10 +59,25 @@
 <div class="bg_red"></div>
 <div><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Image_12.jpg" alt="Graphic Poster"  width="1200"/>   
 </div>    
-<div class="content"></div>  
+<div class="content">
+    <h3>We offer</h3>
+    <p>Brand identity,</p>
+<p>Art direction,</p> 
+<p>UI/UX design,</p> 
+<p>Social ads,</p> 
+<p>Research,</p> 
+<p>Story telling,</p>
+<p>Video editing,</p>
+<p>SEO,</p> 
+<p>&amp; so much more.</p>
     
 </div>
+    <div class="content"><blockquote></blockquote></div>    
+    <div class="content"><blockquote></blockquote></div>    
 
+</div>
+<div class="content">
+</div>
 
 
 

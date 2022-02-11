@@ -1897,18 +1897,30 @@ p, li, span {
     .grid-container div:nth-child(13) {
       grid-column: 15 / span 6;
       grid-row: 38 / span 6; }
-    /* line 132, css/sass/design.scss */
+    /* line 133, css/sass/design.scss */
     .grid-container div:nth-child(14) {
       grid-column: 15 / span 6;
       grid-row: 38 / span 6; }
-    /* line 135, css/sass/design.scss */
+    /* line 137, css/sass/design.scss */
     .grid-container div:nth-child(15) {
       grid-column: 15 / span 6;
-      grid-row: 38 / span 6; } }
-/* line 164, css/sass/design.scss */
+      grid-row: 38 / span 6; }
+    /* line 143, css/sass/design.scss */
+    .grid-container div:nth-child(16) {
+      grid-column: 15 / span 6;
+      grid-row: 44 / span 6; }
+    /* line 147, css/sass/design.scss */
+    .grid-container div:nth-child(17) {
+      grid-column: 15 / span 6;
+      grid-row: 44 / span 6; }
+    /* line 151, css/sass/design.scss */
+    .grid-container div:nth-child(18) {
+      grid-column: 15 / span 6;
+      grid-row: 44 / span 6; } }
+/* line 185, css/sass/design.scss */
 .content {
   font-size: 1.8rem; }
-  /* line 167, css/sass/design.scss */
+  /* line 188, css/sass/design.scss */
   .content a.btn {
     text-decoration: none;
     color: #181b1c;
@@ -1918,12 +1930,12 @@ p, li, span {
     -webkit-transition: background-size 0.25s ease-in;
     transition: background-size 0.25s ease-in;
     background-size: 100% 0.2rem; }
-    /* line 178, css/sass/design.scss */
+    /* line 199, css/sass/design.scss */
     .content a.btn:hover {
       background-position: 100% 88%;
       color: #fffafa;
       background-size: 100% 0.6rem; }
 
-/* line 185, css/sass/design.scss */
+/* line 206, css/sass/design.scss */
 .bg_red {
   background: #e52227; }
