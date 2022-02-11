@@ -118,8 +118,10 @@ p, li, span {
     grid-row: 30 / span 8;    } 
     
     div:nth-child(12) {
-    grid-column: 15 / span 6;
-    grid-row: 32 / span 6;    
+    grid-column: 1 / span 12;
+    grid-row: 32 / span 12; 
+        
+        
     }
     
 // end second row     
