@@ -77,7 +77,7 @@
     <div><ul class="grid"><li><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/client_1.jpg" alt="clients"  width="1200"/></li>
       <li><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/client_2.jpg" alt="clients"  width="1200"/>  </li>
        <li><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/client_3.jpg" alt="clients"  width="1200"/>  </li>
-        <li><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/client_3.jpg" alt="clients"  width="1200"/> </li></ul></div>
+        <li><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/client_4.jpg" alt="clients"  width="1200"/> </li></ul></div>
     
    
 
