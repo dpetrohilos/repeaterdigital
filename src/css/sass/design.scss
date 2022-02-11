@@ -48,9 +48,9 @@ p, li, span {
     max-width: 100vw;
     width: 100%;
     margin: 0 auto;
-    padding: 0 1.2rem;
-    grid-column-gap: 1rem;
-    grid-row-gap: 1rem;
+    padding: 0 .8rem;
+    grid-column-gap: .8rem;
+    grid-row-gap: .8rem;
     
     /* Start First Row*/
    
@@ -161,12 +161,13 @@ div:nth-child(15) {
     display: grid;
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(2, 1fr);
-    grid-auto-flow: row; 
+    grid-auto-flow: row;
+    grid-gap: .8rem; 
     
              
         }
     
-    .sub_item_2 {
+.sub_item_2 {
     div:nth-child(1){
         grid-column: 1 / span 1;
         grid-row: 1 / span 1
