@@ -173,10 +173,10 @@ p, li, span {
         grid-column: 1 / span 1; }
       /* line 223, css/sass/design.scss */
       .grid-container .card_wrapper div:nth-child(2), .grid-container .clients_wrapper div:nth-child(2) {
-        grid-column: 1 / span 1; }
+        grid-column: 2 / span 1; }
       /* line 228, css/sass/design.scss */
       .grid-container .card_wrapper div:nth-child(3), .grid-container .clients_wrapper div:nth-child(3) {
-        grid-column: 1 / span 1; }
+        grid-column: 3 / span 1; }
     /* line 238, css/sass/design.scss */
     .grid-container .sub_item_2 div:nth-child(1) {
       grid-column: 1 / span 1;
