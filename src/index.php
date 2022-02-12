@@ -56,15 +56,15 @@
 </div>
 <div class="content">
     <h3>We offer</h3>
-    <p>Brand identity,</p>
-<p>Art direction,</p> 
-<p>UI/UX design,</p> 
-<p>Social ads,</p> 
-<p>Research,</p> 
-<p>Story telling,</p>
-<p>Video editing,</p>
-<p>SEO,</p> 
-<p>&amp; so much more.</p>
+    <p>Brand identity,
+Art direction, 
+UI/UX design, 
+Social ads,
+Research,
+Story telling,
+Video editing,
+SEO, 
+&amp; so much more.</p>
     </div>
     </div>
 <div>
@@ -81,8 +81,6 @@
         </div><div><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/client_4.jpg" alt="clients"  width="1200"/> </div>
         
         </div>
-    
-    
 <div class="testimonial">
     <h4>Testimonial</h4>
     </div>
