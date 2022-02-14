@@ -1,15 +1,7 @@
 $red: #e52227; 
 $white: #fffafa; 
 $secondary-red: #e52227;
-$xs-max: 40rem !default; // Set xs breakpoint's max width
-$sm-max: 64rem !default; // Set sm breakpoint's max width
-$md-max: 90rem !default; // Set md breakpoint's max width
-$lg-max: 120rem !default; // Set lg breakpoint's max width
-@media screen and (min-width:$lg-max){
-.grid-container-front-top {
-    
-    img {border-radius: 1rem; }
-    
+.grid-item {
     display: grid;
     grid-template-rows: 7.2rem;
     grid-template-columns: repeat(24, 1fr);
@@ -19,7 +11,14 @@ $lg-max: 120rem !default; // Set lg breakpoint's max width
     padding: 0 .8rem;
     grid-column-gap: .8rem;
     grid-row-gap: .8rem;
+    
+    img {border-radius: 1rem; }
 
+  
+        
+    } 
+.grid-item-1 {
+    
     
     /* Start First Row*/
    
@@ -95,24 +94,16 @@ $lg-max: 120rem !default; // Set lg breakpoint's max width
     // services offered 
     
     }
-.sub_item_1 {
+.grid-item-2 {
         
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(7.2rem, 1fr);
-    max-width: 100vw;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 .8rem;
-    grid-column-gap: .8rem;
-    grid-row-gap: .8rem;
 
     
     img{
-        bord-radius: 1rem; 
+        border-radius: 1rem; 
     }
     
-    div:nth-child(1) {
+    div:nth-child(1) 
+    {
     grid-column: 2 / span 10;
     grid-row: 1 / span 8;        
     } 
@@ -125,18 +116,8 @@ $lg-max: 120rem !default; // Set lg breakpoint's max width
 
     
     }    
-
-.sub_item_2 {
+.grid-item-3 {
     
-    display: grid;
-    grid-template-columns: repeat(24, 1fr);
-    grid-template-rows: repeat(7.2rem, 1fr);
-    max-width: 100vw;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 .8rem;
-    grid-column-gap: .8rem;
-    grid-row-gap: .8rem;
     
     .client_content {
         
@@ -157,30 +138,18 @@ $lg-max: 120rem !default; // Set lg breakpoint's max width
     }
     
     img {
-        bord-radius: 1rem; 
+        border-radius: 1rem; 
     }
 
     
     }
-    
-.sub_item_3   {
-    display: grid; 
-    grid-template-columns: repeat(24, 1fr);
-    grid-template-rows: repeat(7.2rem, 1fr);
-    max-width: 100vw;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 .8rem;
-    grid-column-gap: .8rem;
-    grid-row-gap: .8rem;
+.grid-item-4   {
     
 .card_wrapper, .clients_wrapper {
-    display: grid;
-    grid-template-rows: repeat(3, 1fr);
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-flow: row;
-    grid-gap: .8rem;
-    padding: 1.6rem; 
+    
+    img {
+        border-radius: 1rem; 
+    }
     
     .card {
         border: 1px solid #ccc;
@@ -225,19 +194,9 @@ $lg-max: 120rem !default; // Set lg breakpoint's max width
     }
     
     .sub_item_3 {
-        display: grid; 
-    grid-template-columns: repeat(24, 1fr);
-    grid-template-rows: repeat(7.2rem, 1fr);
 
     }
     
     
 }
-    
-    
-    
-    
-    
-        
-    
-}  // mq end 
+.grid-item-5 {}    

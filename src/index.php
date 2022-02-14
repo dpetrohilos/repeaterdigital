@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<div class="grid-container-front-top">
+<div class="grid-container-front-top grid-item grid-item-1">
 <div class="content">
     <h1>We change <span>narratives</span></h1>
 </div>
@@ -50,8 +50,7 @@
     
     
 </div></div>
-
-<div class="sub_item_1">    
+<div class="grid-item-2 grid-item">    
 <div><img class="multiply" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Image_12.jpg" alt="Graphic Poster"  width="1200"/>   
 </div>
     
@@ -69,7 +68,7 @@ SEO, <br>
 &amp; so much more.</p>
     </div>
     </div>
-<div class="sub_item_2"> 
+<div class="grid-item-3 grid-item"> 
 <div id="past" class="content client_content"><h3>Our past clients</h3>
         <p>Our work been showcased in the New York Times, Sports Illustrated, and other publications. </p>
         <p>We’ve worked with organizations such as the Center For American Progress, Google, the Democracy Collaborative, UCLA, National Geographic, Brightest Young Things, Think Progress, and People For The American Way.</p>
@@ -92,7 +91,7 @@ SEO, <br>
         
     </div>
     </div> 
-<div class="sub_item_3">
+<div class="grid-item-4 grid-item">
 <div id="clients" class="content card_wrapper">
     <div class="card">
     <blockquote>“For years the individuals that make up Repeater Digital have lived and breathed progressive communications—from building grassroots communities to transforming popular opinion—their work has had resounding global reach and impact. From graphic design to media relations and everything in between, Repeater has what it takes to educate, amplify, and inspire.”</blockquote>
@@ -113,7 +112,7 @@ SEO, <br>
 </div>
  
 </div>
-<div id="projects" class="content clients_wrapper sub_item_4">
+<div id="projects" class="content clients_wrapper grid-item-5 grid-item">
     <div class="card">
     <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Work1.jpg" alt="Graphic Poster"  width="1200"/></div>   
     <div class="card"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Work2.jpg" alt="Graphic Poster"  width="1200"/></div>   
