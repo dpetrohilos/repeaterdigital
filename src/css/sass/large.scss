@@ -197,8 +197,6 @@ $lg-max: 120rem !default; // Set lg breakpoint's max width
             content: "—"
         }
     }
-    
-    
     div:nth-child(1) {
         grid-column: 1 / span 8;
         grid-row: 1 / span 1;
