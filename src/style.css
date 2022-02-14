@@ -333,6 +333,12 @@ input[type="search"] {
   .nav li {
     list-style: none; }
 
+/* line 24, css/sass/partials/nav.scss */
+.sub-menu {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex; }
+
 /**
  * partials/sidebar
  * ---
