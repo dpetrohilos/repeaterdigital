@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$white".
-        on line 72 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/partials/footer.scss
+        on line 74 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/partials/footer.scss
 
-67:     background-repeat: no-repeat;
-68:     background-position: 0 88%;
 69:     transition: background-size 0.25s ease-in;   
-70:     background-size: 100% 0.2rem;    
-71:     
-72: &:hover { background-position: 100% 88%; color: $white; 
-73:     background-size: 100% 0.6rem;}
-74: 
-75:         
-76:     
-77: }
+70:     background-size: 100%;
+71:     border: none;
+72:     border-radius: .4rem;
+73:     font-size: 1.8rem; 
+74: &:hover { background-position: 100% 88%; color: $white;}
+75: 
+76:         
+77:     
+78: }
+79: 
 
 Backtrace:
-/Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/partials/footer.scss:72
+/Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/partials/footer.scss:74
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/script/tree/node.rb:58:in `perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:398:in `visit_prop'
@@ -79,4 +79,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$white\".\A         on line 72 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/partials/footer.scss\A \A 67:     background-repeat: no-repeat;\A 68:     background-position: 0 88%;\A 69:     transition: background-size 0.25s ease-in;   \A 70:     background-size: 100% 0.2rem;    \A 71:     \A 72: &:hover { background-position: 100% 88%; color: $white; \A 73:     background-size: 100% 0.6rem;}\A 74: \A 75:         \A 76:     \A 77: }"; }
+  content: "Error: Undefined variable: \"$white\".\A         on line 74 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/partials/footer.scss\A \A 69:     transition: background-size 0.25s ease-in;   \A 70:     background-size: 100%;\A 71:     border: none;\A 72:     border-radius: .4rem;\A 73:     font-size: 1.8rem; \A 74: &:hover { background-position: 100% 88%; color: $white;}\A 75: \A 76:         \A 77:     \A 78: }\A 79: "; }
