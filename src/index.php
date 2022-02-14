@@ -69,7 +69,6 @@ SEO, <br>
 &amp; so much more.</p>
     </div>
     </div>
-    
 <div class="sub_item_2"> 
 <div id="past" class="content client_content"><h3>Our past clients</h3>
         <p>Our work been showcased in the New York Times, Sports Illustrated, and other publications. </p>
@@ -93,12 +92,7 @@ SEO, <br>
         
     </div>
     </div> 
-    
-
 <div class="sub_item_3">
-<div class="testimonial">
-    <h4>Testimonial</h4>
-    </div>
 <div id="clients" class="content card_wrapper">
     <div class="card">
     <blockquote>“For years the individuals that make up Repeater Digital have lived and breathed progressive communications—from building grassroots communities to transforming popular opinion—their work has had resounding global reach and impact. From graphic design to media relations and everything in between, Repeater has what it takes to educate, amplify, and inspire.”</blockquote>
@@ -117,12 +111,13 @@ SEO, <br>
     </div>
 
 </div>
-<div id="projects" class="content clients_wrapper">
+ 
+</div>
+<div id="projects" class="content clients_wrapper sub_item_4">
     <div class="card">
     <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Work1.jpg" alt="Graphic Poster"  width="1200"/></div>   
     <div class="card"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Work2.jpg" alt="Graphic Poster"  width="1200"/></div>   
     <div class="card"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Work3.jpg" alt="Graphic Poster"  width="1200"/></div>   
     
-</div>  
-</div>
+</div> 
 <?php get_footer(); ?>
