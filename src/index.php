@@ -92,7 +92,7 @@ SEO, <br>
     </div>
     </div> 
 <div class="grid-item-4 grid-item">
-    <div class="cad">
+    <div class="card">
     <blockquote>“For years the individuals that make up Repeater Digital have lived and breathed progressive communications—from building grassroots communities to transforming popular opinion—their work has had resounding global reach and impact. From graphic design to media relations and everything in between, Repeater has what it takes to educate, amplify, and inspire.”</blockquote>
     
     <cite>Ryan Fletcher, Director of Movement Media</cite></div>
