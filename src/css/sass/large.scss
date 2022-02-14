@@ -19,6 +19,7 @@ $lg-max: 120rem !default; // Set lg breakpoint's max width
     padding: 0 .8rem;
     grid-column-gap: .8rem;
     grid-row-gap: .8rem;
+
     
     /* Start First Row*/
    
@@ -100,8 +101,15 @@ $lg-max: 120rem !default; // Set lg breakpoint's max width
         
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: .8rem;
-    padding: 1.6rem; 
+    grid-template-rows: 7.2rem;
+    max-width: 100vw;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 .8rem;
+    grid-column-gap: .8rem;
+    grid-row-gap: .8rem;
+
+    
     img{
         bord-radius: 1rem; 
     }
@@ -113,8 +121,13 @@ $lg-max: 120rem !default; // Set lg breakpoint's max width
     
     display: grid;
     grid-template-columns: repeat(24, 1fr);
-    grid-gap: .8rem;
-    padding: 1.6rem;
+    grid-template-rows: 7.2rem;
+    max-width: 100vw;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 .8rem;
+    grid-column-gap: .8rem;
+    grid-row-gap: .8rem;
     
     .client_content {
         
@@ -127,8 +140,8 @@ $lg-max: 120rem !default; // Set lg breakpoint's max width
     
     grid-column: 13 / span 12; 
     display: grid; 
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     grid-auto-flow: dense column row;  
     }
     
@@ -142,6 +155,14 @@ $lg-max: 120rem !default; // Set lg breakpoint's max width
 .sub_item_3   {
     display: grid; 
     grid-template-columns: repeat(24, 1fr);
+    grid-template-rows: 7.2rem;
+    max-width: 100vw;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 .8rem;
+    grid-column-gap: .8rem;
+    grid-row-gap: .8rem;
+
 
     
     
