@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <div class="grid-container-front-top grid-item grid-item-1">
 <div class="content">
-    <h1>We change <span>narratives</span></h1>
+    <h1>We change narratives</h1>
 </div>
 <div class="content">
     <p><strong>Repeater.Digital</strong> is a full stack  creative collaborative. Democratically owned and managed, we believe in the positive impact of design, development, and story telling.</p>   
