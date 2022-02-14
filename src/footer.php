@@ -13,7 +13,12 @@
     
         <p>We hold our selves to the highest standards and let the results speak for themselves. We're happy to work with you, let's get in touch.</p>
     
-    <!-- copyright -->
+                </div>
+
+<div class="col-lg-4 col-xs-12 col-sm-12 col-md-7">
+    <?php echo do_shortcode('[contact-form-7 id="8" title="Contact form 1"]'); ?>
+    
+                </div></section><section class="row text-center"><div class="col">    <!-- copyright -->
 			    <?php
 				    printf( '<p class="copyright">' . __( '&copy; %1$s Copyright %2$s. Powered by <a href="%3$s" title="WordPress">WordPress</a> &amp; <a href="%4$s" title="HTML5 Blank">HTML5 Blank</a>.', 'html5blank' ) . '</p>',
 				    	date( 'Y'),
@@ -23,11 +28,6 @@
 					);
 				?>
 				<!-- /copyright -->
-                </div>
-
-<div class="col-lg-4 col-xs-12 col-sm-12 col-md-7">
-    <?php echo do_shortcode('[contact-form-7 id="8" title="Contact form 1"]'); ?>
-    
                 </div></section>
 </footer>
 			<!-- /footer -->
