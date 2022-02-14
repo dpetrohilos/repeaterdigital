@@ -67,5 +67,6 @@ $secondary-red: #e52227;
 
 .bg-red {
     background: $red;
-    border-radius: 1rem; 
+    border-radius: 1rem;
+    z-index: -2; 
 }
