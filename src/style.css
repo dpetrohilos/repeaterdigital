@@ -1975,11 +1975,11 @@ input[type="search"] {
       grid-row: 23 / span 9; }
     /* line 83, css/sass/large.scss */
     .grid-item-1 div:nth-child(10) {
-      grid-column: 7 / span 4;
+      grid-column: 2 / span 4;
       grid-row: 26 / span 4; }
     /* line 89, css/sass/large.scss */
     .grid-item-1 div:nth-child(11) {
-      grid-column: 2 / span 4;
+      grid-column: 7 / span 4;
       grid-row: 26 / span 4; }
     /* line 95, css/sass/large.scss */
     .grid-item-1 div:nth-child(12) {
