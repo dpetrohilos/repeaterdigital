@@ -404,22 +404,22 @@ input[type="search"] {
 /* line 28, css/sass/partials/footer.scss */
 .wpcf7 .wpcf7-form {
   width: 100%;
-  max-width: 28rem; }
+  max-width: 26.6rem; }
   /* line 33, css/sass/partials/footer.scss */
   .wpcf7 .wpcf7-form input {
     width: 100%;
     max-width: 28rem; }
-  /* line 39, css/sass/partials/footer.scss */
-  .wpcf7 .wpcf7-form label {
-    margin: .4rem 0; }
+  /* line 40, css/sass/partials/footer.scss */
+  .wpcf7 .wpcf7-form label span {
+    padding: .8rem 0 1.6rem; }
 
-/* line 49, css/sass/partials/footer.scss */
+/* line 51, css/sass/partials/footer.scss */
 .footer-logo {
   max-width: 24rem;
   width: 100%;
   height: auto;
   padding: 1.6rem; }
-  /* line 56, css/sass/partials/footer.scss */
+  /* line 58, css/sass/partials/footer.scss */
   .footer-logo svg {
     fill: #fff; }
 

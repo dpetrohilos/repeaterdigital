@@ -28,7 +28,7 @@
     .wpcf7-form {
 
         width: 100%; 
-        max-width: 28rem;
+        max-width: 26.6rem;
         
         input {
         width: 100%; 
@@ -37,7 +37,9 @@
         }
        
         label{
-            margin: .4rem 0; 
+            span {padding: .8rem 0 1.6rem;} 
+            
+            
             
         }
  
