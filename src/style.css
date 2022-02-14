@@ -1956,7 +1956,7 @@ input[type="search"] {
     /* line 93, css/sass/large.scss */
     .grid-item-1 div:nth-child(13) {
       grid-column: 8 / span 6;
-      grid-row: 32 / span 8; }
+      grid-row: 32 / span 9; }
     /* line 97, css/sass/large.scss */
     .grid-item-1 div:nth-child(14) {
       grid-column: 15 / span 6;
