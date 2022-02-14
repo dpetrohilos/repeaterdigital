@@ -1,0 +1,14 @@
+/* line 1, css/sass/xsm.scss */
+.grid-item {
+  display: grid;
+  grid-template-rows: 7.2rem;
+  grid-template-columns: repeat(12, 1fr);
+  max-width: 100vw;
+  width: 100%;
+  margin: 0 auto;
+  padding: .8rem;
+  grid-column-gap: .8rem;
+  grid-row-gap: .8rem; }
+  /* line 12, css/sass/xsm.scss */
+  .grid-item img {
+    border-radius: 1rem; }
