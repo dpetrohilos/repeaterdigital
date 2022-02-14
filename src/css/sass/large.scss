@@ -125,7 +125,10 @@ $lg-max: 120rem !default; // Set lg breakpoint's max width
     }
     }
     
-    .sub_item_3   { 
+    .sub_item_3   {
+    display: grid; 
+    grid-template-columns: repeat(24, 1fr);
+
     
     
 .card_wrapper, .clients_wrapper {
