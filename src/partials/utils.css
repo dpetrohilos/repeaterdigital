@@ -1,19 +1,23 @@
 /*
 Error: Undefined mixin 'reset-box'.
-        on line 22 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/partials/utils.scss, in `reset-box'
-        from line 22 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/partials/utils.scss
+        on line 27 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/partials/utils.scss, in `reset-box'
+        from line 27 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/partials/utils.scss
 
-17:     clear: both;
-18:   }
-19: }
-20: 
-21: .reset-box {
-22:   @include reset-box;
-23: }
+22:     clear: both;
+23:   }
+24: }
+25: 
+26: .reset-box {
+27:   @include reset-box;
+28: }
+29: 
+30: 
+31: .content {
+32:     font-size: 1.8rem; 
 
 Backtrace:
-/Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/partials/utils.scss:22:in `reset-box'
-/Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/partials/utils.scss:22
+/Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/partials/utils.scss:27:in `reset-box'
+/Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/partials/utils.scss:27
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/stack.rb:98:in `block in with_mixin'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
@@ -68,4 +72,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'reset-box'.\A         on line 22 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/partials/utils.scss, in `reset-box'\A         from line 22 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/partials/utils.scss\A \A 17:     clear: both;\A 18:   }\A 19: }\A 20: \A 21: .reset-box {\A 22:   @include reset-box;\A 23: }"; }
+  content: "Error: Undefined mixin 'reset-box'.\A         on line 27 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/partials/utils.scss, in `reset-box'\A         from line 27 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/partials/utils.scss\A \A 22:     clear: both;\A 23:   }\A 24: }\A 25: \A 26: .reset-box {\A 27:   @include reset-box;\A 28: }\A 29: \A 30: \A 31: .content {\A 32:     font-size: 1.8rem; "; }
