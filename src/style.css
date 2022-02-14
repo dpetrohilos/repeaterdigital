@@ -1923,65 +1923,73 @@ input[type="search"] {
       grid-column: 15 / span 6;
       grid-row: 34 / span 8; }
 
-  /* line 101, css/sass/large.scss */
-  .grid-item-2 img {
-    border-radius: 1rem; }
-  /* line 105, css/sass/large.scss */
+  /* line 99, css/sass/large.scss */
   .grid-item-2 div:nth-child(1) {
     grid-column: 2 / span 10;
     grid-row: 1 / span 8; }
-  /* line 111, css/sass/large.scss */
+  /* line 105, css/sass/large.scss */
   .grid-item-2 div:nth-child(2) {
-    grid-column: 12 / span 13;
-    grid-row: 1 / span 8; }
+    grid-column: 13 / span 2;
+    grid-row: 2 / span 6; }
+  /* line 113, css/sass/large.scss */
+  .grid-item-2 div:nth-child(3) {
+    border-radius: 1rem; }
 
-  /* line 122, css/sass/large.scss */
+  /* line 125, css/sass/large.scss */
   .grid-item-3 .client_content {
     grid-column: 6 / span 6;
-    grid-row: 1 / span 8; }
-  /* line 130, css/sass/large.scss */
+    grid-row: 3 / span 4; }
+  /* line 134, css/sass/large.scss */
   .grid-item-3 .logo_wrapper {
     grid-column: 13 / span 12;
     grid-row: 1 / span 8;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-auto-flow: dense column row; }
-  /* line 140, css/sass/large.scss */
+    grid-auto-flow: dense column row;
+    grid-column-gap: .8rem;
+    grid-row-gap: .8rem; }
+  /* line 147, css/sass/large.scss */
   .grid-item-3 img {
     border-radius: 1rem; }
 
-  /* line 150, css/sass/large.scss */
-  .grid-item-4 .card_wrapper img, .grid-item-4 .clients_wrapper img {
-    border-radius: 1rem; }
   /* line 154, css/sass/large.scss */
-  .grid-item-4 .card_wrapper .card, .grid-item-4 .clients_wrapper .card {
-    border: 1px solid #ccc;
-    padding: 1.6rem;
-    border-radius: 1rem; }
-    /* line 158, css/sass/large.scss */
-    .grid-item-4 .card_wrapper .card q, .grid-item-4 .clients_wrapper .card q {
-      font-size: 2.2rem;
-      line-height: 1.2rem; }
-    /* line 161, css/sass/large.scss */
-    .grid-item-4 .card_wrapper .card cite, .grid-item-4 .clients_wrapper .card cite {
-      font-size: 1.2rem; }
-    /* line 165, css/sass/large.scss */
-    .grid-item-4 .card_wrapper .card cite::before, .grid-item-4 .clients_wrapper .card cite::before {
-      content: "—"; }
-  /* line 169, css/sass/large.scss */
-  .grid-item-4 .card_wrapper div:nth-child(1), .grid-item-4 .clients_wrapper div:nth-child(1) {
+  .grid-item-4 div:nth-child(1) {
     grid-column: 1 / span 8;
-    grid-row: 1 / span 1; }
-  /* line 174, css/sass/large.scss */
-  .grid-item-4 .card_wrapper div:nth-child(2), .grid-item-4 .clients_wrapper div:nth-child(2) {
-    grid-column: 2 / span 1;
-    grid-row: 1 / span 3; }
-  /* line 179, css/sass/large.scss */
-  .grid-item-4 .card_wrapper div:nth-child(3), .grid-item-4 .clients_wrapper div:nth-child(3) {
-    grid-column: 2 / span 1;
-    grid-row: 1 / span 3; }
-  /* line 186, css/sass/large.scss */
-  .grid-item-4 .card_wrapper div:nth-child(4), .grid-item-4 .clients_wrapper div:nth-child(4) {
-    grid-column: 3 / span 1;
-    grid-row: 1 / span 3; } }
+    grid-row: 1 / span 8; }
+  /* line 159, css/sass/large.scss */
+  .grid-item-4 div:nth-child(2) {
+    grid-column: 9 / span 8;
+    grid-row: 1 / span 8; }
+  /* line 164, css/sass/large.scss */
+  .grid-item-4 div:nth-child(3) {
+    grid-column: 17  / span 8;
+    grid-row: 1 / span 8; }
+
+  /* line 175, css/sass/large.scss */
+  .grid-item-5 div:nth-child(1) {
+    grid-column: 1 / span 8;
+    grid-row: 1 / span 8; }
+  /* line 180, css/sass/large.scss */
+  .grid-item-5 div:nth-child(2) {
+    grid-column: 9 / span 8;
+    grid-row: 1 / span 8; }
+  /* line 185, css/sass/large.scss */
+  .grid-item-5 div:nth-child(3) {
+    grid-column: 17  / span 8;
+    grid-row: 1 / span 8; } }
+/* line 1, css/sass/typography.scss */
+.card {
+  border: 1px solid #ccc;
+  padding: 1.6rem;
+  border-radius: 1rem; }
+  /* line 5, css/sass/typography.scss */
+  .card q {
+    font-size: 2.2rem;
+    line-height: 1.2rem; }
+  /* line 8, css/sass/typography.scss */
+  .card cite {
+    font-size: 1.2rem; }
+  /* line 12, css/sass/typography.scss */
+  .card cite::before {
+    content: "—"; }

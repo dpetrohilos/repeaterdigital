@@ -1,0 +1,15 @@
+.card {
+        border: 1px solid #ccc;
+        padding: 1.6rem; 
+        border-radius: 1rem; 
+        q {font-size: 2.2rem; 
+        line-height: 1.2rem; 
+        }
+        cite {
+            font-size: 1.2rem; 
+            
+        }
+        cite::before {
+            content: "—"
+        }
+    }

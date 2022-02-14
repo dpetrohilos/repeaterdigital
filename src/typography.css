@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/* line 1, css/sass/typography.scss */
+.card {
+  border: 1px solid #ccc;
+  padding: 1.6rem;
+  border-radius: 1rem; }
+  /* line 5, css/sass/typography.scss */
+  .card q {
+    font-size: 2.2rem;
+    line-height: 1.2rem; }
+  /* line 8, css/sass/typography.scss */
+  .card cite {
+    font-size: 1.2rem; }
+  /* line 12, css/sass/typography.scss */
+  .card cite::before {
+    content: "—"; }
