@@ -1925,10 +1925,11 @@ p, li, span {
       grid-column: 6 / span 14;
       display: grid;
       grid-template-columns: repeat(2, 1fr); }
-      /* line 163, css/sass/design.scss */
-      .grid-container div:nth-child(14) div:nth-child(2) {
+      /* line 161, css/sass/design.scss */
+      .grid-container div:nth-child(14) .logo_wrapper {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
         grid-auto-flow: dense column row; }
     /* line 182, css/sass/design.scss */
     .grid-container div:nth-child(15) {
