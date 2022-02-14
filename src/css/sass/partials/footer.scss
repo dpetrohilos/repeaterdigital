@@ -6,7 +6,8 @@
 
 .footer {
     background: black; 
-    color: #fff; 
+    color: #fff;
+    padding: 7.2rem 0; 
     p, ul, li, span {
         color: #fff; 
     }
@@ -20,3 +21,32 @@
     }
     
 }
+
+
+
+.wpcf7{
+    .wpcf7-form {
+
+        width: 100%; 
+        max-width: 28rem;
+        
+        input {
+        width: 100%; 
+        max-width: 28rem;
+
+        }
+       
+        label{
+            margin: .4rem 0; 
+            
+        }
+ 
+
+    }
+
+}
+
+
+
+
+

@@ -5,13 +5,26 @@
 /* line 7, ../css/sass/partials/footer.scss */
 .footer {
   background: black;
-  color: #fff; }
-  /* line 10, ../css/sass/partials/footer.scss */
+  color: #fff;
+  padding: 7.2rem 0; }
+  /* line 11, ../css/sass/partials/footer.scss */
   .footer p, .footer ul, .footer li, .footer span {
     color: #fff; }
-  /* line 14, ../css/sass/partials/footer.scss */
+  /* line 15, ../css/sass/partials/footer.scss */
   .footer a {
     color: #fff; }
-    /* line 17, ../css/sass/partials/footer.scss */
+    /* line 18, ../css/sass/partials/footer.scss */
     .footer a:hover {
       text-decoration: none; }
+
+/* line 28, ../css/sass/partials/footer.scss */
+.wpcf7 .wpcf7-form {
+  width: 100%;
+  max-width: 28rem; }
+  /* line 33, ../css/sass/partials/footer.scss */
+  .wpcf7 .wpcf7-form input {
+    width: 100%;
+    max-width: 28rem; }
+  /* line 39, ../css/sass/partials/footer.scss */
+  .wpcf7 .wpcf7-form label {
+    margin: .4rem 0; }
