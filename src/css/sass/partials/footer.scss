@@ -33,8 +33,9 @@
         input {
         width: 100%; 
         max-width: 28rem;
-        margin: 1.6rem 0 .8rem; 
+        margin: .4rem 0 1.6rem; 
         padding: .4rem .2rem; 
+        height: 4.4rem; 
 
         }
        
@@ -49,6 +50,9 @@
     }
 
 }
+
+
+.wpcf7-form-control, .wpcf7-text, .wpcf7-validates-as-required, .wpcf7-tel, .wpcf7-validates-as-tel,  
 
 .footer-logo {
     
