@@ -1938,11 +1938,11 @@ input[type="search"] {
   /* line 122, css/sass/large.scss */
   .grid-item-3 .client_content {
     grid-column: 6 / span 6;
-    row-content: 1 / span 8; }
+    grid-row: 1 / span 8; }
   /* line 130, css/sass/large.scss */
   .grid-item-3 .logo_wrapper {
     grid-column: 13 / span 12;
-    row-content: 1 / span 8;
+    grid-row: 1 / span 8;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);

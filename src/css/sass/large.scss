@@ -122,7 +122,7 @@ $secondary-red: #e52227;
     .client_content {
         
         grid-column: 6 / span 6;
-        row-content: 1 / span 8; 
+        grid-row: 1 / span 8; 
     }
 
     
@@ -130,7 +130,7 @@ $secondary-red: #e52227;
     .logo_wrapper {
     
     grid-column: 13 / span 12;
-    row-content: 1 / span 8; 
+    grid-row: 1 / span 8; 
     display: grid; 
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
