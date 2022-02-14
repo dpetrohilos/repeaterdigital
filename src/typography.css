@@ -15,22 +15,14 @@
   .card cite::before {
     content: "—"; }
 
-/* line 21, css/sass/typography.scss */
-.contact-form .input-block {
-  background-color: rgba(255, 255, 255, 0.8);
-  width: 100%;
-  height: 60px;
-  padding: 25px;
-  position: relative;
-  margin-bottom: 20px; }
-  /* line 31, css/sass/typography.scss */
-  .contact-form .input-block label {
-    position: absolute;
-    left: 25px;
-    top: 25px;
-    display: block;
-    margin: 0;
-    font-weight: 300;
-    z-index: 1;
-    font-size: 18px;
-    line-height: 10px; }
+/* line 27, css/sass/typography.scss */
+.wpcf7 .wpcf7-form label {
+  position: absolute;
+  left: 25px;
+  top: 25px;
+  display: block;
+  margin: 0;
+  font-weight: 300;
+  z-index: 1;
+  font-size: 18px;
+  line-height: 10px; }
