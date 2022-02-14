@@ -49,12 +49,16 @@
     
     
     
-</div></div>
-<div class="grid-item-2 grid-item">    
-<div><img class="multiply" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Image_12.jpg" alt="Graphic Poster"  width="1200"/>   
 </div>
-    
-    
+<div class="bg-red"></div>
+<div class="bg-red"></div>
+
+</div>
+<div class="grid-item-2 grid-item">    
+
+<div>
+<img class="multiply" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Image_12.jpg" alt="Graphic Poster"  width="1200"/>   
+</div>
 <div class="content">
     <h3>We offer</h3>
     <p>Brand identity,<br>
@@ -67,6 +71,8 @@ Video editing,<br>
 SEO, <br>
 &amp; so much more.</p>
     </div>
+<div class="bg-red"></div>
+    
     </div>
 <div class="grid-item-3 grid-item"> 
 <div id="past" class="content client_content"><h3>Our past clients</h3>
