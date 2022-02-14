@@ -331,9 +331,12 @@ input[type="search"] {
     padding-top: .4rem; }
   /* line 17, css/sass/partials/nav.scss */
   .nav li {
-    list-style: none; }
+    list-style: none;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex; }
 
-/* line 24, css/sass/partials/nav.scss */
+/* line 25, css/sass/partials/nav.scss */
 .sub-menu {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
