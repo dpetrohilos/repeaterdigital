@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<div class="grid-container">
+<div class="grid-container-front-top">
 <div class="content">
     <h1>We change <span>narratives</span></h1>
 </div>
@@ -49,10 +49,14 @@
     
     
     
-</div>      
+</div></div>
+
+<div class="mids">
 <div class="sub_item_1">    
 <div><img class="multiply" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Image_12.jpg" alt="Graphic Poster"  width="1200"/>   
 </div>
+    
+    
 <div class="content">
     <h3>We offer</h3>
     <p>Brand identity,<br>
@@ -66,6 +70,7 @@ SEO, <br>
 &amp; so much more.</p>
     </div>
     </div>
+    
 <div class="sub_item_2"> 
 <div id="past" class="content client_content"><h3>Our past clients</h3>
         <p>Our work been showcased in the New York Times, Sports Illustrated, and other publications. </p>

@@ -18,5 +18,15 @@ Description: Repeater Digital Theme Based On HTML5 blank, FlexBox Grid
 @import "partials/footer";
 @import "partials/print";
 @import "main";
-@import "design";
 @import 'css/animate/animate.min.css';
+
+
+// layout 
+
+@import "large";
+@import "medium";
+@import "sm";
+@import "xsm";
+
+// typography 
+@import "typography";
