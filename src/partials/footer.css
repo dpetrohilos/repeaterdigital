@@ -24,17 +24,19 @@
   /* line 33, ../css/sass/partials/footer.scss */
   .wpcf7 .wpcf7-form input {
     width: 100%;
-    max-width: 28rem; }
-  /* line 40, ../css/sass/partials/footer.scss */
+    max-width: 28rem;
+    margin: 1.6rem 0 .8rem;
+    padding: .4rem .2rem; }
+  /* line 42, ../css/sass/partials/footer.scss */
   .wpcf7 .wpcf7-form label span {
     padding: .8rem 0 1.6rem; }
 
-/* line 51, ../css/sass/partials/footer.scss */
+/* line 53, ../css/sass/partials/footer.scss */
 .footer-logo {
   max-width: 24rem;
   width: 100%;
   height: auto;
   padding: 1.6rem; }
-  /* line 58, ../css/sass/partials/footer.scss */
+  /* line 60, ../css/sass/partials/footer.scss */
   .footer-logo svg {
     fill: #fff; }
