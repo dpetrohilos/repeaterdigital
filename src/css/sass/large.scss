@@ -77,24 +77,35 @@ $secondary-red: #e52227;
     grid-column: 13 / span 12;
     grid-row: 23 / span 9;    } 
     
+    
+// vision 
+    
     div:nth-child(10) {
-    grid-column: 4 / span 6;
-    grid-row: 24 / span 4;    }    
+    grid-column: 7 / span 4;
+    grid-row: 26 / span 4;} 
+    
+// mision     
     
     div:nth-child(11) {
+    grid-column: 2 / span 4;
+    grid-row: 26 / span 4;} 
+    
+    
+    
+    div:nth-child(12) {
     grid-column: 1 / span 12;
     grid-row: 30 / span 8;    } 
     
-    div:nth-child(12) {
+    div:nth-child(13) {
     grid-column: 15 / span 6;
     grid-row: 34 / span 8;
     }
     
-    div:nth-child(13) {        
+    div:nth-child(14) {        
     grid-column: 8 / span 6;
     grid-row: 32 / span 9;
 }
-    div:nth-child(14) {    
+    div:nth-child(15) {    
     grid-column: 15 / span 6;
     grid-row: 18 / span 8;
  }
