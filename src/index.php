@@ -100,17 +100,17 @@ SEO, <br>
     </div>
     </div> 
 <div class="grid-item-4 grid-item">
-    <div class="card">
+    <div class="card content">
     <blockquote>“For years the individuals that make up Repeater Digital have lived and breathed progressive communications—from building grassroots communities to transforming popular opinion—their work has had resounding global reach and impact. From graphic design to media relations and everything in between, Repeater has what it takes to educate, amplify, and inspire.”</blockquote>
     
     <cite>Ryan Fletcher, Director of Movement Media</cite></div>
-<div  class="card">    
+<div  class="card content">    
         <blockquote>“It really makes a difference when a communications firm believes in your message and not just using your message to make money for itself. It also makes a difference when the people who work in the firm also own it. When it comes to amplifying campaigns that move us toward the world that we want, Repeater.Digital walks the talk.”</blockquote>
     
     <cite>Isaiah J. Poole, Communications executive.
 </cite>
     </div>
-    <div  class="card">
+    <div  class="card content">
         <blockquote>“Repeater.Digital delivered a beautiful, clean and visually engaging look book for DC Action Lab’s re-brand and relaunch. They handled all aspects of the design and assisted with copy editing and writing. Thank you Repeater!”</blockquote>
     
     <cite>Noor Mir, Principal owner of DC Action Lab. </cite>
