@@ -81,6 +81,8 @@ SEO, <br>
         <div><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/client_5.jpg" alt="clients"  width="1200"/> </div><div><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/client_6.jpg" alt="clients"  width="1200"/> </div><div><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/client_7.jpg" alt="clients"  width="1200"/> </div><div><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/client_8.jpg" alt="clients"  width="1200"/> </div>
         
     </div></div> 
+    
+    
 <div class="testimonial">
     <h4>Testimonial</h4>
     </div>
