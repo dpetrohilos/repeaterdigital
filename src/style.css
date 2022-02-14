@@ -434,20 +434,22 @@ input[type="search"] {
   background-size: 100%;
   border: none;
   border-radius: .4rem;
-  font-size: 1.8rem; }
-  /* line 74, css/sass/partials/footer.scss */
+  font-size: 1.8rem;
+  width: 14rem;
+  float: left; }
+  /* line 76, css/sass/partials/footer.scss */
   .wpcf7-submit:hover {
     background-position: 100% 88%;
     color: #fffafa; }
 
-/* line 81, css/sass/partials/footer.scss */
+/* line 83, css/sass/partials/footer.scss */
 .wpcf7-text, .wpcf7-validates-as-required, .wpcf7-tel, .wpcf7-validates-as-tel,
 .footer-logo {
   max-width: 24rem;
   width: 100%;
   height: auto;
   padding: 1.6rem; }
-  /* line 90, css/sass/partials/footer.scss */
+  /* line 92, css/sass/partials/footer.scss */
   .wpcf7-text svg, .wpcf7-validates-as-required svg, .wpcf7-tel svg, .wpcf7-validates-as-tel svg,
   .footer-logo svg {
     fill: #fff; }
