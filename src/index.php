@@ -39,8 +39,6 @@
 <div id="mission" class="content">
     <h2>Mission</h2>
     <p>We are movement architects who create visual and organizational designs that challenge narratives and shape public opinion.</p>
-
-
     
     
 </div>    
