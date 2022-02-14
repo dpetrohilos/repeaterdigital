@@ -25,21 +25,26 @@
   .wpcf7 .wpcf7-form input {
     width: 100%;
     max-width: 28rem;
-    margin: .4rem 0 1.6rem;
-    padding: .4rem .2rem;
-    height: 4.4rem; }
-  /* line 43, ../css/sass/partials/footer.scss */
+    margin: 0.2rem 0 1.2rem;
+    padding: 1rem 1.2rem;
+    height: 4rem; }
+  /* line 42, ../css/sass/partials/footer.scss */
   .wpcf7 .wpcf7-form label span {
     padding: .8rem 0 1.6rem; }
 
-/* line 55, ../css/sass/partials/footer.scss */
-.wpcf7-form-control, .wpcf7-text, .wpcf7-validates-as-required, .wpcf7-tel, .wpcf7-validates-as-tel,
+/* line 54, ../css/sass/partials/footer.scss */
+.wpcf7-form-control {
+  max-width: 26rem;
+  width: 100%; }
+
+/* line 60, ../css/sass/partials/footer.scss */
+.wpcf7-text, .wpcf7-validates-as-required, .wpcf7-tel, .wpcf7-validates-as-tel,
 .footer-logo {
   max-width: 24rem;
   width: 100%;
   height: auto;
   padding: 1.6rem; }
-  /* line 64, ../css/sass/partials/footer.scss */
-  .wpcf7-form-control svg, .wpcf7-text svg, .wpcf7-validates-as-required svg, .wpcf7-tel svg, .wpcf7-validates-as-tel svg,
+  /* line 69, ../css/sass/partials/footer.scss */
+  .wpcf7-text svg, .wpcf7-validates-as-required svg, .wpcf7-tel svg, .wpcf7-validates-as-tel svg,
   .footer-logo svg {
     fill: #fff; }

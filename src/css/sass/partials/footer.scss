@@ -31,12 +31,11 @@
         max-width: 26.6rem;
         
         input {
-        width: 100%; 
+        width: 100%;
         max-width: 28rem;
-        margin: .4rem 0 1.6rem; 
-        padding: .4rem .2rem; 
-        height: 4.4rem; 
-
+        margin: 0.2rem 0 1.2rem;
+        padding: 1rem 1.2rem;
+        height: 4rem;
         }
        
         label{
@@ -52,7 +51,13 @@
 }
 
 
-.wpcf7-form-control, .wpcf7-text, .wpcf7-validates-as-required, .wpcf7-tel, .wpcf7-validates-as-tel,  
+.wpcf7-form-control {
+    max-width: 26rem; 
+    width: 100%; 
+
+}
+
+.wpcf7-text, .wpcf7-validates-as-required, .wpcf7-tel, .wpcf7-validates-as-tel,  
 
 .footer-logo {
     
