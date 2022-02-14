@@ -1,6 +1,6 @@
 			<!-- footer -->
-			<footer class="footer row" role="contentinfo">
-<div class="offset-lg-2 offset-sm-1 offset-xs-1 offset-md-1 col-lg-4 col-xs-10 col-sm-10 col-md-4">
+			<footer class="footer" role="contentinfo"><section class="row">
+<div class="col-lg-offset-3 col-xs-offset-1 col-md-offset-3 col-md-offset-3 col-lg-4 col-xs-10 col-sm-10 col-md-4">
 				
     <p>Repeater Digital is a full stack creative  collaborative, democratically managed by creative professionals with decades of experience.
     </p>
@@ -20,7 +20,7 @@
 <div class="col-lg-4 col-xs-12 col-sm-12 col-md-7">
     <?php echo do_shortcode('[contact-form-7 id="8" title="Contact form 1"]'); ?>
     
-</div>
+                </div></section>
 </footer>
 			<!-- /footer -->
 
