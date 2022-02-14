@@ -104,9 +104,9 @@ SEO,
 </div>
 <div id="projects" class="content clients_wrapper">
     <div class="card">
-    <a href="#client"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Work1.jpg" alt="Graphic Poster"  width="1200"/></a></div>   
-    <div class="card"><a href="#client"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Work2.jpg" alt="Graphic Poster"  width="1200"/></a></div>   
-    <div class="card"><a href="#client"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Work3.jpg" alt="Graphic Poster"  width="1200"/></a></div>   
+    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Work1.jpg" alt="Graphic Poster"  width="1200"/></div>   
+    <div class="card"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Work2.jpg" alt="Graphic Poster"  width="1200"/></div>   
+    <div class="card"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Work3.jpg" alt="Graphic Poster"  width="1200"/></div>   
     
 </div>  
 
