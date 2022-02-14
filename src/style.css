@@ -1924,10 +1924,13 @@ p, li, span {
       grid-row: 53 / span 12;
       grid-column: 6 / span 14;
       display: grid;
-      grid-auto-flow: dense;
-      grid-template-columns: repeat(4, 1fr);
-      grid-template-rows: repeat(2, 1fr); }
-    /* line 178, css/sass/design.scss */
+      grid-template-columns: repeat(2, 1fr); }
+      /* line 163, css/sass/design.scss */
+      .grid-container div:nth-child(14) div:nth-child(2) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-flow: dense column row; }
+    /* line 182, css/sass/design.scss */
     .grid-container div:nth-child(15) {
       grid-row: 56 / span 4;
       grid-column: 12 / span 6;
@@ -1935,7 +1938,7 @@ p, li, span {
       grid-template-rows: repeat(2, 1fr);
       grid-auto-flow: row;
       grid-gap: .8rem; }
-      /* line 193, css/sass/design.scss */
+      /* line 197, css/sass/design.scss */
       .grid-container div:nth-child(15) div:nth-child(2) {
         display: grid;
         display: grid;
@@ -1943,23 +1946,23 @@ p, li, span {
         grid-gap: .8rem;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(2, 1fr); }
-    /* line 210, css/sass/design.scss */
+    /* line 214, css/sass/design.scss */
     .grid-container div:nth-child(16) {
       grid-row: 58 / span 1;
       grid-column: 8 / span 7; }
-    /* line 216, css/sass/design.scss */
+    /* line 220, css/sass/design.scss */
     .grid-container div:nth-child(17) {
       grid-row: 59 / span 6;
       grid-column: 1 / span 24; }
-    /* line 222, css/sass/design.scss */
+    /* line 226, css/sass/design.scss */
     .grid-container div:nth-child(18) {
       grid-row: 65 / span 6;
       grid-column: 1 / span 24; }
-    /* line 228, css/sass/design.scss */
+    /* line 232, css/sass/design.scss */
     .grid-container div:nth-child(19) {
       grid-row: 72 / span 6;
       grid-column: 1 / span 24; }
-    /* line 234, css/sass/design.scss */
+    /* line 238, css/sass/design.scss */
     .grid-container .card_wrapper, .grid-container .clients_wrapper {
       display: grid;
       grid-template-rows: repeat(3, 1fr);
@@ -1967,37 +1970,37 @@ p, li, span {
       grid-auto-flow: row;
       grid-gap: .8rem;
       padding: 1.6rem; }
-      /* line 242, css/sass/design.scss */
+      /* line 246, css/sass/design.scss */
       .grid-container .card_wrapper .card, .grid-container .clients_wrapper .card {
         border: 1px solid #ccc;
         padding: 1.6rem;
         border-radius: 1rem; }
-        /* line 246, css/sass/design.scss */
+        /* line 250, css/sass/design.scss */
         .grid-container .card_wrapper .card q, .grid-container .clients_wrapper .card q {
           font-size: 2.2rem;
           line-height: 1.2rem; }
-        /* line 249, css/sass/design.scss */
+        /* line 253, css/sass/design.scss */
         .grid-container .card_wrapper .card cite, .grid-container .clients_wrapper .card cite {
           font-size: 1.2rem; }
-        /* line 253, css/sass/design.scss */
+        /* line 257, css/sass/design.scss */
         .grid-container .card_wrapper .card cite::before, .grid-container .clients_wrapper .card cite::before {
           content: "—"; }
-      /* line 258, css/sass/design.scss */
+      /* line 262, css/sass/design.scss */
       .grid-container .card_wrapper div:nth-child(1), .grid-container .clients_wrapper div:nth-child(1) {
         grid-column: 1 / span 1;
         grid-row: 1 / span 3; }
-      /* line 263, css/sass/design.scss */
+      /* line 267, css/sass/design.scss */
       .grid-container .card_wrapper div:nth-child(2), .grid-container .clients_wrapper div:nth-child(2) {
         grid-column: 2 / span 1;
         grid-row: 1 / span 3; }
-      /* line 270, css/sass/design.scss */
+      /* line 274, css/sass/design.scss */
       .grid-container .card_wrapper div:nth-child(3), .grid-container .clients_wrapper div:nth-child(3) {
         grid-column: 3 / span 1;
         grid-row: 1 / span 3; } }
-/* line 300, css/sass/design.scss */
+/* line 304, css/sass/design.scss */
 .content {
   font-size: 1.8rem; }
-  /* line 303, css/sass/design.scss */
+  /* line 307, css/sass/design.scss */
   .content a.btn {
     text-decoration: none;
     color: #181b1c;
@@ -2007,12 +2010,12 @@ p, li, span {
     -webkit-transition: background-size 0.25s ease-in;
     transition: background-size 0.25s ease-in;
     background-size: 100% 0.2rem; }
-    /* line 314, css/sass/design.scss */
+    /* line 318, css/sass/design.scss */
     .content a.btn:hover {
       background-position: 100% 88%;
       color: #fffafa;
       background-size: 100% 0.6rem; }
 
-/* line 321, css/sass/design.scss */
+/* line 325, css/sass/design.scss */
 .bg_red {
   background: #e52227; }

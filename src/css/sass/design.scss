@@ -151,17 +151,21 @@ div:nth-child(14) {
     grid-row: 53 / span 12;
     grid-column: 6 / span 14;   
     display: grid; 
-    grid-auto-flow: dense;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
 
     
     div:nth-child(1) {
+        
         
     } 
     
         
     div:nth-child(2) {
+        
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-flow: dense column row;
+
         
     } 
     
