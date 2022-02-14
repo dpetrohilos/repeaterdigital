@@ -51,7 +51,6 @@
     
 </div>      
 <div class="sub_item_1">    
-    <div class="bg_red"><b></b></div>
 <div><img class="multiply" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Image_12.jpg" alt="Graphic Poster"  width="1200"/>   
 </div>
 <div class="content">
@@ -79,6 +78,7 @@ SEO,
         </div><div><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/client_2.jpg" alt="clients"  width="1200"/>  
     </div><div><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/client_3.jpg" alt="clients"  width="1200"/>  
         </div><div><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/client_4.jpg" alt="clients"  width="1200"/> </div>
+        <div><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/client_5.jpg" alt="clients"  width="1200"/> </div><div><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/client_6.jpg" alt="clients"  width="1200"/> </div><div><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/client_7.jpg" alt="clients"  width="1200"/> </div><div><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/client_8.jpg" alt="clients"  width="1200"/> </div>
         
         </div>
 <div class="testimonial">
