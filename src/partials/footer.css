@@ -6,7 +6,7 @@ Error: Undefined variable: "$white".
 72:     border-radius: .4rem;
 73:     font-size: 1.8rem;
 74:     width: 14rem;
-75:     float:  left; 
+75:     float:  right; 
 76: &:hover { background-position: 100% 88%; color: $white;}
 77: 
 78:         
@@ -79,4 +79,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$white\".\A         on line 76 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/partials/footer.scss\A \A 71:     border: none;\A 72:     border-radius: .4rem;\A 73:     font-size: 1.8rem;\A 74:     width: 14rem;\A 75:     float:  left; \A 76: &:hover { background-position: 100% 88%; color: $white;}\A 77: \A 78:         \A 79:     \A 80: }\A 81: "; }
+  content: "Error: Undefined variable: \"$white\".\A         on line 76 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/partials/footer.scss\A \A 71:     border: none;\A 72:     border-radius: .4rem;\A 73:     font-size: 1.8rem;\A 74:     width: 14rem;\A 75:     float:  right; \A 76: &:hover { background-position: 100% 88%; color: $white;}\A 77: \A 78:         \A 79:     \A 80: }\A 81: "; }

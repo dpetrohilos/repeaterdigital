@@ -436,7 +436,7 @@ input[type="search"] {
   border-radius: .4rem;
   font-size: 1.8rem;
   width: 14rem;
-  float: left; }
+  float: right; }
   /* line 76, css/sass/partials/footer.scss */
   .wpcf7-submit:hover {
     background-position: 100% 88%;
