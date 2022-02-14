@@ -1,9 +1,11 @@
 			<!-- footer -->
-			<footer class="footer" role="contentinfo"><section class="row">
+			<footer id="contact" class="footer" role="contentinfo"><section class="row">
 <div class="col-lg-offset-3 col-xs-offset-1 col-md-offset-3 col-md-offset-3 col-lg-4 col-xs-10 col-sm-10 col-md-4">
 				
     <p>Repeater Digital is a full stack creative  collaborative, democratically managed by creative professionals with decades of experience.
     </p>
+    
+        <p>We hold our selves to the highest standards and let the results speak for themselves. We're happy to work with you, let's get in touch.</p>
     
     <!-- copyright -->
 			    <?php

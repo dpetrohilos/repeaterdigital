@@ -9,3 +9,9 @@
   /* line 10, ../css/sass/partials/footer.scss */
   .footer p, .footer ul, .footer li, .footer span {
     color: #fff; }
+  /* line 14, ../css/sass/partials/footer.scss */
+  .footer a {
+    color: #fff; }
+    /* line 17, ../css/sass/partials/footer.scss */
+    .footer a:hover {
+      text-decoration: none; }

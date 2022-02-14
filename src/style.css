@@ -393,6 +393,12 @@ input[type="search"] {
   /* line 10, css/sass/partials/footer.scss */
   .footer p, .footer ul, .footer li, .footer span {
     color: #fff; }
+  /* line 14, css/sass/partials/footer.scss */
+  .footer a {
+    color: #fff; }
+    /* line 17, css/sass/partials/footer.scss */
+    .footer a:hover {
+      text-decoration: none; }
 
 /**
  * partials/print
@@ -2007,15 +2013,3 @@ input[type="search"] {
   /* line 12, css/sass/typography.scss */
   .card cite::before {
     content: "—"; }
-
-/* line 27, css/sass/typography.scss */
-.wpcf7 .wpcf7-form label {
-  position: absolute;
-  left: 25px;
-  top: 25px;
-  display: block;
-  margin: 0;
-  font-weight: 300;
-  z-index: 1;
-  font-size: 18px;
-  line-height: 10px; }
