@@ -144,10 +144,9 @@ $secondary-red: #e52227;
     
     }
     
-    img {
-        border-radius: 1rem; 
+ img {
+        outline: #ccc 1px solid; 
     }
-
     
     }
 .grid-item-4   {
@@ -172,7 +171,11 @@ $secondary-red: #e52227;
     }
 .grid-item-5 {
     
-        div:nth-child(1) {
+    img {
+        outline: #ccc 1px solid; 
+    }
+    
+    div:nth-child(1) {
         grid-column: 1 / span 8;
         grid-row: 1 / span 8;
     }
