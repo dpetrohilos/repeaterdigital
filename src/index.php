@@ -37,9 +37,8 @@
 
     <p>Repeater Digital strives to isolate the signal from the noise. We use the power of storytelling to transmit and amplify the voices of our partners across the shared global digital community. </p></div>
 <div id="mission" class="content">
-        <h2>Mission</h2>
-    <p>We are movement architects who create visual and organizational
-designs that challenge narratives and shape public opinion..</p>
+    <h2>Mission</h2>
+    <p>We are movement architects who create visual and organizational designs that challenge narratives and shape public opinion.</p>
 
 
     
