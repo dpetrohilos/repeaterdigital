@@ -239,7 +239,7 @@ div:nth-child(15) {
     }
     
     
-    .sub_item_2 {
+.logo_wrapper {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-auto-flow: row dense;
@@ -247,8 +247,6 @@ div:nth-child(15) {
         div {
             width: 24rem; 
             height: 24rem; 
-            
-            
             }
 
     }

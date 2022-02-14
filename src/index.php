@@ -55,32 +55,32 @@
 </div>
 <div class="content">
     <h3>We offer</h3>
-    <p>Brand identity,
-Art direction, 
-UI/UX design, 
-Social ads,
-Research,
-Story telling,
-Video editing,
-SEO, 
+    <p>Brand identity,<br>
+Art direction, <br>
+UI/UX design, <br>
+Social ads,<br>
+Research,<br>
+Story telling,<br>
+Video editing,<br>
+SEO, <br>
 &amp; so much more.</p>
     </div>
     </div>
-<div>
-    
-    
+<div class="sub_item_2"> 
 <div id="past" class="content"><h3>Our past clients</h3>
         <p>Our work been showcased in the New York Times, Sports Illustrated, and other publications. </p>
         <p>We’ve worked with organizations such as the Center For American Progress, Google, the Democracy Collaborative, UCLA, National Geographic, Brightest Young Things, Think Progress, and People For The American Way.</p>
-        </div></div> 
-    <div class="sub_item_2"><div>
+        </div>
+    <div class="logo_wrapper">
+        
+        <div>
         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/client_1.jpg" alt="clients"  width="1200"/>
         </div><div><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/client_2.jpg" alt="clients"  width="1200"/>  
     </div><div><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/client_3.jpg" alt="clients"  width="1200"/>  
         </div><div><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/client_4.jpg" alt="clients"  width="1200"/> </div>
         <div><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/client_5.jpg" alt="clients"  width="1200"/> </div><div><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/client_6.jpg" alt="clients"  width="1200"/> </div><div><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/client_7.jpg" alt="clients"  width="1200"/> </div><div><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/client_8.jpg" alt="clients"  width="1200"/> </div>
         
-        </div>
+    </div></div> 
 <div class="testimonial">
     <h4>Testimonial</h4>
     </div>

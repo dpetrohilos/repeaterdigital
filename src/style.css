@@ -1989,18 +1989,18 @@ p, li, span {
         grid-column: 3 / span 1;
         grid-row: 1 / span 3; }
     /* line 242, css/sass/design.scss */
-    .grid-container .sub_item_2 {
+    .grid-container .logo_wrapper {
       display: grid;
       grid-template-columns: repeat(1, 1fr);
       grid-auto-flow: row dense; }
       /* line 247, css/sass/design.scss */
-      .grid-container .sub_item_2 div {
+      .grid-container .logo_wrapper div {
         width: 24rem;
         height: 24rem; } }
-/* line 274, css/sass/design.scss */
+/* line 272, css/sass/design.scss */
 .content {
   font-size: 1.8rem; }
-  /* line 277, css/sass/design.scss */
+  /* line 275, css/sass/design.scss */
   .content a.btn {
     text-decoration: none;
     color: #181b1c;
@@ -2010,12 +2010,12 @@ p, li, span {
     -webkit-transition: background-size 0.25s ease-in;
     transition: background-size 0.25s ease-in;
     background-size: 100% 0.2rem; }
-    /* line 288, css/sass/design.scss */
+    /* line 286, css/sass/design.scss */
     .content a.btn:hover {
       background-position: 100% 88%;
       color: #fffafa;
       background-size: 100% 0.6rem; }
 
-/* line 295, css/sass/design.scss */
+/* line 293, css/sass/design.scss */
 .bg_red {
   background: #e52227; }
