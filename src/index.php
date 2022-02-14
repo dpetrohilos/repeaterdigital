@@ -111,9 +111,9 @@ SEO, <br>
  
 </div>
 <div id="projects" class="content clients_wrapper grid-item-5 grid-item">
-    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Work1.jpg" alt="Graphic Poster"  width="1200"/>   
-   <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Work2.jpg" alt="Graphic Poster"  width="1200"/>  
-   <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Work3.jpg" alt="Graphic Poster"  width="1200"/>  
+    <div><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Work1.jpg" alt="Graphic Poster"  width="1200"/> </div>  
+   <div><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Work2.jpg" alt="Graphic Poster"  width="1200"/></div>  
+       <div><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Work3.jpg" alt="Graphic Poster"  width="1200"/>    </div>
     
 </div> 
 <?php get_footer(); ?>
