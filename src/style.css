@@ -1971,7 +1971,7 @@ input[type="search"] {
     padding: 0 .8rem;
     grid-column-gap: .8rem;
     grid-row-gap: .8rem; }
-    /* line 169, css/sass/large.scss */
+    /* line 166, css/sass/large.scss */
     .sub_item_3 .card_wrapper, .sub_item_3 .clients_wrapper {
       display: grid;
       grid-template-rows: repeat(3, 1fr);
@@ -1979,30 +1979,30 @@ input[type="search"] {
       grid-auto-flow: row;
       grid-gap: .8rem;
       padding: 1.6rem; }
-      /* line 177, css/sass/large.scss */
+      /* line 174, css/sass/large.scss */
       .sub_item_3 .card_wrapper .card, .sub_item_3 .clients_wrapper .card {
         border: 1px solid #ccc;
         padding: 1.6rem;
         border-radius: 1rem; }
-        /* line 181, css/sass/large.scss */
+        /* line 178, css/sass/large.scss */
         .sub_item_3 .card_wrapper .card q, .sub_item_3 .clients_wrapper .card q {
           font-size: 2.2rem;
           line-height: 1.2rem; }
-        /* line 184, css/sass/large.scss */
+        /* line 181, css/sass/large.scss */
         .sub_item_3 .card_wrapper .card cite, .sub_item_3 .clients_wrapper .card cite {
           font-size: 1.2rem; }
-        /* line 188, css/sass/large.scss */
+        /* line 185, css/sass/large.scss */
         .sub_item_3 .card_wrapper .card cite::before, .sub_item_3 .clients_wrapper .card cite::before {
           content: "—"; }
-      /* line 193, css/sass/large.scss */
+      /* line 190, css/sass/large.scss */
       .sub_item_3 .card_wrapper div:nth-child(1), .sub_item_3 .clients_wrapper div:nth-child(1) {
         grid-column: 1 / span 1;
         grid-row: 1 / span 3; }
-      /* line 198, css/sass/large.scss */
+      /* line 195, css/sass/large.scss */
       .sub_item_3 .card_wrapper div:nth-child(2), .sub_item_3 .clients_wrapper div:nth-child(2) {
         grid-column: 2 / span 1;
         grid-row: 1 / span 3; }
-      /* line 205, css/sass/large.scss */
+      /* line 202, css/sass/large.scss */
       .sub_item_3 .card_wrapper div:nth-child(3), .sub_item_3 .clients_wrapper div:nth-child(3) {
         grid-column: 3 / span 1;
         grid-row: 1 / span 3; } }
