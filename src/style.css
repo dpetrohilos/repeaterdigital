@@ -2277,11 +2277,11 @@ h1 {
     /* Start First Row*/ }
     /* line 41, css/sass/medium.scss */
     .grid-item-1 div:nth-child(1) {
-      grid-column: 12/span 13;
+      grid-column: 12 / span 11;
       grid-row: 2 / span 4; }
     /* line 49, css/sass/medium.scss */
     .grid-item-1 div:nth-child(2) {
-      grid-column: 12 / span 10;
+      grid-column: 12 / span 6;
       grid-row: 6 / span 4; }
     /* line 54, css/sass/medium.scss */
     .grid-item-1 div:nth-child(3) {
@@ -2317,63 +2317,63 @@ h1 {
     grid-row: 7 / span 6; }
   /* line 93, css/sass/medium.scss */
   .grid-item-2 div:nth-child(5) {
-    grid-column: 13 / span 12;
-    grid-row: 13 / span 12; }
-  /* line 98, css/sass/medium.scss */
+    grid-column: 13 / span 6;
+    grid-row: 13 / span 6; }
+  /* line 99, css/sass/medium.scss */
   .grid-item-2 div:nth-child(6) {
     grid-column: 2 / span 10;
     grid-row: 14 / span 4; }
-  /* line 104, css/sass/medium.scss */
+  /* line 105, css/sass/medium.scss */
   .grid-item-2 .sub-item {
     display: grid;
     grid-column: repeat(2, 1fr);
     grid-column-gap: .8rem;
     grid-row-gap: .8rem; }
-  /* line 111, css/sass/medium.scss */
+  /* line 112, css/sass/medium.scss */
   .grid-item-2 div:nth-child(7) {
-    grid-column: 14 / span 10;
+    grid-column: 14 / span 6;
     grid-row: 12 / span 6; }
 
-  /* line 121, css/sass/medium.scss */
+  /* line 120, css/sass/medium.scss */
   .grid-item-3 div:nth-child(1) {
-    grid-column: 1 / span 12;
-    grid-row: 1 / span 12; }
-  /* line 125, css/sass/medium.scss */
+    grid-column: 7 / span 6;
+    grid-row: 1 / span 6; }
+  /* line 124, css/sass/medium.scss */
   .grid-item-3 div:nth-child(2) {
     grid-column: 16 / span 6;
     grid-row: 3 / span 2; }
-  /* line 129, css/sass/medium.scss */
+  /* line 128, css/sass/medium.scss */
   .grid-item-3 div:nth-child(3) {
-    grid-column: 2 / span 12;
-    grid-row: 2 / span 5; }
+    grid-column: 6 / span 3;
+    grid-row: 2 / span 4; }
 
-  /* line 140, css/sass/medium.scss */
+  /* line 137, css/sass/medium.scss */
   .grid-item-4 div:nth-child(1) {
     grid-column: 2 / span 10;
     grid-row: 1 / span 8; }
-  /* line 146, css/sass/medium.scss */
+  /* line 143, css/sass/medium.scss */
   .grid-item-4 div:nth-child(2) {
     grid-column: 16 / span 3;
     grid-row: 2 / span 6; }
-  /* line 153, css/sass/medium.scss */
+  /* line 150, css/sass/medium.scss */
   .grid-item-4 div:nth-child(3) {
-    grid-column: 1 / span 10;
+    grid-column: 1 / span 4;
     grid-row: 2 / span 6; }
 
-  /* line 165, css/sass/medium.scss */
+  /* line 161, css/sass/medium.scss */
   .grid-item-5 .client_content {
-    grid-column: 4 / span 7;
-    grid-row: 2 / span 5; }
-  /* line 171, css/sass/medium.scss */
+    grid-column: 4 / span 6;
+    grid-row: 2 / span 1; }
+  /* line 170, css/sass/medium.scss */
   .grid-item-5 .logo_wrapper {
     grid-column: 13 / span 12;
-    grid-row: 3 / span 1;
+    grid-row: 1 / span 2;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-auto-flow: dense column;
-    grid-column-gap: 0.8rem;
-    grid-row-gap: 0.8rem; }
+    grid-column-gap: .8rem;
+    grid-row-gap: .8rem; }
   /* line 184, css/sass/medium.scss */
   .grid-item-5 img {
     outline: #ccc 1px solid; }
@@ -2483,54 +2483,54 @@ h1 {
     grid-row: 7 / span 6; }
   /* line 92, css/sass/large.scss */
   .grid-item-2 div:nth-child(5) {
-    grid-column: 13 / span 12;
-    grid-row: 13 / span 12; }
-  /* line 97, css/sass/large.scss */
+    grid-column: 13 / span 6;
+    grid-row: 13 / span 6; }
+  /* line 98, css/sass/large.scss */
   .grid-item-2 div:nth-child(6) {
     grid-column: 2 / span 10;
     grid-row: 14 / span 4; }
-  /* line 103, css/sass/large.scss */
+  /* line 104, css/sass/large.scss */
   .grid-item-2 .sub-item {
     display: grid;
     grid-column: repeat(2, 1fr);
     grid-column-gap: .8rem;
     grid-row-gap: .8rem; }
-  /* line 110, css/sass/large.scss */
+  /* line 111, css/sass/large.scss */
   .grid-item-2 div:nth-child(7) {
-    grid-column: 14 / span 10;
+    grid-column: 14 / span 6;
     grid-row: 12 / span 6; }
 
-  /* line 120, css/sass/large.scss */
+  /* line 119, css/sass/large.scss */
   .grid-item-3 div:nth-child(1) {
-    grid-column: 1 / span 12;
-    grid-row: 1 / span 12; }
-  /* line 124, css/sass/large.scss */
+    grid-column: 7 / span 6;
+    grid-row: 1 / span 6; }
+  /* line 123, css/sass/large.scss */
   .grid-item-3 div:nth-child(2) {
     grid-column: 16 / span 6;
     grid-row: 3 / span 2; }
-  /* line 128, css/sass/large.scss */
+  /* line 127, css/sass/large.scss */
   .grid-item-3 div:nth-child(3) {
-    grid-column: 2 / span 12;
-    grid-row: 2 / span 5; }
+    grid-column: 6 / span 3;
+    grid-row: 2 / span 4; }
 
-  /* line 139, css/sass/large.scss */
+  /* line 136, css/sass/large.scss */
   .grid-item-4 div:nth-child(1) {
     grid-column: 2 / span 10;
     grid-row: 1 / span 8; }
-  /* line 145, css/sass/large.scss */
+  /* line 142, css/sass/large.scss */
   .grid-item-4 div:nth-child(2) {
     grid-column: 16 / span 3;
     grid-row: 2 / span 6; }
-  /* line 152, css/sass/large.scss */
+  /* line 149, css/sass/large.scss */
   .grid-item-4 div:nth-child(3) {
-    grid-column: 1 / span 10;
+    grid-column: 1 / span 4;
     grid-row: 2 / span 6; }
 
-  /* line 164, css/sass/large.scss */
+  /* line 160, css/sass/large.scss */
   .grid-item-5 .client_content {
     grid-column: 4 / span 6;
     grid-row: 2 / span 1; }
-  /* line 173, css/sass/large.scss */
+  /* line 169, css/sass/large.scss */
   .grid-item-5 .logo_wrapper {
     grid-column: 13 / span 12;
     grid-row: 1 / span 2;
@@ -2540,35 +2540,35 @@ h1 {
     grid-auto-flow: dense column;
     grid-column-gap: .8rem;
     grid-row-gap: .8rem; }
-  /* line 187, css/sass/large.scss */
+  /* line 183, css/sass/large.scss */
   .grid-item-5 img {
     outline: #ccc 1px solid; }
 
-  /* line 193, css/sass/large.scss */
+  /* line 189, css/sass/large.scss */
   .grid-item-6 div:nth-child(1) {
     grid-column: 1 / span 8;
     grid-row: 1 / span 8; }
-  /* line 198, css/sass/large.scss */
+  /* line 194, css/sass/large.scss */
   .grid-item-6 div:nth-child(2) {
     grid-column: 9 / span 8;
     grid-row: 1 / span 8; }
-  /* line 203, css/sass/large.scss */
+  /* line 199, css/sass/large.scss */
   .grid-item-6 div:nth-child(3) {
     grid-column: 17  / span 8;
     grid-row: 1 / span 8; }
 
-  /* line 214, css/sass/large.scss */
+  /* line 210, css/sass/large.scss */
   .grid-item-7 img {
     outline: #ccc 1px solid; }
-  /* line 218, css/sass/large.scss */
+  /* line 214, css/sass/large.scss */
   .grid-item-7 div:nth-child(1) {
     grid-column: 1 / span 8;
     grid-row: 1 / span 8; }
-  /* line 223, css/sass/large.scss */
+  /* line 219, css/sass/large.scss */
   .grid-item-7 div:nth-child(2) {
     grid-column: 9 / span 8;
     grid-row: 1 / span 8; }
-  /* line 228, css/sass/large.scss */
+  /* line 224, css/sass/large.scss */
   .grid-item-7 div:nth-child(3) {
     grid-column: 17  / span 8;
     grid-row: 1 / span 8; } }
