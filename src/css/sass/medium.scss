@@ -173,14 +173,13 @@ h1 {
     .logo_wrapper {
     
     grid-column: 13 / span 12;
-    grid-row: 1 / span 8; 
-    display: grid; 
+    grid-row: 1 / span 1;
+    display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-auto-flow: dense column row; 
-    grid-column-gap: .8rem;
-    grid-row-gap: .8rem;
-    
+    grid-auto-flow: dense column;
+    grid-column-gap: 0.8rem;
+    grid-row-gap: 0.8rem;    
     }
     
  img {
