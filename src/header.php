@@ -34,9 +34,9 @@
 			<header class="header row start-xs" role="banner">
 					<!-- logo -->
 					<div class="center col start-xs text-center">
-						<a href="<?php echo esc_url( home_url() ); ?>">
+						<a class="logo" href="<?php echo esc_url( home_url() ); ?>">
 							<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
-							<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo.svg" alt="Logo" class="logo-img" width="116">
+							<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo.svg" alt="Repeater Digital" class="logo-img" width="116">
 						</a>
 					</div>
                 <!-- /logo -->
