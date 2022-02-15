@@ -84,24 +84,29 @@ h1 {color: $red;
     div:nth-child(6) {
     grid-column: 2 / span 4;
     grid-row: 16 / span 3;
+        
+        
 } 
-// mision     
+    
+    .sub-item {
+        display: grid; 
+        grid-column: repeat(2,1fr)
+    }
+    
+
     div:nth-child(7) {
-    grid-column: 7 / span 4;
-    grid-row: 16 / span 2;
-    } 
-    div:nth-child(8) {
     grid-column: 1 / span 12;
     grid-row: 25 / span 8;    } 
-    div:nth-child(9) {
+    
+    div:nth-child(8) {
     grid-column: 15 / span 6;
     grid-row: 27 / span 8;
     }
-    div:nth-child(10) {        
+    div:nth-child(9) {        
     grid-column: 8 / span 6;
     grid-row: 22 / span 10;
 }
-    div:nth-child(11) {    
+    div:nth-child(10) {    
     grid-column: 17 / span 6;
     grid-row: 14 / span 11;
  }
