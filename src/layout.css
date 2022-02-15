@@ -128,7 +128,7 @@ h1 {
 /* line 177, css/sass/xsm.scss */
 .grid-item-5 .logo_wrapper {
   grid-column: 1 / span 6;
-  grid-row: 3 / span 1;
+  grid-row: 4 / span 1;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -462,11 +462,11 @@ h1 {
   /* line 165, css/sass/medium.scss */
   .grid-item-5 .client_content {
     grid-column: 4 / span 6;
-    grid-row: 2 / span 7; }
-  /* line 173, css/sass/medium.scss */
+    grid-row: 2 / span 6; }
+  /* line 172, css/sass/medium.scss */
   .grid-item-5 .logo_wrapper {
     grid-column: 13 / span 12;
-    grid-row: 1 / span 1;
+    grid-row: 3 / span 1;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
