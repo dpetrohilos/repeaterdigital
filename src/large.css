@@ -63,11 +63,11 @@ h1 {
 /* line 79, css/sass/large.scss */
 .grid-item-2 div:nth-child(5) {
   grid-column: 13 / span 12;
-  grid-row: 13 / span 15; }
+  grid-row: 13 / span 12; }
 /* line 84, css/sass/large.scss */
 .grid-item-2 div:nth-child(6) {
   grid-column: 2 / span 10;
-  grid-row: 14 / span 5; }
+  grid-row: 14 / span 4; }
 /* line 90, css/sass/large.scss */
 .grid-item-2 .sub-item {
   display: grid;
@@ -77,11 +77,11 @@ h1 {
 /* line 99, css/sass/large.scss */
 .grid-item-2 div:nth-child(7) {
   grid-column: 1 / span 12;
-  grid-row: 25 / span 12; }
+  grid-row: 25 / span 11; }
 /* line 103, css/sass/large.scss */
 .grid-item-2 div:nth-child(8) {
   grid-column: 15 / span 6;
-  grid-row: 27 / span 8; }
+  grid-row: 27 / span 2; }
 /* line 107, css/sass/large.scss */
 .grid-item-2 div:nth-child(9) {
   grid-column: 8 / span 6;
