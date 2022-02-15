@@ -48,7 +48,7 @@ h1 {
 /* line 63, css/sass/large.scss */
 .grid-item-2 div:nth-child(2) {
   grid-column: 7 / span 6;
-  grid-row: 1 / span 13; }
+  grid-row: 1 / span 14; }
   /* line 66, css/sass/large.scss */
   .grid-item-2 div:nth-child(2) img {
     height: 100%; }
@@ -67,19 +67,19 @@ h1 {
 /* line 85, css/sass/large.scss */
 .grid-item-2 div:nth-child(6) {
   grid-column: 2 / span 4;
-  grid-row: 16 / span 8; }
+  grid-row: 15 / span 9; }
 /* line 90, css/sass/large.scss */
 .grid-item-2 div:nth-child(7) {
   grid-column: 7 / span 4;
-  grid-row: 16 / span 8; }
+  grid-row: 15 / span 9; }
 /* line 94, css/sass/large.scss */
 .grid-item-2 div:nth-child(8) {
   grid-column: 1 / span 12;
-  grid-row: 22 / span 8; }
+  grid-row: 25 / span 8; }
 /* line 97, css/sass/large.scss */
 .grid-item-2 div:nth-child(9) {
   grid-column: 15 / span 6;
-  grid-row: 26 / span 8; }
+  grid-row: 27 / span 8; }
 /* line 101, css/sass/large.scss */
 .grid-item-2 div:nth-child(10) {
   grid-column: 8 / span 6;
@@ -87,7 +87,7 @@ h1 {
 /* line 105, css/sass/large.scss */
 .grid-item-2 div:nth-child(11) {
   grid-column: 17 / span 6;
-  grid-row: 7 / span 13; }
+  grid-row: 9 / span 16; }
 
 /* line 117, css/sass/large.scss */
 .grid-item-3 div:nth-child(1) {

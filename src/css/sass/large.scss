@@ -62,7 +62,7 @@ h1 {color: $red;
     
     div:nth-child(2) {
     grid-column: 7 / span 6;
-    grid-row: 1 / span 13;        
+    grid-row: 1 / span 14;        
         img {
             height: 100%; 
         }    
@@ -84,19 +84,19 @@ h1 {color: $red;
 // vision    
     div:nth-child(6) {
     grid-column: 2 / span 4;
-    grid-row: 16 / span 8;
+    grid-row: 15 / span 9;
 } 
 // mision     
     div:nth-child(7) {
     grid-column: 7 / span 4;
-    grid-row: 16 / span 8;
+    grid-row: 15 / span 9;
     } 
     div:nth-child(8) {
     grid-column: 1 / span 12;
-    grid-row: 22 / span 8;    } 
+    grid-row: 25 / span 8;    } 
     div:nth-child(9) {
     grid-column: 15 / span 6;
-    grid-row: 26 / span 8;
+    grid-row: 27 / span 8;
     }
     div:nth-child(10) {        
     grid-column: 8 / span 6;
@@ -104,7 +104,7 @@ h1 {color: $red;
 }
     div:nth-child(11) {    
     grid-column: 17 / span 6;
-    grid-row: 7 / span 13;
+    grid-row: 9 / span 16;
  }
     
     
