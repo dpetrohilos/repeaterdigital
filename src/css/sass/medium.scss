@@ -11,13 +11,12 @@ $secondary-red: #e52227;
 h1 {
     
     color: $red;
-    font-size: 12.2rem;
+    font-size: 9.2rem;
     letter-spacing: -0.25rem;
     font-weight: 900;
-    line-height: 13.6rem; 
-    padding: 0; 
-    margin: 0 0 1.2rem 0; 
-    
+    line-height: 9.6rem;
+    padding: 0;
+    margin: 0 0 1.2rem 0;    
     }
 
 
@@ -174,7 +173,7 @@ h1 {
     .logo_wrapper {
     
     grid-column: 13 / span 12;
-    grid-row: 1 / span 1; 
+    grid-row: 1 / span 8; 
     display: grid; 
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
