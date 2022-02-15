@@ -38,8 +38,9 @@
 <div id="vision" class="content sub-item"><div>
     <h2>Vision</h2>
     <p>We are a worker owned, self-managed communications consulting firm that specializes in strategic digital and visual communication. </p>
-
-    <p>Repeater Digital strives to isolate the signal from the noise. We use the power of storytelling to transmit and amplify the voices of our partners across the shared global digital community. </p></div><div>
+    <p>Repeater Digital strives to isolate the signal from the noise. We use the power of storytelling to transmit and amplify the voices of our partners across the shared global digital community. </p></div>
+    
+    <div>
     <h2>Mission</h2>
     <p>We are movement architects who create visual and organizational designs that challenge narratives and shape public opinion.</p>
     
