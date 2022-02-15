@@ -15,3 +15,7 @@ $lg-max: 120rem !default; // Set lg breakpoint's max width
 @import "large";    
 }
 
+
+.grid-item {
+    align-content: end; 
+}
