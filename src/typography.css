@@ -15,7 +15,7 @@
   .card cite::before {
     content: "—"; }
 
-/* line 29, css/sass/typography.scss */
+/* line 25, css/sass/typography.scss */
 a.btn {
   text-decoration: none;
   color: #e52227;
@@ -30,7 +30,7 @@ a.btn {
   margin-top: 1.2rem;
   display: block;
   width: 180px; }
-  /* line 44, css/sass/typography.scss */
+  /* line 40, css/sass/typography.scss */
   a.btn:hover {
     border: 8px solid transparent;
     border-left: 8px solid #e52227;
