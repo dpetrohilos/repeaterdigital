@@ -38,18 +38,15 @@
 <div id="vision" class="content sub-item"><div>
     <h2>Vision</h2>
     <p>We are a worker owned, self-managed communications consulting firm that specializes in strategic digital and visual communication. </p>
-    <p>Repeater Digital strives to isolate the signal from the noise. We use the power of storytelling to transmit and amplify the voices of our partners across the shared global digital community. </p></div>
-    
-    <div>
+    <p>Repeater Digital strives to isolate the signal from the noise. We use the power of storytelling to transmit and amplify the voices of our partners across the shared global digital community. </p></div><div>
     <h2>Mission</h2>
     <p>We are movement architects who create visual and organizational designs that challenge narratives and shape public opinion.</p>
     
     </div>
 </div>    
-<div class="sub-item-2">
-    <div>
-    <img class="multiply" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Image_9.jpg" alt="Graphic Poster"  width="1200"/> 
-    </div>  
+<div>
+<img class="multiply" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Image_9.jpg" alt="Graphic Poster"  width="1200"/>   
+</div>
 <div class="content">
     <h2>We move people to action</h2>
     <p>By choosing <strong>Repeater.Digital,</strong> you gain access to our knowledge, industry connections, media connections, skills, and experience. We have worked together for over a decade, and are happy to share previous and current work.</p>
@@ -57,8 +54,7 @@
     
     
     
-</div></div>
-
+</div>
 <div class="bg-red"></div>
 <div class="bg-red"></div>
 </div>
