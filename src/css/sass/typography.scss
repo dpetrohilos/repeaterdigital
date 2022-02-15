@@ -29,16 +29,21 @@ $secondary-red: #e52227;
 a.btn {
     text-decoration: none;
     color: $red;
-    background: transparent; 
+    background: transparent;
+    border: 8px solid transparent; 
     border-right: 8px solid $red; 
     border-bottom: 8px solid $red; 
     font-size: 2.2rem;
     padding: 2.2rem;
     font-weight: 600;
-    border-radius: .4rem; 
+    border-radius: .4rem 1rem; 
+    margin-top: 1.2rem; 
     
     &:hover { 
-    
+    border: 8px solid $red; 
+    border-left: 8px solid $secondary-red; 
+    border-top: 8px solid $secondary-red;
+    color: $secondary-red; 
     }
 
         }
