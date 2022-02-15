@@ -18,10 +18,10 @@
 /* line 29, css/sass/typography.scss */
 a.btn {
   /*outline: 1px solid red;*/
-  border: 20px solid transparent;
-  font-size: 1em;
-  letter-spacing: 1em;
-  padding: 1rem;
+  border: 2.4rem solid transparent;
+  font-size: 2.2rem;
+  letter-spacing: -.2rem;
+  padding: 1.2rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -30,14 +30,17 @@ a.btn {
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center;
+          align-items: center; }
+
+/* line 43, css/sass/typography.scss */
+.bg {
   background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(white)), -webkit-gradient(linear, right top, left top, from(#00D7B9), color-stop(50%, #B95DD7), to(#FFB367));
   background-image: linear-gradient(white, white), linear-gradient(270deg, #00D7B9, #B95DD7 50%, #FFB367 100%);
   background-repeat: no-repeat;
   background-origin: padding-box, border-box;
   text-align: center; }
 
-/* line 50, css/sass/typography.scss */
+/* line 54, css/sass/typography.scss */
 .animated {
   background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(white)), -webkit-gradient(linear, left top, left bottom, from(cornflowerblue), color-stop(50%, purple), to(cornflowerblue));
   background-image: linear-gradient(white, white), linear-gradient(180deg, cornflowerblue, purple 50%, cornflowerblue);
