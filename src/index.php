@@ -24,10 +24,10 @@
 <div class="grid-item grid-item-2">
 
 <div>
-<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_2.jpg" alt="Logo" width="600"  />      
+<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_2.jpg" alt="Logo" width="900"  />      
 </div>       
 <div>
-<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_3.jpg" alt="Graphic Poster" width="600"/>   
+<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_3.jpg" alt="Graphic Poster" width="1200"/>   
 </div>
 <div>
 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_4.jpg" alt="Graphic Poster"  width="1200"/>   
