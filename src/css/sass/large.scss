@@ -30,9 +30,9 @@ h1 {color: $red;
     
     
     /* Start First Row*/
-   
+
     div:nth-child(1) {
-    grid-column: 12 / span 13;
+    grid-column: 12 / span 9;
     grid-row: 2 / span 5;
     
     
@@ -46,7 +46,7 @@ h1 {color: $red;
     
     div:nth-child(3) {
     grid-column: 4 / span 8;
-    grid-row: 2 / span 8;    }
+    grid-row: 2 / span 9;    }
     
     
     div:nth-child(4) {
