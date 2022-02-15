@@ -23,14 +23,14 @@ h1 {
 
 .grid-item {
     display: grid;
-    grid-template-rows: 7.2rem;
+    grid-template-rows: minmax(2.4rem, auto);
     grid-template-columns: repeat(24, 1fr);
     max-width: 100vw;
     width: 100%;
     margin: 0 auto;
-    padding: 1.6rem 1.6rem 0rem 1.6rem;
+    padding: 2.4rem 1.2rem 0rem 1.2rem;
     grid-column-gap: 1.6rem;
-    grid-row-gap: 1.6rem;
+    grid-row-gap: 1.2rem;
     
     img {border-radius: 1rem; }}
 
