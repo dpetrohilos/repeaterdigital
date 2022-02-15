@@ -1970,15 +1970,15 @@ input[type="search"] {
   /* line 80, css/sass/large.scss */
   .grid-item-2 div:nth-child(5) {
     grid-column: 13 / span 12;
-    grid-row: 15 / span 12; }
+    grid-row: 15 / span 14; }
   /* line 85, css/sass/large.scss */
   .grid-item-2 div:nth-child(6) {
     grid-column: 2 / span 4;
-    grid-row: 15 / span 9; }
+    grid-row: 16 / span 3; }
   /* line 90, css/sass/large.scss */
   .grid-item-2 div:nth-child(7) {
     grid-column: 7 / span 4;
-    grid-row: 15 / span 9; }
+    grid-row: 16 / span 2; }
   /* line 94, css/sass/large.scss */
   .grid-item-2 div:nth-child(8) {
     grid-column: 1 / span 12;
