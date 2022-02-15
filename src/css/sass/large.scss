@@ -75,19 +75,15 @@ h1 {color: $red;
     div:nth-child(4) {
     grid-column: 13 / span 6;
     grid-row: 7 / span 6;    }
-    
-    
-    // correct 
-    
+        
     div:nth-child(5) {
     grid-column: 13 / span 12;
-    grid-row: 15 / span 14;
+    grid-row: 13 / span 15;
 }     
 // vision    
     div:nth-child(6) {
     grid-column: 2 / span 10;
-    grid-row: 16 / span 5;
-        
+    grid-row: 14 / span 5;        
         
 } 
     
@@ -98,6 +94,7 @@ h1 {color: $red;
     grid-row-gap: .8rem;
     }
     
+    // correct 
 
     div:nth-child(7) {
     grid-column: 1 / span 12;
