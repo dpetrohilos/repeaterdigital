@@ -1935,7 +1935,7 @@ input[type="search"] {
     /* Start First Row*/ }
     /* line 42, css/sass/large.scss */
     .grid-item-1 div:nth-child(1) {
-      grid-column: 12 / span 9;
+      grid-column: 12 / span 11;
       grid-row: 2 / span 4; }
     /* line 50, css/sass/large.scss */
     .grid-item-1 div:nth-child(2) {
