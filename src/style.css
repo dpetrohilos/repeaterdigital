@@ -2120,8 +2120,9 @@ a.btn {
   padding: 2.2rem;
   font-weight: 600;
   border-radius: .4rem 1rem;
-  margin-top: 1.2rem; }
-  /* line 42, css/sass/typography.scss */
+  margin-top: 1.2rem;
+  display: block; }
+  /* line 43, css/sass/typography.scss */
   a.btn:hover {
     border: 8px solid #e52227;
     border-left: 8px solid #e52227;
