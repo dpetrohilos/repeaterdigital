@@ -1996,7 +1996,7 @@ input[type="search"] {
   /* line 111, css/sass/large.scss */
   .grid-item-2 div:nth-child(10) {
     grid-column: 17 / span 6;
-    grid-row: 14 / span 11; }
+    grid-row: 12 / span 14; }
 
   /* line 123, css/sass/large.scss */
   .grid-item-3 div:nth-child(1) {
