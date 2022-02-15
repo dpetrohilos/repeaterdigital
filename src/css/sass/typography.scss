@@ -27,44 +27,24 @@ $secondary-red: #e52227;
 
 
 a.btn {
-
-      /*outline: 1px solid red;*/
-      border: 2.4rem solid transparent;
-      font-size: 2.2rem;
-      letter-spacing: -.2rem;
-      padding: 1.2rem;
-      display:flex;
-      justify-content: center;
-      align-items: center;
+    text-decoration: none;
+    color: $red;
+    background: transparent;
+    border: 8px solid transparent; 
+    border-right: 8px solid $red; 
+    border-bottom: 8px solid $red; 
+    font-size: 2.2rem;
+    padding: 2.2rem;
+    font-weight: 600;
+    border-radius: .4rem 1rem; 
+    margin-top: 1.2rem;
+    display: block; 
+    
+    &:hover { 
+    border: 8px solid transparent; 
+    border-left: 8px solid $red; 
+    border-top: 8px solid $red; 
 
     }
 
-
-.bg {
-          background-image:
-        linear-gradient(white, white),
-        linear-gradient(270deg, #00D7B9, #B95DD7 50%, #FFB367 100%);
-
-      background-repeat: no-repeat;
-      background-origin: padding-box, border-box;
-      text-align: center;
-
-}
-
-.animated {
-      background-image:
-        linear-gradient(white, white),
-        linear-gradient(180deg, cornflowerblue, purple 50%, cornflowerblue);
-
-      background-repeat: no-repeat;
-      background-size: 100% 100%, 100% 200%;
-      background-position: 0 0, 0 100%;
-      background-origin: padding-box, border-box;
-      animation: highlight 1s infinite alternate;
-    }
-
-    @keyframes highlight {
-      100% {
-        background-position: 0 0, 0 0;
-      }
-    }
+        }
