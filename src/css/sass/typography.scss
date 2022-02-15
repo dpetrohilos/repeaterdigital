@@ -27,6 +27,16 @@ $secondary-red: #e52227;
 
 
 a.btn {
+
+      /*outline: 1px solid red;*/
+      border: 20px solid transparent;
+      font-size: 1em;
+      letter-spacing: 1em;
+      padding: 1rem;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+
       background-image:
         linear-gradient(white, white),
         linear-gradient(270deg, #00D7B9, #B95DD7 50%, #FFB367 100%);
