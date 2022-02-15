@@ -1,16 +1,25 @@
 @charset "UTF-8";
-/* line 1, css/sass/typography.scss */
+/* line 7, css/sass/typography.scss */
 .card {
   border: 1px solid #ccc;
   padding: 1.6rem;
   border-radius: 1rem; }
-  /* line 5, css/sass/typography.scss */
+  /* line 11, css/sass/typography.scss */
   .card q {
     font-size: 2.2rem;
     line-height: 1.2rem; }
-  /* line 8, css/sass/typography.scss */
+  /* line 14, css/sass/typography.scss */
   .card cite {
     font-size: 1.2rem; }
-  /* line 12, css/sass/typography.scss */
+  /* line 18, css/sass/typography.scss */
   .card cite::before {
     content: "—"; }
+
+/* line 29, css/sass/typography.scss */
+a.btn {
+  text-decoration: none;
+  color: #181b1c;
+  border-right: 4px solid #e52227;
+  border-bottom: 4px solid #e52227;
+  font-size: 2.2rem;
+  padding: 2.2rem; }

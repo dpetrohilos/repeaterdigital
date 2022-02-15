@@ -1,3 +1,9 @@
+$red: #e52227; 
+$white: #fffafa; 
+$secondary-red: #e52227;
+
+
+
 .card {
         border: 1px solid #ccc;
         padding: 1.6rem; 
@@ -16,3 +22,20 @@
 
 
 // form 
+
+
+
+
+a.btn {
+    text-decoration: none;
+    color: #181b1c;
+    border-right: 4px solid $red; 
+    border-bottom: 4px solid $red; 
+    font-size: 2.2rem;
+    padding: 2.2rem; 
+    
+    &:hover { 
+    
+    }
+
+        }

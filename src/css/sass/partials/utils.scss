@@ -27,28 +27,6 @@ $secondary-red: #e52227;
   @include reset-box;
 }
 
-
-.content {
-    font-size: 1.8rem; 
-    
-    a.btn {
-    text-decoration: none;
-    color: #181b1c;
-    background-image: linear-gradient(
-120deg
-, #84fab0 0%, #8fd3f4 100%);
-    background-repeat: no-repeat;
-    background-position: 0 88%;
-    transition: background-size 0.25s ease-in;   
-    background-size: 100% 0.2rem;    
-    
-&:hover { background-position: 100% 88%; color: $white; 
-    background-size: 100% 0.6rem;}
-
-        }
-
-
-    }
 .wrapper-full {
     
     width: 98vw;

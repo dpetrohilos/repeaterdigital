@@ -299,37 +299,18 @@ input[type="search"] {
   padding: 0;
   margin: 0; }
 
-/* line 31, css/sass/partials/utils.scss */
-.content {
-  font-size: 1.8rem; }
-  /* line 34, css/sass/partials/utils.scss */
-  .content a.btn {
-    text-decoration: none;
-    color: #181b1c;
-    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
-    background-repeat: no-repeat;
-    background-position: 0 88%;
-    -webkit-transition: background-size 0.25s ease-in;
-    transition: background-size 0.25s ease-in;
-    background-size: 100% 0.2rem; }
-    /* line 45, css/sass/partials/utils.scss */
-    .content a.btn:hover {
-      background-position: 100% 88%;
-      color: #fffafa;
-      background-size: 100% 0.6rem; }
-
-/* line 52, css/sass/partials/utils.scss */
+/* line 30, css/sass/partials/utils.scss */
 .wrapper-full {
   width: 98vw;
   max-height: 124rem;
   min-width: 10rem;
   margin: 0 auto; }
 
-/* line 62, css/sass/partials/utils.scss */
+/* line 40, css/sass/partials/utils.scss */
 .multiply {
   mix-blend-mode: multiply; }
 
-/* line 68, css/sass/partials/utils.scss */
+/* line 46, css/sass/partials/utils.scss */
 .bg-red {
   background: #e52227;
   border-radius: 1rem;
@@ -1905,7 +1886,11 @@ input[type="search"] {
   .hide-xl {
     display: none !important; } }
 @media screen and (min-width: 120rem) {
-  /* line 6, css/sass/large.scss */
+  /* line 5, css/sass/large.scss */
+  .content {
+    font-size: 1.8rem; }
+
+  /* line 9, css/sass/large.scss */
   h1 {
     color: #e52227;
     font-size: 12.2rem;
@@ -1913,7 +1898,7 @@ input[type="search"] {
     font-weight: 900;
     line-height: .88; }
 
-  /* line 16, css/sass/large.scss */
+  /* line 19, css/sass/large.scss */
   .grid-item {
     display: grid;
     grid-template-rows: repeat(7.2rem, 1fr);
@@ -1924,103 +1909,103 @@ input[type="search"] {
     padding: .8rem .8rem 0rem .8rem;
     grid-column-gap: .8rem;
     grid-row-gap: .8rem; }
-    /* line 27, css/sass/large.scss */
+    /* line 30, css/sass/large.scss */
     .grid-item img {
       border-radius: 1rem; }
 
-  /* line 29, css/sass/large.scss */
+  /* line 32, css/sass/large.scss */
   .grid-item-1 {
     /* Start First Row*/ }
-    /* line 34, css/sass/large.scss */
+    /* line 37, css/sass/large.scss */
     .grid-item-1 div:nth-child(1) {
       grid-column: 12 / span 9;
       grid-row: 2 / span 5; }
-    /* line 42, css/sass/large.scss */
+    /* line 45, css/sass/large.scss */
     .grid-item-1 div:nth-child(2) {
       grid-column: 12 / span 6;
       grid-row: 6 / span 3; }
-    /* line 47, css/sass/large.scss */
+    /* line 50, css/sass/large.scss */
     .grid-item-1 div:nth-child(3) {
       grid-column: 4 / span 8;
       grid-row: 2 / span 9; }
-    /* line 52, css/sass/large.scss */
+    /* line 55, css/sass/large.scss */
     .grid-item-1 div:nth-child(4) {
       grid-column: 24 / span 1;
       grid-row: 1 / span 1; }
-    /* line 57, css/sass/large.scss */
+    /* line 60, css/sass/large.scss */
     .grid-item-1 div:nth-child(5) {
-      grid-column: 2 / span 4;
+      grid-column: 3 / span 4;
       grid-row: 1 / span 5; }
 
-  /* line 65, css/sass/large.scss */
+  /* line 69, css/sass/large.scss */
   .grid-item-2 div:nth-child(1) {
     grid-column: 1 / span 6;
     grid-row: 1 / span 6; }
-  /* line 68, css/sass/large.scss */
+  /* line 72, css/sass/large.scss */
   .grid-item-2 div:nth-child(2) {
     grid-column: 7 / span 6;
     grid-row: 1 / span 12; }
-    /* line 71, css/sass/large.scss */
+    /* line 75, css/sass/large.scss */
     .grid-item-2 div:nth-child(2) img {
       height: 100%; }
-  /* line 75, css/sass/large.scss */
+  /* line 79, css/sass/large.scss */
   .grid-item-2 div:nth-child(3) {
     grid-column: 13 / span 12;
     grid-row: 1 / span 6; }
-  /* line 81, css/sass/large.scss */
+  /* line 85, css/sass/large.scss */
   .grid-item-2 div:nth-child(4) {
     grid-column: 13 / span 6;
     grid-row: 7 / span 6; }
-  /* line 85, css/sass/large.scss */
+  /* line 89, css/sass/large.scss */
   .grid-item-2 div:nth-child(5) {
     grid-column: 13 / span 12;
     grid-row: 13 / span 12; }
-  /* line 90, css/sass/large.scss */
+  /* line 94, css/sass/large.scss */
   .grid-item-2 div:nth-child(6) {
     grid-column: 2 / span 10;
     grid-row: 14 / span 4; }
-  /* line 96, css/sass/large.scss */
+  /* line 100, css/sass/large.scss */
   .grid-item-2 .sub-item {
     display: grid;
     grid-column: repeat(2, 1fr);
     grid-column-gap: .8rem;
     grid-row-gap: .8rem; }
-  /* line 103, css/sass/large.scss */
+  /* line 107, css/sass/large.scss */
   .grid-item-2 div:nth-child(7) {
     grid-column: 14 / span 10;
     grid-row: 12 / span 26; }
 
-  /* line 114, css/sass/large.scss */
+  /* line 118, css/sass/large.scss */
   .grid-item-3 div:nth-child(1) {
     grid-column: 1 / span 12;
     grid-row: 1 / span 12; }
-  /* line 118, css/sass/large.scss */
+  /* line 122, css/sass/large.scss */
   .grid-item-3 div:nth-child(2) {
     grid-column: 16 / span 6;
     grid-row: 3 / span 2; }
-  /* line 122, css/sass/large.scss */
+  /* line 126, css/sass/large.scss */
   .grid-item-3 div:nth-child(3) {
     grid-column: 2 / span 12;
     grid-row: 2 / span 24; }
 
-  /* line 134, css/sass/large.scss */
+  /* line 138, css/sass/large.scss */
   .grid-item-4 div:nth-child(1) {
     grid-column: 2 / span 10;
     grid-row: 1 / span 8; }
-  /* line 140, css/sass/large.scss */
+  /* line 144, css/sass/large.scss */
   .grid-item-4 div:nth-child(2) {
     grid-column: 13 / span 2;
     grid-row: 2 / span 6; }
-  /* line 148, css/sass/large.scss */
+  /* line 152, css/sass/large.scss */
   .grid-item-4 div:nth-child(3) {
     grid-column: 1 / span 10;
     grid-row: 2 / span 18; }
 
-  /* line 161, css/sass/large.scss */
+  /* line 165, css/sass/large.scss */
   .grid-item-5 .client_content {
     grid-column: 6 / span 6;
     grid-row: 3 / span 4; }
-  /* line 170, css/sass/large.scss */
+  /* line 174, css/sass/large.scss */
   .grid-item-5 .logo_wrapper {
     grid-column: 13 / span 12;
     grid-row: 1 / span 8;
@@ -2030,35 +2015,35 @@ input[type="search"] {
     grid-auto-flow: dense column row;
     grid-column-gap: .8rem;
     grid-row-gap: .8rem; }
-  /* line 183, css/sass/large.scss */
+  /* line 187, css/sass/large.scss */
   .grid-item-5 img {
     outline: #ccc 1px solid; }
 
-  /* line 189, css/sass/large.scss */
+  /* line 193, css/sass/large.scss */
   .grid-item-6 div:nth-child(1) {
     grid-column: 1 / span 8;
     grid-row: 1 / span 8; }
-  /* line 194, css/sass/large.scss */
+  /* line 198, css/sass/large.scss */
   .grid-item-6 div:nth-child(2) {
     grid-column: 9 / span 8;
     grid-row: 1 / span 8; }
-  /* line 199, css/sass/large.scss */
+  /* line 203, css/sass/large.scss */
   .grid-item-6 div:nth-child(3) {
     grid-column: 17  / span 8;
     grid-row: 1 / span 8; }
 
-  /* line 210, css/sass/large.scss */
+  /* line 214, css/sass/large.scss */
   .grid-item-7 img {
     outline: #ccc 1px solid; }
-  /* line 214, css/sass/large.scss */
+  /* line 218, css/sass/large.scss */
   .grid-item-7 div:nth-child(1) {
     grid-column: 1 / span 8;
     grid-row: 1 / span 8; }
-  /* line 219, css/sass/large.scss */
+  /* line 223, css/sass/large.scss */
   .grid-item-7 div:nth-child(2) {
     grid-column: 9 / span 8;
     grid-row: 1 / span 8; }
-  /* line 224, css/sass/large.scss */
+  /* line 228, css/sass/large.scss */
   .grid-item-7 div:nth-child(3) {
     grid-column: 17  / span 8;
     grid-row: 1 / span 8; } }
@@ -2107,18 +2092,27 @@ input[type="search"] {
     /* line 12, css/sass/xsm.scss */
     .grid-item img {
       border-radius: 1rem; } }
-/* line 1, css/sass/typography.scss */
+/* line 7, css/sass/typography.scss */
 .card {
   border: 1px solid #ccc;
   padding: 1.6rem;
   border-radius: 1rem; }
-  /* line 5, css/sass/typography.scss */
+  /* line 11, css/sass/typography.scss */
   .card q {
     font-size: 2.2rem;
     line-height: 1.2rem; }
-  /* line 8, css/sass/typography.scss */
+  /* line 14, css/sass/typography.scss */
   .card cite {
     font-size: 1.2rem; }
-  /* line 12, css/sass/typography.scss */
+  /* line 18, css/sass/typography.scss */
   .card cite::before {
     content: "—"; }
+
+/* line 29, css/sass/typography.scss */
+a.btn {
+  text-decoration: none;
+  color: #181b1c;
+  border-right: 4px solid #e52227;
+  border-bottom: 4px solid #e52227;
+  font-size: 2.2rem;
+  padding: 2.2rem; }

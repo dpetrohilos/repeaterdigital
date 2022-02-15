@@ -2,6 +2,9 @@ $red: #e52227;
 $white: #fffafa; 
 $secondary-red: #e52227;
 
+.content {
+    font-size: 1.8rem; 
+    }  
 
 h1 {color: $red;
     font-size: 12.2rem;
@@ -55,8 +58,9 @@ h1 {color: $red;
     
     
     div:nth-child(5) {
-    grid-column: 2 / span 4;
-    grid-row: 1 / span 5;        
+    grid-column: 3 / span 4;
+    grid-row: 1 / span 5;    
+    
     }
 }  
 .grid-item-2{
