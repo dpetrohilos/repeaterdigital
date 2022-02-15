@@ -51,7 +51,14 @@ h1 {color: $red;
     
     div:nth-child(4) {
     grid-column: 24 / span 1;
-        grid-row: 1 / span 1;    } 
+        grid-row: 1 / span 1;    }
+    
+    
+    div:nth-child(4) {
+        grid-column: 2 / span 2
+        grid-row: 7 / span 2; 
+        
+    }
 }  
 .grid-item-2{
 // end first row 
@@ -95,7 +102,7 @@ h1 {color: $red;
     }
     
     div:nth-child(7) {
-    grid-column: 2 / span 10;
+    grid-column: 14 / span 10;
     grid-row: 12 / span 26;        
         
 } 
