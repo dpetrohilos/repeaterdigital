@@ -67,8 +67,7 @@ grid-column: 2 / span 2;
     }
 }  
 .grid-item-2{
-// end first row 
-    
+// end first row  
     div:nth-child(1) {
     grid-column: 1 / span 6;
     grid-row: 1 / span 4;   } 
@@ -110,7 +109,6 @@ grid-column: 2 / span 2;
 } 
     
     }
-
 .grid-item-3 {
     // correct 
 
