@@ -88,14 +88,14 @@ h1 {
   grid-row-gap: .8rem; }
 /* line 115, css/sass/xsm.scss */
 .grid-item-2 div:nth-child(7) {
-  grid-column: 1 / span 6;
-  grid-row: 8 / span 7; }
+  grid-column: 4 / span 3;
+  grid-row: 9 / span 7; }
 
-/* line 123, css/sass/xsm.scss */
+/* line 122, css/sass/xsm.scss */
 .grid-item-3 div:nth-child(1) {
   grid-column: 1 / span 6;
   grid-row: 1 / span 6; }
-/* line 126, css/sass/xsm.scss */
+/* line 125, css/sass/xsm.scss */
 .grid-item-3 div:nth-child(2) {
   grid-column: 1 / span 4;
   grid-row: 1 / span 6;
@@ -103,29 +103,29 @@ h1 {
   z-index: 1;
   /* border-radius: 1rem; */
   padding: 0.8rem; }
-/* line 134, css/sass/xsm.scss */
+/* line 133, css/sass/xsm.scss */
 .grid-item-3 div:nth-child(3) {
   grid-column: 1 / span 6;
   grid-row: 1 / span 6; }
 
-/* line 145, css/sass/xsm.scss */
+/* line 144, css/sass/xsm.scss */
 .grid-item-4 div:nth-child(1) {
   grid-column: 1 / span 3;
   grid-row: 1 / span 8; }
-/* line 151, css/sass/xsm.scss */
+/* line 150, css/sass/xsm.scss */
 .grid-item-4 div:nth-child(2) {
   grid-column: 1 / span 6;
   grid-row: 1 / span 8; }
-/* line 157, css/sass/xsm.scss */
+/* line 156, css/sass/xsm.scss */
 .grid-item-4 div:nth-child(3) {
   grid-column: 4 / span 3;
   grid-row: 4 / span 10; }
 
-/* line 169, css/sass/xsm.scss */
+/* line 168, css/sass/xsm.scss */
 .grid-item-5 .client_content {
   grid-column: 1 / span 6;
   grid-row: 1 / span 3; }
-/* line 177, css/sass/xsm.scss */
+/* line 176, css/sass/xsm.scss */
 .grid-item-5 .logo_wrapper {
   grid-column: 1 / span 6;
   grid-row: 4 / span 3;
@@ -135,35 +135,35 @@ h1 {
   grid-auto-flow: dense column row;
   grid-column-gap: .8rem;
   grid-row-gap: .8rem; }
-/* line 190, css/sass/xsm.scss */
+/* line 189, css/sass/xsm.scss */
 .grid-item-5 img {
   outline: #ccc 1px solid; }
 
-/* line 196, css/sass/xsm.scss */
+/* line 195, css/sass/xsm.scss */
 .grid-item-6 div:nth-child(1) {
   grid-column: 1 / span 6;
   grid-row: 1 / span 4; }
-/* line 201, css/sass/xsm.scss */
+/* line 200, css/sass/xsm.scss */
 .grid-item-6 div:nth-child(2) {
   grid-column: 1 / span 6;
   grid-row: 5 / span 4; }
-/* line 206, css/sass/xsm.scss */
+/* line 205, css/sass/xsm.scss */
 .grid-item-6 div:nth-child(3) {
   grid-column: 1 / span 6;
   grid-row: 9 / span 4; }
 
-/* line 215, css/sass/xsm.scss */
+/* line 214, css/sass/xsm.scss */
 .grid-item-7 img {
   outline: #ccc 1px solid; }
-/* line 219, css/sass/xsm.scss */
+/* line 218, css/sass/xsm.scss */
 .grid-item-7 div:nth-child(1) {
   grid-column: 1 / span 6;
   grid-row: 1 / span 4; }
-/* line 224, css/sass/xsm.scss */
+/* line 223, css/sass/xsm.scss */
 .grid-item-7 div:nth-child(2) {
   grid-column: 1 / span 6;
   grid-row: 5 / span 4; }
-/* line 229, css/sass/xsm.scss */
+/* line 228, css/sass/xsm.scss */
 .grid-item-7 div:nth-child(3) {
   grid-column: 1 / span 6;
   grid-row: 9 / span 4; }
