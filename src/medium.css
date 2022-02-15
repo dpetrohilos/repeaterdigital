@@ -34,7 +34,7 @@ h1 {
   /* Start First Row*/ }
   /* line 42, css/sass/medium.scss */
   .grid-item-1 div:nth-child(1) {
-    grid-column: 12 / span 11s;
+    grid-column: 12 / span 11;
     grid-row: 2 / span 4; }
   /* line 50, css/sass/medium.scss */
   .grid-item-1 div:nth-child(2) {
