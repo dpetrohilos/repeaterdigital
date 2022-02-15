@@ -26,10 +26,11 @@ a.btn {
   font-size: 2.2rem;
   padding: 2.2rem;
   font-weight: 600;
-  border-radius: .4rem 1rem;
+  border-radius: 0.4rem 0rem;
   margin-top: 1.2rem;
-  display: block; }
-  /* line 43, css/sass/typography.scss */
+  display: block;
+  width: 180px; }
+  /* line 44, css/sass/typography.scss */
   a.btn:hover {
     border: 8px solid transparent;
     border-left: 8px solid #e52227;
