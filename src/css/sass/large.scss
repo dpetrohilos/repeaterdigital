@@ -79,17 +79,17 @@ h1 {color: $red;
     }
     div:nth-child(5) {
     grid-column: 13 / span 12;
-    grid-row: 15 / span 12;
+    grid-row: 15 / span 14;
 }     
 // vision    
     div:nth-child(6) {
     grid-column: 2 / span 4;
-    grid-row: 15 / span 9;
+    grid-row: 16 / span 3;
 } 
 // mision     
     div:nth-child(7) {
     grid-column: 7 / span 4;
-    grid-row: 15 / span 9;
+    grid-row: 16 / span 2;
     } 
     div:nth-child(8) {
     grid-column: 1 / span 12;
