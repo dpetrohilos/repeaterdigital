@@ -60,7 +60,6 @@
 </div>
 <div class="bg-red"></div>
 </div>
-
 <div class="grid-item-4 grid-item">    
 
 <div>
