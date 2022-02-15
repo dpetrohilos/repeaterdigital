@@ -1966,19 +1966,19 @@ input[type="search"] {
   /* line 76, css/sass/large.scss */
   .grid-item-2 div:nth-child(4) {
     grid-column: 13 / span 6;
-    grid-row: 7 / span 7; }
+    grid-row: 8 / span 7; }
   /* line 80, css/sass/large.scss */
   .grid-item-2 div:nth-child(5) {
     grid-column: 13 / span 12;
-    grid-row: 14 / span 11; }
+    grid-row: 15 / span 11; }
   /* line 85, css/sass/large.scss */
   .grid-item-2 div:nth-child(6) {
     grid-column: 2 / span 4;
-    grid-row: 14 / span 8; }
+    grid-row: 16 / span 8; }
   /* line 90, css/sass/large.scss */
   .grid-item-2 div:nth-child(7) {
     grid-column: 7 / span 4;
-    grid-row: 14 / span 8; }
+    grid-row: 16 / span 8; }
   /* line 94, css/sass/large.scss */
   .grid-item-2 div:nth-child(8) {
     grid-column: 1 / span 12;
