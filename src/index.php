@@ -43,7 +43,10 @@
     <p>We are movement architects who create visual and organizational designs that challenge narratives and shape public opinion.</p>
     
     </div>
+</div>
+<div class="bg-red"></div>
 </div>    
+<div class="grid-item-3 grid-item">    
 <div>
 <img class="multiply" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Image_9.jpg" alt="Graphic Poster"  width="1200"/>   
 </div>
@@ -56,9 +59,9 @@
     
 </div>
 <div class="bg-red"></div>
-<div class="bg-red"></div>
 </div>
-<div class="grid-item-3 grid-item">    
+
+<div class="grid-item-4 grid-item">    
 
 <div>
 <img class="multiply" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Image_12.jpg" alt="Graphic Poster"  width="1200"/>   
@@ -78,7 +81,7 @@ SEO, <br>
 <div class="bg-red"></div>
     
     </div>
-<div class="grid-item-4 grid-item"> 
+<div class="grid-item-5 grid-item"> 
 <div id="past" class="content client_content"><h3>Our past clients</h3>
         <p>Our work been showcased in the New York Times, Sports Illustrated, and other publications. </p>
         <p>We’ve worked with organizations such as the Center For American Progress, Google, the Democracy Collaborative, UCLA, National Geographic, Brightest Young Things, Think Progress, and People For The American Way.</p>
@@ -101,7 +104,7 @@ SEO, <br>
         
     </div>
     </div> 
-<div class="grid-item-5 grid-item">
+<div class="grid-item-6 grid-item">
     <div class="card content">
     <blockquote>“For years the individuals that make up Repeater Digital have lived and breathed progressive communications—from building grassroots communities to transforming popular opinion—their work has had resounding global reach and impact. From graphic design to media relations and everything in between, Repeater has what it takes to educate, amplify, and inspire.”</blockquote>
     
@@ -120,7 +123,7 @@ SEO, <br>
 
  
 </div>
-<div id="projects" class="content clients_wrapper grid-item-6 grid-item">
+<div id="projects" class="content clients_wrapper grid-item-7 grid-item">
     <div><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Work1.jpg" alt="Graphic Poster"  width="1200"/> </div>  
    <div><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Work2.jpg" alt="Graphic Poster"  width="1200"/></div>  
        <div><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Work3.jpg" alt="Graphic Poster"  width="1200"/>    </div>

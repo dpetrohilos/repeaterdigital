@@ -94,6 +94,11 @@ h1 {color: $red;
     grid-row-gap: .8rem;
     }
     
+    
+    
+    }
+
+.grid-item-3 {
     // correct 
 
     div:nth-child(7) {
@@ -115,11 +120,10 @@ h1 {color: $red;
     grid-row: 12 / span 14;
  }    
     
-// end second row
-    // services offered 
-    
-    }
-.grid-item-3 {
+}
+
+
+.grid-item-4 {
        
     div:nth-child(1) 
     {
@@ -145,7 +149,7 @@ h1 {color: $red;
 
     
     }    
-.grid-item-4 {
+.grid-item-5 {
     
     
     .client_content {
@@ -175,7 +179,7 @@ h1 {color: $red;
     }
     
     }
-.grid-item-5   {
+.grid-item-6   {
     div:nth-child(1) {
         grid-column: 1 / span 8;
         grid-row: 1 / span 8;
@@ -195,7 +199,7 @@ h1 {color: $red;
     
     
     }
-.grid-item-6 {
+.grid-item-7 {
     
     img {
         outline: #ccc 1px solid; 
