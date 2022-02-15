@@ -15,7 +15,7 @@
     
                 </div>
 
-<div class="col-lg-4 col-xs-12 col-sm-12 col-md-7">
+<div class="col-lg-4 col-xs-12 col-sm-12 col-md-7 content">
     <?php echo do_shortcode('[contact-form-7 id="8" title="Contact form 1"]'); ?>
     
                 </div></section><section class="row text-center"><div class="col-lg-offset-4 col-xs-offset-1 col-md-offset-3 col-md-offset-3 col-lg-4 col-xs-10 col-sm-10 col-md-4">    <!-- copyright -->
