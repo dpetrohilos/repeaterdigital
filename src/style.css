@@ -384,22 +384,23 @@ input[type="search"] {
 .footer {
   background: black;
   color: #fff;
-  padding: 7.2rem 0; }
-  /* line 11, css/sass/partials/footer.scss */
+  padding: 7.2rem 0;
+  margin: 1.6rem 0 0 0; }
+  /* line 12, css/sass/partials/footer.scss */
   .footer p, .footer ul, .footer li, .footer span {
     color: #fff; }
-  /* line 15, css/sass/partials/footer.scss */
+  /* line 16, css/sass/partials/footer.scss */
   .footer a {
     color: #fff; }
-    /* line 18, css/sass/partials/footer.scss */
+    /* line 19, css/sass/partials/footer.scss */
     .footer a:hover {
       text-decoration: none; }
 
-/* line 28, css/sass/partials/footer.scss */
+/* line 29, css/sass/partials/footer.scss */
 .wpcf7 .wpcf7-form {
   width: 100%;
   max-width: 26.6rem; }
-  /* line 33, css/sass/partials/footer.scss */
+  /* line 34, css/sass/partials/footer.scss */
   .wpcf7 .wpcf7-form input {
     width: 100%;
     max-width: 28rem;
@@ -407,16 +408,16 @@ input[type="search"] {
     padding: 1.96rem 1.2rem;
     height: 4rem;
     border-radius: .2rem; }
-  /* line 43, css/sass/partials/footer.scss */
+  /* line 44, css/sass/partials/footer.scss */
   .wpcf7 .wpcf7-form label span {
     padding: .8rem 0 1.6rem; }
 
-/* line 55, css/sass/partials/footer.scss */
+/* line 56, css/sass/partials/footer.scss */
 .wpcf7-form-control {
   max-width: 27rem;
   width: 100%; }
 
-/* line 60, css/sass/partials/footer.scss */
+/* line 61, css/sass/partials/footer.scss */
 .wpcf7-submit {
   margin-top: 1.2rem;
   text-decoration: none;
@@ -432,19 +433,19 @@ input[type="search"] {
   font-size: 1.8rem;
   width: 14rem;
   float: right; }
-  /* line 77, css/sass/partials/footer.scss */
+  /* line 78, css/sass/partials/footer.scss */
   .wpcf7-submit:hover {
     background-position: 100% 88%;
     color: #fffafa; }
 
-/* line 84, css/sass/partials/footer.scss */
+/* line 85, css/sass/partials/footer.scss */
 .wpcf7-text, .wpcf7-validates-as-required, .wpcf7-tel, .wpcf7-validates-as-tel,
 .footer-logo {
   max-width: 24rem;
   width: 100%;
   height: auto;
   padding: 1.6rem; }
-  /* line 93, css/sass/partials/footer.scss */
+  /* line 94, css/sass/partials/footer.scss */
   .wpcf7-text svg, .wpcf7-validates-as-required svg, .wpcf7-tel svg, .wpcf7-validates-as-tel svg,
   .footer-logo svg {
     fill: #fff; }
@@ -2329,37 +2330,37 @@ h1 {
     grid-column: 14 / span 10;
     grid-row: 12 / span 26; }
 
-  /* line 123, css/sass/medium.scss */
+  /* line 122, css/sass/medium.scss */
   .grid-item-3 div:nth-child(1) {
     grid-column: 1 / span 12;
     grid-row: 1 / span 12; }
-  /* line 127, css/sass/medium.scss */
+  /* line 126, css/sass/medium.scss */
   .grid-item-3 div:nth-child(2) {
     grid-column: 16 / span 6;
     grid-row: 3 / span 2; }
-  /* line 131, css/sass/medium.scss */
+  /* line 130, css/sass/medium.scss */
   .grid-item-3 div:nth-child(3) {
     grid-column: 2 / span 12;
     grid-row: 2 / span 24; }
 
-  /* line 143, css/sass/medium.scss */
+  /* line 142, css/sass/medium.scss */
   .grid-item-4 div:nth-child(1) {
     grid-column: 2 / span 10;
     grid-row: 1 / span 8; }
-  /* line 149, css/sass/medium.scss */
+  /* line 148, css/sass/medium.scss */
   .grid-item-4 div:nth-child(2) {
-    grid-column: 16 / span 2;
-    grid-row: 2 / span 6; }
-  /* line 157, css/sass/medium.scss */
+    grid-column: 2 / span 10;
+    grid-row: 3 / span 8; }
+  /* line 155, css/sass/medium.scss */
   .grid-item-4 div:nth-child(3) {
     grid-column: 1 / span 10;
-    grid-row: 2 / span 18; }
+    grid-row: 2 / span 11; }
 
-  /* line 170, css/sass/medium.scss */
+  /* line 167, css/sass/medium.scss */
   .grid-item-5 .client_content {
     grid-column: 4 / span 6;
-    grid-row: 3 / span 4; }
-  /* line 179, css/sass/medium.scss */
+    grid-row: 1 / span 9; }
+  /* line 175, css/sass/medium.scss */
   .grid-item-5 .logo_wrapper {
     grid-column: 13 / span 12;
     grid-row: 1 / span 8;
@@ -2369,35 +2370,35 @@ h1 {
     grid-auto-flow: dense column row;
     grid-column-gap: .8rem;
     grid-row-gap: .8rem; }
-  /* line 192, css/sass/medium.scss */
+  /* line 188, css/sass/medium.scss */
   .grid-item-5 img {
     outline: #ccc 1px solid; }
 
-  /* line 198, css/sass/medium.scss */
+  /* line 194, css/sass/medium.scss */
   .grid-item-6 div:nth-child(1) {
     grid-column: 1 / span 8;
     grid-row: 1 / span 8; }
-  /* line 203, css/sass/medium.scss */
+  /* line 199, css/sass/medium.scss */
   .grid-item-6 div:nth-child(2) {
     grid-column: 9 / span 8;
     grid-row: 1 / span 8; }
-  /* line 208, css/sass/medium.scss */
+  /* line 204, css/sass/medium.scss */
   .grid-item-6 div:nth-child(3) {
     grid-column: 17  / span 8;
     grid-row: 1 / span 8; }
 
-  /* line 219, css/sass/medium.scss */
+  /* line 215, css/sass/medium.scss */
   .grid-item-7 img {
     outline: #ccc 1px solid; }
-  /* line 223, css/sass/medium.scss */
+  /* line 219, css/sass/medium.scss */
   .grid-item-7 div:nth-child(1) {
     grid-column: 1 / span 8;
     grid-row: 1 / span 8; }
-  /* line 228, css/sass/medium.scss */
+  /* line 224, css/sass/medium.scss */
   .grid-item-7 div:nth-child(2) {
     grid-column: 9 / span 8;
     grid-row: 1 / span 8; }
-  /* line 233, css/sass/medium.scss */
+  /* line 229, css/sass/medium.scss */
   .grid-item-7 div:nth-child(3) {
     grid-column: 17  / span 8;
     grid-row: 1 / span 8; } }
