@@ -4,7 +4,7 @@ $md-max: 90rem !default; // Set md breakpoint's max width
 $lg-max: 120rem !default; // Set lg breakpoint's max width
 
 
-@media screen and (min-width:$xs-max){ @import "xsm";}
+@media screen and (max-width:$xs-max){ @import "xsm";}
 @media screen and (min-width:$sm-max){ @import "sm";}
 @media screen and (min-width:$md-max){ @import "medium";}
 @media screen and (min-width:$lg-max){ @import "large";}
