@@ -111,21 +111,22 @@ grid-column: 2 / span 2;
 .grid-item-3 {
     // correct 
 
-    div:nth-child(1) {
-    grid-column: 4 / span 6;
-    grid-row: 1 / span 6;    }
+    div:nth-child(1) {    
+    grid-column: 1 / span 5;
+    grid-row: 4 / span 6;    }
+    
     div:nth-child(2) {        
-    grid-column: 4 / span 7;
+    grid-column: 7 / span 5;
     grid-row: 3 / span 3;
-    background: white;
+    /* background: white; */
     z-index: 1;
     border-radius: 1rem;
     padding: 0.8rem;
     }
+    
     div:nth-child(3) {    
     grid-column: 3 / span 4;
-    grid-row: 1 / span 6; 
-    
+    grid-row: 1 / span 6;    
     }
     
  
