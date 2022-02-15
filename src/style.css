@@ -1992,7 +1992,7 @@ input[type="search"] {
   /* line 107, css/sass/large.scss */
   .grid-item-2 div:nth-child(9) {
     grid-column: 8 / span 6;
-    grid-row: 22 / span 10; }
+    grid-row: 26 / span 11; }
   /* line 111, css/sass/large.scss */
   .grid-item-2 div:nth-child(10) {
     grid-column: 17 / span 6;
