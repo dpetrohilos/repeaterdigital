@@ -32,8 +32,8 @@ h1 {color: $red;
     /* Start First Row*/
    
     div:nth-child(1) {
-    grid-column: 12 / span 9;
-    grid-row: 2 / span 4;
+    grid-column: 12 / span 13;
+    grid-row: 2 / span ;
     
     
     }  
@@ -41,7 +41,7 @@ h1 {color: $red;
     
     div:nth-child(2) {
     grid-column: 12 / span 6;
-    grid-row: 2 / span 5;    
+    grid-row: 6 / span 3;    
     }
     
     div:nth-child(3) {
@@ -58,7 +58,7 @@ h1 {color: $red;
     
     div:nth-child(1) {
     grid-column: 1 / span 6;
-    grid-row: 1 / span 6;    }
+    grid-row: 2 / span 4;    }
     
     div:nth-child(2) {
     grid-column: 3 / span 1;
@@ -68,8 +68,9 @@ h1 {color: $red;
         }    
     } 
     div:nth-child(3) {
-    grid-column: 7 / span 6;
-    grid-row: 1 / span 12;        
+    grid-column: 13 / span 12;
+    grid-row: 2 / span 5;        
+        
         
     } 
     div:nth-child(4) {
@@ -82,16 +83,15 @@ h1 {color: $red;
 // vision    
     div:nth-child(6) {
     grid-column: 2 / span 4;
-    grid-row: 15 / span 4;} 
+    grid-row: 16 / span 4;} 
 // mision     
     div:nth-child(7) {
-    grid-column: 7 / span 7;
-    grid-row: 15 / span 4;
+    grid-column: 7 / span 4;
+    grid-row: 16 / span 4;
     } 
     div:nth-child(8) {
     grid-column: 1 / span 12;
     grid-row: 20 / span 8;    } 
-    
     div:nth-child(9) {
     grid-column: 15 / span 6;
     grid-row: 24 / span 8;
