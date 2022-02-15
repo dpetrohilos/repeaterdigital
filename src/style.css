@@ -2111,8 +2111,10 @@ input[type="search"] {
 /* line 29, css/sass/typography.scss */
 a.btn {
   text-decoration: none;
-  color: #181b1c;
-  border-right: 4px solid #e52227;
-  border-bottom: 4px solid #e52227;
+  color: #e52227;
+  background: transparent;
+  border-right: 8px solid #e52227;
+  border-bottom: 8px solid #e52227;
   font-size: 2.2rem;
-  padding: 2.2rem; }
+  padding: 2.2rem;
+  font-weight: 600; }
