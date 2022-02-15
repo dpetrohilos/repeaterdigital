@@ -2011,7 +2011,7 @@ input[type="search"] {
     grid-row: 1 / span 8; }
   /* line 149, css/sass/large.scss */
   .grid-item-4 div:nth-child(2) {
-    grid-column: 13 / span 2;
+    grid-column: 16 / span 2;
     grid-row: 2 / span 6; }
   /* line 157, css/sass/large.scss */
   .grid-item-4 div:nth-child(3) {
@@ -2020,7 +2020,7 @@ input[type="search"] {
 
   /* line 170, css/sass/large.scss */
   .grid-item-5 .client_content {
-    grid-column: 6 / span 6;
+    grid-column: 4 / span 6;
     grid-row: 3 / span 4; }
   /* line 179, css/sass/large.scss */
   .grid-item-5 .logo_wrapper {
