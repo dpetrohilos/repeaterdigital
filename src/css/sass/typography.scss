@@ -28,11 +28,13 @@ $secondary-red: #e52227;
 
 a.btn {
     text-decoration: none;
-    color: #181b1c;
-    border-right: 4px solid $red; 
-    border-bottom: 4px solid $red; 
+    color: $red;
+    background: transparent; 
+    border-right: 8px solid $red; 
+    border-bottom: 8px solid $red; 
     font-size: 2.2rem;
-    padding: 2.2rem; 
+    padding: 2.2rem;
+    font-weight: 600; 
     
     &:hover { 
     
