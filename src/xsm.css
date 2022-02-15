@@ -93,20 +93,20 @@ h1 {
 
 /* line 122, css/sass/xsm.scss */
 .grid-item-3 div:nth-child(1) {
-  grid-column: 4 / span 3;
-  grid-row: 1 / span 6; }
+  grid-column: 5 / span 3;
+  grid-row: 2 / span 6; }
 /* line 126, css/sass/xsm.scss */
 .grid-item-3 div:nth-child(2) {
   grid-column: 1 / span 4;
   grid-row: 1 / span 6;
-  background: white;
+  background: transparent;
   z-index: 1;
   /* border-radius: 1rem; */
   padding: 0.8rem; }
 /* line 134, css/sass/xsm.scss */
 .grid-item-3 div:nth-child(3) {
-  grid-column: 1 / span 6;
-  grid-row: 1 / span 6; }
+  grid-column: 6 / span 1;
+  grid-row: 4 / span 6; }
 
 /* line 145, css/sass/xsm.scss */
 .grid-item-4 div:nth-child(1) {
