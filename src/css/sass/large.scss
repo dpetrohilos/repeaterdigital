@@ -101,24 +101,21 @@ h1 {color: $red;
 .grid-item-3 {
     // correct 
 
-    div:nth-child(7) {
+    div:nth-child(1) {
     grid-column: 1 / span 12;
-    grid-row: 25 / span 12;    }
+    grid-row: 1 / span 12;    }
     
     
-    div:nth-child(8) {        
-    grid-column: 8 / span 6;
-    grid-row: 26 / span 11;
+    div:nth-child(2) {        
+    grid-column: 14 / span 6;
+    grid-row: 26 / span 3;
 }
-    div:nth-child(9) {    
-    grid-column: 17 / span 6;
-    grid-row: 12 / span 14;
+    div:nth-child(3) {    
+    grid-column: 2 / span 13;
+    grid-row: 2 / span 13;
  }
     
-    div:nth-child(9) {    
-    grid-column: 17 / span 6;
-    grid-row: 12 / span 14;
- }    
+ 
     
 }
 
