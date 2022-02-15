@@ -4,9 +4,9 @@ Error: Undefined variable: "$white".
 
 74:     border-radius: .2rem;
 75:     font-size: 1.8rem;
-76:     width: 14rem;
+76:     width: 12rem !important;
 77:     float:  right;
-78:     width: 12rem; 
+78:  
 79:     &:hover { background-position: 100% 88%; color: $white;}
 80: }
 81: 
@@ -79,4 +79,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$white\".\A         on line 79 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/partials/footer.scss\A \A 74:     border-radius: .2rem;\A 75:     font-size: 1.8rem;\A 76:     width: 14rem;\A 77:     float:  right;\A 78:     width: 12rem; \A 79:     &:hover { background-position: 100% 88%; color: $white;}\A 80: }\A 81: \A 82: \A 83: .wpcf7-text, .wpcf7-validates-as-required, .wpcf7-tel, .wpcf7-validates-as-tel,  \A 84: "; }
+  content: "Error: Undefined variable: \"$white\".\A         on line 79 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/partials/footer.scss\A \A 74:     border-radius: .2rem;\A 75:     font-size: 1.8rem;\A 76:     width: 12rem !important;\A 77:     float:  right;\A 78:  \A 79:     &:hover { background-position: 100% 88%; color: $white;}\A 80: }\A 81: \A 82: \A 83: .wpcf7-text, .wpcf7-validates-as-required, .wpcf7-tel, .wpcf7-validates-as-tel,  \A 84: "; }

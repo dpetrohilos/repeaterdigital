@@ -73,9 +73,9 @@
     border: none;
     border-radius: .2rem;
     font-size: 1.8rem;
-    width: 14rem;
+    width: 12rem !important;
     float:  right;
-    width: 12rem; 
+ 
     &:hover { background-position: 100% 88%; color: $white;}
 }
 
