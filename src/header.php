@@ -43,9 +43,23 @@
                         
                         </div>
                         
-						<?php html5blank_nav(); ?>
+                        
+                        
+                        
 					</nav>
 					<!-- /nav -->
 
 			<!-- /header -->
         </div>
+        
+        <div id="menu">
+  <div id="menu-bar" onclick="menuOnClick()">
+    <div id="bar1" class="bar"></div>
+    <div id="bar2" class="bar"></div>
+    <div id="bar3" class="bar"></div>
+  </div>
+  <nav class="nav" id="nav">
+      <?php html5blank_nav(); ?>
+  </nav> 
+</div>
+
