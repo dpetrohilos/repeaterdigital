@@ -6,7 +6,7 @@ Error: Undefined variable: "$wrapper-width".
 4:  *\/
 5: 
 6: 
-7: .wrapper {
+7: .wrapper-full {
 8:   max-width: $wrapper-width;
 9:   padding: 0 $margin-horizontal-large;
 10:   margin: 0 auto;
@@ -67,4 +67,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$wrapper-width\".\A         on line 8 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/partials/wrapper.scss\A \A 3:  * ---\A 4:  */\A 5: \A 6: \A 7: .wrapper {\A 8:   max-width: $wrapper-width;\A 9:   padding: 0 $margin-horizontal-large;\A 10:   margin: 0 auto;\A 11:   position: relative;\A 12: }"; }
+  content: "Error: Undefined variable: \"$wrapper-width\".\A         on line 8 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/partials/wrapper.scss\A \A 3:  * ---\A 4:  */\A 5: \A 6: \A 7: .wrapper-full {\A 8:   max-width: $wrapper-width;\A 9:   padding: 0 $margin-horizontal-large;\A 10:   margin: 0 auto;\A 11:   position: relative;\A 12: }"; }
