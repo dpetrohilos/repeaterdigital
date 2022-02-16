@@ -2746,8 +2746,8 @@ a.btn {
     border-left: 8px solid #e52227;
     border-top: 8px solid #e52227; }
 
-/* line 42, css/sass/typography.scss */
-a {
+/* line 43, css/sass/typography.scss */
+.link a {
   text-decoration: none !important;
   color: inherit;
   background-image: linear-gradient(120deg, #e52227 0%, #8fd3f4 100%);
@@ -2756,7 +2756,7 @@ a {
   background-position: 0 88%;
   -webkit-transition: background-size 0.25s ease-in;
   transition: background-size 0.25s ease-in; }
-  /* line 51, css/sass/typography.scss */
-  a:hover {
+  /* line 52, css/sass/typography.scss */
+  .link a:hover {
     background-size: 100% 0.1rem;
     background-position: 0 77%; }

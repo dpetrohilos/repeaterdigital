@@ -39,7 +39,8 @@ a.btn {
         }
 
 
-a {
+.link  {
+    a {
     text-decoration: none !important;
     color: inherit;
     background-image: linear-gradient(120deg, $red 0%, #8fd3f4 100%);
@@ -53,5 +54,6 @@ a {
     background-position: 0 77%;
 
         
+    }
     }
 }
