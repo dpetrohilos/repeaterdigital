@@ -12,18 +12,7 @@
     p, ul, li, span {
         color: $white; 
     }
-    
-    svg {
-        width: 4.2rem; 
-        path { fill: $white; 
-    }}
-    a {
-        color: $white; 
-        
-        &:hover {
-            text-decoration: none; 
-        }
-    }
+
     
 }
 
