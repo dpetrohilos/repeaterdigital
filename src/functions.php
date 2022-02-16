@@ -95,6 +95,7 @@ function html5blank_header_scripts() {
 
             // Conditionizr
             wp_register_script( 'conditionizr', get_template_directory_uri() . '/js/lib/conditionizr-4.3.0.min.js', array(), '4.3.0' );
+            wp_register_script( 'script', get_template_directory_uri() . '/js/script.js', array(), '4.3.0' );
 
            
 
