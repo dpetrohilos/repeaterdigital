@@ -37,7 +37,7 @@
 <picture class="animate__fadeIn animate__animated">
   <source srcset="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_3.webp" type="image/webp">
   <source srcset="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_3.jpg" type="image/jpeg"> 
-  <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_3.jpg" alt="Posrter of native woman, Illustration by Dylan Petrohilos" width="553" height="1129">
+  <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_3.jpg" alt="Posrter of native woman, Illustration by Dylan Petrohilos" width="736" height="1503">
 </picture>
 </div>
 <div>
@@ -59,19 +59,29 @@
   <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Image_8.jpg" alt="Group of people meeting over brand direction" width="1200" height="1200">
 </picture>
 </div>
-<div id="vision" class="content sub-item"><div>
-    <h2 class="animate__fadeInDownBig animate__animated">Vision</h2>
-    <p class="animate__fadeIn animate__animated">We are a worker owned, self-managed communications consulting firm that specializes in strategic digital and visual communication. </p>
-    <p class="animate__fadeIn animate__animated">Repeater Digital strives to isolate the signal from the noise. We use the power of storytelling to transmit and amplify the voices of our partners across the shared global digital community. </p></div><div>
+<div id="vision" class="content sub-item">
+    
+    
+    <div>
     <h2 class="animate__fadeInDownBig animate__animated">Mission</h2>
     <p class="animate__fadeIn animate__animated">We are movement architects who create visual and organizational designs that challenge narratives and shape public opinion.</p>
     
     </div>
+    
+    <div>
+    <h2 class="animate__fadeInDownBig animate__animated">Vision</h2>
+    <p class="animate__fadeIn animate__animated">We are a worker owned, self-managed communications consulting firm that specializes in strategic digital and visual communication.</p>
+    <p class="animate__fadeIn animate__animated">Repeater Digital strives to isolate the signal from the noise. We use the power of storytelling to transmit and amplify the voices of our partners across the shared global digital community.</p>
+    <p>Together, we will shift your organizational culture and transform your brand.</p>
+
+    
+    
+    </div>
+    
 </div>
 <div class="bg-red animate__fadeIn animate__animated"></div>
 </div>    
-<div class="grid-item-3 grid-item">    
-<div>
+<div class="grid-item-3 grid-item"><div>
 <picture class="animate__fadeIn animate__animated multiply">
   <source srcset="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Image_9.webp" type="image/webp">
   <source srcset="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Image_9.jpg" type="image/jpeg"> 
@@ -80,7 +90,7 @@
 </div>
 <div class="content animate__fadeIn animate__animated">
     <h2>We move people to action</h2>
-    <p>By choosing <strong>Repeater.Digital,</strong> you gain access to our knowledge, industry connections, media connections, skills, and experience. We have worked together for over a decade, and are happy to share previous and current work.</p>
+    <p>By choosing <strong>Repeater.Digital,</strong> you gain access to our knowledge, connections, skills, and experience. We have worked together for over a decade, and are happy to share previous and current work.</p>
 
     
     
@@ -100,6 +110,7 @@
 <div class="content animate__fadeIn animate__animated">
     <h3>We offer</h3>
     <p>Brand identity,<br>
+  Web design, <br>
 Art direction, <br>
 UI/UX design, <br>
 Social ads,<br>
