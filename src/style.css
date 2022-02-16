@@ -2758,5 +2758,5 @@ a {
   transition: background-size 0.25s ease-in; }
   /* line 51, css/sass/typography.scss */
   a:hover {
-    background-size: 100% 0.15rem;
+    background-size: 100% 0.1rem;
     background-position: 0 77%; }
