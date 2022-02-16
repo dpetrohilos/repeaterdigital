@@ -6,7 +6,7 @@
 <div class="content animate__fadeInUp animate__animated">
     <p><strong>Repeater.Digital</strong> is a full stack  creative collaborative. Democratically owned and managed, we believe in the positive impact of design, development, and story telling.</p>   
     <p>We measure our firm’s success by yours. By working with change makers and mission driven organizations, progress from our  partnerships means progress for the world.</p>
-    <p><a class="btn bg animated" href="#contact" title="Contact Us">Lets Talk</a> </p>
+    <p><a class="btn animated" href="#contact" title="Contact Us">Lets Talk</a> </p>
 
     
 </div>       

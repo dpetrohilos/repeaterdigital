@@ -2688,26 +2688,61 @@ h1 {
   .card cite::before {
     content: "—"; }
 
-/* line 19, css/sass/typography.scss */
-a.btn {
-  text-decoration: none;
-  color: #e52227;
-  background: transparent;
-  border: 8px solid #e52227;
+/* line 20, css/sass/typography.scss */
+.btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 18rem;
+  height: 8.4rem;
+  color: white;
   font-size: 2.2rem;
-  padding: 2.2rem;
-  font-weight: 600;
-  border-radius: 0.4rem 0rem;
-  margin-top: 1.2rem;
-  display: block;
-  width: 180px; }
-  /* line 32, css/sass/typography.scss */
-  a.btn:hover {
-    border: 8px solid transparent;
-    border-left: 8px solid #e52227;
-    border-top: 8px solid #e52227; }
+  margin-top: 1.2rem; }
 
-/* line 43, css/sass/typography.scss */
+/* line 32, css/sass/typography.scss */
+.animated {
+  --borderWidth: 3px;
+  background: #1D1F20;
+  position: relative;
+  border-radius: var(--borderWidth); }
+
+/* line 38, css/sass/typography.scss */
+.animated:after {
+  content: '';
+  position: absolute;
+  top: calc(-1 * var(--borderWidth));
+  left: calc(-1 * var(--borderWidth));
+  height: calc(100% + var(--borderWidth) * 2);
+  width: calc(100% + var(--borderWidth) * 2);
+  background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+  border-radius: calc(2 * var(--borderWidth));
+  z-index: -1;
+  -webkit-animation: animatedgradient 3s ease alternate infinite;
+          animation: animatedgradient 3s ease alternate infinite;
+  background-size: 300% 300%; }
+
+@-webkit-keyframes animatedgradient {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@keyframes animatedgradient {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+/* line 67, css/sass/typography.scss */
 .link a {
   text-decoration: none !important;
   color: inherit;
@@ -2717,7 +2752,7 @@ a.btn {
   background-position: 0 88%;
   -webkit-transition: background-size 0.25s ease-in;
   transition: background-size 0.25s ease-in; }
-  /* line 52, css/sass/typography.scss */
+  /* line 76, css/sass/typography.scss */
   .link a:hover {
     background-size: 100% 0.1rem;
     background-position: 0 77%; }

@@ -16,27 +16,51 @@
 
 
 // form
-a.btn {
-    text-decoration: none;
-    color: #e52227;
-    background: transparent;
-    border: 8px solid $red;
-    font-size: 2.2rem;
-    padding: 2.2rem;
-    font-weight: 600;
-    border-radius: 0.4rem 0rem;
-    margin-top: 1.2rem;
-    display: block;
-    width: 180px;
-    
-    &:hover { 
-    border: 8px solid transparent; 
-    border-left: 8px solid $red; 
-    border-top: 8px solid $red; 
 
-    }
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 18rem;
+  height: 8.4rem;
+  color: white;
+  font-size: 2.2rem;
+margin-top: 1.2rem; 
+}
 
-        }
+
+.animated {
+  --borderWidth: 3px;
+  background: #1D1F20;
+  position: relative;
+  border-radius: var(--borderWidth);
+}
+.animated:after {
+  content: '';
+  position: absolute;
+  top: calc(-1 * var(--borderWidth));
+  left: calc(-1 * var(--borderWidth));
+  height: calc(100% + var(--borderWidth) * 2);
+  width: calc(100% + var(--borderWidth) * 2);
+  background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+  border-radius: calc(2 * var(--borderWidth));
+  z-index: -1;
+  animation: animatedgradient 3s ease alternate infinite;
+  background-size: 300% 300%;
+}
+
+
+@keyframes animatedgradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
 
 
 .link  {
