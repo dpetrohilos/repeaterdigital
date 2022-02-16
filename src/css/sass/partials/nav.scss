@@ -123,7 +123,7 @@ z-index: 999;
   width: 0;
   height: 0;
   margin: 3.6rem 0 2.4rem 2.40rem;
-  background: radial-gradient(circle, $red, $red);
+  background: $red; 
   border-radius: 50%;
   transition: 0.3s ease;
 }
@@ -137,7 +137,7 @@ z-index: 999;
 }
 
 .change-bg {
-  width: 150vw;
-  height: 150vh;
-transform: translate(-60%,-30%);
+width: 100vw; 
+height: 100vh; 
+transform: translate(-100vw,-100vh);
 }
