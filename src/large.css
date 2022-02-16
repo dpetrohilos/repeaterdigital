@@ -42,8 +42,8 @@ h1 {
     grid-row: 6 / span 4; }
   /* line 52, css/sass/large.scss */
   .grid-item-1 div:nth-child(3) {
-    grid-column: 4 / span 8;
-    grid-row: 2 / span 10; }
+    grid-column: 5 / span 6;
+    grid-row: 4 / span 6; }
   /* line 57, css/sass/large.scss */
   .grid-item-1 div:nth-child(4) {
     grid-column: 24 / span 1;
