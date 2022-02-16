@@ -91,17 +91,23 @@ function html5blank_nav() {
 function html5blank_header_scripts() {
     if ( $GLOBALS['pagenow'] != 'wp-login.php' && ! is_admin() ) {
         if ( HTML5_DEBUG ) {
-            // jQuery
-            //wp_deregister_script( 'jquery' );
-            //wp_register_script( 'jquery', get_template_directory_uri() . '/js/lib/jquery.js', array(), '1.11.1' );
+            // jQuery wp_deregister_script( 'jquery' ); wp_register_script( 'jquery', get_template_directory_uri() . '/js/lib/jquery.js', array(), '1.11.1' );
 
-            // Conditionizr
-           // wp_register_script( 'conditionizr', //get_template_directory_uri() . '/js/lib/conditionizr-4.3.0.min.js', array(), '4.3.0' );
+            // Conditionizr wp_register_script( 'conditionizr', get_template_directory_uri() . '/js/lib/conditionizr-4.3.0.min.js', array(), '4.3.0' );
 
-             //Modernizr 
-            wp_register_script( 'script', get_template_directory_uri() . '/js/script.js', array(), '1' );
+            // Modernizr
+           // wp_register_script( 'modernizr', get_template_directory_uri() . '/js/lib/modernizr.js', array(), '2.8.3' );
 
-            
+            // Custom scripts
+            wp_register_script(
+                'html5blankscripts',
+                get_template_directory_uri() . '/js/scripts.js',
+                array(
+                    'scripts'
+                    
+                ),
+                '1.0.0' );
+
             // Enqueue Scripts
             wp_enqueue_script( 'html5blankscripts' );
 
