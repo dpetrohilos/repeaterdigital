@@ -1,34 +1,22 @@
 /*
 Error: Undefined variable: "$red".
-        on line 70 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/typography.scss
+        on line 31 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/typography.scss
 
-65: 
-66: .link  {
-67:     a {
-68:     text-decoration: none !important;
-69:     color: inherit;
-70:     background-image: linear-gradient(120deg, $red 0%, #8fd3f4 100%);
-71:     background-repeat: no-repeat;
-72:     background-size: 100% 0.1rem;
-73:     background-position: 0 88%;
-74:     -webkit-transition: background-size 0.25s ease-in;
-75:     transition: background-size 0.25s ease-in;
+26:   font-size: 2.2rem;
+27: margin-top: 1.2rem;
+28:     
+29:     &:hover {
+30:         text-decoration: none; 
+31:         background: $red; 
+32:     }
+33: }
+34: 
+35: 
+36: .animated {
 
 Backtrace:
-/Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/typography.scss:70
+/Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/typography.scss:31
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/script/tree/variable.rb:49:in `_perform'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/script/tree/node.rb:58:in `perform'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/script/tree/list_literal.rb:63:in `block in _perform'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/script/tree/list_literal.rb:63:in `map'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/script/tree/list_literal.rb:63:in `_perform'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/script/tree/node.rb:58:in `perform'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/script/tree/funcall.rb:173:in `perform_arg'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/script/tree/funcall.rb:124:in `block in _perform'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/script/tree/funcall.rb:124:in `each'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/script/tree/funcall.rb:124:in `each_with_index'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/script/tree/funcall.rb:124:in `each'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/script/tree/funcall.rb:124:in `map'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/script/tree/funcall.rb:124:in `_perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/script/tree/node.rb:58:in `perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:398:in `visit_prop'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
@@ -91,4 +79,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$red\".\A         on line 70 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/typography.scss\A \A 65: \A 66: .link  {\A 67:     a {\A 68:     text-decoration: none !important;\A 69:     color: inherit;\A 70:     background-image: linear-gradient(120deg, $red 0%, #8fd3f4 100%);\A 71:     background-repeat: no-repeat;\A 72:     background-size: 100% 0.1rem;\A 73:     background-position: 0 88%;\A 74:     -webkit-transition: background-size 0.25s ease-in;\A 75:     transition: background-size 0.25s ease-in;"; }
+  content: "Error: Undefined variable: \"$red\".\A         on line 31 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/typography.scss\A \A 26:   font-size: 2.2rem;\A 27: margin-top: 1.2rem;\A 28:     \A 29:     &:hover {\A 30:         text-decoration: none; \A 31:         background: $red; \A 32:     }\A 33: }\A 34: \A 35: \A 36: .animated {"; }
