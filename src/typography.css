@@ -3,16 +3,16 @@ Error: Undefined variable: "$red".
         on line 32 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/typography.scss
 
 27: margin-top: 1.2rem;
-28:     text-decoration: none; 
+28:     text-d
 29:     
 30:     &:hover {
 31:         text-decoration: none; 
 32:         background: $red; 
-33:         color: $white; 
-34:     }
-35: }
-36: 
-37: 
+33:         color: $white;
+34:         
+35:         
+36:     }
+37: }
 
 Backtrace:
 /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/typography.scss:32
@@ -79,4 +79,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$red\".\A         on line 32 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/typography.scss\A \A 27: margin-top: 1.2rem;\A 28:     text-decoration: none; \A 29:     \A 30:     &:hover {\A 31:         text-decoration: none; \A 32:         background: $red; \A 33:         color: $white; \A 34:     }\A 35: }\A 36: \A 37: "; }
+  content: "Error: Undefined variable: \"$red\".\A         on line 32 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/typography.scss\A \A 27: margin-top: 1.2rem;\A 28:     text-d\A 29:     \A 30:     &:hover {\A 31:         text-decoration: none; \A 32:         background: $red; \A 33:         color: $white;\A 34:         \A 35:         \A 36:     }\A 37: }"; }

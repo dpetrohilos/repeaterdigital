@@ -25,12 +25,14 @@
   height: 6rem;
   font-size: 1.8rem;
 margin-top: 1.2rem;
-    text-decoration: none; 
+    text-d
     
     &:hover {
         text-decoration: none; 
         background: $red; 
-        color: $white; 
+        color: $white;
+        
+        
     }
 }
 
@@ -40,6 +42,13 @@ margin-top: 1.2rem;
 background: $white;     
   position: relative;
   border-radius: var(--borderWidth);
+    
+    &:hover {
+        
+        &:after {
+            background:$red; 
+        }
+    }
     
     
 }
@@ -56,10 +65,7 @@ background: $white;
   animation: animatedgradient 3s ease alternate infinite;
   background-size: 300% 300%;
     
-&:hover {
-        text-decoration: none; 
-        background: $red; 
-    }    
+    
     
 }
 
