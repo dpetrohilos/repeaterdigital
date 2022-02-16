@@ -410,9 +410,10 @@ input[type="search"] {
 .menu-bg, #menu {
   top: 0;
   left: 0;
-  position: absolute; }
+  position: absolute;
+  z-index: 999; }
 
-/* line 65, css/sass/partials/nav.scss */
+/* line 66, css/sass/partials/nav.scss */
 .menu-bg {
   z-index: 1;
   width: 0;
@@ -423,29 +424,29 @@ input[type="search"] {
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease; }
 
-/* line 75, css/sass/partials/nav.scss */
+/* line 76, css/sass/partials/nav.scss */
 .change {
   display: block; }
 
-/* line 79, css/sass/partials/nav.scss */
+/* line 80, css/sass/partials/nav.scss */
 .change .bar {
   background-color: #fffafa; }
 
-/* line 83, css/sass/partials/nav.scss */
+/* line 84, css/sass/partials/nav.scss */
 .change #bar1 {
   -webkit-transform: translateY(4px) rotateZ(-45deg);
           transform: translateY(4px) rotateZ(-45deg); }
 
-/* line 87, css/sass/partials/nav.scss */
+/* line 88, css/sass/partials/nav.scss */
 .change #bar2 {
   opacity: 0; }
 
-/* line 91, css/sass/partials/nav.scss */
+/* line 92, css/sass/partials/nav.scss */
 .change #bar3 {
   -webkit-transform: translateY(-6px) rotateZ(45deg);
           transform: translateY(-6px) rotateZ(45deg); }
 
-/* line 95, css/sass/partials/nav.scss */
+/* line 96, css/sass/partials/nav.scss */
 .change-bg {
   width: 520px;
   height: 460px;
