@@ -13,8 +13,13 @@
         color: $white; 
     }
     
-    svg {path: $white; 
-    }
+    svg 
+    
+    
+    {
+        
+        path { fill: $white; 
+    }}
     a {
         color: $white; 
         
