@@ -53,7 +53,8 @@
 			<!-- /header -->
         </div>
         
-        <div id="menu">
+
+<div id="menu">
   <div id="menu-bar" onclick="menuOnClick()">
     <div id="bar1" class="bar"></div>
     <div id="bar2" class="bar"></div>
@@ -64,3 +65,4 @@
   </nav> 
 </div>
 
+<div class="menu-bg" id="menu-bg"></div>
