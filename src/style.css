@@ -542,22 +542,23 @@ input[type="search"] {
   background: black;
   color: #fff;
   padding: 7.2rem 0;
-  margin: 1.6rem 0 0 0; }
+  margin: 1.6rem 0 0 0;
+  path: #fffafa; }
   /* line 12, css/sass/partials/footer.scss */
   .footer p, .footer ul, .footer li, .footer span {
-    color: #fff; }
-  /* line 16, css/sass/partials/footer.scss */
+    color: #fffafa; }
+  /* line 18, css/sass/partials/footer.scss */
   .footer a {
-    color: #fff; }
-    /* line 19, css/sass/partials/footer.scss */
+    color: #fffafa; }
+    /* line 21, css/sass/partials/footer.scss */
     .footer a:hover {
       text-decoration: none; }
 
-/* line 29, css/sass/partials/footer.scss */
+/* line 31, css/sass/partials/footer.scss */
 .wpcf7 .wpcf7-form {
   width: 100%;
   max-width: 26.6rem; }
-  /* line 34, css/sass/partials/footer.scss */
+  /* line 36, css/sass/partials/footer.scss */
   .wpcf7 .wpcf7-form input {
     width: 100%;
     max-width: 28rem;
@@ -565,16 +566,16 @@ input[type="search"] {
     padding: 1.96rem 1.2rem;
     height: 6rem;
     border-radius: .2rem; }
-  /* line 44, css/sass/partials/footer.scss */
+  /* line 46, css/sass/partials/footer.scss */
   .wpcf7 .wpcf7-form label span {
     padding: .8rem 0 1.6rem; }
 
-/* line 56, css/sass/partials/footer.scss */
+/* line 58, css/sass/partials/footer.scss */
 .wpcf7-form-control {
   max-width: 27rem;
   width: 100%; }
 
-/* line 61, css/sass/partials/footer.scss */
+/* line 63, css/sass/partials/footer.scss */
 .wpcf7-submit {
   margin-top: 1.2rem;
   text-decoration: none;
@@ -590,19 +591,19 @@ input[type="search"] {
   font-size: 1.8rem;
   width: 12rem !important;
   float: right; }
-  /* line 79, css/sass/partials/footer.scss */
+  /* line 81, css/sass/partials/footer.scss */
   .wpcf7-submit:hover {
     background-position: 100% 88%;
     color: #fffafa; }
 
-/* line 83, css/sass/partials/footer.scss */
+/* line 85, css/sass/partials/footer.scss */
 .wpcf7-text, .wpcf7-validates-as-required, .wpcf7-tel, .wpcf7-validates-as-tel,
 .footer-logo {
   max-width: 24rem;
   width: 100%;
   height: auto;
   padding: 1.6rem; }
-  /* line 92, css/sass/partials/footer.scss */
+  /* line 94, css/sass/partials/footer.scss */
   .wpcf7-text svg, .wpcf7-validates-as-required svg, .wpcf7-tel svg, .wpcf7-validates-as-tel svg,
   .footer-logo svg {
     fill: #fff; }
