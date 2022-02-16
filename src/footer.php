@@ -11,7 +11,7 @@
     <p>Repeater Digital is a full stack creative  collaborative, democratically managed by creative professionals with decades of experience.
     </p>
     
-        <p>We hold our selves to the highest standards and let the results speak for themselves. We're happy to work with you, let's get in touch.</p>
+        <p>We hold ourselves to the highest standards and let the results speak for themselves. We're happy to work with you, let's get in touch.</p>
     
                 </div>
 
