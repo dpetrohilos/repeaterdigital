@@ -2095,8 +2095,8 @@ h1 {
     width: 100%;
     margin: 0 auto;
     padding: 1.6rem .8rem 0rem 1.6rem;
-    grid-column-gap: .8rem;
-    grid-row-gap: .8rem; }
+    grid-column-gap: 1.6rem;
+    grid-row-gap: 1.6rem; }
     /* line 33, css/sass/sm.scss */
     .grid-item img {
       border-radius: 1rem; }
@@ -2118,56 +2118,56 @@ h1 {
       grid-row: 7 / span 5; }
     /* line 57, css/sass/sm.scss */
     .grid-item-1 div:nth-child(4) {
-      grid-column: 12 / span 1;
-      grid-row: 1 / span 2; }
-    /* line 63, css/sass/sm.scss */
+      grid-column: 11 / span 2;
+      grid-row: 2 / span 2; }
+    /* line 65, css/sass/sm.scss */
     .grid-item-1 div:nth-child(5) {
       grid-column: 10 / span 2;
       grid-row: 7 / span 4; }
 
-  /* line 71, css/sass/sm.scss */
+  /* line 73, css/sass/sm.scss */
   .grid-item-2 div:nth-child(1) {
     grid-column: 1 / span 6;
     grid-row: 1 / span 4; }
-  /* line 74, css/sass/sm.scss */
+  /* line 76, css/sass/sm.scss */
   .grid-item-2 div:nth-child(2) {
     grid-column: 7 / span 6;
     grid-row: 1 / span 6; }
-    /* line 77, css/sass/sm.scss */
+    /* line 79, css/sass/sm.scss */
     .grid-item-2 div:nth-child(2) img {
       height: 100%; }
-  /* line 81, css/sass/sm.scss */
+  /* line 83, css/sass/sm.scss */
   .grid-item-2 div:nth-child(3) {
     grid-column: 1 / span 6;
     grid-row: 5 / span 1; }
-  /* line 85, css/sass/sm.scss */
+  /* line 87, css/sass/sm.scss */
   .grid-item-2 div:nth-child(4) {
     grid-column: 1 / span 6;
     grid-row: 6 / span 6; }
-  /* line 89, css/sass/sm.scss */
+  /* line 91, css/sass/sm.scss */
   .grid-item-2 div:nth-child(5) {
     grid-column: 7 / span 6;
     grid-row: 7 / span 6; }
-  /* line 93, css/sass/sm.scss */
+  /* line 95, css/sass/sm.scss */
   .grid-item-2 div:nth-child(6) {
     grid-column: 2 / span 10;
     grid-row: 16 / span 4; }
-  /* line 98, css/sass/sm.scss */
+  /* line 100, css/sass/sm.scss */
   .grid-item-2 .sub-item {
     display: grid;
     grid-column: repeat(2, 1fr);
     grid-column-gap: .8rem;
     grid-row-gap: .8rem; }
-  /* line 105, css/sass/sm.scss */
+  /* line 107, css/sass/sm.scss */
   .grid-item-2 div:nth-child(7) {
-    grid-column: 11 / span 2;
-    grid-row: 8 / span 6; }
+    grid-column: 5 / span 2;
+    grid-row: 7 / span 6; }
 
-  /* line 113, css/sass/sm.scss */
+  /* line 117, css/sass/sm.scss */
   .grid-item-3 div:nth-child(1) {
     grid-column: 1 / span 5;
     grid-row: 4 / span 6; }
-  /* line 117, css/sass/sm.scss */
+  /* line 121, css/sass/sm.scss */
   .grid-item-3 div:nth-child(2) {
     grid-column: 7 / span 5;
     grid-row: 3 / span 3;
@@ -2175,29 +2175,29 @@ h1 {
     z-index: 1;
     border-radius: 1rem;
     padding: 0.8rem; }
-  /* line 126, css/sass/sm.scss */
+  /* line 130, css/sass/sm.scss */
   .grid-item-3 div:nth-child(3) {
-    grid-column: 3 / span 4;
+    grid-column: 5 / span 2;
     grid-row: 1 / span 6; }
 
-  /* line 136, css/sass/sm.scss */
+  /* line 140, css/sass/sm.scss */
   .grid-item-4 div:nth-child(1) {
-    grid-column: 2 / span 6;
+    grid-column: 1 / span 6;
     grid-row: 1 / span 8; }
-  /* line 142, css/sass/sm.scss */
+  /* line 144, css/sass/sm.scss */
   .grid-item-4 div:nth-child(2) {
     grid-column: 9 / span 4;
     grid-row: 1 / span 8; }
-  /* line 148, css/sass/sm.scss */
+  /* line 150, css/sass/sm.scss */
   .grid-item-4 div:nth-child(3) {
-    grid-column: 1 / span 6;
-    grid-row: 2 / span 10; }
+    grid-column: 7 / span 4;
+    grid-row: 1 / span 8; }
 
-  /* line 160, css/sass/sm.scss */
+  /* line 161, css/sass/sm.scss */
   .grid-item-5 .client_content {
     grid-column: 2 / span 10;
     grid-row: 1 / span 3; }
-  /* line 167, css/sass/sm.scss */
+  /* line 168, css/sass/sm.scss */
   .grid-item-5 .logo_wrapper {
     grid-column: 1 / span 12;
     grid-row: 6 / span 1;
@@ -2207,35 +2207,35 @@ h1 {
     grid-auto-flow: dense column;
     grid-column-gap: 0.8rem;
     grid-row-gap: 0.8rem; }
-  /* line 179, css/sass/sm.scss */
+  /* line 180, css/sass/sm.scss */
   .grid-item-5 img {
     outline: #ccc 1px solid; }
 
-  /* line 185, css/sass/sm.scss */
+  /* line 186, css/sass/sm.scss */
   .grid-item-6 div:nth-child(1) {
     grid-column: 1 / span 13;
     grid-row: 1 / span 4; }
-  /* line 190, css/sass/sm.scss */
+  /* line 191, css/sass/sm.scss */
   .grid-item-6 div:nth-child(2) {
     grid-column: 1 / span 13;
     grid-row: 5 / span 4; }
-  /* line 195, css/sass/sm.scss */
+  /* line 196, css/sass/sm.scss */
   .grid-item-6 div:nth-child(3) {
     grid-column: 1 / span 13;
     grid-row: 9 / span 4; }
 
-  /* line 204, css/sass/sm.scss */
+  /* line 205, css/sass/sm.scss */
   .grid-item-7 img {
     outline: #ccc 1px solid; }
-  /* line 208, css/sass/sm.scss */
+  /* line 209, css/sass/sm.scss */
   .grid-item-7 div:nth-child(1) {
     grid-column: 1 / span 13;
     grid-row: 1 / span 4; }
-  /* line 213, css/sass/sm.scss */
+  /* line 214, css/sass/sm.scss */
   .grid-item-7 div:nth-child(2) {
     grid-column: 1 / span 13;
     grid-row: 5 / span 4; }
-  /* line 218, css/sass/sm.scss */
+  /* line 219, css/sass/sm.scss */
   .grid-item-7 div:nth-child(3) {
     grid-column: 1 / span 13;
     grid-row: 9 / span 4; } }
