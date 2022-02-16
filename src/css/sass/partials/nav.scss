@@ -3,6 +3,10 @@
  * ---
  * Menus
  */
+
+
+$red: #DC052D; 
+
 .menu-item {}
 #menu-bar {
   width: 45px;
@@ -14,7 +18,7 @@
 .bar {
   height: 5px;
   width: 100%;
-  background-color: #DC052D;
+  background-color: $red;
   display: block;
   border-radius: 5px;
   transition: 0.3s ease;
@@ -43,7 +47,7 @@
 }
 
 .nav li a {
-  color: white;
+  color: $white;
   font-size: 20px;
   text-decoration: none;
 }
@@ -63,7 +67,7 @@
   width: 0;
   height: 0;
   margin: 30px 0 20px 20px;
-  background: radial-gradient(circle, #DC052D, #DC052D);
+  background: radial-gradient(circle, $red, $red);
   border-radius: 50%;
   transition: 0.3s ease;
 }
