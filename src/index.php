@@ -117,7 +117,7 @@ SEO, <br>
     <cite>Isaiah J. Poole, Communications executive.
 </cite>
     </div>
-    <div  class="card content animate__fadeIn animate__animated">
+    <div  class="card content animate__fadeIn ">
         <blockquote>“Repeater.Digital delivered a beautiful, clean and visually engaging look book for DC Action Lab’s re-brand and relaunch. They handled all aspects of the design and assisted with copy editing and writing. Thank you Repeater!”</blockquote>
     
     <cite>Noor Mir, Principal owner of DC Action Lab. </cite>
@@ -126,9 +126,9 @@ SEO, <br>
  
 </div>
 <div id="projects" class="content clients_wrapper grid-item-7 grid-item">
-    <div class="animate__fadeOutUp animate__animated"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Work1.jpg" alt="Graphic Poster"  width="1200"/> </div>  
-   <div class="animate__fadeOutUp animate__animated"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Work2.jpg" alt="Graphic Poster"  width="1200"/></div>  
-       <div class="animate__fadeOutUp animate__animated"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Work3.jpg" alt="Graphic Poster"  width="1200"/>    </div>
+    <div><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Work1.jpg" alt="Graphic Poster"  width="1200"/> </div>  
+   <div><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Work2.jpg" alt="Graphic Poster"  width="1200"/></div>  
+       <div><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Work3.jpg" alt="Graphic Poster"  width="1200"/>    </div>
     
 </div> 
 <?php get_footer(); ?>
