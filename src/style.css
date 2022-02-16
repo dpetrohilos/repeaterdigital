@@ -354,163 +354,160 @@ input[type="search"] {
  * ---
  * Menus
  */
-/* line 8, css/sass/partials/nav.scss */
+/* line 12, css/sass/partials/nav.scss */
 #menu-bar {
-  width: 4.8rem;
-  height: 4.8rem;
-  position: absolute;
+  width: 1.2rem;
+  height: 1.2rem;
+  position: fixed;
   top: 50%;
   left: 10%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   cursor: pointer; }
 
-/* line 20, css/sass/partials/nav.scss */
+/* line 24, css/sass/partials/nav.scss */
 .bento-menu span {
-  width: 4.8rem;
-  height: 4.8rem;
+  width: 1.2rem;
+  height: 1.2rem;
   background: #e52227;
   position: absolute; }
-  /* line 26, css/sass/partials/nav.scss */
-  .bento-menu span:hover {
-    background: #fffafa; }
 
-/* line 30, css/sass/partials/nav.scss */
+/* line 32, css/sass/partials/nav.scss */
 .bento-menu span:nth-child(1) {
   top: 0;
   left: 0;
   -webkit-transition: .6s;
   transition: .6s; }
 
-/* line 35, css/sass/partials/nav.scss */
+/* line 37, css/sass/partials/nav.scss */
 .bento-menu span:nth-child(2) {
   top: 0;
-  left: 88px;
+  left: 1.6rem;
   -webkit-transition: .6s;
   transition: .6s; }
 
-/* line 40, css/sass/partials/nav.scss */
+/* line 42, css/sass/partials/nav.scss */
 .bento-menu span:nth-child(3) {
   top: 0;
-  left: 175px;
+  left: 3.2rem;
   -webkit-transition: .6s;
   transition: .6s; }
 
-/* line 45, css/sass/partials/nav.scss */
+/* line 47, css/sass/partials/nav.scss */
 .bento-menu span:nth-child(4) {
   top: 88px;
   left: 0;
   -webkit-transition: .6s;
   transition: .6s; }
 
-/* line 50, css/sass/partials/nav.scss */
+/* line 52, css/sass/partials/nav.scss */
 .bento-menu span:nth-child(5) {
   top: 88px;
   left: 88px;
   -webkit-transition: .6s;
   transition: .6s; }
 
-/* line 55, css/sass/partials/nav.scss */
+/* line 57, css/sass/partials/nav.scss */
 .bento-menu span:nth-child(6) {
   top: 88px;
   left: 175px;
   -webkit-transition: .6s;
   transition: .6s; }
 
-/* line 60, css/sass/partials/nav.scss */
+/* line 62, css/sass/partials/nav.scss */
 .bento-menu span:nth-child(7) {
   top: 175px;
   left: 0;
   -webkit-transition: .6s;
   transition: .6s; }
 
-/* line 65, css/sass/partials/nav.scss */
+/* line 67, css/sass/partials/nav.scss */
 .bento-menu span:nth-child(8) {
   top: 175px;
   left: 88px;
   -webkit-transition: .6s;
   transition: .6s; }
 
-/* line 70, css/sass/partials/nav.scss */
+/* line 72, css/sass/partials/nav.scss */
 .bento-menu span:nth-child(9) {
   top: 175px;
   left: 175px;
   -webkit-transition: .6s;
   transition: .6s; }
 
-/* line 75, css/sass/partials/nav.scss */
+/* line 77, css/sass/partials/nav.scss */
 .bento-menu:hover span:nth-child(1) {
   -webkit-transform: translate(88px, 88px);
           transform: translate(88px, 88px); }
 
-/* line 78, css/sass/partials/nav.scss */
+/* line 80, css/sass/partials/nav.scss */
 .bento-menu:hover span:nth-child(3) {
   -webkit-transform: translate(-88px, 88px);
           transform: translate(-88px, 88px); }
 
-/* line 81, css/sass/partials/nav.scss */
+/* line 83, css/sass/partials/nav.scss */
 .bento-menu:hover span:nth-child(7) {
   -webkit-transform: translate(88px, -88px);
           transform: translate(88px, -88px); }
 
-/* line 84, css/sass/partials/nav.scss */
+/* line 86, css/sass/partials/nav.scss */
 .bento-menu:hover span:nth-child(9) {
   -webkit-transform: translate(-88px, -88px);
           transform: translate(-88px, -88px); }
 
-/* line 87, css/sass/partials/nav.scss */
+/* line 89, css/sass/partials/nav.scss */
 .bento-menu:hover span:nth-child(2) {
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg); }
 
-/* line 90, css/sass/partials/nav.scss */
+/* line 92, css/sass/partials/nav.scss */
 .bento-menu:hover span:nth-child(4) {
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg); }
 
-/* line 93, css/sass/partials/nav.scss */
+/* line 95, css/sass/partials/nav.scss */
 .bento-menu:hover span:nth-child(6) {
   -webkit-transform: rotate(-180deg);
           transform: rotate(-180deg); }
 
-/* line 96, css/sass/partials/nav.scss */
+/* line 98, css/sass/partials/nav.scss */
 .bento-menu:hover span:nth-child(8) {
   -webkit-transform: rotate(-180deg);
           transform: rotate(-180deg); }
 
-/* line 99, css/sass/partials/nav.scss */
+/* line 101, css/sass/partials/nav.scss */
 .nav {
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
   display: none; }
 
-/* line 104, css/sass/partials/nav.scss */
+/* line 106, css/sass/partials/nav.scss */
 .nav ul {
   padding: 0 22px; }
 
-/* line 108, css/sass/partials/nav.scss */
+/* line 110, css/sass/partials/nav.scss */
 .nav li {
   list-style: none;
   padding: 12px 0; }
 
-/* line 113, css/sass/partials/nav.scss */
+/* line 115, css/sass/partials/nav.scss */
 .nav li a {
   color: #fffafa;
   font-size: 20px;
   text-decoration: none; }
 
-/* line 119, css/sass/partials/nav.scss */
+/* line 121, css/sass/partials/nav.scss */
 .nav li a:hover {
   font-weight: bold; }
 
-/* line 123, css/sass/partials/nav.scss */
+/* line 125, css/sass/partials/nav.scss */
 .menu-bg, #menu {
   top: 0;
   left: 0;
   position: absolute;
   z-index: 999; }
 
-/* line 130, css/sass/partials/nav.scss */
+/* line 132, css/sass/partials/nav.scss */
 .menu-bg {
   z-index: 1;
   width: 0;
@@ -521,29 +518,15 @@ input[type="search"] {
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease; }
 
-/* line 140, css/sass/partials/nav.scss */
+/* line 142, css/sass/partials/nav.scss */
 .change {
   display: block; }
 
-/* line 144, css/sass/partials/nav.scss */
+/* line 146, css/sass/partials/nav.scss */
 .change .bar {
   background-color: #fffafa; }
 
-/* line 148, css/sass/partials/nav.scss */
-.change #bar1 {
-  -webkit-transform: translateY(4px) rotateZ(-45deg);
-          transform: translateY(4px) rotateZ(-45deg); }
-
-/* line 151, css/sass/partials/nav.scss */
-.change #bar2 {
-  opacity: 0; }
-
-/* line 155, css/sass/partials/nav.scss */
-.change #bar3 {
-  -webkit-transform: translateY(-6px) rotateZ(45deg);
-          transform: translateY(-6px) rotateZ(45deg); }
-
-/* line 159, css/sass/partials/nav.scss */
+/* line 150, css/sass/partials/nav.scss */
 .change-bg {
   width: 150vw;
   height: 150vh;

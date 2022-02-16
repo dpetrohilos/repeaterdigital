@@ -4,11 +4,15 @@
  * Menus
  */
 
+
+$nav: 1.2rem; 
+
+
 .menu-item {}
 #menu-bar {
-	width: 4.8rem;
-	height: 4.8rem;
-	position: absolute;
+	width: $nav;
+	height: $nav;
+	position: fixed;
 	top: 50%;
 	left: 10%;
 	transform: translateY(-50%);
@@ -18,14 +22,12 @@
 .bento-menu{
 }
 .bento-menu span{
-	width: 4.8rem;
-	height: 4.8rem;
+	width: $nav;
+	height: $nav;
 	background: $red;
 	position: absolute;
     
-    &:hover {
-        background: $white; 
-    }
+   
 }
 .bento-menu span:nth-child(1){
 	top: 0;
@@ -34,12 +36,12 @@
 }
 .bento-menu span:nth-child(2){
 	top: 0;
-	left: 88px;
+	left: 1.6rem;
 	transition: .6s;
 }
 .bento-menu span:nth-child(3){
 	top: 0;
-	left:175px;
+	left: 3.2rem;
 	transition: .6s;
 }
 .bento-menu span:nth-child(4){
@@ -143,17 +145,6 @@ z-index: 999;
 
 .change .bar {
   background-color: $white;
-}
-
-.change #bar1 {
-  transform: translateY(4px) rotateZ(-45deg);
-}
-.change #bar2 {
-  opacity: 0;
-}
-
-.change #bar3 {
-  transform: translateY(-6px) rotateZ(45deg);
 }
 
 .change-bg {
