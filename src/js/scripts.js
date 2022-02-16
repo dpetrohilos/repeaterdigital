@@ -24,7 +24,8 @@ function menuOnClick() {
 
 document.addEventListener('keydown', function(event){
 	if(event.key === "Escape"){
-  document.getElementById("nav").classList.toggle("change");
-  document.getElementById("menu-bg").classList.toggle("change-bg");
+  document.getElementByClassName("menu-bar").classList.remove(".change");
+  document.getElementsByClassName("nav").classList.remove(".change");
+  document.getElementByClassName("menu-bg").classList.remove(".change-bg");
 	}
 });
