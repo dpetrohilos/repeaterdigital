@@ -22,6 +22,10 @@
 	height: 4.8rem;
 	background: $red;
 	position: absolute;
+    
+    &:hover {
+        background: $white; 
+    }
 }
 .bento-menu span:nth-child(1){
 	top: 0;
