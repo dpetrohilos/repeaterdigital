@@ -510,8 +510,8 @@ input[type="search"] {
 /* line 129, css/sass/partials/nav.scss */
 .menu-bg {
   z-index: 1;
-  width: 150vw;
-  height: 150vh;
+  width: 0;
+  height: 0;
   margin: 30px 0 20px 20px;
   background: radial-gradient(circle, #e52227, #e52227);
   border-radius: 50%;
@@ -531,19 +531,19 @@ input[type="search"] {
   -webkit-transform: translateY(4px) rotateZ(-45deg);
           transform: translateY(4px) rotateZ(-45deg); }
 
-/* line 151, css/sass/partials/nav.scss */
+/* line 150, css/sass/partials/nav.scss */
 .change #bar2 {
   opacity: 0; }
 
-/* line 155, css/sass/partials/nav.scss */
+/* line 154, css/sass/partials/nav.scss */
 .change #bar3 {
   -webkit-transform: translateY(-6px) rotateZ(45deg);
           transform: translateY(-6px) rotateZ(45deg); }
 
-/* line 159, css/sass/partials/nav.scss */
+/* line 158, css/sass/partials/nav.scss */
 .change-bg {
-  width: 520px;
-  height: 460px;
+  width: 150vw;
+  height: 150vh;
   -webkit-transform: translate(-60%, -30%);
           transform: translate(-60%, -30%); }
 
