@@ -29,7 +29,7 @@
 					<div class="logo col-xs-12">
 						<a href="<?php echo esc_url( home_url() ); ?>">
 							<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
-							<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo.svg" alt="Repeater Digital" class="logo-img" width="116">
+							<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo.svg" alt="Repeater Digital" class="logo-img" width="116" height="116">
 						</a>
 					</div>
                 <!-- /logo -->
