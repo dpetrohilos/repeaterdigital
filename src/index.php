@@ -197,9 +197,9 @@ SEO, <br>
 </div>
 <div id="projects" class="content clients_wrapper grid-item-7 grid-item">
     <div><picture>
-  <source srcset="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo1.webp" type="image/webp">
-  <source srcset="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo1.jpg" type="image/jpeg"> 
-  <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo1.jpg" alt="Powershift Network" width="1200" height="1600">
+  <source srcset="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo.webp" type="image/webp">
+  <source srcset="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo.jpg" type="image/jpeg"> 
+  <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo.jpg" alt="Powershift Network" width="1200" height="1600">
 </picture>
 </div>  
    <div><picture>
