@@ -2710,11 +2710,15 @@ h1 {
   background: #fffafa;
   position: relative;
   border-radius: var(--borderWidth); }
-  /* line 48, css/sass/typography.scss */
-  .animated:hover:after {
-    background: #e52227; }
+  /* line 46, css/sass/typography.scss */
+  .animated:hover {
+    text-decoration: none;
+    color: #e52227; }
+    /* line 51, css/sass/typography.scss */
+    .animated:hover:after {
+      background: #e52227; }
 
-/* line 55, css/sass/typography.scss */
+/* line 59, css/sass/typography.scss */
 .animated:after {
   content: '';
   position: absolute;
@@ -2744,7 +2748,7 @@ h1 {
     background-position: 100% 50%; }
   100% {
     background-position: 0% 50%; } }
-/* line 89, css/sass/typography.scss */
+/* line 93, css/sass/typography.scss */
 .link a {
   text-decoration: none !important;
   color: inherit;
@@ -2754,7 +2758,7 @@ h1 {
   background-position: 0 88%;
   -webkit-transition: background-size 0.25s ease-in;
   transition: background-size 0.25s ease-in; }
-  /* line 98, css/sass/typography.scss */
+  /* line 102, css/sass/typography.scss */
   .link a:hover {
     background-size: 100% 0.1rem;
     background-position: 0 77%; }

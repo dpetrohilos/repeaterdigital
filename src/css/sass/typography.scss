@@ -45,8 +45,12 @@ background: $white;
     
     &:hover {
         
+        text-decoration: none; 
+        color: $red; 
+        
         &:after {
-            background:$red; 
+            background:$red;
+            
         }
     }
     
