@@ -12,7 +12,7 @@
     </p>
     
         <p>We hold ourselves to the highest standards and let the results speak for themselves. We're happy to work with you, let's get in touch.</p>
-    
+    <p><a class="social-links" href="https://www.twitter.com/RepeaterDigital" title="Twitter Link"><img height="24" width="24"  src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/twitter.svg" alt="Twitter logo" /></a><a href="https://www.instagram.com/RepeaterDigital" title="Instagram Link"><img height="24" width="24"  src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/instagram.svg" alt="Instagram logo"/></a> @RepeaterDigital</p>
                 </div>
 
 <div class="col-lg-4 col-xs-12 col-sm-5 col-md-4 content col-xs-offset-1">
