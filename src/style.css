@@ -474,20 +474,20 @@ input[type="search"] {
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease; }
 
-/* line 131, css/sass/partials/nav.scss */
+/* line 132, css/sass/partials/nav.scss */
 .change {
   display: block; }
 
-/* line 135, css/sass/partials/nav.scss */
+/* line 136, css/sass/partials/nav.scss */
 .change .bar {
   background-color: #fffafa; }
 
-/* line 139, css/sass/partials/nav.scss */
+/* line 140, css/sass/partials/nav.scss */
 .change-bg {
-  width: 100vw;
-  height: 100vh;
-  -webkit-transform: translate(-100vw, -100vh);
-          transform: translate(-100vw, -100vh); }
+  width: 150vw;
+  height: 150vh;
+  -webkit-transform: translate(-60%, -30%);
+          transform: translate(-60%, -30%); }
 
 /**
  * partials/sidebar
