@@ -544,14 +544,14 @@ input[type="search"] {
   padding: 7.2rem 0;
   margin: 1.6rem 0 0 0; }
   /* line 12, css/sass/partials/footer.scss */
-  .footer p, .footer ul, .footer li, .footer span {
+  .footer p, .footer ul, .footer li, .footer span, .footer a {
     color: #fffafa; }
 
-/* line 22, css/sass/partials/footer.scss */
+/* line 23, css/sass/partials/footer.scss */
 .wpcf7 .wpcf7-form {
   width: 100%;
   max-width: 26.6rem; }
-  /* line 27, css/sass/partials/footer.scss */
+  /* line 28, css/sass/partials/footer.scss */
   .wpcf7 .wpcf7-form input {
     width: 100%;
     max-width: 28rem;
@@ -559,16 +559,16 @@ input[type="search"] {
     padding: 1.96rem 1.2rem;
     height: 6rem;
     border-radius: .2rem; }
-  /* line 37, css/sass/partials/footer.scss */
+  /* line 38, css/sass/partials/footer.scss */
   .wpcf7 .wpcf7-form label span {
     padding: .8rem 0 1.6rem; }
 
-/* line 49, css/sass/partials/footer.scss */
+/* line 50, css/sass/partials/footer.scss */
 .wpcf7-form-control {
   max-width: 27rem;
   width: 100%; }
 
-/* line 54, css/sass/partials/footer.scss */
+/* line 55, css/sass/partials/footer.scss */
 .wpcf7-submit {
   margin-top: 1.2rem;
   text-decoration: none;
@@ -584,19 +584,19 @@ input[type="search"] {
   font-size: 1.8rem;
   width: 12rem !important;
   float: right; }
-  /* line 72, css/sass/partials/footer.scss */
+  /* line 73, css/sass/partials/footer.scss */
   .wpcf7-submit:hover {
     background-position: 100% 88%;
     color: #fffafa; }
 
-/* line 76, css/sass/partials/footer.scss */
+/* line 77, css/sass/partials/footer.scss */
 .wpcf7-text, .wpcf7-validates-as-required, .wpcf7-tel, .wpcf7-validates-as-tel,
 .footer-logo {
   max-width: 24rem;
   width: 100%;
   height: auto;
   padding: 1.6rem; }
-  /* line 85, css/sass/partials/footer.scss */
+  /* line 86, css/sass/partials/footer.scss */
   .wpcf7-text svg, .wpcf7-validates-as-required svg, .wpcf7-tel svg, .wpcf7-validates-as-tel svg,
   .footer-logo svg {
     fill: #fff; }
@@ -2732,9 +2732,7 @@ a.btn {
   text-decoration: none;
   color: #e52227;
   background: transparent;
-  border: 8px solid transparent;
-  border-right: 8px solid #e52227;
-  border-bottom: 8px solid #e52227;
+  border: 8px solid #e52227;
   font-size: 2.2rem;
   padding: 2.2rem;
   font-weight: 600;
@@ -2742,7 +2740,7 @@ a.btn {
   margin-top: 1.2rem;
   display: block;
   width: 180px; }
-  /* line 34, css/sass/typography.scss */
+  /* line 32, css/sass/typography.scss */
   a.btn:hover {
     border: 8px solid transparent;
     border-left: 8px solid #e52227;
