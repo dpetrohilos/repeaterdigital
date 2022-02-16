@@ -85,12 +85,12 @@ h1 {
         
     } 
     div:nth-child(4) {
-    grid-column: 13 / span 6;
-    grid-row: 7 / span 6;    }
+    grid-column: 13 / span 10;
+    grid-row: 7 / span 7;    }
         
     div:nth-child(5) {    
-grid-column: 13 / span 6;
-    grid-row: 13 / span 5;}
+    grid-column: 13 / span 10;
+    grid-row: 14 / span 7;    }
     
 // vision    
     div:nth-child(6) {
@@ -108,8 +108,7 @@ grid-column: 13 / span 6;
     
     div:nth-child(7) {    
     grid-column: 13 / span 3;
-    grid-row: 7 / span 11;
-    } 
+    grid-row: 7 / span 14;   } 
     
     }
 .grid-item-3 { 
@@ -144,8 +143,8 @@ grid-column: 13 / span 6;
 .grid-item-5 {
     .client_content {
         
-    grid-column: 5 / span 5;
-    grid-row: 2 / span 1;    }
+    grid-column: 5 / span 6;
+    grid-row: 1 / span 6;    }
 
     
     .logo_wrapper {
@@ -166,10 +165,10 @@ grid-column: 13 / span 6;
         outline: #ccc 1px solid; 
     }
     
-    }
-    
-.grid-item-6   {
-        div:nth-child(1) {
+    }    
+.grid-item-6 {
+        
+    div:nth-child(1) {
         grid-column: 1 / span 8;
         grid-row: 1 / span 8;
     }
