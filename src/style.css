@@ -2728,6 +2728,10 @@ h1 {
   -webkit-animation: animatedgradient 3s ease alternate infinite;
           animation: animatedgradient 3s ease alternate infinite;
   background-size: 300% 300%; }
+  /* line 56, css/sass/typography.scss */
+  .animated:after:hover {
+    text-decoration: none;
+    background: #e52227; }
 
 @-webkit-keyframes animatedgradient {
   0% {
@@ -2744,7 +2748,7 @@ h1 {
     background-position: 100% 50%; }
   100% {
     background-position: 0% 50%; } }
-/* line 72, css/sass/typography.scss */
+/* line 80, css/sass/typography.scss */
 .link a {
   text-decoration: none !important;
   color: inherit;
@@ -2754,7 +2758,7 @@ h1 {
   background-position: 0 88%;
   -webkit-transition: background-size 0.25s ease-in;
   transition: background-size 0.25s ease-in; }
-  /* line 81, css/sass/typography.scss */
+  /* line 89, css/sass/typography.scss */
   .link a:hover {
     background-size: 100% 0.1rem;
     background-position: 0 77%; }

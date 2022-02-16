@@ -52,6 +52,12 @@ margin-top: 1.2rem;
   z-index: -1;
   animation: animatedgradient 3s ease alternate infinite;
   background-size: 300% 300%;
+    
+&:hover {
+        text-decoration: none; 
+        background: $red; 
+    }    
+    
 }
 
 
@@ -65,6 +71,8 @@ margin-top: 1.2rem;
 	100% {
 		background-position: 0% 50%;
 	}
+    
+    
 }
 
 
