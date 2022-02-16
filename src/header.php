@@ -42,7 +42,7 @@
         
 
 <div id="menu">
-  <div id="menu-bar" class="bento-menu" onclick="menuOnClick()">
+  <div id="menu-bar" class="bento-menu" onclick="menuOnClick()" event="keydown" onkeydown="addEventListener">
 		<span class="bar"></span>
 		<span class="bar"></span>
 		<span class="bar"></span>
