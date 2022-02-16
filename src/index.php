@@ -56,7 +56,7 @@
 <picture class="animate__fadeIn animate__animated multiply">
   <source srcset="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Image_8.webp" type="image/webp">
   <source srcset="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Image_8.jpg" type="image/jpeg"> 
-  <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Imgage_8.jpg" alt="Group of people meeting over brand direction" width="1200" height="1200">
+  <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Image_8.jpg" alt="Group of people meeting over brand direction" width="1200" height="1200">
 </picture>
 </div>
 <div id="vision" class="content sub-item"><div>
@@ -73,9 +73,9 @@
 <div class="grid-item-3 grid-item">    
 <div>
 <picture class="animate__fadeIn animate__animated multiply">
-  <source srcset="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Imgage_9.webp" type="image/webp">
-  <source srcset="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Imgage_9.jpg" type="image/jpeg"> 
-  <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Imgage_9.jpg" alt="Group of people working and discussing brand direction" width="1200" height="1200">
+  <source srcset="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Image_9.webp" type="image/webp">
+  <source srcset="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Image_9.jpg" type="image/jpeg"> 
+  <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Image_9.jpg" alt="Group of people working and discussing brand direction" width="1200" height="1200">
 </picture>
 </div>
 <div class="content animate__fadeIn animate__animated">
@@ -92,9 +92,9 @@
 
 <div>
 <picture class="animate__fadeIn animate__animated multiply">
-  <source srcset="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_12.webp" type="image/webp">
-  <source srcset="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_12.jpg" type="image/jpeg"> 
-  <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_12.jpg" alt="Hands drawing logos" width="1200" height="1200">
+  <source srcset="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Image_12.webp" type="image/webp">
+  <source srcset="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Imgage_12.jpg" type="image/jpeg"> 
+  <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Imgage_12.jpg" alt="Hands drawing logos" width="1200" height="1200">
 </picture>
 </div>
 <div class="content animate__fadeIn animate__animated">
