@@ -356,97 +356,191 @@ input[type="search"] {
  */
 /* line 11, css/sass/partials/nav.scss */
 #menu-bar {
-  width: 45px;
-  height: 40px;
-  margin: 30px 0 20px 20px;
+  width: 4.8rem;
+  height: 4.8rem;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
   cursor: pointer; }
 
-/* line 18, css/sass/partials/nav.scss */
-.bar {
-  height: 5px;
-  width: 100%;
-  background-color: #e52227;
-  display: block;
-  border-radius: 5px;
-  -webkit-transition: 0.3s ease;
-  transition: 0.3s ease; }
+/* line 23, css/sass/partials/nav.scss */
+.bento-menu span {
+  width: 4.8rem;
+  height: 4.8rem;
+  background: #fffafa;
+  position: absolute; }
 
-/* line 27, css/sass/partials/nav.scss */
-#bar1 {
-  -webkit-transform: translateY(-4px);
-          transform: translateY(-4px); }
+/* line 29, css/sass/partials/nav.scss */
+.bento-menu span:nth-child(1) {
+  top: 0;
+  left: 0;
+  -webkit-transition: .6s;
+  transition: .6s; }
 
-/* line 31, css/sass/partials/nav.scss */
-#bar3 {
-  -webkit-transform: translateY(4px);
-          transform: translateY(4px); }
+/* line 34, css/sass/partials/nav.scss */
+.bento-menu span:nth-child(2) {
+  top: 0;
+  left: 88px;
+  -webkit-transition: .6s;
+  transition: .6s; }
 
-/* line 35, css/sass/partials/nav.scss */
+/* line 39, css/sass/partials/nav.scss */
+.bento-menu span:nth-child(3) {
+  top: 0;
+  left: 175px;
+  -webkit-transition: .6s;
+  transition: .6s; }
+
+/* line 44, css/sass/partials/nav.scss */
+.bento-menu span:nth-child(4) {
+  top: 88px;
+  left: 0;
+  -webkit-transition: .6s;
+  transition: .6s; }
+
+/* line 49, css/sass/partials/nav.scss */
+.bento-menu span:nth-child(5) {
+  top: 88px;
+  left: 88px;
+  -webkit-transition: .6s;
+  transition: .6s; }
+
+/* line 54, css/sass/partials/nav.scss */
+.bento-menu span:nth-child(6) {
+  top: 88px;
+  left: 175px;
+  -webkit-transition: .6s;
+  transition: .6s; }
+
+/* line 59, css/sass/partials/nav.scss */
+.bento-menu span:nth-child(7) {
+  top: 175px;
+  left: 0;
+  -webkit-transition: .6s;
+  transition: .6s; }
+
+/* line 64, css/sass/partials/nav.scss */
+.bento-menu span:nth-child(8) {
+  top: 175px;
+  left: 88px;
+  -webkit-transition: .6s;
+  transition: .6s; }
+
+/* line 69, css/sass/partials/nav.scss */
+.bento-menu span:nth-child(9) {
+  top: 175px;
+  left: 175px;
+  -webkit-transition: .6s;
+  transition: .6s; }
+
+/* line 74, css/sass/partials/nav.scss */
+.bento-menu:hover span:nth-child(1) {
+  -webkit-transform: translate(88px, 88px);
+          transform: translate(88px, 88px); }
+
+/* line 77, css/sass/partials/nav.scss */
+.bento-menu:hover span:nth-child(3) {
+  -webkit-transform: translate(-88px, 88px);
+          transform: translate(-88px, 88px); }
+
+/* line 80, css/sass/partials/nav.scss */
+.bento-menu:hover span:nth-child(7) {
+  -webkit-transform: translate(88px, -88px);
+          transform: translate(88px, -88px); }
+
+/* line 83, css/sass/partials/nav.scss */
+.bento-menu:hover span:nth-child(9) {
+  -webkit-transform: translate(-88px, -88px);
+          transform: translate(-88px, -88px); }
+
+/* line 86, css/sass/partials/nav.scss */
+.bento-menu:hover span:nth-child(2) {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg); }
+
+/* line 89, css/sass/partials/nav.scss */
+.bento-menu:hover span:nth-child(4) {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg); }
+
+/* line 92, css/sass/partials/nav.scss */
+.bento-menu:hover span:nth-child(6) {
+  -webkit-transform: rotate(-180deg);
+          transform: rotate(-180deg); }
+
+/* line 95, css/sass/partials/nav.scss */
+.bento-menu:hover span:nth-child(8) {
+  -webkit-transform: rotate(-180deg);
+          transform: rotate(-180deg); }
+
+/* line 98, css/sass/partials/nav.scss */
 .nav {
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
   display: none; }
 
-/* line 40, css/sass/partials/nav.scss */
+/* line 103, css/sass/partials/nav.scss */
 .nav ul {
   padding: 0 22px; }
 
-/* line 44, css/sass/partials/nav.scss */
+/* line 107, css/sass/partials/nav.scss */
 .nav li {
   list-style: none;
   padding: 12px 0; }
 
-/* line 49, css/sass/partials/nav.scss */
+/* line 112, css/sass/partials/nav.scss */
 .nav li a {
   color: #fffafa;
   font-size: 20px;
   text-decoration: none; }
 
-/* line 55, css/sass/partials/nav.scss */
+/* line 118, css/sass/partials/nav.scss */
 .nav li a:hover {
   font-weight: bold; }
 
-/* line 59, css/sass/partials/nav.scss */
+/* line 122, css/sass/partials/nav.scss */
 .menu-bg, #menu {
   top: 0;
   left: 0;
   position: absolute;
   z-index: 999; }
 
-/* line 66, css/sass/partials/nav.scss */
+/* line 129, css/sass/partials/nav.scss */
 .menu-bg {
   z-index: 1;
-  width: 0;
-  height: 0;
+  width: 150vw;
+  height: 150vh;
   margin: 30px 0 20px 20px;
   background: radial-gradient(circle, #e52227, #e52227);
   border-radius: 50%;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease; }
 
-/* line 76, css/sass/partials/nav.scss */
+/* line 139, css/sass/partials/nav.scss */
 .change {
   display: block; }
 
-/* line 80, css/sass/partials/nav.scss */
+/* line 143, css/sass/partials/nav.scss */
 .change .bar {
   background-color: #fffafa; }
 
-/* line 84, css/sass/partials/nav.scss */
+/* line 147, css/sass/partials/nav.scss */
 .change #bar1 {
   -webkit-transform: translateY(4px) rotateZ(-45deg);
           transform: translateY(4px) rotateZ(-45deg); }
 
-/* line 88, css/sass/partials/nav.scss */
+/* line 151, css/sass/partials/nav.scss */
 .change #bar2 {
   opacity: 0; }
 
-/* line 92, css/sass/partials/nav.scss */
+/* line 155, css/sass/partials/nav.scss */
 .change #bar3 {
   -webkit-transform: translateY(-6px) rotateZ(45deg);
           transform: translateY(-6px) rotateZ(45deg); }
 
-/* line 96, css/sass/partials/nav.scss */
+/* line 159, css/sass/partials/nav.scss */
 .change-bg {
   width: 520px;
   height: 460px;

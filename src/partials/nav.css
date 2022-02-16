@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$white".
-        on line 50 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/partials/nav.scss
+        on line 26 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/partials/nav.scss
 
-45:   list-style: none;
-46:   padding: 12px 0;
-47: }
-48: 
-49: .nav li a {
-50:   color: $white;
-51:   font-size: 20px;
-52:   text-decoration: none;
-53: }
-54: 
-55: .nav li a:hover {
+21: .bento-menu{
+22: }
+23: .bento-menu span{
+24: 	width: 4.8rem;
+25: 	height: 4.8rem;
+26: 	background: $white;
+27: 	position: absolute;
+28: }
+29: .bento-menu span:nth-child(1){
+30: 	top: 0;
+31: 	left: 0;
 
 Backtrace:
-/Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/partials/nav.scss:50
+/Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/partials/nav.scss:26
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/script/tree/node.rb:58:in `perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:398:in `visit_prop'
@@ -68,4 +68,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$white\".\A         on line 50 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/partials/nav.scss\A \A 45:   list-style: none;\A 46:   padding: 12px 0;\A 47: }\A 48: \A 49: .nav li a {\A 50:   color: $white;\A 51:   font-size: 20px;\A 52:   text-decoration: none;\A 53: }\A 54: \A 55: .nav li a:hover {"; }
+  content: "Error: Undefined variable: \"$white\".\A         on line 26 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/partials/nav.scss\A \A 21: .bento-menu{\A 22: }\A 23: .bento-menu span{\A 24: 	width: 4.8rem;\A 25: 	height: 4.8rem;\A 26: 	background: $white;\A 27: 	position: absolute;\A 28: }\A 29: .bento-menu span:nth-child(1){\A 30: 	top: 0;\A 31: 	left: 0;"; }

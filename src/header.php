@@ -55,11 +55,19 @@
         
 
 <div id="menu">
-  <div id="menu-bar" onclick="menuOnClick()">
-    <div id="bar1" class="bar"></div>
-    <div id="bar2" class="bar"></div>
-    <div id="bar3" class="bar"></div>
-  </div>
+  <div id="menu-bar" class="bento-menu" onclick="menuOnClick()">
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<p>Menu</p>  
+    
+    </div>
   <nav class="nav" id="nav">
       <?php html5blank_nav(); ?>
   </nav> 

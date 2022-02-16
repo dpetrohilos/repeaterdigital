@@ -9,29 +9,92 @@ $red: #e52227;
 
 .menu-item {}
 #menu-bar {
-  width: 45px;
-  height: 40px;
-  margin: 30px 0 20px 20px;
+	width: 4.8rem;
+	height: 4.8rem;
+	position: absolute;
+	top: 50%;
+	left: 10%;
+	transform: translateY(-50%);
   cursor: pointer;
 }
 
-.bar {
-  height: 5px;
-  width: 100%;
-  background-color: $red;
-  display: block;
-  border-radius: 5px;
-  transition: 0.3s ease;
+.bento-menu{
 }
-
-#bar1 {
-  transform: translateY(-4px);
+.bento-menu span{
+	width: 4.8rem;
+	height: 4.8rem;
+	background: $white;
+	position: absolute;
 }
-
-#bar3 {
-  transform: translateY(4px);
+.bento-menu span:nth-child(1){
+	top: 0;
+	left: 0;
+	transition: .6s;
 }
-
+.bento-menu span:nth-child(2){
+	top: 0;
+	left: 88px;
+	transition: .6s;
+}
+.bento-menu span:nth-child(3){
+	top: 0;
+	left:175px;
+	transition: .6s;
+}
+.bento-menu span:nth-child(4){
+	top: 88px;
+	left: 0;
+	transition: .6s;
+}
+.bento-menu span:nth-child(5){
+	top: 88px;
+	left: 88px;
+	transition: .6s;
+}
+.bento-menu span:nth-child(6){
+	top: 88px;
+	left:175px;
+	transition: .6s;
+}
+.bento-menu span:nth-child(7){
+	top: 175px;
+	left: 0;
+	transition: .6s;
+}
+.bento-menu span:nth-child(8){
+	top: 175px;
+	left: 88px;
+	transition: .6s;
+}
+.bento-menu span:nth-child(9){
+	top: 175px;
+	left:175px;
+	transition: .6s;
+}
+.bento-menu:hover span:nth-child(1){
+	transform: translate(88px,88px);
+}
+.bento-menu:hover span:nth-child(3){
+	transform: translate(-88px,88px);
+}
+.bento-menu:hover span:nth-child(7){
+	transform: translate(88px,-88px);
+}
+.bento-menu:hover span:nth-child(9){
+	transform: translate(-88px,-88px);
+}
+.bento-menu:hover span:nth-child(2){
+	transform: rotate(180deg);
+}
+.bento-menu:hover span:nth-child(4){
+	transform: rotate(180deg);
+}
+.bento-menu:hover span:nth-child(6){
+	transform: rotate(-180deg);
+}
+.bento-menu:hover span:nth-child(8){
+	transform: rotate(-180deg);
+}
 .nav {
   transition: 0.3s ease;
   display: none;
@@ -65,8 +128,8 @@ z-index: 999;
 
 .menu-bg {
   z-index: 1;
-  width: 0;
-  height: 0;
+  width: 150vw;
+  height: 150vh;
   margin: 30px 0 20px 20px;
   background: radial-gradient(circle, $red, $red);
   border-radius: 50%;
