@@ -359,8 +359,8 @@ input[type="search"] {
   width: 1.2rem;
   height: 1.2rem;
   position: fixed;
-  top: 50%;
-  left: 10%;
+  top: 1.6rem;
+  left: 1.6rem;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   cursor: pointer; }

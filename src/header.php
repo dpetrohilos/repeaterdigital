@@ -55,6 +55,8 @@
         
 
 <div id="menu">
+    <div class="menu-label-wrap">
+		<p class="menu-label">Menu</p></div>    
   <div id="menu-bar" class="bento-menu" onclick="menuOnClick()">
 		<span class="bar"></span>
 		<span class="bar"></span>
@@ -65,8 +67,8 @@
 		<span class="bar"></span>
         <span class="bar"></span>
 		<span class="bar"></span>
-  
-		<p class="menu-label">Menu</p>  </div>
+    </div>
+    
   <nav class="nav" id="nav">
       <?php html5blank_nav(); ?>
   </nav> 
