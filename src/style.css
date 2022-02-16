@@ -546,24 +546,12 @@ input[type="search"] {
   /* line 12, css/sass/partials/footer.scss */
   .footer p, .footer ul, .footer li, .footer span {
     color: #fffafa; }
-  /* line 16, css/sass/partials/footer.scss */
-  .footer svg {
-    width: 4.2rem; }
-    /* line 18, css/sass/partials/footer.scss */
-    .footer svg path {
-      fill: #fffafa; }
-  /* line 20, css/sass/partials/footer.scss */
-  .footer a {
-    color: #fffafa; }
-    /* line 23, css/sass/partials/footer.scss */
-    .footer a:hover {
-      text-decoration: none; }
 
-/* line 33, css/sass/partials/footer.scss */
+/* line 22, css/sass/partials/footer.scss */
 .wpcf7 .wpcf7-form {
   width: 100%;
   max-width: 26.6rem; }
-  /* line 38, css/sass/partials/footer.scss */
+  /* line 27, css/sass/partials/footer.scss */
   .wpcf7 .wpcf7-form input {
     width: 100%;
     max-width: 28rem;
@@ -571,16 +559,16 @@ input[type="search"] {
     padding: 1.96rem 1.2rem;
     height: 6rem;
     border-radius: .2rem; }
-  /* line 48, css/sass/partials/footer.scss */
+  /* line 37, css/sass/partials/footer.scss */
   .wpcf7 .wpcf7-form label span {
     padding: .8rem 0 1.6rem; }
 
-/* line 60, css/sass/partials/footer.scss */
+/* line 49, css/sass/partials/footer.scss */
 .wpcf7-form-control {
   max-width: 27rem;
   width: 100%; }
 
-/* line 65, css/sass/partials/footer.scss */
+/* line 54, css/sass/partials/footer.scss */
 .wpcf7-submit {
   margin-top: 1.2rem;
   text-decoration: none;
@@ -596,19 +584,19 @@ input[type="search"] {
   font-size: 1.8rem;
   width: 12rem !important;
   float: right; }
-  /* line 83, css/sass/partials/footer.scss */
+  /* line 72, css/sass/partials/footer.scss */
   .wpcf7-submit:hover {
     background-position: 100% 88%;
     color: #fffafa; }
 
-/* line 87, css/sass/partials/footer.scss */
+/* line 76, css/sass/partials/footer.scss */
 .wpcf7-text, .wpcf7-validates-as-required, .wpcf7-tel, .wpcf7-validates-as-tel,
 .footer-logo {
   max-width: 24rem;
   width: 100%;
   height: auto;
   padding: 1.6rem; }
-  /* line 96, css/sass/partials/footer.scss */
+  /* line 85, css/sass/partials/footer.scss */
   .wpcf7-text svg, .wpcf7-validates-as-required svg, .wpcf7-tel svg, .wpcf7-validates-as-tel svg,
   .footer-logo svg {
     fill: #fff; }

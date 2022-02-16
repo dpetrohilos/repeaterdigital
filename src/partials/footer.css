@@ -9,10 +9,10 @@ Error: Undefined variable: "$white".
 12:     p, ul, li, span {
 13:         color: $white; 
 14:     }
-15:     
-16:     svg {
-17:         width: 4.2rem; 
-18:         path { fill: $white; 
+15: 
+16:     
+17: }
+18: 
 
 Backtrace:
 /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/partials/footer.scss:13
@@ -79,4 +79,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$white\".\A         on line 13 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/partials/footer.scss\A \A 8:     background: black; \A 9:     color: #fff;\A 10:     padding: 7.2rem 0;\A 11:     margin: 1.6rem 0 0 0; \A 12:     p, ul, li, span {\A 13:         color: $white; \A 14:     }\A 15:     \A 16:     svg {\A 17:         width: 4.2rem; \A 18:         path { fill: $white; "; }
+  content: "Error: Undefined variable: \"$white\".\A         on line 13 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/partials/footer.scss\A \A 8:     background: black; \A 9:     color: #fff;\A 10:     padding: 7.2rem 0;\A 11:     margin: 1.6rem 0 0 0; \A 12:     p, ul, li, span {\A 13:         color: $white; \A 14:     }\A 15: \A 16:     \A 17: }\A 18: "; }
