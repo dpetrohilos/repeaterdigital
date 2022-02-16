@@ -542,11 +542,13 @@ input[type="search"] {
   background: black;
   color: #fff;
   padding: 7.2rem 0;
-  margin: 1.6rem 0 0 0;
-  path: #fffafa; }
+  margin: 1.6rem 0 0 0; }
   /* line 12, css/sass/partials/footer.scss */
   .footer p, .footer ul, .footer li, .footer span {
     color: #fffafa; }
+  /* line 16, css/sass/partials/footer.scss */
+  .footer svg {
+    path: #fffafa; }
   /* line 18, css/sass/partials/footer.scss */
   .footer a {
     color: #fffafa; }
