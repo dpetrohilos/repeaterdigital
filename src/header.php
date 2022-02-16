@@ -63,7 +63,7 @@
 		<span class="bar"></span>
 		<span class="bar"></span>
 		<span class="bar"></span>
-		<p>BENTO MENU</p>  </div>
+		<p class="menu-label">Menu</p>  </div>
   <nav class="nav" id="nav">
       <?php html5blank_nav(); ?>
   </nav> 

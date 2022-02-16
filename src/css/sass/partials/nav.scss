@@ -45,33 +45,33 @@ $nav: 1.2rem;
 	transition: .6s;
 }
 .bento-menu span:nth-child(4){
-	top: 88px;
+	top: 1.6rem;
 	left: 0;
 	transition: .6s;
 }
 .bento-menu span:nth-child(5){
-	top: 88px;
-	left: 88px;
+	top: 1.6rem;
+	left: 1.6rem;
 	transition: .6s;
 }
 .bento-menu span:nth-child(6){
-	top: 88px;
-	left:175px;
+	top: 1.6rem;
+	left:3.2rem;
 	transition: .6s;
 }
 .bento-menu span:nth-child(7){
-	top: 175px;
+	top: 3.2rem;
 	left: 0;
 	transition: .6s;
 }
 .bento-menu span:nth-child(8){
-	top: 175px;
-	left: 88px;
+	top: 3.2rem;
+	left: 1.6rem;
 	transition: .6s;
 }
 .bento-menu span:nth-child(9){
-	top: 175px;
-	left:175px;
+	top: 3.2rem;
+	left:3.2rem;
 	transition: .6s;
 }
 .bento-menu:hover span:nth-child(1){
@@ -104,12 +104,12 @@ $nav: 1.2rem;
 }
 
 .nav ul {
-  padding: 0 22px;
+  padding: 0 2.2rem;
 }
 
 .nav li {
   list-style: none;
-  padding: 12px 0;
+  padding: 1.2rem 0;
 }
 
 .nav li a {
@@ -133,7 +133,7 @@ z-index: 999;
   z-index: 1;
   width: 0;
   height: 0;
-  margin: 30px 0 20px 20px;
+  margin: 3.6rem 0 2.4rem 2.40rem;
   background: radial-gradient(circle, $red, $red);
   border-radius: 50%;
   transition: 0.3s ease;
