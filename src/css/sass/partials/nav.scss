@@ -75,16 +75,16 @@ $nav: 1.2rem;
 	transition: .6s;
 }
 .bento-menu:hover span:nth-child(1){
-	transform: translate(88px,88px);
+	transform: translate(1.6rem,1.6rem);
 }
 .bento-menu:hover span:nth-child(3){
-	transform: translate(-88px,88px);
+	transform: translate(-1.6rem,1.6rem);
 }
 .bento-menu:hover span:nth-child(7){
-	transform: translate(88px,-88px);
+	transform: translate(1.6rem,-1.6rem);
 }
 .bento-menu:hover span:nth-child(9){
-	transform: translate(-88px,-88px);
+	transform: translate(-1.6rem,-1.6rem);
 }
 .bento-menu:hover span:nth-child(2){
 	transform: rotate(180deg);

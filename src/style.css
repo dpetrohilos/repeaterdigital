@@ -437,23 +437,23 @@ input[type="search"] {
 
 /* line 77, css/sass/partials/nav.scss */
 .bento-menu:hover span:nth-child(1) {
-  -webkit-transform: translate(88px, 88px);
-          transform: translate(88px, 88px); }
+  -webkit-transform: translate(1.6rem, 1.6rem);
+          transform: translate(1.6rem, 1.6rem); }
 
 /* line 80, css/sass/partials/nav.scss */
 .bento-menu:hover span:nth-child(3) {
-  -webkit-transform: translate(-88px, 88px);
-          transform: translate(-88px, 88px); }
+  -webkit-transform: translate(-1.6rem, 1.6rem);
+          transform: translate(-1.6rem, 1.6rem); }
 
 /* line 83, css/sass/partials/nav.scss */
 .bento-menu:hover span:nth-child(7) {
-  -webkit-transform: translate(88px, -88px);
-          transform: translate(88px, -88px); }
+  -webkit-transform: translate(1.6rem, -1.6rem);
+          transform: translate(1.6rem, -1.6rem); }
 
 /* line 86, css/sass/partials/nav.scss */
 .bento-menu:hover span:nth-child(9) {
-  -webkit-transform: translate(-88px, -88px);
-          transform: translate(-88px, -88px); }
+  -webkit-transform: translate(-1.6rem, -1.6rem);
+          transform: translate(-1.6rem, -1.6rem); }
 
 /* line 89, css/sass/partials/nav.scss */
 .bento-menu:hover span:nth-child(2) {
