@@ -74,28 +74,28 @@ $nav: 1.2rem;
 	left:3.2rem;
 	transition: .6s;
 }
-.bento-menu:hover span:nth-child(1){
+.bento-menu:active span:nth-child(1){
 	transform: translate(1.6rem,1.6rem);
 }
-.bento-menu:hover span:nth-child(3){
+.bento-menu:active span:nth-child(3){
 	transform: translate(-1.6rem,1.6rem);
 }
-.bento-menu:hover span:nth-child(7){
+.bento-menu:active span:nth-child(7){
 	transform: translate(1.6rem,-1.6rem);
 }
-.bento-menu:hover span:nth-child(9){
+.bento-menu:active span:nth-child(9){
 	transform: translate(-1.6rem,-1.6rem);
 }
-.bento-menu:hover span:nth-child(2){
+.bento-menu:active span:nth-child(2){
 	transform: rotate(180deg);
 }
-.bento-menu:hover span:nth-child(4){
+.bento-menu:active span:nth-child(4){
 	transform: rotate(180deg);
 }
-.bento-menu:hover span:nth-child(6){
+.bento-menu:active span:nth-child(6){
 	transform: rotate(-180deg);
 }
-.bento-menu:hover span:nth-child(8){
+.bento-menu:active span:nth-child(8){
 	transform: rotate(-180deg);
 }
 .nav {

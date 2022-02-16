@@ -436,42 +436,42 @@ input[type="search"] {
   transition: .6s; }
 
 /* line 77, css/sass/partials/nav.scss */
-.bento-menu:hover span:nth-child(1) {
+.bento-menu:active span:nth-child(1) {
   -webkit-transform: translate(1.6rem, 1.6rem);
           transform: translate(1.6rem, 1.6rem); }
 
 /* line 80, css/sass/partials/nav.scss */
-.bento-menu:hover span:nth-child(3) {
+.bento-menu:active span:nth-child(3) {
   -webkit-transform: translate(-1.6rem, 1.6rem);
           transform: translate(-1.6rem, 1.6rem); }
 
 /* line 83, css/sass/partials/nav.scss */
-.bento-menu:hover span:nth-child(7) {
+.bento-menu:active span:nth-child(7) {
   -webkit-transform: translate(1.6rem, -1.6rem);
           transform: translate(1.6rem, -1.6rem); }
 
 /* line 86, css/sass/partials/nav.scss */
-.bento-menu:hover span:nth-child(9) {
+.bento-menu:active span:nth-child(9) {
   -webkit-transform: translate(-1.6rem, -1.6rem);
           transform: translate(-1.6rem, -1.6rem); }
 
 /* line 89, css/sass/partials/nav.scss */
-.bento-menu:hover span:nth-child(2) {
+.bento-menu:active span:nth-child(2) {
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg); }
 
 /* line 92, css/sass/partials/nav.scss */
-.bento-menu:hover span:nth-child(4) {
+.bento-menu:active span:nth-child(4) {
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg); }
 
 /* line 95, css/sass/partials/nav.scss */
-.bento-menu:hover span:nth-child(6) {
+.bento-menu:active span:nth-child(6) {
   -webkit-transform: rotate(-180deg);
           transform: rotate(-180deg); }
 
 /* line 98, css/sass/partials/nav.scss */
-.bento-menu:hover span:nth-child(8) {
+.bento-menu:active span:nth-child(8) {
   -webkit-transform: rotate(-180deg);
           transform: rotate(-180deg); }
 
