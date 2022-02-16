@@ -55,7 +55,6 @@
         
 
 <div id="menu">
-<div class="menu-label-wrap">
   <div id="menu-bar" class="bento-menu" onclick="menuOnClick()">
 		<span class="bar"></span>
 		<span class="bar"></span>
