@@ -2701,21 +2701,23 @@ h1 {
           justify-content: center;
   width: 12rem;
   height: 6rem;
-  font-size: 2.2rem;
-  margin-top: 1.2rem; }
-  /* line 29, css/sass/typography.scss */
+  font-size: 1.8rem;
+  margin-top: 1.2rem;
+  text-decoration: none; }
+  /* line 30, css/sass/typography.scss */
   .btn:hover {
     text-decoration: none;
-    background: #e52227; }
+    background: #e52227;
+    color: #fffafa; }
 
-/* line 36, css/sass/typography.scss */
+/* line 38, css/sass/typography.scss */
 .animated {
   --borderWidth: 3px;
   background: #fffafa;
   position: relative;
   border-radius: var(--borderWidth); }
 
-/* line 44, css/sass/typography.scss */
+/* line 46, css/sass/typography.scss */
 .animated:after {
   content: '';
   position: absolute;
@@ -2729,7 +2731,7 @@ h1 {
   -webkit-animation: animatedgradient 3s ease alternate infinite;
           animation: animatedgradient 3s ease alternate infinite;
   background-size: 300% 300%; }
-  /* line 57, css/sass/typography.scss */
+  /* line 59, css/sass/typography.scss */
   .animated:after:hover {
     text-decoration: none;
     background: #e52227; }
@@ -2749,7 +2751,7 @@ h1 {
     background-position: 100% 50%; }
   100% {
     background-position: 0% 50%; } }
-/* line 81, css/sass/typography.scss */
+/* line 83, css/sass/typography.scss */
 .link a {
   text-decoration: none !important;
   color: inherit;
@@ -2759,7 +2761,7 @@ h1 {
   background-position: 0 88%;
   -webkit-transition: background-size 0.25s ease-in;
   transition: background-size 0.25s ease-in; }
-  /* line 90, css/sass/typography.scss */
+  /* line 92, css/sass/typography.scss */
   .link a:hover {
     background-size: 100% 0.1rem;
     background-position: 0 77%; }
