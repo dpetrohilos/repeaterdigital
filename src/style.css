@@ -201,23 +201,24 @@ body {
 /* line 37, css/sass/partials/reset.scss */
 img {
   max-width: 100%;
-  vertical-align: middle; }
+  vertical-align: middle;
+  height: auto; }
 
-/* line 44, css/sass/partials/reset.scss */
+/* line 45, css/sass/partials/reset.scss */
 a {
   color: #444;
   text-decoration: none; }
-  /* line 48, css/sass/partials/reset.scss */
+  /* line 49, css/sass/partials/reset.scss */
   a:focus, a:hover {
     text-decoration: underline; }
 
-/* line 56, css/sass/partials/reset.scss */
+/* line 57, css/sass/partials/reset.scss */
 input[type="text"],
 input[type="search"] {
   font-size: inherit;
   line-height: inherit; }
 
-/* line 63, css/sass/partials/reset.scss */
+/* line 64, css/sass/partials/reset.scss */
 ::-moz-selection {
   background-color: #e52227;
   color: #fffafa;
