@@ -125,10 +125,10 @@ SEO, <br>
 
  
 </div>
-<div id="projects" class="content clients_wrapper grid-item-7 grid-item animate__fadeOutUp animate__animated">
-    <div><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Work1.jpg" alt="Graphic Poster"  width="1200"/> </div>  
-   <div><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Work2.jpg" alt="Graphic Poster"  width="1200"/></div>  
-       <div><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Work3.jpg" alt="Graphic Poster"  width="1200"/>    </div>
+<div id="projects" class="content clients_wrapper grid-item-7 grid-item">
+    <div class="animate__fadeOutUp animate__animated"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Work1.jpg" alt="Graphic Poster"  width="1200"/> </div>  
+   <div class="animate__fadeOutUp animate__animated"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Work2.jpg" alt="Graphic Poster"  width="1200"/></div>  
+       <div class="animate__fadeOutUp animate__animated"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Work3.jpg" alt="Graphic Poster"  width="1200"/>    </div>
     
 </div> 
 <?php get_footer(); ?>
