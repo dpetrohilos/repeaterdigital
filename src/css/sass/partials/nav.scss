@@ -104,23 +104,20 @@ $nav: 1.2rem;
 }
 
 .nav ul {
-  padding: 0 2.2rem;
+  padding: 7.2rem 1.2rem;
 }
 
 .nav li {
   list-style: none;
-  padding: 1.2rem 0;
+  padding:0;
 }
 
 .nav li a {
   color: $white;
-  font-size: 20px;
+  font-size: 1.8rem;
   text-decoration: none;
 }
 
-.nav li a:hover {
-  font-weight: bold;
-}
 
 .menu-bg, #menu {
   top: 0;
