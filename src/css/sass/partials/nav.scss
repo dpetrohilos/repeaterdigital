@@ -3,35 +3,7 @@
  * ---
  * Menus
  */
-
-
-.nav {
-    
-    border-bottom: 1px solid #ccc;     
-    
-    ul {
-        
-        padding-top: .4rem; 
-    }
-    
-    li {
-        list-style: none;
-        display: inline-flex;
-    }
-}
-
-.menu {}
-
-.sub-menu {
-    
-    display: inline-flex; 
-}
-
 .menu-item {}
-#menu {
-  z-index: 2;
-}
-
 #menu-bar {
   width: 45px;
   height: 40px;

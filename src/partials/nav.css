@@ -3,37 +3,14 @@
  * ---
  * Menus
  */
-/* line 8, ../css/sass/partials/nav.scss */
-.nav {
-  border-bottom: 1px solid #ccc; }
-  /* line 12, ../css/sass/partials/nav.scss */
-  .nav ul {
-    padding-top: .4rem; }
-  /* line 17, ../css/sass/partials/nav.scss */
-  .nav li {
-    list-style: none;
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex; }
-
-/* line 25, ../css/sass/partials/nav.scss */
-.sub-menu {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex; }
-
-/* line 31, ../css/sass/partials/nav.scss */
-#menu {
-  z-index: 2; }
-
-/* line 35, ../css/sass/partials/nav.scss */
+/* line 7, ../css/sass/partials/nav.scss */
 #menu-bar {
   width: 45px;
   height: 40px;
   margin: 30px 0 20px 20px;
   cursor: pointer; }
 
-/* line 42, ../css/sass/partials/nav.scss */
+/* line 14, ../css/sass/partials/nav.scss */
 .bar {
   height: 5px;
   width: 100%;
@@ -43,48 +20,48 @@
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease; }
 
-/* line 51, ../css/sass/partials/nav.scss */
+/* line 23, ../css/sass/partials/nav.scss */
 #bar1 {
   -webkit-transform: translateY(-4px);
           transform: translateY(-4px); }
 
-/* line 55, ../css/sass/partials/nav.scss */
+/* line 27, ../css/sass/partials/nav.scss */
 #bar3 {
   -webkit-transform: translateY(4px);
           transform: translateY(4px); }
 
-/* line 59, ../css/sass/partials/nav.scss */
+/* line 31, ../css/sass/partials/nav.scss */
 .nav {
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
   display: none; }
 
-/* line 64, ../css/sass/partials/nav.scss */
+/* line 36, ../css/sass/partials/nav.scss */
 .nav ul {
   padding: 0 22px; }
 
-/* line 68, ../css/sass/partials/nav.scss */
+/* line 40, ../css/sass/partials/nav.scss */
 .nav li {
   list-style: none;
   padding: 12px 0; }
 
-/* line 73, ../css/sass/partials/nav.scss */
+/* line 45, ../css/sass/partials/nav.scss */
 .nav li a {
   color: white;
   font-size: 20px;
   text-decoration: none; }
 
-/* line 79, ../css/sass/partials/nav.scss */
+/* line 51, ../css/sass/partials/nav.scss */
 .nav li a:hover {
   font-weight: bold; }
 
-/* line 83, ../css/sass/partials/nav.scss */
+/* line 55, ../css/sass/partials/nav.scss */
 .menu-bg, #menu {
   top: 0;
   left: 0;
   position: absolute; }
 
-/* line 89, ../css/sass/partials/nav.scss */
+/* line 61, ../css/sass/partials/nav.scss */
 .menu-bg {
   z-index: 1;
   width: 0;
@@ -95,29 +72,29 @@
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease; }
 
-/* line 99, ../css/sass/partials/nav.scss */
+/* line 71, ../css/sass/partials/nav.scss */
 .change {
   display: block; }
 
-/* line 103, ../css/sass/partials/nav.scss */
+/* line 75, ../css/sass/partials/nav.scss */
 .change .bar {
   background-color: white; }
 
-/* line 107, ../css/sass/partials/nav.scss */
+/* line 79, ../css/sass/partials/nav.scss */
 .change #bar1 {
   -webkit-transform: translateY(4px) rotateZ(-45deg);
           transform: translateY(4px) rotateZ(-45deg); }
 
-/* line 111, ../css/sass/partials/nav.scss */
+/* line 83, ../css/sass/partials/nav.scss */
 .change #bar2 {
   opacity: 0; }
 
-/* line 115, ../css/sass/partials/nav.scss */
+/* line 87, ../css/sass/partials/nav.scss */
 .change #bar3 {
   -webkit-transform: translateY(-6px) rotateZ(45deg);
           transform: translateY(-6px) rotateZ(45deg); }
 
-/* line 119, ../css/sass/partials/nav.scss */
+/* line 91, ../css/sass/partials/nav.scss */
 .change-bg {
   width: 520px;
   height: 460px;
