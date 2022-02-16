@@ -25,14 +25,13 @@
 <div class="bg-red animate__fadeIn animate__animated"></div>
     
     </div>
-
 <div class="grid-item grid-item-2">
 
 <div>
 <picture class="animate__fadeIn animate__animated">
   <source srcset="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_2.webp" type="image/webp">
   <source srcset="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_2.jpg" type="image/jpeg"> 
-  <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_2.jpg" alt="Movement Media, thankyou card." width="1200" height="1200">
+  <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_2.jpg" alt="Democracit Energy Kit" width="1200" height="1200">
 </picture></div>       
 <div>
 <picture class="animate__fadeIn animate__animated">
@@ -49,15 +48,15 @@
 </picture></div>
 <div>
 <picture class="animate__fadeIn animate__animated multiply">
-  <source srcset="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_7.webp" type="image/webp">
-  <source srcset="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_7.jpg" type="image/jpeg"> 
-  <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_7.jpg" alt="Sketches and drawings of different logo concepts" width="1200" height="1200">
+  <source srcset="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Image_7.webp" type="image/webp">
+  <source srcset="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Image_7.jpg" type="image/jpeg"> 
+  <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Image_7.jpg" alt="Sketches and drawings of different logo concepts" width="1200" height="1200">
 </picture></div>
 <div>
 <picture class="animate__fadeIn animate__animated multiply">
-  <source srcset="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_8.webp" type="image/webp">
-  <source srcset="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_8.jpg" type="image/jpeg"> 
-  <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_8.jpg" alt="Group of people meeting over brand direction" width="1200" height="1200">
+  <source srcset="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Image_8.webp" type="image/webp">
+  <source srcset="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Image_8.jpg" type="image/jpeg"> 
+  <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Imgage_8.jpg" alt="Group of people meeting over brand direction" width="1200" height="1200">
 </picture>
 </div>
 <div id="vision" class="content sub-item"><div>
@@ -74,9 +73,9 @@
 <div class="grid-item-3 grid-item">    
 <div>
 <picture class="animate__fadeIn animate__animated multiply">
-  <source srcset="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_9.webp" type="image/webp">
-  <source srcset="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_9.jpg" type="image/jpeg"> 
-  <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_9.jpg" alt="Group of people working and discussing brand direction" width="1200" height="1200">
+  <source srcset="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Imgage_9.webp" type="image/webp">
+  <source srcset="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Imgage_9.jpg" type="image/jpeg"> 
+  <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Imgage_9.jpg" alt="Group of people working and discussing brand direction" width="1200" height="1200">
 </picture>
 </div>
 <div class="content animate__fadeIn animate__animated">
@@ -198,21 +197,21 @@ SEO, <br>
 </div>
 <div id="projects" class="content clients_wrapper grid-item-7 grid-item">
     <div><picture>
-  <source srcset="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Work1.webp" type="image/webp">
-  <source srcset="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Work1.jpg" type="image/jpeg"> 
-  <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Work1.jpg" alt="Powershift Network" width="1200" height="1600">
+  <source srcset="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo1.webp" type="image/webp">
+  <source srcset="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo1.jpg" type="image/jpeg"> 
+  <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo1.jpg" alt="Powershift Network" width="1200" height="1600">
 </picture>
 </div>  
    <div><picture>
-  <source srcset="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Work2.webp" type="image/webp">
-  <source srcset="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Work2.jpg" type="image/jpeg"> 
-  <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Work2.jpg" alt="Hoco Solar Farm" width="1200" height="1600">
+  <source srcset="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logos2.webp" type="image/webp">
+  <source srcset="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logos2.jpg" type="image/jpeg"> 
+  <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logos2.jpg" alt="Hoco Solar Farm" width="1200" height="1600">
 </picture>
 </div>  
        <div><picture>
-  <source srcset="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Work3.webp" type="image/webp">
-  <source srcset="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Work3.jpg" type="image/jpeg"> 
-  <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Work3.jpg" alt="DC Action Lab" width="1200" height="1600">
+  <source srcset="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logos3.webp" type="image/webp">
+  <source srcset="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logos3.jpg" type="image/jpeg"> 
+  <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logos3.jpg" alt="DC Action Lab" width="1200" height="1600">
 </picture>
    </div>
     
