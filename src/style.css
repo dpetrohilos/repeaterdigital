@@ -2405,12 +2405,12 @@ h1 {
     grid-row: 1 / span 6; }
   /* line 82, css/sass/medium.scss */
   .grid-item-2 div:nth-child(4) {
-    grid-column: 13 / span 10;
+    grid-column: 13 / span 12;
     grid-row: 7 / span 7; }
   /* line 86, css/sass/medium.scss */
   .grid-item-2 div:nth-child(5) {
-    grid-column: 13 / span 10;
-    grid-row: 14 / span 7; }
+    grid-column: 13 / span 12;
+    grid-row: 14 / span 5; }
   /* line 91, css/sass/medium.scss */
   .grid-item-2 div:nth-child(6) {
     grid-column: 2 / span 10;
@@ -2424,7 +2424,7 @@ h1 {
   /* line 104, css/sass/medium.scss */
   .grid-item-2 div:nth-child(7) {
     grid-column: 13 / span 3;
-    grid-row: 7 / span 14; }
+    grid-row: 7 / span 12; }
 
   /* line 110, css/sass/medium.scss */
   .grid-item-3 div:nth-child(1) {
@@ -2454,8 +2454,8 @@ h1 {
 
   /* line 138, css/sass/medium.scss */
   .grid-item-5 .client_content {
-    grid-column: 5 / span 6;
-    grid-row: 1 / span 6; }
+    grid-column: 2 / span 10;
+    grid-row: 1 / span 1; }
   /* line 144, css/sass/medium.scss */
   .grid-item-5 .logo_wrapper {
     grid-column: 13 / span 12;
