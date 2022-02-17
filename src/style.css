@@ -478,10 +478,10 @@ input[type="search"] {
 
 /* line 140, css/sass/partials/nav.scss */
 .change-bg {
-  width: 150vw;
+  width: 250vw;
   height: 150vh;
   -webkit-transform: translate(-60%, -30%);
-          transform: translate(-60%, -30%);
+  transform: translate(-60%, -30%);
   position: fixed; }
 
 /**

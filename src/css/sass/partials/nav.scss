@@ -138,8 +138,9 @@ z-index: 999;
 }
 
 .change-bg {
-  width: 150vw;
-  height: 150vh;
-transform: translate(-60%,-30%);
-position: fixed; 
+width: 250vw;
+    height: 150vh;
+    -webkit-transform: translate(-60%, -30%);
+    transform: translate(-60%, -30%);
+    position: fixed;
 }
