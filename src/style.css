@@ -464,19 +464,18 @@ input[type="search"] {
   height: 0;
   margin: 3.6rem 0 2.4rem 2.40rem;
   background: #e52227;
-  border-radius: 50%;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease; }
 
-/* line 132, css/sass/partials/nav.scss */
+/* line 130, css/sass/partials/nav.scss */
 .change {
   display: block; }
 
-/* line 136, css/sass/partials/nav.scss */
+/* line 134, css/sass/partials/nav.scss */
 .change .bar {
   background-color: #fffafa; }
 
-/* line 140, css/sass/partials/nav.scss */
+/* line 138, css/sass/partials/nav.scss */
 .change-bg {
   width: 250vw;
   height: 150vh;
