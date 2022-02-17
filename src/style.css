@@ -2345,10 +2345,10 @@ h1 {
   /* line 6, css/sass/medium.scss */
   h1 {
     color: #e52227;
-    font-size: 12.2rem;
-    letter-spacing: -0.25rem;
+    font-size: 7.2rem;
+    letter-spacing: -0.35rem;
     font-weight: 900;
-    line-height: 13.6rem;
+    line-height: 8rem;
     padding: 0;
     margin: 0 0 1.2rem 0; }
 
@@ -2509,7 +2509,7 @@ h1 {
   h1 {
     color: #e52227;
     font-size: 12.2rem;
-    letter-spacing: -0.25rem;
+    letter-spacing: -0.35rem;
     font-weight: 900;
     line-height: 13.6rem;
     padding: 0;

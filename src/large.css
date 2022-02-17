@@ -9,7 +9,7 @@ Error: Undefined variable: "$red".
 7:     
 8:     color: $red;
 9:     font-size: 12.2rem;
-10:     letter-spacing: -0.25rem;
+10:     letter-spacing: -0.35rem;
 11:     font-weight: 900;
 12:     line-height: 13.6rem; 
 13:     padding: 0; 
@@ -68,4 +68,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$red\".\A         on line 8 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/large.scss\A \A 3:     padding: 0 0 1.2rem;\A 4:     line-height: 2.4rem; \A 5:     }  \A 6: h1 {\A 7:     \A 8:     color: $red;\A 9:     font-size: 12.2rem;\A 10:     letter-spacing: -0.25rem;\A 11:     font-weight: 900;\A 12:     line-height: 13.6rem; \A 13:     padding: 0; "; }
+  content: "Error: Undefined variable: \"$red\".\A         on line 8 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/large.scss\A \A 3:     padding: 0 0 1.2rem;\A 4:     line-height: 2.4rem; \A 5:     }  \A 6: h1 {\A 7:     \A 8:     color: $red;\A 9:     font-size: 12.2rem;\A 10:     letter-spacing: -0.35rem;\A 11:     font-weight: 900;\A 12:     line-height: 13.6rem; \A 13:     padding: 0; "; }
