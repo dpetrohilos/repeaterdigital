@@ -1,17 +1,13 @@
 <?php get_header(); ?>
 <div class="grid-container-front-top grid-item grid-item-1">
 <div class="content">
-
-    <div class="halfed">
-        
-        <h1 class="animate__fadeInDown animate__animated">
-            <div>We change</div>
-        <div>
+<p>
+    <span>We change</span></p>
+  </div>
+<div class="content">
+<h1 class="animate__fadeInDown animate__animated">
         narratives
-            </div>
-    
     </h1>
-</div>
 <div class="content animate__fadeInUp animate__animated">
     <p><strong>Repeater.Digital</strong> is a full stack  creative collaborative. Democratically owned and managed, we believe in the positive impact of design, development, and story telling.</p>   
     <p>We measure our firm’s success by yours. By working with change makers and mission driven organizations, progress from our  partnerships means progress for the world.</p>
