@@ -2570,8 +2570,8 @@ h1 {
       grid-row: 6 / span 4; }
     /* line 56, css/sass/large.scss */
     .grid-item-1 div:nth-child(4) {
-      grid-column: 12 / span 6;
-      grid-row: 6 / span 4; }
+      grid-column: 12 / span 1;
+      grid-row: 12 / span 1; }
     /* line 62, css/sass/large.scss */
     .grid-item-1 div:nth-child(5) {
       grid-column: 5 / span 6;
