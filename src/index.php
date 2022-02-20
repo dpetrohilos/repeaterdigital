@@ -6,13 +6,15 @@
 <div class="content animate__fadeInUp animate__animated">
     <p><strong>Repeater.Digital</strong> is a full stack  creative collaborative. Democratically owned and managed, we believe in the positive impact of design, development, and story telling.</p>   
     <p>We measure our firm’s success by yours. By working with change makers and mission driven organizations, progress from our  partnerships means progress for the world.</p>
-    <p><a class="btn animated" href="#contact" title="Contact Us">Lets Talk</a> </p>
 
     
-</div>       
+</div><div>
+    <p><a class="btn animated" href="#contact" title="Contact Us">Lets Talk</a> </p>
+    </div>
 <div>
-    
-    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33 31.68"><polygon points="0 0 0 31.68 33 31.68 0 0" style="fill:#e52227"/></svg>    </div>
+<div>
+  
 <picture class="animate__fadeIn animate__animated multiply">
   <source srcset="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_1.webp" type="image/webp">
   <source srcset="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Front_Img_1.jpg" type="image/jpeg"> 

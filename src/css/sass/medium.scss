@@ -44,19 +44,32 @@ h1 {
     grid-column: 12 / span 9;
     grid-row: 5 / span 4;    }
     
+        
+    
     div:nth-child(3) {
+    grid-column: 12 / span 9;
+    grid-row: 5 / span 4;    }
+
+        
+    
+    div:nth-child(4) {
+    grid-column: 12 / span 9;
+    grid-row: 5 / span 4;    }
+
+    
+    div:nth-child(5) {
     grid-column: 4 / span 9;
     grid-row: 4 / span 6;    }
     
     
-    div:nth-child(4) {
+    div:nth-child(6) {
 grid-column: 23 / span 3;
     grid-row: 1 / span 3;
 }    
     
     
     
-    div:nth-child(5) {
+    div:nth-child(7) {
     grid-column: 3 / span 4;
     grid-row: 1 / span 5;    
     
