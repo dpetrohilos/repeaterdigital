@@ -2051,11 +2051,11 @@ h1 {
     grid-row: 3 / span 1; }
   /* line 52, css/sass/xsm.scss */
   .grid-item-1 div:nth-child(3) {
-    grid-column: 12 / span 6;
+    grid-column: 1 / span 6;
     grid-row: 9 / span 1; }
   /* line 58, css/sass/xsm.scss */
   .grid-item-1 div:nth-child(4) {
-    grid-column: 12 / span 1;
+    grid-column: 1 / span 1;
     grid-row: 11 / span 1; }
   /* line 64, css/sass/xsm.scss */
   .grid-item-1 div:nth-child(5) {
@@ -2230,11 +2230,11 @@ h1 {
       grid-row: 4 / span 4; }
     /* line 52, css/sass/sm.scss */
     .grid-item-1 div:nth-child(3) {
-      grid-column: 12 / span 6;
+      grid-column: 2 / span 6;
       grid-row: 9 / span 1; }
     /* line 58, css/sass/sm.scss */
     .grid-item-1 div:nth-child(4) {
-      grid-column: 12 / span 1;
+      grid-column: 2 / span 1;
       grid-row: 11 / span 1; }
     /* line 61, css/sass/sm.scss */
     .grid-item-1 div:nth-child(5) {
