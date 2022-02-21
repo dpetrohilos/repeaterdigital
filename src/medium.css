@@ -1,31 +1,24 @@
 /*
-Error: Invalid CSS after "p, h1, h2.": expected class name, was " h3, h4, h5, h6"
-        on line 6 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/medium.scss
+Error: Undefined variable: "$red".
+        on line 12 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/medium.scss
 
-1: .content {
-2:     font-size: 1.8rem;
-3:     padding: 0 0 1.2rem;
-4:     line-height: 2.4rem;
-5:     
-6:   p, h1, h2. h3, h4, h5, h6 {
 7:         padding-bottom: 1.6rem;
 8:     }    
 9:     }  
 10: h1 {
 11:     
+12:     color: $red;
+13:     font-size: 7.2rem;
+14:     letter-spacing: -0.35rem;
+15:     font-weight: 900;
+16:     line-height: 8rem; 
+17:     padding: 0; 
 
 Backtrace:
-/Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/medium.scss:6
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/scss/parser.rb:1207:in `expected'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/scss/parser.rb:1137:in `expected'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/scss/parser.rb:1132:in `tok!'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/scss/static_parser.rb:197:in `class_selector'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/scss/static_parser.rb:165:in `simple_selector_sequence'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/scss/static_parser.rb:111:in `selector'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/scss/static_parser.rb:92:in `selector_comma_sequence'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/scss/parser.rb:1115:in `expr!'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/scss/static_parser.rb:20:in `parse_selector'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:428:in `visit_rule'
+/Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/medium.scss:12
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/script/tree/variable.rb:49:in `_perform'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/script/tree/node.rb:58:in `perform'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:398:in `visit_prop'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
@@ -75,4 +68,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"p, h1, h2.\": expected class name, was \" h3, h4, h5, h6\"\A         on line 6 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/medium.scss\A \A 1: .content {\A 2:     font-size: 1.8rem;\A 3:     padding: 0 0 1.2rem;\A 4:     line-height: 2.4rem;\A 5:     \A 6:   p, h1, h2. h3, h4, h5, h6 {\A 7:         padding-bottom: 1.6rem;\A 8:     }    \A 9:     }  \A 10: h1 {\A 11:     "; }
+  content: "Error: Undefined variable: \"$red\".\A         on line 12 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/medium.scss\A \A 7:         padding-bottom: 1.6rem;\A 8:     }    \A 9:     }  \A 10: h1 {\A 11:     \A 12:     color: $red;\A 13:     font-size: 7.2rem;\A 14:     letter-spacing: -0.35rem;\A 15:     font-weight: 900;\A 16:     line-height: 8rem; \A 17:     padding: 0; "; }
