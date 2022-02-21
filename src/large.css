@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$red".
-        on line 11 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/large.scss
+        on line 8 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/large.scss
 
-6:     
+3:     padding: 0 0 1.2rem;
+4:     line-height: 2.4rem; 
+5:     }  
+6: h1 {
 7:     
-8:     }  
-9: h1 {
-10:     
-11:     color: $red;
-12:     font-size: 12.2rem;
-13:     letter-spacing: -0.35rem;
-14:     font-weight: 900;
-15:     line-height: 13.6rem; 
-16:     padding: 0; 
+8:     color: $red;
+9:     font-size: 12.2rem;
+10:     letter-spacing: -0.35rem;
+11:     font-weight: 900;
+12:     line-height: 13.6rem; 
+13:     padding: 0; 
 
 Backtrace:
-/Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/large.scss:11
+/Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/large.scss:8
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/script/tree/node.rb:58:in `perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:398:in `visit_prop'
@@ -68,4 +68,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$red\".\A         on line 11 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/large.scss\A \A 6:     \A 7:     \A 8:     }  \A 9: h1 {\A 10:     \A 11:     color: $red;\A 12:     font-size: 12.2rem;\A 13:     letter-spacing: -0.35rem;\A 14:     font-weight: 900;\A 15:     line-height: 13.6rem; \A 16:     padding: 0; "; }
+  content: "Error: Undefined variable: \"$red\".\A         on line 8 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/large.scss\A \A 3:     padding: 0 0 1.2rem;\A 4:     line-height: 2.4rem; \A 5:     }  \A 6: h1 {\A 7:     \A 8:     color: $red;\A 9:     font-size: 12.2rem;\A 10:     letter-spacing: -0.35rem;\A 11:     font-weight: 900;\A 12:     line-height: 13.6rem; \A 13:     padding: 0; "; }
