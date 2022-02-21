@@ -2,6 +2,9 @@
     font-size: 1.4rem;
     padding: 0 0 1.2rem;
     line-height: 2.4rem; 
+        p, h1, h2. h3, h4, h5. h6 {
+        padding-bottom: 1.6rem;
+    }
     }  
 
 h1 {
@@ -44,14 +47,14 @@ h1 {
     grid-row: 3 / span 1;    }
         // text 
     div:nth-child(3) {
-    grid-column: 1 / span 7;
-    grid-row: 3 / span 1;    }
+    grid-column: 12 / span 6;
+    grid-row: 9 / span 1;    }
+
     
-        // text 
+        
     div:nth-child(4) {
-    grid-column: 1 / span 7;
-    grid-row: 3 / span 1;    }
-    
+    grid-column: 12 / span 1;
+    grid-row: 11 / span 1;    }
     
     
     // Movement media art 
