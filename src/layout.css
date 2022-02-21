@@ -1,9 +1,8 @@
 /*
-Error: Invalid CSS after "p, h1, h2.": expected class name, was " h3, h4, h5. h6"
-        on line 5 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/xsm.scss
+Error: Invalid CSS after "p, h1, h2.": expected class name, was " h3, h4, h5, h6"
+        on line 7 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/xsm.scss
         from line 6 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/layout.scss
 
-1: $xs-max: 40rem !default; // Set xs breakpoint's max width
 2: $sm-max: 64rem !default; // Set sm breakpoint's max width
 3: $md-max: 90rem !default; // Set md breakpoint's max width
 4: $lg-max: 120rem !default; // Set lg breakpoint's max width
@@ -13,9 +12,11 @@ Error: Invalid CSS after "p, h1, h2.": expected class name, was " h3, h4, h5. h6
 8: @media only screen and (min-width: 41rem) { @import "sm";}
 9: 
 10: @media only screen and (min-width: 65rem) {
+11: @import "medium";    
+12: }
 
 Backtrace:
-/Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/xsm.scss:5
+/Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/xsm.scss:7
 /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/layout.scss:6
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/scss/parser.rb:1207:in `expected'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/scss/parser.rb:1137:in `expected'
@@ -89,4 +90,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"p, h1, h2.\": expected class name, was \" h3, h4, h5. h6\"\A         on line 5 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/xsm.scss\A         from line 6 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/layout.scss\A \A 1: $xs-max: 40rem !default; // Set xs breakpoint's max width\A 2: $sm-max: 64rem !default; // Set sm breakpoint's max width\A 3: $md-max: 90rem !default; // Set md breakpoint's max width\A 4: $lg-max: 120rem !default; // Set lg breakpoint's max width\A 5: \A 6: @import \"xsm\";\A 7: \A 8: @media only screen and (min-width: 41rem) { @import \"sm\";}\A 9: \A 10: @media only screen and (min-width: 65rem) {"; }
+  content: "Error: Invalid CSS after \"p, h1, h2.\": expected class name, was \" h3, h4, h5, h6\"\A         on line 7 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/xsm.scss\A         from line 6 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/layout.scss\A \A 2: $sm-max: 64rem !default; // Set sm breakpoint's max width\A 3: $md-max: 90rem !default; // Set md breakpoint's max width\A 4: $lg-max: 120rem !default; // Set lg breakpoint's max width\A 5: \A 6: @import \"xsm\";\A 7: \A 8: @media only screen and (min-width: 41rem) { @import \"sm\";}\A 9: \A 10: @media only screen and (min-width: 65rem) {\A 11: @import \"medium\";    \A 12: }"; }

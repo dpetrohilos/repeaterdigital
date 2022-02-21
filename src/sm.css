@@ -1,5 +1,5 @@
 /*
-Error: Invalid CSS after "p, h1, h2.": expected class name, was " h3, h4, h5. h6"
+Error: Invalid CSS after "p, h1, h2.": expected class name, was " h3, h4, h5, h6"
         on line 6 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/sm.scss
 
 1: .content {
@@ -7,12 +7,12 @@ Error: Invalid CSS after "p, h1, h2.": expected class name, was " h3, h4, h5. h6
 3:     padding: 0 0 1.2rem;
 4:     line-height: 2.4rem; 
 5:     
-6:     p, h1, h2. h3, h4, h5. h6 {
+6:   p, h1, h2. h3, h4, h5, h6 {
 7:         padding-bottom: 1.6rem;
-8:     }
+8:     }    
 9:     
-10:     
-11:     }  
+10:     }  
+11: 
 
 Backtrace:
 /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/sm.scss:6
@@ -75,4 +75,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"p, h1, h2.\": expected class name, was \" h3, h4, h5. h6\"\A         on line 6 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/sm.scss\A \A 1: .content {\A 2:     font-size: 1.4rem;\A 3:     padding: 0 0 1.2rem;\A 4:     line-height: 2.4rem; \A 5:     \A 6:     p, h1, h2. h3, h4, h5. h6 {\A 7:         padding-bottom: 1.6rem;\A 8:     }\A 9:     \A 10:     \A 11:     }  "; }
+  content: "Error: Invalid CSS after \"p, h1, h2.\": expected class name, was \" h3, h4, h5, h6\"\A         on line 6 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/sm.scss\A \A 1: .content {\A 2:     font-size: 1.4rem;\A 3:     padding: 0 0 1.2rem;\A 4:     line-height: 2.4rem; \A 5:     \A 6:   p, h1, h2. h3, h4, h5, h6 {\A 7:         padding-bottom: 1.6rem;\A 8:     }    \A 9:     \A 10:     }  \A 11: "; }

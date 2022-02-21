@@ -1,10 +1,9 @@
 /*
-Error: Invalid CSS after "p, h1, h2.": expected class name, was " h3, h4, h5. h6"
-        on line 5 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/xsm.scss
+Error: Invalid CSS after "p, h1, h2.": expected class name, was " h3, h4, h5, h6"
+        on line 7 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/xsm.scss
         from line 6 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/layout.scss
         from line 24 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/style.scss
 
-1: /*
 2: Theme Name: Repeater Digital  
 3: Theme URI: https://github.com/dpetrohilos/repeaterdigital   
 4: Author: Dylan Petrohilos 
@@ -14,9 +13,11 @@ Error: Invalid CSS after "p, h1, h2.": expected class name, was " h3, h4, h5. h6
 8: @import "modules/fonts";
 9: @import "modules/variables";
 10: @import "modules/mixins";
+11: @import "partials/reset";
+12: @import "partials/wordpress";
 
 Backtrace:
-/Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/xsm.scss:5
+/Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/xsm.scss:7
 /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/layout.scss:6
 /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/style.scss:24
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/scss/parser.rb:1207:in `expected'
@@ -104,4 +105,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"p, h1, h2.\": expected class name, was \" h3, h4, h5. h6\"\A         on line 5 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/xsm.scss\A         from line 6 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/layout.scss\A         from line 24 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/style.scss\A \A 1: /*\A 2: Theme Name: Repeater Digital  \A 3: Theme URI: https://github.com/dpetrohilos/repeaterdigital   \A 4: Author: Dylan Petrohilos \A 5: Author URI: repeater.digital\A 6: Description: Repeater Digital Theme Based On HTML5 blank, FlexBox Grid    \A 7: */\A 8: @import \"modules/fonts\";\A 9: @import \"modules/variables\";\A 10: @import \"modules/mixins\";"; }
+  content: "Error: Invalid CSS after \"p, h1, h2.\": expected class name, was \" h3, h4, h5, h6\"\A         on line 7 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/xsm.scss\A         from line 6 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/layout.scss\A         from line 24 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/style.scss\A \A 2: Theme Name: Repeater Digital  \A 3: Theme URI: https://github.com/dpetrohilos/repeaterdigital   \A 4: Author: Dylan Petrohilos \A 5: Author URI: repeater.digital\A 6: Description: Repeater Digital Theme Based On HTML5 blank, FlexBox Grid    \A 7: */\A 8: @import \"modules/fonts\";\A 9: @import \"modules/variables\";\A 10: @import \"modules/mixins\";\A 11: @import \"partials/reset\";\A 12: @import \"partials/wordpress\";"; }
