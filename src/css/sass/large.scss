@@ -9,17 +9,17 @@
 h1 {
     
     color: $red;
-    font-size: 12.2rem;
+    font-size: 6.8rem;
     letter-spacing: -0.35rem;
     font-weight: 900;
-    line-height: 13.6rem; 
-    padding: 0; 
-    margin: 0 0 1.2rem 0; 
-    
+    line-height: 1;
+    padding: 0;
+    margin: 0 0 1.2rem 0;    
     }
 .grid-item {
     display: grid;
     grid-template-rows: 3.2rem;
+    grid-auto-rows: 3.2rem; 
     grid-template-columns: repeat(24, 1fr);
     max-width: 100vw;
     width: 100%;
