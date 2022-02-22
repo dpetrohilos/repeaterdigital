@@ -8,11 +8,11 @@ Error: Undefined variable: "$red".
 9: h1 {
 10:     
 11:     color: $red;
-12:     font-size: 9.2rem;
+12:     font-size: 12.2rem;
 13:     letter-spacing: -0.35rem;
 14:     font-weight: 900;
-15:     line-height: 1;
-16:     padding: 0;
+15:     line-height: 13.6rem; 
+16:     padding: 0; 
 
 Backtrace:
 /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/large.scss:11
@@ -68,4 +68,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$red\".\A         on line 11 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/large.scss\A \A 6:   p, h1, h2, h3, h4, h5, h6 {\A 7:         padding-bottom: 1.6rem;\A 8:     }     }  \A 9: h1 {\A 10:     \A 11:     color: $red;\A 12:     font-size: 9.2rem;\A 13:     letter-spacing: -0.35rem;\A 14:     font-weight: 900;\A 15:     line-height: 1;\A 16:     padding: 0;"; }
+  content: "Error: Undefined variable: \"$red\".\A         on line 11 of /Users/dylanpetrohilos/Documents/GitHub/repeaterdigital/src/css/sass/large.scss\A \A 6:   p, h1, h2, h3, h4, h5, h6 {\A 7:         padding-bottom: 1.6rem;\A 8:     }     }  \A 9: h1 {\A 10:     \A 11:     color: $red;\A 12:     font-size: 12.2rem;\A 13:     letter-spacing: -0.35rem;\A 14:     font-weight: 900;\A 15:     line-height: 13.6rem; \A 16:     padding: 0; "; }
